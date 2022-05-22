@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bedtools_intersectbed",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-05-15T01:07:26.997220Z",
+        "@timestamp": "2022-05-22T01:08:24.515038Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -38,9 +38,9 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 153,
+                        "days": 148,
                         "serie": [
-                            19,
+                            12,
                             31,
                             20,
                             5,
@@ -59,12 +59,14 @@
                             4,
                             2,
                             3,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 27,
+                        "days": 32,
                         "serie": [
                             1,
                             1,
@@ -85,19 +87,20 @@
                             1,
                             1,
                             1,
-                            2
+                            6,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-05-15T01:07:26.854417Z",
+                "last_check": "2022-05-22T01:08:24.342588Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 404,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -113,7 +116,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bedtools_intersectbed:v2.10.0/web/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-05-15T01:25:39.329808Z",
+        "@timestamp": "2022-05-21T01:25:50.001413Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -240,9 +243,9 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 153,
+                        "days": 148,
                         "serie": [
-                            19,
+                            13,
                             31,
                             20,
                             5,
@@ -261,12 +264,13 @@
                             4,
                             2,
                             3,
-                            2
+                            2,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 27,
+                        "days": 32,
                         "serie": [
                             1,
                             1,
@@ -287,19 +291,20 @@
                             1,
                             1,
                             1,
-                            2
+                            6,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-05-15T01:07:26.854417Z",
+                "last_check": "2022-05-21T01:08:17.705823Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 404,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -315,7 +320,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:bedtools_intersectbed:2.27.0.1/workflow/toolshed.g2.bx.psu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "galaxy",
-        "@timestamp": "2022-05-15T01:15:02.324102Z",
+        "@timestamp": "2022-05-22T01:15:52.519207Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -408,7 +413,7 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-05-15T01:15:02.257934Z",
+                "last_check": "2022-05-22T01:15:52.433787Z",
                 "last_month_access": {
                     "average_access_time": 582,
                     "downtime_days": 29,
@@ -425,7 +430,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:bedtools_intersectbed:2.27.0.2/workflow/toolshed.g2.bx.psu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "galaxy",
-        "@timestamp": "2022-05-15T01:10:01.309971Z",
+        "@timestamp": "2022-05-22T01:11:05.811704Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -448,7 +453,7 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-05-15T01:10:01.201756Z",
+                "last_check": "2022-05-22T01:11:05.713719Z",
                 "last_month_access": {
                     "average_access_time": 766,
                     "downtime_days": 29,
@@ -465,7 +470,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bedtools_intersectbed:1.0.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-05-14T09:26:20.084646Z",
+        "@timestamp": "2022-05-21T09:29:55.902447Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -499,37 +504,40 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 605,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 8,
+                        "days": 10,
                         "serie": [
                             3,
-                            5
+                            5,
+                            1,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 13,
+                        "days": 18,
                         "serie": [
                             6,
                             4,
+                            5,
                             3
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-05-14T05:06:51.534159Z",
+                "last_check": "2022-05-21T09:29:55.879506Z",
                 "last_month_access": {
-                    "average_access_time": 609,
-                    "downtime_days": 13,
-                    "uptime_days": 8
+                    "average_access_time": 628,
+                    "downtime_days": 18,
+                    "uptime_days": 10
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
