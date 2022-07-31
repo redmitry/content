@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/epiclomal",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-07-23T09:04:16.819840Z",
+        "@timestamp": "2022-07-30T09:05:34.142023Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -13,14 +13,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -28,20 +28,19 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 626,
+                "access_time": 691,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 151,
+                        "days": 152,
                         "serie": [
-                            5,
-                            44,
+                            43,
                             6,
                             6,
                             7,
@@ -61,7 +60,200 @@
                             2,
                             5,
                             2,
+                            10
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
                             3
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-07-30T09:05:34.053559Z",
+                "last_month_access": {
+                    "average_access_time": 1092,
+                    "downtime_days": 7,
+                    "uptime_days": 22
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/molonc/Epiclomal"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1448509S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:epiclomal/script/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2022-07-30T09:05:34.168866Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1371/journal.pcbi.1008270",
+                            "pmcid": "PMC7546467",
+                            "pmid": "32966276",
+                            "ref_count": 26,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1976"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Epiclomal: Probabilistic clustering of sparse single-cell DNA methylation data.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 370,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 151,
+                        "serie": [
+                            21,
+                            21,
+                            6,
+                            6,
+                            7,
+                            5,
+                            19,
+                            4,
+                            7,
+                            4,
+                            10,
+                            1,
+                            7,
+                            2,
+                            8,
+                            1,
+                            2,
+                            1,
+                            2,
+                            5,
+                            2,
+                            10
                         ],
                         "status": 200
                     },
@@ -94,11 +286,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-07-23T09:04:16.726448Z",
+                "last_check": "2022-07-30T09:05:34.069808Z",
                 "last_month_access": {
-                    "average_access_time": 1169,
-                    "downtime_days": 9,
-                    "uptime_days": 20
+                    "average_access_time": 924,
+                    "downtime_days": 7,
+                    "uptime_days": 22
                 },
                 "license": false,
                 "operational": 200,
@@ -114,204 +306,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:epiclomal/script/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2022-07-23T09:04:16.818820Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": null,
-            "source_packages": false,
-            "sourcecode": {
-                "free": null,
-                "interpreted": true,
-                "license": null,
-                "public": true,
-                "readme": false,
-                "repository": {
-                    "anonymous": null,
-                    "online": null
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 6,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1371/journal.pcbi.1008270",
-                            "pmcid": "PMC7546467",
-                            "pmid": "32966276",
-                            "ref_count": 26,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1976"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1999"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2019"
-                                }
-                            ],
-                            "title": "Epiclomal: Probabilistic clustering of sparse single-cell DNA methylation data.",
-                            "year": 2020
-                        }
-                    ]
-                }
-            ],
-            "readme": false,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 619,
-                "bioschemas": true,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 150,
-                        "serie": [
-                            5,
-                            22,
-                            21,
-                            6,
-                            6,
-                            7,
-                            5,
-                            19,
-                            4,
-                            7,
-                            4,
-                            10,
-                            1,
-                            7,
-                            2,
-                            8,
-                            1,
-                            2,
-                            1,
-                            2,
-                            5,
-                            2,
-                            3
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 30,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-07-23T09:04:16.72774Z",
-                "last_month_access": {
-                    "average_access_time": 977,
-                    "downtime_days": 9,
-                    "uptime_days": 20
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://github.com/molonc/Epiclomal"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1448509S"
             }
         }
     },
@@ -319,7 +315,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:epiclomal/workflow/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-07-23T09:04:16.990433Z",
+        "@timestamp": "2022-07-30T09:05:34.324122Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -329,14 +325,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
+                "free": true,
                 "interpreted": true,
-                "license": null,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -418,20 +414,19 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 88,
+                "access_time": 91,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 150,
+                        "days": 151,
                         "serie": [
-                            5,
-                            22,
+                            21,
                             21,
                             6,
                             6,
@@ -452,14 +447,13 @@
                             2,
                             5,
                             2,
-                            3
+                            10
                         ],
                         "status": 200
                     },
                     {
-                        "days": 30,
+                        "days": 29,
                         "serie": [
-                            1,
                             1,
                             1,
                             1,
@@ -486,11 +480,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-07-23T09:04:16.923142Z",
+                "last_check": "2022-07-30T09:05:34.256217Z",
                 "last_month_access": {
-                    "average_access_time": 827,
-                    "downtime_days": 9,
-                    "uptime_days": 20
+                    "average_access_time": 686,
+                    "downtime_days": 7,
+                    "uptime_days": 22
                 },
                 "license": false,
                 "operational": 200,
@@ -506,8 +500,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1448509S"
             }
         }
     }

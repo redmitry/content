@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/dastk_-_differential_atac-seq_toolkit",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-07-23T08:39:04.023986Z",
+        "@timestamp": "2022-07-30T08:41:02.114040Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -13,14 +13,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -28,7 +28,7 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
@@ -40,9 +40,6 @@
                     {
                         "days": 50,
                         "serie": [
-                            1,
-                            1,
-                            1,
                             2,
                             1,
                             1,
@@ -78,16 +75,16 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            2,
+                            1
                         ],
                         "status": 200
                     },
                     {
                         "days": 130,
                         "serie": [
-                            2,
-                            1,
-                            5,
+                            4,
                             2,
                             8,
                             1,
@@ -123,15 +120,16 @@
                             2,
                             5,
                             1,
-                            1
+                            2,
+                            3
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-07-23T08:39:03.834577Z",
+                "last_check": "2022-07-30T08:41:01.970585Z",
                 "last_month_access": {
-                    "average_access_time": 548,
+                    "average_access_time": 543,
                     "downtime_days": 18,
                     "uptime_days": 11
                 },
@@ -143,8 +141,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3169130S"
             }
         }
     },
@@ -152,7 +150,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dastk_-_differential_atac-seq_toolkit:1.0.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-07-23T08:39:04.008023Z",
+        "@timestamp": "2022-07-30T08:41:02.174101Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -162,14 +160,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
+                "free": true,
                 "interpreted": true,
-                "license": null,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -295,7 +293,7 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
@@ -307,9 +305,6 @@
                     {
                         "days": 50,
                         "serie": [
-                            1,
-                            1,
-                            1,
                             2,
                             1,
                             1,
@@ -345,16 +340,16 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            2,
+                            1
                         ],
                         "status": 200
                     },
                     {
                         "days": 130,
                         "serie": [
-                            2,
-                            1,
-                            5,
+                            4,
                             2,
                             8,
                             1,
@@ -390,15 +385,16 @@
                             2,
                             5,
                             1,
-                            1
+                            2,
+                            3
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-07-23T08:39:03.843915Z",
+                "last_check": "2022-07-30T08:41:01.970585Z",
                 "last_month_access": {
-                    "average_access_time": 518,
+                    "average_access_time": 515,
                     "downtime_days": 18,
                     "uptime_days": 11
                 },
@@ -410,8 +406,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3169130S"
             }
         }
     },
@@ -419,11 +415,26 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dastk_-_differential_atac-seq_toolkit:1.0.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-07-23T09:48:01.076616Z",
+        "@timestamp": "2022-07-30T09:52:02.063909Z",
         "@type": "metrics",
         "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
             "packages": true,
-            "sourcecode": {}
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
         },
         "project": {
             "build": {},
@@ -433,6 +444,7 @@
                 "osi": false
             },
             "publications": [],
+            "readme": true,
             "summary": {
                 "description": true
             },
@@ -442,7 +454,7 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 23,
+                        "days": 25,
                         "serie": [
                             1,
                             2,
@@ -457,12 +469,14 @@
                             2,
                             1,
                             1,
-                            5
+                            5,
+                            1,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 48,
+                        "days": 53,
                         "serie": [
                             1,
                             8,
@@ -477,22 +491,30 @@
                             3,
                             3,
                             5,
-                            5
+                            5,
+                            2,
+                            3
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-07-23T08:39:03.843915Z",
+                "last_check": "2022-07-30T08:41:01.970585Z",
                 "last_month_access": {
-                    "average_access_time": 547,
+                    "average_access_time": 545,
                     "downtime_days": 18,
-                    "uptime_days": 10
+                    "uptime_days": 11
                 },
                 "license": false,
                 "operational": 429,
                 "ssl": null,
                 "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT3169130S"
             }
         }
     }

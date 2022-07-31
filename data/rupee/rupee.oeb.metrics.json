@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rupee",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-07-23T08:53:45.862716Z",
+        "@timestamp": "2022-07-30T08:54:06.528966Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,26 +13,26 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 650,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 40,
                         "serie": [
                             1,
                             3,
                             3,
                             1,
                             2,
-                            23
+                            30
                         ],
                         "status": 408
                     },
                     {
-                        "days": 147,
+                        "days": 140,
                         "serie": [
-                            44,
+                            37,
                             3,
                             25,
                             70,
@@ -43,14 +43,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-07-23T08:53:45.812906Z",
+                "last_check": "2022-07-30T08:54:06.480804Z",
                 "last_month_access": {
-                    "average_access_time": 886,
-                    "downtime_days": 25,
-                    "uptime_days": 4
+                    "average_access_time": 931,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -60,7 +60,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rupee/undefined/ayoubresearch.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-07-23T09:29:39.049886Z",
+        "@timestamp": "2022-07-30T09:28:38.165180Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -93,26 +93,26 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 650,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 40,
                         "serie": [
                             1,
                             3,
                             3,
                             1,
                             2,
-                            23
+                            30
                         ],
                         "status": 408
                     },
                     {
-                        "days": 147,
+                        "days": 140,
                         "serie": [
-                            44,
+                            37,
                             3,
                             25,
                             70,
@@ -123,14 +123,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-07-23T08:53:45.812906Z",
+                "last_check": "2022-07-30T08:54:06.480804Z",
                 "last_month_access": {
-                    "average_access_time": 886,
-                    "downtime_days": 25,
-                    "uptime_days": 4
+                    "average_access_time": 931,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "ssl": null,
                 "ssl_err": null
             }
@@ -140,11 +140,26 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rupee:1.0.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-07-23T09:50:33.392617Z",
+        "@timestamp": "2022-07-30T09:54:18.872434Z",
         "@type": "metrics",
         "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
             "packages": true,
-            "sourcecode": {}
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
         },
         "project": {
             "build": {},
@@ -154,33 +169,40 @@
                 "osi": false
             },
             "publications": [],
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 629,
+                "access_time": 644,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 26,
+                        "days": 33,
                         "serie": [
-                            26
+                            33
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-07-23T02:57:04.523442Z",
+                "last_check": "2022-07-30T02:59:15.739601Z",
                 "last_month_access": {
-                    "average_access_time": 877,
+                    "average_access_time": 832,
                     "downtime_days": 0,
-                    "uptime_days": 25
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "ssl": null,
                 "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT14232S"
             }
         }
     }
