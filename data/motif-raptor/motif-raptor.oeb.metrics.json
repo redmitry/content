@@ -1,9 +1,117 @@
 [
     {
+        "@id": "https://openebench.bsc.es/monitor/metrics/motif-raptor",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-01T09:24:41.603511Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 694,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 159,
+                        "serie": [
+                            2,
+                            5,
+                            2,
+                            5,
+                            1,
+                            11,
+                            1,
+                            2,
+                            4,
+                            8,
+                            2,
+                            1,
+                            6,
+                            6,
+                            9,
+                            3,
+                            2,
+                            6,
+                            83
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 23,
+                        "serie": [
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-01T05:08:44.253813Z",
+                "last_month_access": {
+                    "average_access_time": 627,
+                    "downtime_days": 0,
+                    "uptime_days": 21
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT7656860S"
+            }
+        }
+    },
+    {
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:motif-raptor/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-09-17T08:56:57.698306Z",
+        "@timestamp": "2022-10-01T09:24:41.607399Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -57,14 +165,14 @@
                 "description": true
             },
             "website": {
-                "access_time": 710,
+                "access_time": 694,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 160,
+                        "days": 159,
                         "serie": [
-                            17,
+                            2,
                             5,
                             2,
                             5,
@@ -82,7 +190,7 @@
                             3,
                             2,
                             6,
-                            69
+                            83
                         ],
                         "status": 200
                     },
@@ -112,11 +220,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T05:02:05.827696Z",
+                "last_check": "2022-10-01T05:08:44.253813Z",
                 "last_month_access": {
-                    "average_access_time": 649,
+                    "average_access_time": 627,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 200,
@@ -132,10 +240,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/motif-raptor",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:motif-raptor:0.2.4/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-09-17T08:56:57.621192Z",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-01T09:24:41.611776Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -159,114 +267,6 @@
         "project": {
             "build": {},
             "deployment": {},
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 710,
-                "bioschemas": true,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 160,
-                        "serie": [
-                            17,
-                            5,
-                            2,
-                            5,
-                            1,
-                            11,
-                            1,
-                            2,
-                            4,
-                            8,
-                            2,
-                            1,
-                            6,
-                            6,
-                            9,
-                            3,
-                            2,
-                            6,
-                            69
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 23,
-                        "serie": [
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-09-17T05:02:05.827696Z",
-                "last_month_access": {
-                    "average_access_time": 649,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT7656860S"
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:motif-raptor:0.3.0/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T08:57:12.011324Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": true,
-            "source_packages": true,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
             "license": {
                 "open_source": false,
                 "osi": false
@@ -277,14 +277,14 @@
                 "description": true
             },
             "website": {
-                "access_time": 710,
+                "access_time": 694,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 160,
+                        "days": 159,
                         "serie": [
-                            17,
+                            2,
                             5,
                             2,
                             5,
@@ -302,7 +302,7 @@
                             3,
                             2,
                             6,
-                            69
+                            83
                         ],
                         "status": 200
                     },
@@ -332,11 +332,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T05:02:05.827696Z",
+                "last_check": "2022-10-01T05:08:44.253813Z",
                 "last_month_access": {
-                    "average_access_time": 649,
+                    "average_access_time": 627,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 200,
@@ -355,14 +355,14 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:motif-raptor:0.2.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T08:57:12.152601Z",
+        "@timestamp": "2022-10-01T09:24:41.619157Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": true,
+            "packages": null,
             "source_packages": true,
             "sourcecode": {
                 "free": true,
@@ -389,14 +389,14 @@
                 "description": true
             },
             "website": {
-                "access_time": 710,
+                "access_time": 694,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 160,
+                        "days": 159,
                         "serie": [
-                            17,
+                            2,
                             5,
                             2,
                             5,
@@ -414,7 +414,7 @@
                             3,
                             2,
                             6,
-                            69
+                            83
                         ],
                         "status": 200
                     },
@@ -444,11 +444,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T05:02:05.827696Z",
+                "last_check": "2022-10-01T05:08:44.253813Z",
                 "last_month_access": {
-                    "average_access_time": 649,
+                    "average_access_time": 627,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 200,
@@ -464,17 +464,17 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:motif-raptor:0.2.4/cmd/github.com",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:motif-raptor:0.3.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T08:57:12.083457Z",
+        "@timestamp": "2022-10-01T09:24:41.629452Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": true,
+            "packages": null,
             "source_packages": true,
             "sourcecode": {
                 "free": true,
@@ -501,14 +501,14 @@
                 "description": true
             },
             "website": {
-                "access_time": 710,
+                "access_time": 694,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 160,
+                        "days": 159,
                         "serie": [
-                            17,
+                            2,
                             5,
                             2,
                             5,
@@ -526,7 +526,7 @@
                             3,
                             2,
                             6,
-                            69
+                            83
                         ],
                         "status": 200
                     },
@@ -556,11 +556,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T05:02:05.827696Z",
+                "last_check": "2022-10-01T05:08:44.253813Z",
                 "last_month_access": {
-                    "average_access_time": 649,
+                    "average_access_time": 627,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 200,

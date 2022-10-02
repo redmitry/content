@@ -1,119 +1,30 @@
 [
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:designate/cmd/designate.dbresearch.uni-salzburg.at",
+        "@id": "https://openebench.bsc.es/monitor/metrics/designate",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2022-09-17T08:47:57.584172Z",
+        "@nmsp": null,
+        "@timestamp": "2022-10-01T09:04:59.523876Z",
         "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
         "project": {
             "build": {},
             "deployment": {},
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 3,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1186/s12859-020-3498-6",
-                            "pmcid": "PMC7171811",
-                            "pmid": "32312224",
-                            "ref_count": 17,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2017"
-                                }
-                            ],
-                            "title": "DeSignate: detecting signature characters in gene sequence alignments for taxon diagnoses.",
-                            "year": 2020
-                        }
-                    ]
-                }
-            ],
+            "publications": [],
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 2807,
+                "access_time": 332,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 178,
                         "serie": [
                             1,
-                            1
-                        ],
-                        "status": 403
-                    },
-                    {
-                        "days": 177,
-                        "serie": [
-                            6,
-                            9,
                             21,
                             26,
-                            2,
-                            7,
-                            106
+                            10,
+                            120
                         ],
                         "status": 200
                     },
@@ -129,11 +40,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T08:47:57.514883Z",
+                "last_check": "2022-10-01T09:04:59.475801Z",
                 "last_month_access": {
-                    "average_access_time": 915,
+                    "average_access_time": 1214,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 200,
@@ -143,10 +54,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:designate/web/designate.dbresearch.uni-salzburg.at",
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:designate/cmd/designate.dbresearch.uni-salzburg.at",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-09-17T08:47:57.605883Z",
+        "@timestamp": "2022-10-01T09:05:15.951424Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -235,7 +146,148 @@
                 "description": true
             },
             "website": {
-                "access_time": 2569,
+                "access_time": 332,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            1,
+                            21,
+                            26,
+                            2,
+                            7,
+                            120
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-01T09:04:59.475801Z",
+                "last_month_access": {
+                    "average_access_time": 1035,
+                    "downtime_days": 0,
+                    "uptime_days": 21
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:designate/web/designate.dbresearch.uni-salzburg.at",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2022-10-01T09:05:05.788745Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/s12859-020-3498-6",
+                            "pmcid": "PMC7171811",
+                            "pmid": "32312224",
+                            "ref_count": 17,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "DeSignate: detecting signature characters in gene sequence alignments for taxon diagnoses.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 332,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -249,15 +301,14 @@
                         "status": 403
                     },
                     {
-                        "days": 175,
+                        "days": 174,
                         "serie": [
-                            15,
                             21,
                             2,
                             23,
                             10,
                             42,
-                            62
+                            76
                         ],
                         "status": 200
                     },
@@ -273,65 +324,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T08:47:57.5178Z",
+                "last_check": "2022-10-01T09:04:59.475801Z",
                 "last_month_access": {
-                    "average_access_time": 865,
+                    "average_access_time": 963,
                     "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/designate",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-09-17T08:47:57.567183Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 2819,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 179,
-                        "serie": [
-                            16,
-                            21,
-                            26,
-                            10,
-                            106
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 4,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-09-17T08:47:57.51535Z",
-                "last_month_access": {
-                    "average_access_time": 1079,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 200,

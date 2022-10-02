@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mhc2pred/web/www.imtech.res.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-09-17T05:00:52.075079Z",
+        "@timestamp": "2022-10-01T05:08:23.359380Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -76,25 +76,17 @@
                 "description": true
             },
             "website": {
-                "access_time": 2124,
+                "access_time": 3003,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 146,
                         "serie": [
-                            6,
-                            80,
-                            60
+                            72,
+                            74
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
                     },
                     {
                         "days": 36,
@@ -105,11 +97,11 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-09-17T05:00:51.868129Z",
+                "last_check": "2022-10-01T05:08:23.126336Z",
                 "last_month_access": {
-                    "average_access_time": 2508,
+                    "average_access_time": 2655,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 200,
@@ -135,7 +127,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mhc2pred",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-09-17T04:45:13.858268Z",
+        "@timestamp": "2022-10-01T04:48:50.798779Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -145,25 +137,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 2014,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 146,
+                        "days": 9,
                         "serie": [
-                            6,
-                            80,
-                            60
+                            9
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 137,
                         "serie": [
-                            1
+                            72,
+                            65
                         ],
-                        "status": 408
+                        "status": 200
                     },
                     {
                         "days": 36,
@@ -173,26 +164,70 @@
                         "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2022-09-17T04:45:13.478506Z",
+                "https": true,
+                "last_check": "2022-10-01T04:48:50.539388Z",
                 "last_month_access": {
-                    "average_access_time": 2556,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2228,
+                    "downtime_days": 2,
+                    "uptime_days": 19
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://www.imtech.res.in/raghava/mhc2pred/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "http://crdd.osdd.net/raghava/mhc2pred/"
+                        "url": "https://webs.iiitd.edu.in/raghava/mhc2pred/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mhc2pred/web/webs.iiitd.edu.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2022-09-23T09:41:53.534085Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 404
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-23T09:41:53.514206Z",
+                "last_month_access": {
+                    "downtime_days": 1,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://webs.iiitd.edu.in/raghava/mhc2pred/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

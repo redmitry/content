@@ -1,9 +1,9 @@
 [
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:jabaws/cmd/www.compbio.dundee.ac.uk",
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:jabaws/suite/www.compbio.dundee.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-09-17T04:29:43.349214Z",
+        "@timestamp": "2022-10-01T04:37:04.899326Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -115,7 +115,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 182,
+                "access_time": 214,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -128,12 +128,12 @@
                         "status": 503
                     },
                     {
-                        "days": 178,
+                        "days": 177,
                         "serie": [
-                            105,
+                            90,
                             1,
                             69,
-                            3
+                            17
                         ],
                         "status": 200
                     },
@@ -147,11 +147,178 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-09-17T02:16:10.814909Z",
+                "last_check": "2022-10-01T02:18:46.995079Z",
                 "last_month_access": {
-                    "average_access_time": 226,
+                    "average_access_time": 240,
                     "downtime_days": 1,
-                    "uptime_days": 29
+                    "uptime_days": 20
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.compbio.dundee.ac.uk/jabaws/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:jabaws/cmd/www.compbio.dundee.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2022-10-01T04:34:28.787449Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 55,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr304",
+                            "pmcid": "PMC3129525",
+                            "pmid": "21593132",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "Java bioinformatics analysis web services for multiple sequence alignment--JABAWS:MSA.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 214,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            2
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            90,
+                            1,
+                            69,
+                            17
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-10-01T02:18:46.995079Z",
+                "last_month_access": {
+                    "average_access_time": 240,
+                    "downtime_days": 1,
+                    "uptime_days": 20
                 },
                 "license": false,
                 "operational": 200,
@@ -170,177 +337,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:jabaws/suite/www.compbio.dundee.ac.uk",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2022-09-17T04:31:06.526490Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": false
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "general": true
-            },
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 55,
-                            "citations": [
-                                {
-                                    "count": 3,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/btr304",
-                            "pmcid": "PMC3129525",
-                            "pmid": "21593132",
-                            "ref_count": 12,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "2000"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2010"
-                                }
-                            ],
-                            "title": "Java bioinformatics analysis web services for multiple sequence alignment--JABAWS:MSA.",
-                            "year": 2011
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 182,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 3,
-                        "serie": [
-                            1,
-                            2
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 178,
-                        "serie": [
-                            105,
-                            1,
-                            69,
-                            3
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 301
-                    }
-                ],
-                "https": false,
-                "last_check": "2022-09-17T02:16:10.814909Z",
-                "last_month_access": {
-                    "average_access_time": 226,
-                    "downtime_days": 1,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "http://www.compbio.dundee.ac.uk/jabaws/"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
         "@id": "https://openebench.bsc.es/monitor/metrics/jabaws",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-09-17T04:33:14.512683Z",
+        "@timestamp": "2022-10-01T04:37:24.805109Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -350,7 +350,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 182,
+                "access_time": 214,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -363,12 +363,12 @@
                         "status": 503
                     },
                     {
-                        "days": 178,
+                        "days": 177,
                         "serie": [
-                            105,
+                            90,
                             1,
                             69,
-                            3
+                            17
                         ],
                         "status": 200
                     },
@@ -382,11 +382,11 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-09-17T02:16:10.814909Z",
+                "last_check": "2022-10-01T02:18:46.995079Z",
                 "last_month_access": {
-                    "average_access_time": 226,
+                    "average_access_time": 240,
                     "downtime_days": 1,
-                    "uptime_days": 29
+                    "uptime_days": 20
                 },
                 "license": false,
                 "operational": 200,

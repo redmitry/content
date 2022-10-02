@@ -1,9 +1,9 @@
 [
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/jcast",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.2.9/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-09-17T09:02:31.588470Z",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-01T09:28:19.752135Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -13,35 +13,38 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
+                "free": null,
+                "interpreted": null,
+                "license": null,
                 "public": true,
-                "readme": true,
+                "readme": false,
                 "repository": {
-                    "anonymous": true,
-                    "online": true
+                    "anonymous": null,
+                    "online": null
                 }
             }
         },
         "project": {
             "build": {},
             "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
             "publications": [],
-            "readme": true,
+            "readme": false,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 456,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 29,
+                        "days": 28,
                         "serie": [
                             2,
-                            2,
                             1,
                             2,
                             1,
@@ -52,6 +55,7 @@
                             1,
                             1,
                             2,
+                            1,
                             1,
                             1,
                             1,
@@ -69,8 +73,7 @@
                     {
                         "days": 154,
                         "serie": [
-                            9,
-                            6,
+                            2,
                             3,
                             6,
                             2,
@@ -92,28 +95,147 @@
                             1,
                             18,
                             2,
-                            32
+                            36,
+                            9
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T09:02:31.281244Z",
+                "last_check": "2022-10-01T09:20:24.317127Z",
                 "last_month_access": {
-                    "average_access_time": 512,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 678,
+                    "downtime_days": 20,
+                    "uptime_days": 1
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/jcast",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-01T09:28:19.725130Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 456,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 28,
+                        "serie": [
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 154,
+                        "serie": [
+                            2,
+                            3,
+                            6,
+                            2,
+                            7,
+                            1,
+                            1,
+                            6,
+                            5,
+                            8,
+                            5,
+                            2,
+                            1,
+                            17,
+                            3,
+                            10,
+                            4,
+                            4,
+                            1,
+                            1,
+                            18,
+                            2,
+                            36,
+                            9
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-01T09:20:24.317127Z",
+                "last_month_access": {
+                    "average_access_time": 533,
+                    "downtime_days": 20,
+                    "uptime_days": 1
+                },
+                "license": false,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT6458863S"
+                "public_tracker": null,
+                "resolve_time": null
             }
         }
     },
@@ -121,24 +243,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.3.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T09:02:31.380013Z",
+        "@timestamp": "2022-10-01T09:28:19.715347Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": true,
+            "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
+                "free": null,
+                "interpreted": null,
+                "license": null,
                 "public": true,
-                "readme": true,
+                "readme": false,
                 "repository": {
-                    "anonymous": true,
-                    "online": true
+                    "anonymous": null,
+                    "online": null
                 }
             }
         },
@@ -150,20 +272,19 @@
                 "osi": true
             },
             "publications": [],
-            "readme": true,
+            "readme": false,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 456,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 29,
+                        "days": 28,
                         "serie": [
                             2,
-                            2,
                             1,
                             2,
                             1,
@@ -174,6 +295,7 @@
                             1,
                             1,
                             2,
+                            1,
                             1,
                             1,
                             1,
@@ -191,8 +313,7 @@
                     {
                         "days": 154,
                         "serie": [
-                            9,
-                            6,
+                            2,
                             3,
                             6,
                             2,
@@ -214,28 +335,29 @@
                             1,
                             18,
                             2,
-                            32
+                            36,
+                            9
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T09:02:31.28579Z",
+                "last_check": "2022-10-01T09:20:24.317127Z",
                 "last_month_access": {
-                    "average_access_time": 505,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 678,
+                    "downtime_days": 20,
+                    "uptime_days": 1
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT6458863S"
+                "public_tracker": null,
+                "resolve_time": null
             }
         }
     },
@@ -243,24 +365,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.2.8/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T09:02:35.208717Z",
+        "@timestamp": "2022-10-01T09:28:19.734898Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": true,
+            "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
+                "free": null,
+                "interpreted": null,
+                "license": null,
                 "public": true,
-                "readme": true,
+                "readme": false,
                 "repository": {
-                    "anonymous": true,
-                    "online": true
+                    "anonymous": null,
+                    "online": null
                 }
             }
         },
@@ -272,20 +394,19 @@
                 "osi": true
             },
             "publications": [],
-            "readme": true,
+            "readme": false,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 456,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 29,
+                        "days": 28,
                         "serie": [
                             2,
-                            2,
                             1,
                             2,
                             1,
@@ -296,6 +417,7 @@
                             1,
                             1,
                             2,
+                            1,
                             1,
                             1,
                             1,
@@ -313,8 +435,7 @@
                     {
                         "days": 154,
                         "serie": [
-                            9,
-                            6,
+                            2,
                             3,
                             6,
                             2,
@@ -336,150 +457,29 @@
                             1,
                             18,
                             2,
-                            32
+                            36,
+                            9
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T09:02:31.28579Z",
+                "last_check": "2022-10-01T09:20:24.317127Z",
                 "last_month_access": {
-                    "average_access_time": 505,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 678,
+                    "downtime_days": 20,
+                    "uptime_days": 1
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": null,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT6458863S"
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.2.9/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T09:02:35.634235Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": true,
-            "source_packages": false,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 29,
-                        "serie": [
-                            2,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 154,
-                        "serie": [
-                            9,
-                            6,
-                            3,
-                            6,
-                            2,
-                            7,
-                            1,
-                            1,
-                            6,
-                            5,
-                            8,
-                            5,
-                            2,
-                            1,
-                            17,
-                            3,
-                            10,
-                            4,
-                            4,
-                            1,
-                            1,
-                            18,
-                            2,
-                            32
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-09-17T09:02:31.28579Z",
-                "last_month_access": {
-                    "average_access_time": 505,
-                    "downtime_days": 30,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 429,
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT6458863S"
+                "public_tracker": null,
+                "resolve_time": null
             }
         }
     },
@@ -487,24 +487,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.2.7/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T09:02:35.653240Z",
+        "@timestamp": "2022-10-01T09:28:19.743113Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": true,
+            "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
+                "free": null,
+                "interpreted": null,
+                "license": null,
                 "public": true,
-                "readme": true,
+                "readme": false,
                 "repository": {
-                    "anonymous": true,
-                    "online": true
+                    "anonymous": null,
+                    "online": null
                 }
             }
         },
@@ -516,20 +516,19 @@
                 "osi": true
             },
             "publications": [],
-            "readme": true,
+            "readme": false,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 456,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 29,
+                        "days": 28,
                         "serie": [
                             2,
-                            2,
                             1,
                             2,
                             1,
@@ -540,6 +539,7 @@
                             1,
                             1,
                             2,
+                            1,
                             1,
                             1,
                             1,
@@ -557,8 +557,7 @@
                     {
                         "days": 154,
                         "serie": [
-                            9,
-                            6,
+                            2,
                             3,
                             6,
                             2,
@@ -580,150 +579,29 @@
                             1,
                             18,
                             2,
-                            32
+                            36,
+                            9
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T09:02:31.28579Z",
+                "last_check": "2022-10-01T09:20:24.317127Z",
                 "last_month_access": {
-                    "average_access_time": 505,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 678,
+                    "downtime_days": 20,
+                    "uptime_days": 1
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": null,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT6458863S"
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.3.2/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T09:07:27.593517Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": true,
-            "source_packages": false,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 29,
-                        "serie": [
-                            2,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 154,
-                        "serie": [
-                            9,
-                            6,
-                            3,
-                            6,
-                            2,
-                            7,
-                            1,
-                            1,
-                            6,
-                            5,
-                            8,
-                            5,
-                            2,
-                            1,
-                            17,
-                            3,
-                            10,
-                            4,
-                            4,
-                            1,
-                            1,
-                            18,
-                            2,
-                            32
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-09-17T09:02:31.28579Z",
-                "last_month_access": {
-                    "average_access_time": 505,
-                    "downtime_days": 30,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 429,
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT6458863S"
+                "public_tracker": null,
+                "resolve_time": null
             }
         }
     },
@@ -731,24 +609,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.3.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T09:07:42.337322Z",
+        "@timestamp": "2022-10-01T09:28:19.771424Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": true,
+            "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
+                "free": null,
+                "interpreted": null,
+                "license": null,
                 "public": true,
-                "readme": true,
+                "readme": false,
                 "repository": {
-                    "anonymous": true,
-                    "online": true
+                    "anonymous": null,
+                    "online": null
                 }
             }
         },
@@ -760,20 +638,19 @@
                 "osi": true
             },
             "publications": [],
-            "readme": true,
+            "readme": false,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 456,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 29,
+                        "days": 28,
                         "serie": [
                             2,
-                            2,
                             1,
                             2,
                             1,
@@ -784,6 +661,7 @@
                             1,
                             1,
                             2,
+                            1,
                             1,
                             1,
                             1,
@@ -801,8 +679,7 @@
                     {
                         "days": 154,
                         "serie": [
-                            9,
-                            6,
+                            2,
                             3,
                             6,
                             2,
@@ -824,53 +701,54 @@
                             1,
                             18,
                             2,
-                            32
+                            36,
+                            9
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T09:02:31.28579Z",
+                "last_check": "2022-10-01T09:20:24.317127Z",
                 "last_month_access": {
-                    "average_access_time": 505,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 678,
+                    "downtime_days": 20,
+                    "uptime_days": 1
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": null,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT6458863S"
+                "public_tracker": null,
+                "resolve_time": null
             }
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.3.4/cmd/github.com",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.3.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-09-17T09:34:50.693351Z",
+        "@timestamp": "2022-10-01T09:28:19.761589Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": true,
+            "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
+                "free": null,
+                "interpreted": null,
+                "license": null,
                 "public": true,
-                "readme": true,
+                "readme": false,
                 "repository": {
-                    "anonymous": true,
-                    "online": true
+                    "anonymous": null,
+                    "online": null
                 }
             }
         },
@@ -882,20 +760,33 @@
                 "osi": true
             },
             "publications": [],
-            "readme": true,
+            "readme": false,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 456,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 11,
+                        "days": 28,
                         "serie": [
+                            2,
                             1,
                             2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
                             1,
                             1,
                             1,
@@ -908,7 +799,117 @@
                         "status": 200
                     },
                     {
-                        "days": 104,
+                        "days": 154,
+                        "serie": [
+                            2,
+                            3,
+                            6,
+                            2,
+                            7,
+                            1,
+                            1,
+                            6,
+                            5,
+                            8,
+                            5,
+                            2,
+                            1,
+                            17,
+                            3,
+                            10,
+                            4,
+                            4,
+                            1,
+                            1,
+                            18,
+                            2,
+                            36,
+                            9
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-01T09:20:24.317127Z",
+                "last_month_access": {
+                    "average_access_time": 678,
+                    "downtime_days": 20,
+                    "uptime_days": 1
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:jcast:0.3.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-01T09:28:19.781468Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 12,
+                        "serie": [
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 109,
                         "serie": [
                             1,
                             5,
@@ -920,17 +921,18 @@
                             4,
                             22,
                             2,
-                            32
+                            36,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T09:02:31.28579Z",
+                "last_check": "2022-09-23T09:04:30.019779Z",
                 "last_month_access": {
-                    "average_access_time": 505,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 678,
+                    "downtime_days": 29,
+                    "uptime_days": 1
                 },
                 "license": false,
                 "operational": 429,
@@ -940,8 +942,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT6458863S"
+                "public_tracker": null,
+                "resolve_time": null
             }
         }
     }

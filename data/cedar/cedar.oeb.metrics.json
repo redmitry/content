@@ -1,90 +1,9 @@
 [
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/cedar",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-09-17T08:40:09.373544Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 561,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
-                        ],
-                        "status": 403
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 177,
-                        "serie": [
-                            12,
-                            132,
-                            24,
-                            9
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 302
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-09-17T08:40:09.323042Z",
-                "last_month_access": {
-                    "average_access_time": 547,
-                    "downtime_days": 2,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://www3.cmbi.umcn.nl/cedar/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www3.cmbi.umcn.nl/cedar/browse/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cedar/db/www3.cmbi.umcn.nl",
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cedar/rest/www3.cmbi.umcn.nl",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-09-17T08:40:09.425367Z",
+        "@timestamp": "2022-10-01T08:56:44.933690Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -127,36 +46,30 @@
                         "status": 404
                     },
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
-                            2
+                            2,
+                            1
                         ],
                         "status": 502
                     },
                     {
-                        "days": 177,
+                        "days": 176,
                         "serie": [
-                            12,
-                            132,
+                            130,
                             24,
+                            13,
                             9
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T08:40:09.376333Z",
+                "last_check": "2022-10-01T08:56:44.890445Z",
                 "last_month_access": {
-                    "average_access_time": 326,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 216,
+                    "downtime_days": 3,
+                    "uptime_days": 18
                 },
                 "license": false,
                 "operational": 200,
@@ -176,10 +89,85 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cedar/rest/www3.cmbi.umcn.nl",
+        "@id": "https://openebench.bsc.es/monitor/metrics/cedar",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-01T08:56:32.763038Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 356,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            2,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 176,
+                        "serie": [
+                            130,
+                            24,
+                            13,
+                            9
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-01T08:56:32.717283Z",
+                "last_month_access": {
+                    "average_access_time": 497,
+                    "downtime_days": 3,
+                    "uptime_days": 18
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www3.cmbi.umcn.nl/cedar/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www3.cmbi.umcn.nl/cedar/browse/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cedar/db/www3.cmbi.umcn.nl",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-09-17T08:40:09.580472Z",
+        "@timestamp": "2022-10-01T08:55:57.243600Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -203,7 +191,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 158,
+                "access_time": 492,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -222,36 +210,30 @@
                         "status": 404
                     },
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
-                            2
+                            2,
+                            1
                         ],
                         "status": 502
                     },
                     {
-                        "days": 177,
+                        "days": 176,
                         "serie": [
-                            12,
-                            132,
+                            130,
                             24,
+                            13,
                             9
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2022-09-17T08:40:09.533625Z",
+                "last_check": "2022-10-01T08:55:57.196952Z",
                 "last_month_access": {
-                    "average_access_time": 249,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 326,
+                    "downtime_days": 3,
+                    "uptime_days": 18
                 },
                 "license": false,
                 "operational": 200,
