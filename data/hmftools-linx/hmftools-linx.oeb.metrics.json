@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/hmftools-linx",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-08T09:11:52.968640Z",
+        "@timestamp": "2022-10-15T09:24:14.383368Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -38,9 +38,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 11,
+                        "days": 10,
                         "serie": [
-                            1,
                             2,
                             2,
                             2,
@@ -52,7 +51,7 @@
                         "status": 404
                     },
                     {
-                        "days": 21,
+                        "days": 23,
                         "serie": [
                             1,
                             1,
@@ -70,15 +69,15 @@
                             1,
                             1,
                             1,
+                            1,
+                            1,
                             1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 150,
+                        "days": 149,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -100,17 +99,18 @@
                             10,
                             2,
                             8,
-                            6
+                            9,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:52.821933Z",
+                "last_check": "2022-10-15T09:24:14.139299Z",
                 "last_month_access": {
-                    "average_access_time": 432,
-                    "downtime_days": 26,
-                    "uptime_days": 3
+                    "average_access_time": 417,
+                    "downtime_days": 24,
+                    "uptime_days": 5
                 },
                 "license": false,
                 "operational": 429,
@@ -126,10 +126,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.15/cmd/github.com",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.10/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:11:52.370556Z",
+        "@timestamp": "2022-10-15T09:24:14.351018Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -168,9 +168,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 34,
                         "serie": [
-                            1,
                             2,
                             2,
                             3,
@@ -192,15 +191,15 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 149,
+                        "days": 148,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -222,13 +221,136 @@
                             10,
                             2,
                             8,
-                            5
+                            8,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
+                "last_month_access": {
+                    "average_access_time": 287,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT736930S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.15/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-15T09:24:14.458747Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 34,
+                        "serie": [
+                            2,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            4,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 148,
+                        "serie": [
+                            1,
+                            7,
+                            2,
+                            7,
+                            5,
+                            14,
+                            4,
+                            17,
+                            4,
+                            6,
+                            3,
+                            8,
+                            2,
+                            1,
+                            26,
+                            2,
+                            7,
+                            2,
+                            10,
+                            2,
+                            8,
+                            8,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "average_access_time": 224,
                     "downtime_days": 29,
@@ -251,7 +373,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.11/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:11:50.962377Z",
+        "@timestamp": "2022-10-15T09:24:14.519443Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -290,9 +412,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 34,
                         "serie": [
-                            1,
                             2,
                             2,
                             3,
@@ -314,15 +435,15 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 149,
+                        "days": 148,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -344,137 +465,16 @@
                             10,
                             2,
                             8,
-                            5
+                            8,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "average_access_time": 82,
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 429,
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT736930S"
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.12/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:11:52.392747Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": true,
-                "registration": false
-            },
-            "packages": true,
-            "source_packages": true,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 33,
-                        "serie": [
-                            1,
-                            2,
-                            2,
-                            3,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 149,
-                        "serie": [
-                            5,
-                            1,
-                            1,
-                            7,
-                            2,
-                            7,
-                            5,
-                            14,
-                            4,
-                            17,
-                            4,
-                            6,
-                            3,
-                            8,
-                            2,
-                            1,
-                            26,
-                            2,
-                            7,
-                            2,
-                            10,
-                            2,
-                            8,
-                            5
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
-                "last_month_access": {
-                    "average_access_time": 184,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
@@ -495,7 +495,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.14/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:11:52.876692Z",
+        "@timestamp": "2022-10-15T09:24:14.655752Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -534,9 +534,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 34,
                         "serie": [
-                            1,
                             2,
                             2,
                             3,
@@ -558,15 +557,15 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 149,
+                        "days": 148,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -588,137 +587,16 @@
                             10,
                             2,
                             8,
-                            5
+                            8,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "average_access_time": 175,
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 429,
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT736930S"
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.10/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:11:52.402153Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": true,
-                "registration": false
-            },
-            "packages": true,
-            "source_packages": true,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 33,
-                        "serie": [
-                            1,
-                            2,
-                            2,
-                            3,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 149,
-                        "serie": [
-                            5,
-                            1,
-                            1,
-                            7,
-                            2,
-                            7,
-                            5,
-                            14,
-                            4,
-                            17,
-                            4,
-                            6,
-                            3,
-                            8,
-                            2,
-                            1,
-                            26,
-                            2,
-                            7,
-                            2,
-                            10,
-                            2,
-                            8,
-                            5
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
-                "last_month_access": {
-                    "average_access_time": 287,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
@@ -739,7 +617,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.13/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:11:51.673887Z",
+        "@timestamp": "2022-10-15T09:24:14.664437Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -778,9 +656,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 34,
                         "serie": [
-                            1,
                             2,
                             2,
                             3,
@@ -802,15 +679,15 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 149,
+                        "days": 148,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -832,13 +709,14 @@
                             10,
                             2,
                             8,
-                            5
+                            8,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "average_access_time": 43,
                     "downtime_days": 29,
@@ -858,10 +736,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.6/cmd/github.com",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.12/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:16:01.893649Z",
+        "@timestamp": "2022-10-15T09:24:14.285819Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -886,8 +764,8 @@
             "build": {},
             "deployment": {},
             "license": {
-                "open_source": true,
-                "osi": true
+                "open_source": false,
+                "osi": false
             },
             "publications": [],
             "readme": true,
@@ -900,9 +778,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 34,
                         "serie": [
-                            1,
                             2,
                             2,
                             3,
@@ -924,15 +801,15 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 149,
+                        "days": 148,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -954,21 +831,22 @@
                             10,
                             2,
                             8,
-                            5
+                            8,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
-                    "average_access_time": 175,
+                    "average_access_time": 184,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 429,
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -983,7 +861,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.5/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:16:00.380221Z",
+        "@timestamp": "2022-10-15T09:29:19.363061Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1022,9 +900,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 34,
                         "serie": [
-                            1,
                             2,
                             2,
                             3,
@@ -1046,15 +923,15 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 149,
+                        "days": 148,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -1076,13 +953,14 @@
                             10,
                             2,
                             8,
-                            5
+                            8,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "average_access_time": 175,
                     "downtime_days": 29,
@@ -1105,7 +983,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.4/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:16:00.102086Z",
+        "@timestamp": "2022-10-15T09:29:19.399227Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1144,9 +1022,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 34,
                         "serie": [
-                            1,
                             2,
                             2,
                             3,
@@ -1168,15 +1045,15 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 149,
+                        "days": 148,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -1198,13 +1075,14 @@
                             10,
                             2,
                             8,
-                            5
+                            8,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "average_access_time": 175,
                     "downtime_days": 29,
@@ -1227,7 +1105,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.7/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:16:01.897503Z",
+        "@timestamp": "2022-10-15T09:29:20.748895Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1266,9 +1144,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 34,
                         "serie": [
-                            1,
                             2,
                             2,
                             3,
@@ -1290,15 +1167,15 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 149,
+                        "days": 148,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -1320,13 +1197,136 @@
                             10,
                             2,
                             8,
-                            5
+                            8,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
+                "last_month_access": {
+                    "average_access_time": 175,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT736930S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-15T09:29:20.788794Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 34,
+                        "serie": [
+                            2,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            4,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 148,
+                        "serie": [
+                            1,
+                            7,
+                            2,
+                            7,
+                            5,
+                            14,
+                            4,
+                            17,
+                            4,
+                            6,
+                            3,
+                            8,
+                            2,
+                            1,
+                            26,
+                            2,
+                            7,
+                            2,
+                            10,
+                            2,
+                            8,
+                            8,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "average_access_time": 175,
                     "downtime_days": 29,
@@ -1349,7 +1349,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.16/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:17:57.922039Z",
+        "@timestamp": "2022-10-15T09:31:17.126649Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1388,9 +1388,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 34,
                         "serie": [
-                            1,
                             2,
                             2,
                             3,
@@ -1412,15 +1411,15 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 149,
+                        "days": 148,
                         "serie": [
-                            5,
-                            1,
                             1,
                             7,
                             2,
@@ -1442,13 +1441,14 @@
                             10,
                             2,
                             8,
-                            5
+                            8,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
@@ -1470,7 +1470,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.17/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:37:07.597292Z",
+        "@timestamp": "2022-10-15T09:56:46.529807Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1511,7 +1511,7 @@
                     {
                         "days": 33,
                         "serie": [
-                            4,
+                            2,
                             2,
                             4,
                             1,
@@ -1528,6 +1528,8 @@
                             1,
                             1,
                             4,
+                            1,
+                            1,
                             1,
                             1,
                             1,
@@ -1538,7 +1540,6 @@
                     {
                         "days": 149,
                         "serie": [
-                            5,
                             1,
                             7,
                             1,
@@ -1559,13 +1560,14 @@
                             2,
                             10,
                             2,
-                            15
+                            18,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
@@ -1587,7 +1589,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.18/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:41:00.868603Z",
+        "@timestamp": "2022-10-15T09:59:57.380455Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1628,7 +1630,7 @@
                     {
                         "days": 33,
                         "serie": [
-                            4,
+                            2,
                             2,
                             4,
                             1,
@@ -1645,6 +1647,8 @@
                             1,
                             1,
                             4,
+                            1,
+                            1,
                             1,
                             1,
                             1,
@@ -1655,7 +1659,6 @@
                     {
                         "days": 149,
                         "serie": [
-                            5,
                             1,
                             7,
                             1,
@@ -1676,13 +1679,14 @@
                             2,
                             10,
                             2,
-                            15
+                            18,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:50.871142Z",
+                "last_check": "2022-10-15T09:24:14.142221Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
@@ -1704,7 +1708,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.19/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:44:27.621781Z",
+        "@timestamp": "2022-10-15T10:03:47.559762Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1743,7 +1747,7 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 36,
                         "serie": [
                             2,
                             1,
@@ -1767,12 +1771,14 @@
                             1,
                             1,
                             1,
+                            1,
+                            2,
                             1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 132,
+                        "days": 136,
                         "serie": [
                             2,
                             9,
@@ -1797,17 +1803,18 @@
                             3,
                             6,
                             2,
-                            15
+                            18,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:52.821933Z",
+                "last_check": "2022-10-15T09:24:14.139299Z",
                 "last_month_access": {
-                    "average_access_time": 638,
-                    "downtime_days": 26,
-                    "uptime_days": 3
+                    "average_access_time": 419,
+                    "downtime_days": 24,
+                    "uptime_days": 5
                 },
                 "license": false,
                 "operational": 429,
@@ -1826,7 +1833,107 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.20/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:49:31.756007Z",
+        "@timestamp": "2022-10-15T10:09:55.570103Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 19,
+                        "serie": [
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            4,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 65,
+                        "serie": [
+                            1,
+                            10,
+                            3,
+                            11,
+                            2,
+                            5,
+                            3,
+                            3,
+                            6,
+                            2,
+                            18,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T09:24:14.139299Z",
+                "last_month_access": {
+                    "average_access_time": 419,
+                    "downtime_days": 24,
+                    "uptime_days": 5
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT736930S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.21/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-15T10:10:43.818745Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1867,103 +1974,6 @@
                     {
                         "days": 16,
                         "serie": [
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 61,
-                        "serie": [
-                            1,
-                            10,
-                            3,
-                            11,
-                            2,
-                            5,
-                            3,
-                            3,
-                            6,
-                            2,
-                            15
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-08T09:11:52.821933Z",
-                "last_month_access": {
-                    "average_access_time": 638,
-                    "downtime_days": 26,
-                    "uptime_days": 3
-                },
-                "license": false,
-                "operational": 429,
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT736930S"
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:hmftools-linx:1.21/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:50:21.836642Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": true,
-                "registration": false
-            },
-            "packages": true,
-            "source_packages": true,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 13,
-                        "serie": [
                             1,
                             1,
                             1,
@@ -1972,12 +1982,14 @@
                             1,
                             1,
                             1,
+                            1,
+                            2,
                             1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 51,
+                        "days": 55,
                         "serie": [
                             1,
                             3,
@@ -1988,17 +2000,18 @@
                             3,
                             6,
                             2,
-                            15
+                            18,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:11:52.821933Z",
+                "last_check": "2022-10-15T09:24:14.139299Z",
                 "last_month_access": {
-                    "average_access_time": 638,
-                    "downtime_days": 26,
-                    "uptime_days": 3
+                    "average_access_time": 419,
+                    "downtime_days": 24,
+                    "uptime_days": 5
                 },
                 "license": false,
                 "operational": 429,

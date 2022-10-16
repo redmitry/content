@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:1.34.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T06:56:08.835861Z",
+        "@timestamp": "2022-10-15T06:59:13.140855Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -20,18 +20,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1362,
+                            "cit_count": 1493,
                             "citations": [
                                 {
                                     "count": 27,
                                     "year": "2015"
                                 },
                                 {
-                                    "count": 149,
+                                    "count": 151,
                                     "year": "2016"
                                 },
                                 {
-                                    "count": 186,
+                                    "count": 187,
                                     "year": "2017"
                                 },
                                 {
@@ -39,20 +39,24 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 243,
+                                    "count": 246,
                                     "year": "2019"
                                 },
                                 {
-                                    "count": 213,
+                                    "count": 237,
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 262,
+                                    "count": 273,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 49,
+                                    "count": 138,
                                     "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nmeth.3252",
@@ -111,7 +115,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 165,
+                "access_time": 384,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -124,9 +128,151 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T06:56:08.776208Z",
+                "last_check": "2022-10-15T06:59:13.084287Z",
                 "last_month_access": {
-                    "average_access_time": 331,
+                    "average_access_time": 260,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:2.0.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-15T06:51:36.536307Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1493,
+                            "citations": [
+                                {
+                                    "count": 27,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 151,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 233,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 246,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 237,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 273,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 138,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1038/nmeth.3252",
+                            "pmcid": "PMC4509590",
+                            "pmid": "25633503",
+                            "ref_count": 27,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Orchestrating high-throughput genomic analysis with Bioconductor.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 337,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T06:51:36.482358Z",
+                "last_month_access": {
+                    "average_access_time": 334,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -141,7 +287,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:1.30.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T06:56:11.650402Z",
+        "@timestamp": "2022-10-15T07:02:25.581320Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -159,7 +305,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 117,
+                "access_time": 128,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -172,9 +318,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-08T01:35:44.128842Z",
+                "last_check": "2022-10-15T01:35:21.383336Z",
                 "last_month_access": {
-                    "average_access_time": 134,
+                    "average_access_time": 142,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -186,148 +332,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:2.0.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T06:47:42.512895Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 1362,
-                            "citations": [
-                                {
-                                    "count": 27,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 149,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 186,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 233,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 243,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 213,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 262,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 49,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1038/nmeth.3252",
-                            "pmcid": "PMC4509590",
-                            "pmid": "25633503",
-                            "ref_count": 27,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 12,
-                                    "year": "2014"
-                                }
-                            ],
-                            "title": "Orchestrating high-throughput genomic analysis with Bioconductor.",
-                            "year": 2015
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 387,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 182,
-                        "serie": [
-                            182
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-08T06:47:42.30557Z",
-                "last_month_access": {
-                    "average_access_time": 311,
-                    "downtime_days": 0,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:1.28.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T06:56:16.933154Z",
+        "@timestamp": "2022-10-15T07:00:45.957545Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -345,7 +353,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 117,
+                "access_time": 122,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -358,9 +366,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-08T01:35:26.6069Z",
+                "last_check": "2022-10-15T01:35:21.121822Z",
                 "last_month_access": {
-                    "average_access_time": 146,
+                    "average_access_time": 145,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -375,7 +383,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:1.32.3/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T06:47:04.574751Z",
+        "@timestamp": "2022-10-15T06:53:02.506064Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -392,18 +400,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1362,
+                            "cit_count": 1493,
                             "citations": [
                                 {
                                     "count": 27,
                                     "year": "2015"
                                 },
                                 {
-                                    "count": 149,
+                                    "count": 151,
                                     "year": "2016"
                                 },
                                 {
-                                    "count": 186,
+                                    "count": 187,
                                     "year": "2017"
                                 },
                                 {
@@ -411,20 +419,24 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 243,
+                                    "count": 246,
                                     "year": "2019"
                                 },
                                 {
-                                    "count": 213,
+                                    "count": 237,
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 262,
+                                    "count": 273,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 49,
+                                    "count": 138,
                                     "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nmeth.3252",
@@ -483,7 +495,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 210,
+                "access_time": 213,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -496,9 +508,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-08T06:47:04.488481Z",
+                "last_check": "2022-10-15T06:53:02.446668Z",
                 "last_month_access": {
-                    "average_access_time": 228,
+                    "average_access_time": 229,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -513,7 +525,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:1.24.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T06:56:04.344859Z",
+        "@timestamp": "2022-10-15T07:00:13.938711Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -531,7 +543,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 120,
+                "access_time": 136,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -544,9 +556,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-08T01:35:31.502237Z",
+                "last_check": "2022-10-15T01:35:13.653499Z",
                 "last_month_access": {
-                    "average_access_time": 118,
+                    "average_access_time": 130,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -561,7 +573,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:1.22.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T06:45:25.303233Z",
+        "@timestamp": "2022-10-15T06:48:40.219231Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -579,7 +591,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 120,
+                "access_time": 136,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -592,9 +604,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-08T01:35:31.502237Z",
+                "last_check": "2022-10-15T01:35:13.653499Z",
                 "last_month_access": {
-                    "average_access_time": 118,
+                    "average_access_time": 130,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -609,7 +621,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:1.26.1/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T06:44:41.852754Z",
+        "@timestamp": "2022-10-15T06:48:52.272846Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -627,7 +639,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 120,
+                "access_time": 136,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -640,9 +652,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-08T01:35:31.502237Z",
+                "last_check": "2022-10-15T01:35:13.653499Z",
                 "last_month_access": {
-                    "average_access_time": 118,
+                    "average_access_time": 130,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -657,7 +669,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rsamtools:1.26.1/lib/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-10-08T06:46:52.596805Z",
+        "@timestamp": "2022-10-15T06:52:32.288115Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -678,18 +690,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1362,
+                            "cit_count": 1493,
                             "citations": [
                                 {
                                     "count": 27,
                                     "year": "2015"
                                 },
                                 {
-                                    "count": 149,
+                                    "count": 151,
                                     "year": "2016"
                                 },
                                 {
-                                    "count": 186,
+                                    "count": 187,
                                     "year": "2017"
                                 },
                                 {
@@ -697,20 +709,24 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 243,
+                                    "count": 246,
                                     "year": "2019"
                                 },
                                 {
-                                    "count": 213,
+                                    "count": 237,
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 262,
+                                    "count": 273,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 49,
+                                    "count": 138,
                                     "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nmeth.3252",
@@ -769,7 +785,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 120,
+                "access_time": 136,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -782,9 +798,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-08T01:35:31.502237Z",
+                "last_check": "2022-10-15T01:35:13.653499Z",
                 "last_month_access": {
-                    "average_access_time": 118,
+                    "average_access_time": 130,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -802,7 +818,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rsamtools:1.26.1/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-10-08T06:45:25.221357Z",
+        "@timestamp": "2022-10-15T06:48:40.095259Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -823,18 +839,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1362,
+                            "cit_count": 1493,
                             "citations": [
                                 {
                                     "count": 27,
                                     "year": "2015"
                                 },
                                 {
-                                    "count": 149,
+                                    "count": 151,
                                     "year": "2016"
                                 },
                                 {
-                                    "count": 186,
+                                    "count": 187,
                                     "year": "2017"
                                 },
                                 {
@@ -842,20 +858,24 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 243,
+                                    "count": 246,
                                     "year": "2019"
                                 },
                                 {
-                                    "count": 213,
+                                    "count": 237,
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 262,
+                                    "count": 273,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 49,
+                                    "count": 138,
                                     "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nmeth.3252",
@@ -914,7 +934,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 120,
+                "access_time": 136,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -927,9 +947,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-08T01:35:31.502237Z",
+                "last_check": "2022-10-15T01:35:13.653499Z",
                 "last_month_access": {
-                    "average_access_time": 118,
+                    "average_access_time": 130,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -947,7 +967,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rsamtools",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-08T06:54:37.909525Z",
+        "@timestamp": "2022-10-15T07:00:13.998980Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -957,7 +977,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 120,
+                "access_time": 136,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -970,9 +990,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-08T01:35:31.502237Z",
+                "last_check": "2022-10-15T01:35:13.653499Z",
                 "last_month_access": {
-                    "average_access_time": 118,
+                    "average_access_time": 130,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -987,7 +1007,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:2.2.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T08:36:47.465978Z",
+        "@timestamp": "2022-10-15T08:44:43.189753Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1004,18 +1024,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1362,
+                            "cit_count": 1493,
                             "citations": [
                                 {
                                     "count": 27,
                                     "year": "2015"
                                 },
                                 {
-                                    "count": 149,
+                                    "count": 151,
                                     "year": "2016"
                                 },
                                 {
-                                    "count": 186,
+                                    "count": 187,
                                     "year": "2017"
                                 },
                                 {
@@ -1023,20 +1043,166 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 243,
+                                    "count": 246,
                                     "year": "2019"
                                 },
                                 {
-                                    "count": 213,
+                                    "count": 237,
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 262,
+                                    "count": 273,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 49,
+                                    "count": 138,
                                     "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1038/nmeth.3252",
+                            "pmcid": "PMC4509590",
+                            "pmid": "25633503",
+                            "ref_count": 27,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "Orchestrating high-throughput genomic analysis with Bioconductor.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 204,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T08:44:43.134483Z",
+                "last_month_access": {
+                    "average_access_time": 140,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:2.4.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-15T08:45:46.152585Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1493,
+                            "citations": [
+                                {
+                                    "count": 27,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 151,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 187,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 233,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 246,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 237,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 273,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 138,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nmeth.3252",
@@ -1108,147 +1274,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T08:36:47.413637Z",
+                "last_check": "2022-10-15T08:45:46.104445Z",
                 "last_month_access": {
-                    "average_access_time": 143,
-                    "downtime_days": 0,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:2.4.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T08:38:09.150102Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 1362,
-                            "citations": [
-                                {
-                                    "count": 27,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 149,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 186,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 233,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 243,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 213,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 262,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 49,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1038/nmeth.3252",
-                            "pmcid": "PMC4509590",
-                            "pmid": "25633503",
-                            "ref_count": 27,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 12,
-                                    "year": "2014"
-                                }
-                            ],
-                            "title": "Orchestrating high-throughput genomic analysis with Bioconductor.",
-                            "year": 2015
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 140,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 182,
-                        "serie": [
-                            182
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-08T08:38:09.073903Z",
-                "last_month_access": {
-                    "average_access_time": 135,
+                    "average_access_time": 145,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -1263,7 +1291,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:2.6.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T08:39:34.171053Z",
+        "@timestamp": "2022-10-15T08:47:06.726443Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1280,18 +1308,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1362,
+                            "cit_count": 1493,
                             "citations": [
                                 {
                                     "count": 27,
                                     "year": "2015"
                                 },
                                 {
-                                    "count": 149,
+                                    "count": 151,
                                     "year": "2016"
                                 },
                                 {
-                                    "count": 186,
+                                    "count": 187,
                                     "year": "2017"
                                 },
                                 {
@@ -1299,20 +1327,24 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 243,
+                                    "count": 246,
                                     "year": "2019"
                                 },
                                 {
-                                    "count": 213,
+                                    "count": 237,
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 262,
+                                    "count": 273,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 49,
+                                    "count": 138,
                                     "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nmeth.3252",
@@ -1371,7 +1403,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 129,
+                "access_time": 116,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1384,9 +1416,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T08:39:34.126306Z",
+                "last_check": "2022-10-15T08:47:06.682217Z",
                 "last_month_access": {
-                    "average_access_time": 137,
+                    "average_access_time": 138,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -1401,7 +1433,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:2.8.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:10:46.458857Z",
+        "@timestamp": "2022-10-15T09:23:06.397632Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1418,18 +1450,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1362,
+                            "cit_count": 1493,
                             "citations": [
                                 {
                                     "count": 27,
                                     "year": "2015"
                                 },
                                 {
-                                    "count": 149,
+                                    "count": 151,
                                     "year": "2016"
                                 },
                                 {
-                                    "count": 186,
+                                    "count": 187,
                                     "year": "2017"
                                 },
                                 {
@@ -1437,20 +1469,24 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 243,
+                                    "count": 246,
                                     "year": "2019"
                                 },
                                 {
-                                    "count": 213,
+                                    "count": 237,
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 262,
+                                    "count": 273,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 49,
+                                    "count": 138,
                                     "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nmeth.3252",
@@ -1509,7 +1545,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 164,
+                "access_time": 119,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1522,9 +1558,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:10:46.413854Z",
+                "last_check": "2022-10-15T09:23:06.358288Z",
                 "last_month_access": {
-                    "average_access_time": 136,
+                    "average_access_time": 150,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -1539,7 +1575,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rsamtools:2.10.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:27:13.160242Z",
+        "@timestamp": "2022-10-15T09:42:44.847128Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1556,18 +1592,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1362,
+                            "cit_count": 1493,
                             "citations": [
                                 {
                                     "count": 27,
                                     "year": "2015"
                                 },
                                 {
-                                    "count": 149,
+                                    "count": 151,
                                     "year": "2016"
                                 },
                                 {
-                                    "count": 186,
+                                    "count": 187,
                                     "year": "2017"
                                 },
                                 {
@@ -1575,20 +1611,24 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 243,
+                                    "count": 246,
                                     "year": "2019"
                                 },
                                 {
-                                    "count": 213,
+                                    "count": 237,
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 262,
+                                    "count": 273,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 49,
+                                    "count": 138,
                                     "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nmeth.3252",
@@ -1647,7 +1687,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 310,
+                "access_time": 240,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1660,9 +1700,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:27:13.129503Z",
+                "last_check": "2022-10-15T09:42:44.811012Z",
                 "last_month_access": {
-                    "average_access_time": 190,
+                    "average_access_time": 215,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },

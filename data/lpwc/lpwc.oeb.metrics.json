@@ -1,9 +1,139 @@
 [
     {
+        "@id": "https://openebench.bsc.es/monitor/metrics/lpwc",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-15T09:04:32.028409Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 477,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 138,
+                        "serie": [
+                            2,
+                            2,
+                            3,
+                            4,
+                            1,
+                            9,
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            7,
+                            2,
+                            2,
+                            5,
+                            17,
+                            11,
+                            11,
+                            3,
+                            4,
+                            3,
+                            7,
+                            15,
+                            12
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 44,
+                        "serie": [
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T09:04:31.927915Z",
+                "last_month_access": {
+                    "average_access_time": 651,
+                    "downtime_days": 2,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1558552S"
+            }
+        }
+    },
+    {
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:lpwc/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-10-08T08:54:22.212035Z",
+        "@timestamp": "2022-10-15T09:04:32.134459Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -35,7 +165,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 2,
+                            "cit_count": 3,
                             "citations": [
                                 {
                                     "count": 1,
@@ -44,6 +174,10 @@
                                 {
                                     "count": 1,
                                     "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1186/s12859-019-3324-1",
@@ -151,7 +285,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 436,
+                "access_time": 477,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -163,144 +297,8 @@
                         "status": 500
                     },
                     {
-                        "days": 134,
-                        "serie": [
-                            5,
-                            2,
-                            2,
-                            3,
-                            4,
-                            1,
-                            9,
-                            1,
-                            1,
-                            2,
-                            2,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            7,
-                            2,
-                            2,
-                            5,
-                            17,
-                            11,
-                            11,
-                            1,
-                            1,
-                            4,
-                            3,
-                            7,
-                            15,
-                            5
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 47,
-                        "serie": [
-                            2,
-                            2,
-                            1,
-                            3,
-                            1,
-                            1,
-                            2,
-                            1,
-                            3,
-                            1,
-                            1,
-                            2,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-08T08:54:14.250888Z",
-                "last_month_access": {
-                    "average_access_time": 609,
-                    "downtime_days": 2,
-                    "uptime_days": 27
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT1558552S"
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/lpwc",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-10-08T08:54:14.351440Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": null,
-            "source_packages": true,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 436,
-                "bioschemas": true,
-                "copyright": false,
-                "half_year_stat": [
-                    {
                         "days": 136,
                         "serie": [
-                            5,
                             2,
                             2,
                             3,
@@ -309,7 +307,8 @@
                             9,
                             1,
                             1,
-                            5,
+                            2,
+                            2,
                             2,
                             2,
                             1,
@@ -325,20 +324,20 @@
                             17,
                             11,
                             11,
-                            3,
+                            1,
+                            1,
                             4,
                             3,
                             7,
                             15,
-                            5
+                            12
                         ],
                         "status": 200
                     },
                     {
-                        "days": 46,
+                        "days": 45,
                         "serie": [
                             2,
-                            2,
                             1,
                             3,
                             1,
@@ -346,6 +345,7 @@
                             2,
                             1,
                             3,
+                            1,
                             1,
                             2,
                             1,
@@ -372,9 +372,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T08:54:14.250888Z",
+                "last_check": "2022-10-15T09:04:31.927915Z",
                 "last_month_access": {
-                    "average_access_time": 645,
+                    "average_access_time": 626,
                     "downtime_days": 2,
                     "uptime_days": 27
                 },

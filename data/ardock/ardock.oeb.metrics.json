@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ardock",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-09T01:28:44.533117Z",
+        "@timestamp": "2022-10-16T01:30:42.239648Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -18,29 +18,32 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 175,
+                        "days": 172,
                         "serie": [
-                            101,
+                            94,
                             40,
                             11,
                             20,
+                            4,
                             3
                         ],
                         "status": 503
                     },
                     {
-                        "days": 7,
+                        "days": 10,
                         "serie": [
                             1,
                             2,
                             2,
+                            2,
+                            1,
                             2
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-09T01:28:44.393637Z",
+                "last_check": "2022-10-16T01:30:42.104222Z",
                 "last_month_access": {
                     "average_access_time": 273,
                     "downtime_days": 29,
@@ -63,7 +66,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ardock:0.9/web/ardock.ibcp.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-10-09T01:16:41.290109Z",
+        "@timestamp": "2022-10-16T01:17:55.225271Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -217,308 +220,14 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 2,
+                            "cit_count": 3,
                             "citations": [
                                 {
                                     "count": 1,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1093/nar/gky472",
-                            "pmcid": "PMC6031020",
-                            "pmid": "29905873",
-                            "ref_count": 33,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1996"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2001"
-                                },
-                                {
                                     "count": 2,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2017"
-                                }
-                            ],
-                            "title": "Identification and visualization of protein binding regions with the ArDock server.",
-                            "year": 2018
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 178,
-                        "serie": [
-                            101,
-                            41,
-                            12,
-                            21,
-                            3
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 4,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-09T01:16:41.129909Z",
-                "last_month_access": {
-                    "average_access_time": 329,
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 503,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "https://ardock.ibcp.fr/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ardock:0.9/rest/ardock.ibcp.fr",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2022-10-09T01:23:22.945982Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "general": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 23,
-                            "citations": [
-                                {
-                                    "count": 3,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1186/2046-1682-5-7",
-                            "pmcid": "PMC3441232",
-                            "pmid": "22559010",
-                            "ref_count": 67,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1979"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "1988"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1995"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1996"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1997"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1999"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2000"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 12,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2012"
-                                }
-                            ],
-                            "title": "Arbitrary protein-protein docking targets biologically relevant interfaces.",
-                            "year": 2012
-                        }
-                    ]
-                },
-                {
-                    "entries": [
-                        {
-                            "cit_count": 2,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 1,
                                     "year": "2022"
                                 }
                             ],
@@ -605,11 +314,11 @@
                     {
                         "days": 177,
                         "serie": [
-                            101,
+                            94,
                             41,
                             12,
-                            20,
-                            3
+                            21,
+                            9
                         ],
                         "status": 503
                     },
@@ -619,13 +328,311 @@
                             1,
                             1,
                             1,
-                            2
+                            1,
+                            1
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-09T01:23:22.834682Z",
+                "last_check": "2022-10-16T01:17:55.133685Z",
+                "last_month_access": {
+                    "average_access_time": 329,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 503,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://ardock.ibcp.fr/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ardock:0.9/rest/ardock.ibcp.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2022-10-16T01:25:01.041563Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 23,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/2046-1682-5-7",
+                            "pmcid": "PMC3441232",
+                            "pmid": "22559010",
+                            "ref_count": 67,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1979"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Arbitrary protein-protein docking targets biologically relevant interfaces.",
+                            "year": 2012
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gky472",
+                            "pmcid": "PMC6031020",
+                            "pmid": "29905873",
+                            "ref_count": 33,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "Identification and visualization of protein binding regions with the ArDock server.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 175,
+                        "serie": [
+                            94,
+                            41,
+                            12,
+                            20,
+                            4,
+                            4
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 7,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-16T01:25:00.952504Z",
                 "last_month_access": {
                     "average_access_time": 330,
                     "downtime_days": 29,

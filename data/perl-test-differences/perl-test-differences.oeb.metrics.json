@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-test-differences:0.64/cmd/metacpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T05:53:16.542221Z",
+        "@timestamp": "2022-10-15T05:55:15.947504Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -28,9 +28,9 @@
                     {
                         "days": 180,
                         "serie": [
-                            43,
+                            36,
                             25,
-                            112
+                            119
                         ],
                         "status": 404
                     },
@@ -44,7 +44,7 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T05:53:16.495383Z",
+                "last_check": "2022-10-15T05:55:15.894933Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
@@ -66,7 +66,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/perl-test-differences",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-08T05:52:52.149903Z",
+        "@timestamp": "2022-10-15T05:55:07.660411Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -81,10 +81,10 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 180,
                         "serie": [
-                            69,
-                            112
+                            62,
+                            118
                         ],
                         "status": 404
                     },
@@ -94,10 +94,17 @@
                             1
                         ],
                         "status": 503
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T05:52:52.094501Z",
+                "last_check": "2022-10-15T05:55:07.601306Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
@@ -119,7 +126,83 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-test-differences:0.67/cmd/metacpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:16:02.705645Z",
+        "@timestamp": "2022-10-15T09:29:18.124Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 179,
+                        "serie": [
+                            17,
+                            159,
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T09:29:18.090191Z",
+                "last_month_access": {
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://metacpan.org/pod/Test-Differences"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-test-differences:0.69/cmd/metacpan.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-15T09:59:33.867473Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -144,8 +227,7 @@
                     {
                         "days": 181,
                         "serie": [
-                            24,
-                            157
+                            181
                         ],
                         "status": 404
                     },
@@ -154,64 +236,11 @@
                         "serie": [
                             1
                         ],
-                        "status": 503
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:16:02.6693Z",
-                "last_month_access": {
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 404,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://metacpan.org/pod/Test-Differences"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-test-differences:0.69/cmd/metacpan.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:40:31.060915Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 182,
-                        "serie": [
-                            182
-                        ],
-                        "status": 404
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-08T09:40:31.037716Z",
+                "last_check": "2022-10-15T09:59:33.845249Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0

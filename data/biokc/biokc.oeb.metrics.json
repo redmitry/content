@@ -1,9 +1,49 @@
 [
     {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biokc",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-15T08:55:50.574742Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 535,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T08:55:50.528579Z",
+                "last_month_access": {
+                    "average_access_time": 1238,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:biokc/rest/biokc.pages.uni.lu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-10-08T08:47:53.027895Z",
+        "@timestamp": "2022-10-15T08:55:50.574910Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -12,14 +52,31 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 0,
-                            "citations": [],
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
                             "doi": "10.1101/2020.10.01.322438",
-                            "ref_count": 1,
+                            "ref_count": 5,
                             "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
                                 {
                                     "count": 1,
                                     "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
                                 }
                             ],
                             "title": "BioKC: a collaborative platform for systems biology model curation and annotation",
@@ -32,7 +89,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 460,
+                "access_time": 427,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -45,49 +102,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T08:47:17.374349Z",
+                "last_check": "2022-10-15T08:55:50.529825Z",
                 "last_month_access": {
-                    "average_access_time": 998,
-                    "downtime_days": 0,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biokc",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-10-08T08:47:17.430793Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 460,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 182,
-                        "serie": [
-                            182
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-08T08:47:17.374349Z",
-                "last_month_access": {
-                    "average_access_time": 1031,
+                    "average_access_time": 1215,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },

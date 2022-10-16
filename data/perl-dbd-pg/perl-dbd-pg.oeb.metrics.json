@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-dbd-pg:3.8.1/cmd/search.cpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T05:52:19.476509Z",
+        "@timestamp": "2022-10-15T05:54:59.598998Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,7 +21,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 143,
+                "access_time": 100,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -33,18 +33,102 @@
                         "status": 404
                     },
                     {
-                        "days": 181,
+                        "days": 180,
                         "serie": [
-                            54,
-                            127
+                            47,
+                            130,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T05:54:59.542017Z",
+                "last_month_access": {
+                    "average_access_time": 269,
+                    "downtime_days": 1,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://metacpan.org/release/DBD-Pg"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://metacpan.org/dist/DBD-Pg"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-dbd-pg:3.8.0/cmd/search.cpan.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-15T05:55:59.687398Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 153,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 179,
+                        "serie": [
+                            36,
+                            10,
+                            14,
+                            119
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T05:52:19.425321Z",
+                "last_check": "2022-10-15T05:55:59.627173Z",
                 "last_month_access": {
-                    "average_access_time": 268,
+                    "average_access_time": 307,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -69,7 +153,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-dbd-pg:3.7.4/cmd/search.cpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T05:55:23.428260Z",
+        "@timestamp": "2022-10-15T05:57:13.415718Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -87,7 +171,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 878,
+                "access_time": 123,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -108,98 +192,30 @@
                         "status": 503
                     },
                     {
-                        "days": 178,
+                        "days": 177,
                         "serie": [
-                            43,
+                            36,
                             9,
                             14,
-                            112
+                            115,
+                            3
                         ],
                         "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-08T05:55:23.360957Z",
-                "last_month_access": {
-                    "average_access_time": 387,
-                    "downtime_days": 0,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://metacpan.org/release/DBD-Pg"
                     },
-                    {
-                        "status": 301,
-                        "url": "https://metacpan.org/dist/DBD-Pg"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-dbd-pg:3.8.0/cmd/search.cpan.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T05:54:19.789799Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 757,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 404
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 179,
-                        "serie": [
-                            43,
-                            10,
-                            14,
-                            112
-                        ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T05:54:19.710307Z",
+                "last_check": "2022-10-15T05:57:13.35213Z",
                 "last_month_access": {
-                    "average_access_time": 275,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 459,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -222,7 +238,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-dbd-pg:3.5.3/cmd/search.cpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T05:49:34.179030Z",
+        "@timestamp": "2022-10-15T05:52:26.385421Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -240,7 +256,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1113,
+                "access_time": 1138,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -254,16 +270,16 @@
                     {
                         "days": 181,
                         "serie": [
-                            54,
-                            127
+                            47,
+                            134
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T05:49:34.107509Z",
+                "last_check": "2022-10-15T05:52:26.322428Z",
                 "last_month_access": {
-                    "average_access_time": 1190,
+                    "average_access_time": 1087,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -288,7 +304,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/perl-dbd-pg",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-08T05:49:50.527671Z",
+        "@timestamp": "2022-10-15T05:53:34.231182Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -298,7 +314,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 966,
+                "access_time": 189,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -312,16 +328,16 @@
                     {
                         "days": 181,
                         "serie": [
-                            54,
-                            127
+                            47,
+                            134
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T05:49:50.462969Z",
+                "last_check": "2022-10-15T05:53:34.167015Z",
                 "last_month_access": {
-                    "average_access_time": 280,
+                    "average_access_time": 208,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -346,7 +362,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-dbd-pg:3.15.0/cmd/search.cpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:38:28.909667Z",
+        "@timestamp": "2022-10-15T09:57:12.783372Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -364,24 +380,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 995,
+                "access_time": 787,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            182
+                            178,
+                            3
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:38:28.882902Z",
+                "last_check": "2022-10-15T09:57:12.751734Z",
                 "last_month_access": {
-                    "average_access_time": 1344,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 1424,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -404,7 +428,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-dbd-pg:3.15.1/cmd/search.cpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:40:15.031212Z",
+        "@timestamp": "2022-10-15T09:59:22.392721Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -422,17 +446,25 @@
                 "description": true
             },
             "website": {
-                "access_time": 170,
+                "access_time": 181,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 180,
                         "serie": [
-                            159,
-                            22
+                            152,
+                            25,
+                            3
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     },
                     {
                         "days": 1,
@@ -443,9 +475,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:40:15.002164Z",
+                "last_check": "2022-10-15T09:59:22.363919Z",
                 "last_month_access": {
-                    "average_access_time": 296,
+                    "average_access_time": 420,
                     "downtime_days": 1,
                     "uptime_days": 28
                 },
@@ -470,7 +502,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-dbd-pg:3.16.0/cmd/search.cpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-08T09:50:42.254078Z",
+        "@timestamp": "2022-10-15T10:11:28.958344Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -488,24 +520,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 1292,
+                "access_time": 1010,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 55,
+                        "days": 61,
                         "serie": [
-                            55
+                            58,
+                            3
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-08T09:50:42.233768Z",
+                "last_check": "2022-10-15T10:11:28.934084Z",
                 "last_month_access": {
-                    "average_access_time": 806,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 853,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
