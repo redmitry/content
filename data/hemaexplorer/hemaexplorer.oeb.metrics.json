@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hemaexplorer:1.0/web/servers.binf.ku.dk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-10-15T04:02:12.224802Z",
+        "@timestamp": "2022-10-22T04:01:32.104815Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -175,35 +175,39 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 400,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 179,
                         "serie": [
-                            66,
-                            115
+                            59,
+                            115,
+                            4,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 3,
                         "serie": [
+                            1,
+                            1,
                             1
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-10-15T03:45:26.660652Z",
+                "https": true,
+                "last_check": "2022-10-22T04:01:32.01089Z",
                 "last_month_access": {
-                    "average_access_time": 366,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 370,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -222,7 +226,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/hemaexplorer",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-15T03:45:26.723818Z",
+        "@timestamp": "2022-10-22T03:45:28.678771Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -232,34 +236,44 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 3045,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 180,
                         "serie": [
-                            182
+                            175,
+                            4,
+                            1
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-10-15T03:45:26.660652Z",
+                "https": true,
+                "last_check": "2022-10-22T03:45:28.610455Z",
                 "last_month_access": {
-                    "average_access_time": 1886,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 2103,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://servers.binf.ku.dk/hemaexplorer/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

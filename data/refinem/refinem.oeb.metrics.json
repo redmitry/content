@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/refinem",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-15T09:22:58.353947Z",
+        "@timestamp": "2022-10-22T09:21:58.960020Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,7 +33,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 469,
+                "access_time": 508,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -46,9 +46,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-15T09:22:58.311286Z",
+                "last_check": "2022-10-22T09:21:58.922936Z",
                 "last_month_access": {
-                    "average_access_time": 542,
+                    "average_access_time": 545,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -83,7 +83,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:refinem:0.1.2/cmd/pypi.python.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-15T09:25:35.753809Z",
+        "@timestamp": "2022-10-22T09:24:56.374273Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -101,24 +101,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 426,
+                "access_time": 443,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 180,
                         "serie": [
-                            182
+                            176,
+                            3,
+                            1
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-15T09:25:35.66894Z",
+                "last_check": "2022-10-22T09:24:56.325634Z",
                 "last_month_access": {
-                    "average_access_time": 426,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 471,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
@@ -145,7 +161,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:refinem:0.1.0/cmd/pypi.python.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-15T09:25:35.678165Z",
+        "@timestamp": "2022-10-22T09:24:56.363031Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -163,14 +179,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 291,
+                "access_time": 228,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 180,
                         "serie": [
-                            180
+                            173,
+                            7
                         ],
                         "status": 200
                     },
@@ -183,9 +200,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-15T09:25:35.63975Z",
+                "last_check": "2022-10-22T09:24:56.315655Z",
                 "last_month_access": {
-                    "average_access_time": 197,
+                    "average_access_time": 250,
                     "downtime_days": 2,
                     "uptime_days": 27
                 },
@@ -214,7 +231,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:refinem:0.1.1/cmd/pypi.python.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-15T09:27:45.717688Z",
+        "@timestamp": "2022-10-22T09:24:56.339562Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -232,77 +249,15 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 233,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            182
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-10-15T09:27:45.678139Z",
-                "last_month_access": {
-                    "average_access_time": 224,
-                    "downtime_days": 0,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 301,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://pypi.python.org/pypi/refinem/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:refinem:0.0.25/cmd/pypi.python.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-10-15T09:28:47.168955Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 245,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 180,
-                        "serie": [
-                            25,
-                            153,
-                            2
+                            175,
+                            6
                         ],
                         "status": 200
                     },
@@ -315,11 +270,99 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-15T09:28:47.110901Z",
+                "last_check": "2022-10-22T09:24:56.283361Z",
                 "last_month_access": {
-                    "average_access_time": 372,
+                    "average_access_time": 283,
                     "downtime_days": 1,
                     "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pypi.python.org/pypi/refinem/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://pypi.org/pypi/refinem/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://pypi.org/project/refinem/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:refinem:0.0.25/cmd/pypi.python.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-10-22T09:28:04.421996Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 301,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            18,
+                            153,
+                            3,
+                            3,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-22T09:28:04.381675Z",
+                "last_month_access": {
+                    "average_access_time": 414,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
                 "operational": 200,
@@ -346,7 +389,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:refinem:0.0.24/cmd/pypi.python.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-15T09:28:47.235321Z",
+        "@timestamp": "2022-10-22T09:28:04.379351Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -364,7 +407,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 357,
+                "access_time": 303,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -376,20 +419,28 @@
                         "status": 503
                     },
                     {
-                        "days": 181,
+                        "days": 180,
                         "serie": [
-                            25,
-                            156
+                            18,
+                            157,
+                            5
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-15T09:28:47.192768Z",
+                "last_check": "2022-10-22T09:28:04.336557Z",
                 "last_month_access": {
-                    "average_access_time": 220,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 294,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -416,7 +467,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:refinem/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-10-15T09:31:24.455720Z",
+        "@timestamp": "2022-10-22T09:30:51.912880Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -450,15 +501,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 469,
+                "access_time": 508,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 180,
                         "serie": [
-                            29,
-                            151
+                            22,
+                            158
                         ],
                         "status": 200
                     },
@@ -471,9 +522,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-15T09:22:58.311286Z",
+                "last_check": "2022-10-22T09:21:58.922936Z",
                 "last_month_access": {
-                    "average_access_time": 542,
+                    "average_access_time": 545,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },

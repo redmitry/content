@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-bloom-faster:1.7/cmd/metacpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-15T05:57:24.905688Z",
+        "@timestamp": "2022-10-22T05:54:07.113695Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -26,11 +26,12 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 179,
                         "serie": [
-                            36,
+                            29,
                             25,
-                            119
+                            120,
+                            5
                         ],
                         "status": 404
                     },
@@ -41,10 +42,17 @@
                             1
                         ],
                         "status": 503
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-15T05:57:24.846483Z",
+                "last_check": "2022-10-22T05:54:07.061765Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
@@ -66,7 +74,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/perl-bloom-faster",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-15T05:57:30.466273Z",
+        "@timestamp": "2022-10-22T05:56:23.495921Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -83,11 +91,11 @@
                     {
                         "days": 178,
                         "serie": [
-                            36,
+                            29,
                             25,
                             64,
                             52,
-                            1
+                            8
                         ],
                         "status": 404
                     },
@@ -108,21 +116,21 @@
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-10-15T05:57:30.4039Z",
+                "https": false,
+                "last_check": "2022-10-22T05:56:23.438368Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://metacpan.org/pod/Bloom-Faster"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
