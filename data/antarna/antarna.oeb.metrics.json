@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/antarna",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-23T01:28:07.897970Z",
+        "@timestamp": "2022-10-29T01:28:44.931361Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,16 +33,18 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 194,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 177,
+                        "days": 174,
                         "serie": [
-                            139,
+                            133,
                             27,
-                            11
+                            11,
+                            1,
+                            2
                         ],
                         "status": 200
                     },
@@ -53,21 +55,29 @@
                             1
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            2,
+                            1
+                        ],
+                        "status": 429
                     }
                 ],
-                "https": true,
-                "last_check": "2022-10-23T01:25:31.037831Z",
+                "https": false,
+                "last_check": "2022-10-29T01:28:44.597593Z",
                 "last_month_access": {
-                    "average_access_time": 211,
-                    "downtime_days": 1,
-                    "uptime_days": 21
+                    "average_access_time": 232,
+                    "downtime_days": 4,
+                    "uptime_days": 24
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/AntaRNA/Input.jsp;jsessionid=A6F989639F734E17F5034DFBFA763CBC"
+                        "url": "http://rna.informatik.uni-freiburg.de/AntaRNA/Input.jsp;jsessionid=787BFD176DA36B2576290C5287CF5C7F"
                     }
                 ],
                 "ssl": null,
@@ -85,7 +95,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:antarna:2.0.1.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-23T01:25:31.379206Z",
+        "@timestamp": "2022-10-29T01:24:59.533643Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -119,23 +129,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 645,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 178,
+                        "days": 175,
                         "serie": [
-                            163,
+                            157,
                             1,
                             2,
-                            12
+                            12,
+                            1,
+                            2
                         ],
                         "status": 200
                     },
                     {
-                        "days": 4,
+                        "days": 7,
                         "serie": [
+                            1,
+                            2,
                             1,
                             2,
                             1
@@ -144,14 +158,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-23T01:25:31.037831Z",
+                "last_check": "2022-10-29T01:24:59.373354Z",
                 "last_month_access": {
-                    "average_access_time": 697,
-                    "downtime_days": 4,
-                    "uptime_days": 18
+                    "average_access_time": 692,
+                    "downtime_days": 7,
+                    "uptime_days": 21
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -167,7 +181,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:antarna:1.1.2/web/rna.informatik.uni-freiburg.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-10-23T01:26:28.911408Z",
+        "@timestamp": "2022-10-29T01:26:27.565425Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -295,16 +309,16 @@
                 "description": true
             },
             "website": {
-                "access_time": 385,
+                "access_time": 398,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
                         "days": 177,
                         "serie": [
-                            139,
+                            133,
                             27,
-                            11
+                            17
                         ],
                         "status": 200
                     },
@@ -318,18 +332,18 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-23T01:26:28.796976Z",
+                "last_check": "2022-10-29T01:26:27.488299Z",
                 "last_month_access": {
-                    "average_access_time": 467,
+                    "average_access_time": 526,
                     "downtime_days": 1,
-                    "uptime_days": 21
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://rna.informatik.uni-freiburg.de/AntaRNA/Input.jsp;jsessionid=D66FA6B2A216BE78F46105A979AC6DEE"
+                        "url": "http://rna.informatik.uni-freiburg.de/AntaRNA/Input.jsp;jsessionid=D84DAA2B3235F8B3BEEFA26551AFA9CE"
                     }
                 ],
                 "ssl": null,
@@ -344,7 +358,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:antarna:1.1/workflow/toolshed.g2.bx.psu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "galaxy",
-        "@timestamp": "2022-10-23T01:30:12.198089Z",
+        "@timestamp": "2022-10-29T01:29:59.884069Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -367,10 +381,10 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-23T01:30:12.11061Z",
+                "last_check": "2022-10-29T01:29:59.826306Z",
                 "last_month_access": {
                     "average_access_time": 1001,
-                    "downtime_days": 22,
+                    "downtime_days": 28,
                     "uptime_days": 0
                 },
                 "license": false,
