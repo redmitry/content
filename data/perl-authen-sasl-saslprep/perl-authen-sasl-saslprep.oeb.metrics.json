@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-authen-sasl-saslprep:1.011/cmd/metacpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-29T05:52:45.387460Z",
+        "@timestamp": "2022-11-12T06:54:31.492661Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -26,12 +26,14 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 179,
+                        "days": 178,
                         "serie": [
-                            32,
+                            19,
                             37,
                             109,
-                            1
+                            1,
+                            10,
+                            2
                         ],
                         "status": 404
                     },
@@ -44,28 +46,36 @@
                         "status": 503
                     },
                     {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 408
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-10-29T05:52:45.326257Z",
+                "https": true,
+                "last_check": "2022-11-12T06:54:31.434745Z",
                 "last_month_access": {
-                    "downtime_days": 28,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://metacpan.org/pod/Authen-SASL-SASLprep"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -74,7 +84,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-authen-sasl-saslprep:1.100/cmd/metacpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-10-29T05:46:43.117561Z",
+        "@timestamp": "2022-11-12T06:51:01.094918Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -97,10 +107,10 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 179,
+                        "days": 180,
                         "serie": [
-                            111,
-                            68
+                            98,
+                            82
                         ],
                         "status": 404
                     },
@@ -113,9 +123,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-29T05:46:43.066622Z",
+                "last_check": "2022-11-12T06:51:01.045428Z",
                 "last_month_access": {
-                    "downtime_days": 28,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -135,7 +145,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/perl-authen-sasl-saslprep",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-29T05:52:09.334501Z",
+        "@timestamp": "2022-11-12T06:56:17.263401Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -155,12 +165,19 @@
                             182
                         ],
                         "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-10-29T05:52:09.272009Z",
+                "last_check": "2022-11-12T06:56:17.000675Z",
                 "last_month_access": {
-                    "downtime_days": 28,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,

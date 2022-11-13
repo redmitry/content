@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:msclust:20130708/cmd/zhaocenter.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-10-29T05:02:06.830910Z",
+        "@timestamp": "2022-11-12T06:08:52.255668Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -92,10 +92,10 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 182,
                         "serie": [
-                            180,
-                            1
+                            167,
+                            15
                         ],
                         "status": 404
                     },
@@ -108,14 +108,20 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-29T05:02:06.654521Z",
+                "last_check": "2022-11-12T06:08:51.982241Z",
                 "last_month_access": {
                     "average_access_time": 681,
-                    "downtime_days": 28,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://zhaocenter.org/software/"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
@@ -128,7 +134,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/msclust",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-10-29T05:12:59.897155Z",
+        "@timestamp": "2022-11-12T06:17:40.047088Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -145,29 +151,37 @@
                     {
                         "days": 181,
                         "serie": [
-                            180,
-                            1
+                            167,
+                            11,
+                            3
                         ],
                         "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
+                            1,
                             1
                         ],
                         "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-10-29T05:02:06.654521Z",
+                "last_check": "2022-11-12T06:08:51.982241Z",
                 "last_month_access": {
                     "average_access_time": 441,
-                    "downtime_days": 28,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 404,
-                "ssl": null,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://zhaocenter.org/software/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
