@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/m6ampred",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-11-12T10:19:14.081060Z",
+        "@timestamp": "2022-11-19T10:07:24.543391Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,17 +13,126 @@
                 "description": true
             },
             "website": {
-                "access_time": 3860,
+                "access_time": 2701,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 159,
+                        "days": 3,
                         "serie": [
-                            66,
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 157,
+                        "serie": [
+                            60,
                             76,
                             2,
-                            15
+                            18,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 504
+                    },
+                    {
+                        "days": 21,
+                        "serie": [
+                            21
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T10:07:24.481119Z",
+                "last_month_access": {
+                    "average_access_time": 4497,
+                    "downtime_days": 9,
+                    "uptime_days": 21
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://180.208.58.19/m6ampred"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://180.208.58.19/m6ampred/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:m6ampred/web/www.xjtlu.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2022-11-19T10:07:24.585216Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 4,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1016/j.ymeth.2021.01.007",
+                            "pmid": "33540081",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "m6AmPred: Identifying RNA N6, 2'-O-dimethyladenosine (m<sup>6</sup>A<sub>m</sub>) sites based on sequence-derived information.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 2632,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 156,
+                        "serie": [
+                            60,
+                            51,
+                            24,
+                            2,
+                            18,
+                            1
                         ],
                         "status": 200
                     },
@@ -45,109 +154,18 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2022-11-12T10:19:13.5939Z",
+                "last_check": "2022-11-19T10:07:24.528045Z",
                 "last_month_access": {
-                    "average_access_time": 4597,
-                    "downtime_days": 13,
-                    "uptime_days": 17
+                    "average_access_time": 4894,
+                    "downtime_days": 9,
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://www.xjtlu.edu.cn/en/study/departments/academic-departments/biological-sciences/m6am"
-                    },
-                    {
-                        "status": 301,
-                        "url": "http://180.208.58.19/m6ampred/"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:m6ampred/web/www.xjtlu.edu.cn",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2022-11-12T10:19:13.316969Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 2,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2021"
-                                }
-                            ],
-                            "doi": "10.1016/j.ymeth.2021.01.007",
-                            "pmid": "33540081",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "m6AmPred: Identifying RNA N6, 2'-O-dimethyladenosine (m<sup>6</sup>A<sub>m</sub>) sites based on sequence-derived information.",
-                            "year": 2022
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 2979,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 158,
-                        "serie": [
-                            66,
-                            51,
-                            24,
-                            2,
-                            15
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 4,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 504
-                    },
-                    {
-                        "days": 21,
-                        "serie": [
-                            21
-                        ],
-                        "status": 301
-                    }
-                ],
-                "https": false,
-                "last_check": "2022-11-12T10:19:12.857605Z",
-                "last_month_access": {
-                    "average_access_time": 5326,
-                    "downtime_days": 13,
-                    "uptime_days": 17
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://www.xjtlu.edu.cn/en/study/departments/academic-departments/biological-sciences/m6am"
+                        "url": "http://180.208.58.19/m6ampred"
                     },
                     {
                         "status": 301,
