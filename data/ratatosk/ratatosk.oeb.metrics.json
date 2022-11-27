@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ratatosk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-11-19T09:44:48.737071Z",
+        "@timestamp": "2022-11-26T09:40:26.029569Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -38,10 +38,9 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 66,
+                        "days": 63,
                         "serie": [
-                            4,
-                            2,
+                            1,
                             2,
                             1,
                             2,
@@ -78,15 +77,15 @@
                             2,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 117,
+                        "days": 120,
                         "serie": [
-                            1,
-                            1,
                             1,
                             2,
                             1,
@@ -124,15 +123,17 @@
                             1,
                             3,
                             9,
-                            3
+                            4,
+                            3,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-11-19T09:44:48.619743Z",
+                "last_check": "2022-11-26T09:40:25.487375Z",
                 "last_month_access": {
-                    "average_access_time": 559,
+                    "average_access_time": 549,
                     "downtime_days": 22,
                     "uptime_days": 8
                 },
@@ -153,7 +154,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ratatosk/undefined/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-11-19T10:29:33.252643Z",
+        "@timestamp": "2022-11-26T10:22:58.214271Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -206,10 +207,9 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 66,
+                        "days": 63,
                         "serie": [
-                            4,
-                            2,
+                            1,
                             2,
                             1,
                             2,
@@ -246,15 +246,15 @@
                             2,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 117,
+                        "days": 120,
                         "serie": [
-                            1,
-                            1,
                             1,
                             2,
                             1,
@@ -292,15 +292,17 @@
                             1,
                             3,
                             9,
-                            3
+                            4,
+                            3,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-11-19T09:44:48.619743Z",
+                "last_check": "2022-11-26T09:40:25.487375Z",
                 "last_month_access": {
-                    "average_access_time": 559,
+                    "average_access_time": 549,
                     "downtime_days": 22,
                     "uptime_days": 8
                 },
@@ -314,6 +316,61 @@
             "issue_tracking": {
                 "public_tracker": null,
                 "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ratatosk:0.7.6.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-25T10:59:13.428200Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-25T09:44:45.856358Z",
+                "last_month_access": {
+                    "average_access_time": 575,
+                    "downtime_days": 2,
+                    "uptime_days": 1
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": null,
+                "ssl_err": null
             }
         }
     }

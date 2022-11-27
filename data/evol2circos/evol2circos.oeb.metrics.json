@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/evol2circos",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-11-19T09:59:16.502926Z",
+        "@timestamp": "2022-11-26T09:54:19.196154Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -18,7 +18,7 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 109,
+                        "days": 116,
                         "serie": [
                             1,
                             3,
@@ -26,7 +26,105 @@
                             2,
                             13,
                             54,
-                            33
+                            40
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 14,
+                        "serie": [
+                            3,
+                            10,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            8,
+                            1,
+                            2,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 38,
+                        "serie": [
+                            10,
+                            5,
+                            19,
+                            4
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-26T09:54:19.133068Z",
+                "last_month_access": {
+                    "average_access_time": 3062,
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:evol2circos/web/mail.nbfgr.res.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2022-11-26T09:54:19.201303Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                }
+                            ],
+                            "doi": "10.1093/jhered/esaa025",
+                            "pmid": "32710771",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Evol2Circos: A web-based tool for genome synteny and collinearity analysis and its visualization in fishes. ",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 116,
+                        "serie": [
+                            1,
+                            3,
+                            3,
+                            2,
+                            13,
+                            54,
+                            40
                         ],
                         "status": 404
                     },
@@ -54,111 +152,9 @@
                         "status": 408
                     },
                     {
-                        "days": 44,
+                        "days": 37,
                         "serie": [
-                            1,
-                            15,
-                            5,
-                            19,
-                            4
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-11-19T09:59:16.232857Z",
-                "last_month_access": {
-                    "average_access_time": 3062,
-                    "downtime_days": 30,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 404,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:evol2circos/web/mail.nbfgr.res.in",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2022-11-19T09:59:16.275567Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": "2021"
-                                }
-                            ],
-                            "doi": "10.1093/jhered/esaa025",
-                            "pmid": "32710771",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "Evol2Circos: A web-based tool for genome synteny and collinearity analysis and its visualization in fishes. ",
-                            "year": 2020
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 109,
-                        "serie": [
-                            1,
-                            3,
-                            3,
-                            2,
-                            13,
-                            54,
-                            33
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 14,
-                        "serie": [
-                            3,
                             10,
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 17,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            8,
-                            1,
-                            2,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 43,
-                        "serie": [
-                            1,
-                            15,
                             5,
                             15,
                             3,
@@ -168,14 +164,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-11-19T09:59:16.218004Z",
+                "last_check": "2022-11-26T09:54:19.133456Z",
                 "last_month_access": {
                     "average_access_time": 5168,
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 408,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -185,7 +181,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:evol2circos/suite/mail.nbfgr.res.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-11-19T09:59:16.504415Z",
+        "@timestamp": "2022-11-26T09:54:19.196538Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -220,7 +216,7 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 108,
+                        "days": 115,
                         "serie": [
                             1,
                             3,
@@ -229,7 +225,7 @@
                             13,
                             15,
                             38,
-                            33
+                            40
                         ],
                         "status": 404
                     },
@@ -243,9 +239,8 @@
                         "status": 503
                     },
                     {
-                        "days": 17,
+                        "days": 16,
                         "serie": [
-                            1,
                             1,
                             1,
                             1,
@@ -258,10 +253,9 @@
                         "status": 408
                     },
                     {
-                        "days": 44,
+                        "days": 38,
                         "serie": [
-                            1,
-                            15,
+                            10,
                             5,
                             19,
                             4
@@ -270,14 +264,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-11-19T09:59:16.231872Z",
+                "last_check": "2022-11-26T09:54:19.133514Z",
                 "last_month_access": {
                     "average_access_time": 17816,
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 408,
                 "ssl": true,
                 "ssl_err": null
             }
