@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/procanbio",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-12-24T10:10:45.530689Z",
+        "@timestamp": "2022-12-31T10:17:18.817920Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,7 +13,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 749,
+                "access_time": 853,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -25,10 +25,9 @@
                         "status": 403
                     },
                     {
-                        "days": 165,
+                        "days": 167,
                         "serie": [
-                            2,
-                            16,
+                            13,
                             8,
                             12,
                             12,
@@ -38,7 +37,101 @@
                             30,
                             24,
                             3,
-                            18
+                            25
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 14,
+                        "serie": [
+                            1,
+                            1,
+                            5,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-12-31T10:17:18.737186Z",
+                "last_month_access": {
+                    "average_access_time": 955,
+                    "downtime_days": 2,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:procanbio/web/webs.iiitd.edu.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2022-12-31T10:17:18.830785Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.06.06.447247",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "ProCanBio: a database of manually curated biomarkers for Prostate Cancer",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 832,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 166,
+                        "serie": [
+                            13,
+                            1,
+                            6,
+                            12,
+                            12,
+                            2,
+                            6,
+                            32,
+                            30,
+                            24,
+                            3,
+                            25
                         ],
                         "status": 200
                     },
@@ -60,108 +153,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-12-24T10:10:45.480389Z",
+                "last_check": "2022-12-31T10:17:18.774354Z",
                 "last_month_access": {
-                    "average_access_time": 981,
+                    "average_access_time": 883,
                     "downtime_days": 2,
-                    "uptime_days": 27
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:procanbio/web/webs.iiitd.edu.in",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2022-12-24T10:10:45.598960Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "manual": true
-            },
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 0,
-                            "citations": [],
-                            "doi": "10.1101/2021.06.06.447247",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "ProCanBio: a database of manually curated biomarkers for Prostate Cancer",
-                            "year": 2021
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 758,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
-                        ],
-                        "status": 403
-                    },
-                    {
-                        "days": 164,
-                        "serie": [
-                            2,
-                            16,
-                            1,
-                            6,
-                            12,
-                            12,
-                            2,
-                            6,
-                            32,
-                            30,
-                            24,
-                            3,
-                            18
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 16,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            5,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-12-24T10:10:45.539102Z",
-                "last_month_access": {
-                    "average_access_time": 924,
-                    "downtime_days": 2,
-                    "uptime_days": 27
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -174,7 +170,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:procanbio/db/webs.iiitd.edu.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-12-24T10:10:45.571685Z",
+        "@timestamp": "2022-12-31T10:17:18.805312Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -205,7 +201,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 752,
+                "access_time": 836,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -217,10 +213,9 @@
                         "status": 403
                     },
                     {
-                        "days": 164,
+                        "days": 166,
                         "serie": [
-                            2,
-                            16,
+                            13,
                             1,
                             6,
                             12,
@@ -231,14 +226,13 @@
                             30,
                             24,
                             3,
-                            18
+                            25
                         ],
                         "status": 200
                     },
                     {
-                        "days": 16,
+                        "days": 15,
                         "serie": [
-                            1,
                             1,
                             1,
                             1,
@@ -254,11 +248,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-12-24T10:10:45.514063Z",
+                "last_check": "2022-12-31T10:17:18.741464Z",
                 "last_month_access": {
-                    "average_access_time": 967,
+                    "average_access_time": 935,
                     "downtime_days": 2,
-                    "uptime_days": 27
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,

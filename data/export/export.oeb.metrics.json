@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:export:2.2/web/galaxy.pasteur.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-12-24T04:26:18.873832Z",
+        "@timestamp": "2022-12-31T04:27:41.923718Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -12,7 +12,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1030,
+                            "cit_count": 1045,
                             "citations": [
                                 {
                                     "count": 28,
@@ -39,7 +39,7 @@
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 48,
+                                    "count": 63,
                                     "year": "2022"
                                 }
                             ],
@@ -106,79 +106,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 173,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 9,
-                        "serie": [
-                            2,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 172,
-                        "serie": [
-                            9,
-                            92,
-                            4,
-                            3,
-                            2,
-                            3,
-                            1,
-                            58
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-12-24T04:26:18.786843Z",
-                "last_month_access": {
-                    "average_access_time": 244,
-                    "downtime_days": 0,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Fexport_data%2Fexport%2F2.2"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/export",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-12-24T04:07:47.893647Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 262,
+                "access_time": 200,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -197,23 +125,95 @@
                     {
                         "days": 173,
                         "serie": [
-                            102,
+                            3,
+                            92,
                             4,
                             3,
                             2,
                             3,
                             1,
-                            58
+                            65
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-12-31T04:27:41.869361Z",
+                "last_month_access": {
+                    "average_access_time": 244,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Fexport_data%2Fexport%2F2.2"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/export",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-12-31T04:09:34.152219Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 240,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 9,
+                        "serie": [
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 174,
+                        "serie": [
+                            96,
+                            4,
+                            3,
+                            2,
+                            3,
+                            1,
+                            65
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-12-24T04:07:47.724975Z",
+                "last_check": "2022-12-31T04:09:34.081443Z",
                 "last_month_access": {
-                    "average_access_time": 264,
+                    "average_access_time": 267,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -232,7 +232,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:export:3.1/workflow/toolshed.g2.bx.psu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "galaxy",
-        "@timestamp": "2022-12-24T04:12:24.415710Z",
+        "@timestamp": "2022-12-31T04:14:05.674774Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -247,18 +247,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 183,
                         "serie": [
-                            182
+                            183
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-12-24T04:12:24.343906Z",
+                "last_check": "2022-12-31T04:14:05.583313Z",
                 "last_month_access": {
                     "average_access_time": 1021,
-                    "downtime_days": 29,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
