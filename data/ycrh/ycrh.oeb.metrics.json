@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ycrh",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-01-07T09:09:57.340912Z",
+        "@timestamp": "2023-01-14T09:14:27.433950Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -25,15 +25,21 @@
                         "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2023-01-07T09:09:57.290222Z",
+                "https": true,
+                "last_check": "2023-01-14T09:14:27.384062Z",
                 "last_month_access": {
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://sandboxproject.ca/ycrh-ebook/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
