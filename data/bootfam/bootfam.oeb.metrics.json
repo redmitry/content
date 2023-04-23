@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bootfam/cmd/www.csc.kth.se",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-15T01:23:39.378332Z",
+        "@timestamp": "2023-04-22T01:23:06.378130Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -32,10 +32,17 @@
                 "description": true
             },
             "website": {
-                "access_time": 512,
+                "access_time": 503,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 403
+                    },
                     {
                         "days": 2,
                         "serie": [
@@ -45,31 +52,33 @@
                         "status": 500
                     },
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
+                            1,
                             1,
                             1
                         ],
                         "status": 503
                     },
                     {
-                        "days": 177,
+                        "days": 175,
                         "serie": [
-                            107,
+                            100,
                             2,
                             37,
                             10,
-                            21
+                            24,
+                            2
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-15T01:23:39.307458Z",
+                "last_check": "2023-04-22T01:23:06.269937Z",
                 "last_month_access": {
-                    "average_access_time": 527,
-                    "downtime_days": 1,
-                    "uptime_days": 29
+                    "average_access_time": 542,
+                    "downtime_days": 3,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
@@ -91,7 +100,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bootfam",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-04-15T01:20:10.594957Z",
+        "@timestamp": "2023-04-22T01:19:41.508796Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -101,13 +110,14 @@
                 "description": true
             },
             "website": {
-                "access_time": 1105,
+                "access_time": 912,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
+                            1,
                             1
                         ],
                         "status": 403
@@ -122,23 +132,31 @@
                         "status": 500
                     },
                     {
-                        "days": 177,
+                        "days": 1,
                         "serie": [
-                            103,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 175,
+                        "serie": [
+                            96,
                             6,
                             37,
                             10,
-                            21
+                            24,
+                            2
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-15T01:20:10.505199Z",
+                "last_check": "2023-04-22T01:19:41.438307Z",
                 "last_month_access": {
-                    "average_access_time": 1385,
-                    "downtime_days": 1,
-                    "uptime_days": 29
+                    "average_access_time": 1400,
+                    "downtime_days": 3,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,

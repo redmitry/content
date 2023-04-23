@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mpa:1.0/app/www.medcomp.medicina.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-15T02:48:57.071246Z",
+        "@timestamp": "2023-04-22T02:42:54.611647Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -102,15 +102,21 @@
                         "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2023-04-15T02:39:12.999548Z",
+                "https": true,
+                "last_check": "2023-04-22T02:42:54.549277Z",
                 "last_month_access": {
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.medcomp.medicina.unipd.it/stefano/mpa/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -122,7 +128,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mpa",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-04-15T02:39:13.212524Z",
+        "@timestamp": "2023-04-22T02:33:38.510756Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -144,15 +150,21 @@
                         "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2023-04-15T02:39:12.999548Z",
+                "https": true,
+                "last_check": "2023-04-22T02:33:38.360601Z",
                 "last_month_access": {
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.medcomp.medicina.unipd.it/stefano/mpa/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ws_snps_and_go/web/snps.biofold.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-15T04:29:16.959462Z",
+        "@timestamp": "2023-04-22T04:18:15.123559Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -391,30 +391,29 @@
                 "description": true
             },
             "website": {
-                "access_time": 482,
+                "access_time": 481,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 179,
+                        "days": 180,
                         "serie": [
-                            6,
-                            173
+                            180
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 1,
                         "serie": [
-                            2
+                            1
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-15T04:29:16.865533Z",
+                "last_check": "2023-04-22T04:18:15.034509Z",
                 "last_month_access": {
-                    "average_access_time": 506,
+                    "average_access_time": 511,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -439,7 +438,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ws_snps_and_go/soap/snps.biofold.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-15T04:31:03.281110Z",
+        "@timestamp": "2023-04-22T04:20:04.782363Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -827,32 +826,33 @@
                 "description": true
             },
             "website": {
-                "access_time": 571,
+                "access_time": 508,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 179,
                         "serie": [
-                            6,
-                            173
+                            175,
+                            4
                         ],
                         "status": 200
                     },
                     {
                         "days": 2,
                         "serie": [
-                            2
+                            1,
+                            1
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-15T04:31:03.180756Z",
+                "last_check": "2023-04-22T04:20:04.661376Z",
                 "last_month_access": {
-                    "average_access_time": 482,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 487,
+                    "downtime_days": 1,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -878,7 +878,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ws_snps_and_go",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-04-15T04:29:23.570518Z",
+        "@timestamp": "2023-04-22T04:18:26.710935Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -888,33 +888,112 @@
                 "description": true
             },
             "website": {
-                "access_time": 552,
+                "access_time": 470,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 179,
+                        "days": 180,
                         "serie": [
-                            6,
-                            173
+                            180
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 1,
                         "serie": [
-                            2
+                            1
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-15T04:29:23.477228Z",
+                "last_check": "2023-04-22T04:18:26.610591Z",
                 "last_month_access": {
-                    "average_access_time": 486,
+                    "average_access_time": 478,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://snps.biofold.org/snps-and-go"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://snps.biofold.org/snps-and-go/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ws_snps_and_go:2.0/soap/snps.biofold.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2023-04-22T06:46:12.374341Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 312,
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "last_check": "2023-04-22T06:46:12.359068Z",
+                "last_month_access": {},
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://snps.biofold.org/snps-and-go"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://snps.biofold.org/snps-and-go/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ws_snps_and_go:2.0/web/snps.biofold.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2023-04-22T06:46:12.483226Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 427,
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "last_check": "2023-04-22T06:46:12.473828Z",
+                "last_month_access": {},
                 "license": false,
                 "operational": 200,
                 "redirects": [
