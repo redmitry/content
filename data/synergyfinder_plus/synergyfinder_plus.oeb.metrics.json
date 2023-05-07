@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:synergyfinder_plus/web/www.synergyfinderplus.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-22T05:25:22.744385Z",
+        "@timestamp": "2023-05-06T05:30:49.110259Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -35,6 +35,210 @@
                     ]
                 }
             ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 83,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 11,
+                        "serie": [
+                            2,
+                            5,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 164,
+                        "serie": [
+                            72,
+                            13,
+                            2,
+                            1,
+                            10,
+                            27,
+                            14,
+                            4,
+                            1,
+                            20
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2023-05-06T05:30:49.004709Z",
+                "last_month_access": {
+                    "average_access_time": 886,
+                    "downtime_days": 4,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:synergyfinder_plus/lib/www.synergyfinderplus.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2023-05-06T05:30:49.107923Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.06.01.446564",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "SynergyFinder Plus: Toward Better Interpretation and Annotation of Drug Combination Screening Datasets",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 109,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 11,
+                        "serie": [
+                            2,
+                            5,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 164,
+                        "serie": [
+                            72,
+                            13,
+                            2,
+                            1,
+                            10,
+                            27,
+                            14,
+                            4,
+                            1,
+                            20
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2023-05-06T05:30:49.051252Z",
+                "last_month_access": {
+                    "average_access_time": 1120,
+                    "downtime_days": 4,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/synergyfinder_plus",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2023-05-06T05:30:49.215921Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
             "summary": {
                 "description": true
             },
@@ -65,9 +269,8 @@
                         "status": 500
                     },
                     {
-                        "days": 12,
+                        "days": 11,
                         "serie": [
-                            1,
                             2,
                             5,
                             1,
@@ -80,8 +283,7 @@
                     {
                         "days": 164,
                         "serie": [
-                            11,
-                            75,
+                            72,
                             13,
                             2,
                             1,
@@ -90,7 +292,7 @@
                             14,
                             4,
                             1,
-                            6
+                            20
                         ],
                         "status": 200
                     },
@@ -103,218 +305,10 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2023-04-22T05:25:22.660593Z",
+                "last_check": "2023-05-06T05:30:48.965512Z",
                 "last_month_access": {
-                    "average_access_time": 1839,
-                    "downtime_days": 5,
-                    "uptime_days": 25
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:synergyfinder_plus/lib/www.synergyfinderplus.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2023-04-22T05:25:22.770210Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "manual": true
-            },
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 0,
-                            "citations": [],
-                            "doi": "10.1101/2021.06.01.446564",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "SynergyFinder Plus: Toward Better Interpretation and Annotation of Drug Combination Screening Datasets",
-                            "year": 2021
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 225,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 403
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 12,
-                        "serie": [
-                            1,
-                            2,
-                            5,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 164,
-                        "serie": [
-                            11,
-                            75,
-                            13,
-                            2,
-                            1,
-                            10,
-                            27,
-                            14,
-                            4,
-                            1,
-                            6
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": false,
-                "last_check": "2023-04-22T05:25:22.652314Z",
-                "last_month_access": {
-                    "average_access_time": 2469,
-                    "downtime_days": 5,
-                    "uptime_days": 25
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/synergyfinder_plus",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2023-04-22T05:25:22.800274Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 298,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 403
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 12,
-                        "serie": [
-                            1,
-                            2,
-                            5,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 164,
-                        "serie": [
-                            11,
-                            75,
-                            13,
-                            2,
-                            1,
-                            10,
-                            27,
-                            14,
-                            4,
-                            1,
-                            6
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": false,
-                "last_check": "2023-04-22T05:25:22.662811Z",
-                "last_month_access": {
-                    "average_access_time": 2255,
-                    "downtime_days": 5,
+                    "average_access_time": 1015,
+                    "downtime_days": 4,
                     "uptime_days": 25
                 },
                 "license": false,

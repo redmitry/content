@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oligo-analysis:1/web/rsat.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-22T02:52:01.610224Z",
+        "@timestamp": "2023-05-06T02:53:13.294664Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {},
@@ -583,7 +583,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 230,
+                "access_time": 359,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -602,12 +602,12 @@
                         "status": 503
                     },
                     {
-                        "days": 163,
+                        "days": 162,
                         "serie": [
-                            69,
+                            54,
                             27,
                             44,
-                            23
+                            37
                         ],
                         "status": 200
                     },
@@ -628,11 +628,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-22T02:52:01.480237Z",
+                "last_check": "2023-05-06T02:53:13.167259Z",
                 "last_month_access": {
-                    "average_access_time": 631,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 484,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -654,12 +654,663 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oligo-analysis:1/cmd/rsat.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-22T02:52:25.043290Z",
+        "@timestamp": "2023-05-06T02:53:39.034295Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {},
             "sourcecode": {
                 "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "citation": true,
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 363,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 23,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 23,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 29,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 26,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.1998.1947",
+                            "pmid": "9719638",
+                            "ref_count": 46,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1984"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1985"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1986"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                }
+                            ],
+                            "title": "Extracting regulatory sites from the upstream region of yeast genes by computational analysis of oligonucleotide frequencies.",
+                            "year": 1998
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 92,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/nar/28.4.1000",
+                            "pmcid": "PMC102588",
+                            "pmid": "10648794",
+                            "ref_count": 40,
+                            "refs": [
+                                {
+                                    "count": 6,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                }
+                            ],
+                            "title": "Statistical analysis of yeast genomic downstream sequences reveals putative polyadenylation signals.",
+                            "year": 2000
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 160,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 32,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 41,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 42,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkv362",
+                            "pmcid": "PMC4489296",
+                            "pmid": "25904632",
+                            "ref_count": 28,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "RSAT 2015: Regulatory Sequence Analysis Tools.",
+                            "year": 2015
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 301,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 40,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 41,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkg567",
+                            "pmcid": "PMC168973",
+                            "pmid": "12824373",
+                            "ref_count": 10,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                }
+                            ],
+                            "title": "Regulatory sequence analysis tools.",
+                            "year": 2003
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 216,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 162,
+                        "serie": [
+                            54,
+                            27,
+                            44,
+                            37
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            14,
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-05-06T02:53:38.901559Z",
+                "last_month_access": {
+                    "average_access_time": 240,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://rsat.france-bioinformatique.fr/teaching/RSAT_portal.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oligo-analysis:1/soap/rsat.eu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2023-05-06T02:55:26.896026Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {},
+            "sourcecode": {
                 "repository": {}
             }
         },
@@ -1254,664 +1905,13 @@
                         "status": 503
                     },
                     {
-                        "days": 163,
+                        "days": 161,
                         "serie": [
-                            69,
-                            27,
-                            44,
-                            23
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 15,
-                        "serie": [
-                            14,
-                            1
-                        ],
-                        "status": 301
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-04-22T02:52:24.884829Z",
-                "last_month_access": {
-                    "average_access_time": 234,
-                    "downtime_days": 2,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://rsat.france-bioinformatique.fr/teaching/RSAT_portal.html"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oligo-analysis:1/soap/rsat.eu",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2023-04-22T02:54:20.751969Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {},
-            "sourcecode": {
-                "repository": {}
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "citation": true,
-                "general": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 363,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 11,
-                                    "year": "1999"
-                                },
-                                {
-                                    "count": 18,
-                                    "year": "2000"
-                                },
-                                {
-                                    "count": 23,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 22,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 24,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 23,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 31,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 29,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 26,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 19,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 27,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 15,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 15,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 13,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1006/jmbi.1998.1947",
-                            "pmid": "9719638",
-                            "ref_count": 46,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1984"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1985"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1986"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "1987"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1989"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "1990"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "1991"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "1992"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1993"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1994"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "1995"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "1996"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "1997"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                }
-                            ],
-                            "title": "Extracting regulatory sites from the upstream region of yeast genes by computational analysis of oligonucleotide frequencies.",
-                            "year": 1998
-                        }
-                    ]
-                },
-                {
-                    "entries": [
-                        {
-                            "cit_count": 92,
-                            "citations": [
-                                {
-                                    "count": 4,
-                                    "year": "2000"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 12,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1093/nar/28.4.1000",
-                            "pmcid": "PMC102588",
-                            "pmid": "10648794",
-                            "ref_count": 40,
-                            "refs": [
-                                {
-                                    "count": 6,
-                                    "year": "0"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1982"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1987"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1988"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1989"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1990"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "1992"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1993"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1994"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "1995"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1996"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "1997"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "1999"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2000"
-                                }
-                            ],
-                            "title": "Statistical analysis of yeast genomic downstream sequences reveals putative polyadenylation signals.",
-                            "year": 2000
-                        }
-                    ]
-                },
-                {
-                    "entries": [
-                        {
-                            "cit_count": 160,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 32,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 41,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 42,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 17,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 11,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1093/nar/gkv362",
-                            "pmcid": "PMC4489296",
-                            "pmid": "25904632",
-                            "ref_count": 28,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2000"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2014"
-                                }
-                            ],
-                            "title": "RSAT 2015: Regulatory Sequence Analysis Tools.",
-                            "year": 2015
-                        }
-                    ]
-                },
-                {
-                    "entries": [
-                        {
-                            "cit_count": 301,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 18,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 13,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 21,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 40,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 41,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 18,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 20,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 25,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 24,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 20,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 13,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 13,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 11,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1093/nar/gkg567",
-                            "pmcid": "PMC168973",
-                            "pmid": "12824373",
-                            "ref_count": 10,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "0"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1990"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1995"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1999"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2000"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                }
-                            ],
-                            "title": "Regulatory sequence analysis tools.",
-                            "year": 2003
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 225,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 162,
-                        "serie": [
-                            69,
+                            54,
                             12,
                             14,
                             44,
-                            23
+                            37
                         ],
                         "status": 200
                     },
@@ -1933,11 +1933,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-22T02:54:20.607889Z",
+                "last_check": "2023-05-06T02:55:26.766651Z",
                 "last_month_access": {
-                    "average_access_time": 274,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 280,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -1959,7 +1959,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/oligo-analysis",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-04-22T02:54:31.619708Z",
+        "@timestamp": "2023-05-06T02:55:44.949517Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -1974,25 +1974,25 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 97,
+                        "days": 82,
                         "serie": [
-                            97
+                            82
                         ],
                         "status": 200
                     },
                     {
-                        "days": 84,
+                        "days": 98,
                         "serie": [
-                            84
+                            98
                         ],
                         "status": 301
                     }
                 ],
                 "https": false,
-                "last_check": "2023-04-22T02:54:31.378183Z",
+                "last_check": "2023-05-06T02:55:44.881132Z",
                 "last_month_access": {
                     "average_access_time": 588,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -2012,7 +2012,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oligo-analysis:1/cmd/teaching.rsat.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-22T04:23:53.253490Z",
+        "@timestamp": "2023-05-06T04:25:06.629049Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {},
@@ -2601,25 +2601,25 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 97,
+                        "days": 82,
                         "serie": [
-                            97
+                            82
                         ],
                         "status": 200
                     },
                     {
-                        "days": 84,
+                        "days": 98,
                         "serie": [
-                            84
+                            98
                         ],
                         "status": 301
                     }
                 ],
                 "https": false,
-                "last_check": "2023-04-22T04:23:53.082682Z",
+                "last_check": "2023-05-06T04:25:06.553144Z",
                 "last_month_access": {
                     "average_access_time": 452,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -2639,7 +2639,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oligo-analysis:1/web/teaching.rsat.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-22T04:23:53.234927Z",
+        "@timestamp": "2023-05-06T04:25:06.631546Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {},
@@ -3228,25 +3228,25 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 97,
+                        "days": 82,
                         "serie": [
-                            97
+                            82
                         ],
                         "status": 200
                     },
                     {
-                        "days": 84,
+                        "days": 98,
                         "serie": [
-                            84
+                            98
                         ],
                         "status": 301
                     }
                 ],
                 "https": false,
-                "last_check": "2023-04-22T04:23:53.082159Z",
+                "last_check": "2023-05-06T04:25:06.549624Z",
                 "last_month_access": {
                     "average_access_time": 440,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -3266,7 +3266,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oligo-analysis:1/soap/teaching.rsat.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-04-22T04:23:53.244051Z",
+        "@timestamp": "2023-05-06T04:25:10.701366Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {},
@@ -3855,25 +3855,25 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 97,
+                        "days": 82,
                         "serie": [
-                            97
+                            82
                         ],
                         "status": 200
                     },
                     {
-                        "days": 84,
+                        "days": 98,
                         "serie": [
-                            84
+                            98
                         ],
                         "status": 301
                     }
                 ],
                 "https": false,
-                "last_check": "2023-04-22T04:23:53.082079Z",
+                "last_check": "2023-05-06T04:25:10.629187Z",
                 "last_month_access": {
                     "average_access_time": 493,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -3893,7 +3893,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:oligo-analysis:2020.01.04/cmd/rsat.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-04-22T04:28:22.459511Z",
+        "@timestamp": "2023-05-06T04:29:21.297703Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -4005,7 +4005,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 278,
+                "access_time": 277,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -4024,13 +4024,13 @@
                         "status": 503
                     },
                     {
-                        "days": 162,
+                        "days": 161,
                         "serie": [
-                            69,
+                            54,
                             12,
                             14,
                             44,
-                            23
+                            37
                         ],
                         "status": 200
                     },
@@ -4052,11 +4052,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-22T04:28:22.288443Z",
+                "last_check": "2023-05-06T04:29:21.177667Z",
                 "last_month_access": {
-                    "average_access_time": 289,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 280,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -4075,7 +4075,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:oligo-analysis:2020.02.28/cmd/rsat.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-04-22T04:29:20.980199Z",
+        "@timestamp": "2023-05-06T04:30:25.492211Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -4187,7 +4187,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 257,
+                "access_time": 253,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -4206,13 +4206,13 @@
                         "status": 503
                     },
                     {
-                        "days": 162,
+                        "days": 161,
                         "serie": [
-                            69,
+                            54,
                             12,
                             14,
                             44,
-                            23
+                            37
                         ],
                         "status": 200
                     },
@@ -4234,11 +4234,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-22T04:29:20.888235Z",
+                "last_check": "2023-05-06T04:30:25.367206Z",
                 "last_month_access": {
-                    "average_access_time": 364,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 387,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -4257,7 +4257,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:oligo-analysis:2020.02.29/cmd/rsat.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-04-22T04:29:21.210519Z",
+        "@timestamp": "2023-05-06T04:30:25.996404Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -4369,7 +4369,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 80,
+                "access_time": 82,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -4388,13 +4388,13 @@
                         "status": 503
                     },
                     {
-                        "days": 162,
+                        "days": 161,
                         "serie": [
-                            69,
+                            54,
                             12,
                             14,
                             44,
-                            23
+                            37
                         ],
                         "status": 200
                     },
@@ -4416,11 +4416,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-04-22T04:29:21.143895Z",
+                "last_check": "2023-05-06T04:30:25.854111Z",
                 "last_month_access": {
-                    "average_access_time": 120,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 127,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
