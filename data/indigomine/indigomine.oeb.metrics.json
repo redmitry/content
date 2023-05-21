@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:indigomine:1.1/web/www.cbrc.kaust.edu.sa",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-05-11T06:33:24.622935Z",
+        "@timestamp": "2023-05-20T06:45:59.223402Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -108,47 +108,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 2966,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 48,
+                        "days": 50,
                         "serie": [
-                            48
+                            48,
+                            2
                         ],
                         "status": 503
                     },
                     {
-                        "days": 132,
+                        "days": 130,
                         "serie": [
-                            34,
-                            98
+                            25,
+                            105
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2023-05-11T06:33:24.568178Z",
+                "last_check": "2023-05-20T06:45:59.157381Z",
                 "last_month_access": {
-                    "average_access_time": 1700,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "average_access_time": 2147,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://www.cbrc.kaust.edu.sa/indigo"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.cbrc.kaust.edu.sa/indigo/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.cbrc.kaust.edu.sa/indigo/begin.do"
                     }
                 ],
                 "ssl": true,
@@ -160,7 +153,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/indigomine",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-05-12T02:13:46.842609Z",
+        "@timestamp": "2023-05-20T02:16:30.510506Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -170,7 +163,159 @@
                 "description": true
             },
             "website": {
-                "access_time": 2455,
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 50,
+                        "serie": [
+                            48,
+                            1,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 130,
+                        "serie": [
+                            25,
+                            7,
+                            98
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-05-20T02:16:30.458523Z",
+                "last_month_access": {
+                    "average_access_time": 1123,
+                    "downtime_days": 1,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 503,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.cbrc.kaust.edu.sa/indigo"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:indigomine:1.1/db/www.cbrc.kaust.edu.sa",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2023-05-20T02:16:27.345825Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true,
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 158,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 23,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bts577",
+                            "pmcid": "PMC3516146",
+                            "pmid": "23023984",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -185,191 +330,25 @@
                     {
                         "days": 131,
                         "serie": [
-                            33,
-                            7,
-                            91
+                            25,
+                            106
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2023-05-12T02:13:46.767449Z",
+                "last_check": "2023-05-20T02:16:27.285361Z",
                 "last_month_access": {
-                    "average_access_time": 1016,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 1413,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://www.cbrc.kaust.edu.sa/indigo"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.cbrc.kaust.edu.sa/indigo/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.cbrc.kaust.edu.sa/indigo/begin.do"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:indigomine:1.1/db/www.cbrc.kaust.edu.sa",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2023-05-12T02:13:44.474504Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": false
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "api": true,
-                "manual": true
-            },
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 158,
-                            "citations": [
-                                {
-                                    "count": 9,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 16,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 15,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 13,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 21,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 25,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 23,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 15,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 13,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/bts577",
-                            "pmcid": "PMC3516146",
-                            "pmid": "23023984",
-                            "ref_count": 12,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2012"
-                                }
-                            ],
-                            "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
-                            "year": 2012
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 2069,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 48,
-                        "serie": [
-                            48
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 132,
-                        "serie": [
-                            33,
-                            99
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-05-12T02:13:44.417483Z",
-                "last_month_access": {
-                    "average_access_time": 1395,
-                    "downtime_days": 0,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "https://www.cbrc.kaust.edu.sa/indigo"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.cbrc.kaust.edu.sa/indigo/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.cbrc.kaust.edu.sa/indigo/begin.do"
                     }
                 ],
                 "ssl": true,
@@ -381,7 +360,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:indigomine:1.1/soap/www.cbrc.kaust.edu.sa",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-05-12T02:14:21.170820Z",
+        "@timestamp": "2023-05-20T02:17:16.049535Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -486,47 +465,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 732,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 48,
+                        "days": 49,
                         "serie": [
-                            48
+                            48,
+                            1
                         ],
                         "status": 503
                     },
                     {
-                        "days": 132,
+                        "days": 131,
                         "serie": [
-                            33,
-                            99
+                            25,
+                            106
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2023-05-12T02:14:21.115838Z",
+                "last_check": "2023-05-20T02:17:15.990768Z",
                 "last_month_access": {
-                    "average_access_time": 1813,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 1853,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://www.cbrc.kaust.edu.sa/indigo"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.cbrc.kaust.edu.sa/indigo/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.cbrc.kaust.edu.sa/indigo/begin.do"
                     }
                 ],
                 "ssl": true,
