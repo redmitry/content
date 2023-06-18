@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:diversity_gis_editor/app/diversityworkbench.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-06-03T01:49:29.105711Z",
+        "@timestamp": "2023-06-17T01:51:02.611396Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -26,33 +26,36 @@
                 "description": true
             },
             "website": {
-                "access_time": 45768,
+                "access_time": 5465,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 15,
+                        "days": 17,
                         "serie": [
                             1,
                             8,
                             1,
                             1,
                             2,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 500
                     },
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
+                            1,
                             1
                         ],
                         "status": 503
                     },
                     {
-                        "days": 157,
+                        "days": 153,
                         "serie": [
-                            17,
+                            3,
                             41,
                             1,
                             11,
@@ -65,7 +68,101 @@
                             3,
                             5,
                             4,
+                            3,
+                            1,
+                            4,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 9,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
                             1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-06-17T01:51:02.421525Z",
+                "last_month_access": {
+                    "average_access_time": 9087,
+                    "downtime_days": 9,
+                    "uptime_days": 21
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/diversity_gis_editor",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2023-06-17T01:51:03.225828Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 5465,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 19,
+                        "serie": [
+                            1,
+                            8,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            3
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 152,
+                        "serie": [
+                            3,
+                            41,
+                            1,
+                            11,
+                            9,
+                            6,
+                            51,
+                            6,
+                            3,
+                            3,
+                            5,
+                            4,
+                            3,
+                            1,
+                            2,
+                            3
                         ],
                         "status": 200
                     },
@@ -84,94 +181,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-06-03T01:49:28.955692Z",
+                "last_check": "2023-06-17T01:51:02.421525Z",
                 "last_month_access": {
-                    "average_access_time": 6060,
-                    "downtime_days": 8,
-                    "uptime_days": 22
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/diversity_gis_editor",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2023-06-03T01:49:38.051286Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 45808,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 15,
-                        "serie": [
-                            1,
-                            8,
-                            1,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 158,
-                        "serie": [
-                            17,
-                            41,
-                            1,
-                            11,
-                            9,
-                            6,
-                            51,
-                            6,
-                            3,
-                            3,
-                            5,
-                            4,
-                            1
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 7,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-06-03T01:49:37.887757Z",
-                "last_month_access": {
-                    "average_access_time": 5037,
-                    "downtime_days": 8,
-                    "uptime_days": 22
+                    "average_access_time": 7692,
+                    "downtime_days": 11,
+                    "uptime_days": 19
                 },
                 "license": false,
                 "operational": 200,

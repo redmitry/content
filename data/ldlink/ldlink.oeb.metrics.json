@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ldlink/suite/analysistools.nci.nih.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-06-03T02:24:30.777643Z",
+        "@timestamp": "2023-06-17T02:28:07.835165Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -15,7 +15,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 765,
+                            "cit_count": 779,
                             "citations": [
                                 {
                                     "count": 1,
@@ -42,15 +42,15 @@
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 175,
+                                    "count": 174,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 165,
+                                    "count": 164,
                                     "year": "2022"
                                 },
                                 {
-                                    "count": 31,
+                                    "count": 47,
                                     "year": "2023"
                                 }
                             ],
@@ -90,7 +90,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 6381,
+                "access_time": 1411,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -104,10 +104,10 @@
                     {
                         "days": 174,
                         "serie": [
-                            146,
+                            132,
                             1,
                             26,
-                            1
+                            15
                         ],
                         "status": 200
                     },
@@ -121,82 +121,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-06-03T02:24:30.596562Z",
+                "last_check": "2023-06-17T02:28:07.727113Z",
                 "last_month_access": {
-                    "average_access_time": 7572,
-                    "downtime_days": 2,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://analysistools.nci.nih.gov:443/LDlink/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://analysistools.cancer.gov//LDlink"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://analysistools.cancer.gov/LDlink/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/ldlink",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2023-06-03T02:29:53.516172Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 3715,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 5,
-                        "serie": [
-                            5
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 175,
-                        "serie": [
-                            146,
-                            28,
-                            1
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 302
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-06-03T02:29:53.442667Z",
-                "last_month_access": {
-                    "average_access_time": 2582,
+                    "average_access_time": 8411,
                     "downtime_days": 1,
                     "uptime_days": 29
                 },
@@ -212,7 +139,80 @@
                         "url": "https://analysistools.cancer.gov//LDlink"
                     },
                     {
+                        "status": 301,
+                        "url": "https://analysistools.cancer.gov/LDlink/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ldlink",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2023-06-16T02:29:15.851445Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1230,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 175,
+                        "serie": [
+                            133,
+                            28,
+                            14
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-06-16T02:29:15.719415Z",
+                "last_month_access": {
+                    "average_access_time": 2072,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://analysistools.nci.nih.gov:443/LDlink/"
+                    },
+                    {
                         "status": 302,
+                        "url": "https://analysistools.cancer.gov//LDlink"
+                    },
+                    {
+                        "status": 301,
                         "url": "https://analysistools.cancer.gov/LDlink/"
                     }
                 ],
