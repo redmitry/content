@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/beagle-lib",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-06-25T01:13:52.463400Z",
+        "@timestamp": "2023-07-02T01:13:37.085961Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,16 +33,13 @@
                 "description": true
             },
             "website": {
-                "access_time": 446,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 101,
+                        "days": 102,
                         "serie": [
-                            2,
-                            2,
-                            1,
                             2,
                             1,
                             5,
@@ -78,16 +75,16 @@
                             3,
                             9,
                             3,
+                            2,
+                            4,
                             2
                         ],
                         "status": 200
                     },
                     {
-                        "days": 80,
+                        "days": 78,
                         "serie": [
-                            1,
-                            1,
-                            6,
+                            5,
                             2,
                             2,
                             1,
@@ -123,20 +120,21 @@
                             1,
                             1,
                             2,
+                            1,
                             1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-06-25T01:05:57.405122Z",
+                "last_check": "2023-07-02T01:06:53.652814Z",
                 "last_month_access": {
-                    "average_access_time": 541,
-                    "downtime_days": 10,
-                    "uptime_days": 20
+                    "average_access_time": 534,
+                    "downtime_days": 6,
+                    "uptime_days": 23
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 429,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -152,7 +150,154 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beagle-lib:2.1.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-06-24T07:08:25.611280Z",
+        "@timestamp": "2023-07-01T07:02:46.135191Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 388,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 103,
+                        "serie": [
+                            2,
+                            1,
+                            5,
+                            3,
+                            3,
+                            2,
+                            2,
+                            3,
+                            2,
+                            3,
+                            2,
+                            1,
+                            6,
+                            1,
+                            1,
+                            3,
+                            1,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            4,
+                            4,
+                            9,
+                            7,
+                            1,
+                            3,
+                            1,
+                            1,
+                            6,
+                            9,
+                            2,
+                            2,
+                            4,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 77,
+                        "serie": [
+                            6,
+                            2,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            4,
+                            4,
+                            5,
+                            1,
+                            3,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            5,
+                            1,
+                            3,
+                            1,
+                            4,
+                            1,
+                            3,
+                            1,
+                            1,
+                            3,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-07-01T01:05:17.108254Z",
+                "last_month_access": {
+                    "average_access_time": 536,
+                    "downtime_days": 7,
+                    "uptime_days": 21
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2424172S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beagle-lib:3.1.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-07-02T01:09:08.329435Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -191,11 +336,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 104,
+                        "days": 102,
                         "serie": [
-                            3,
-                            2,
-                            1,
                             2,
                             1,
                             5,
@@ -221,24 +363,26 @@
                             4,
                             4,
                             9,
-                            7,
+                            3,
+                            2,
                             1,
                             3,
                             1,
                             1,
-                            6,
-                            9,
                             2,
+                            3,
+                            9,
+                            3,
+                            2,
+                            4,
                             2
                         ],
                         "status": 200
                     },
                     {
-                        "days": 77,
+                        "days": 78,
                         "serie": [
-                            1,
-                            1,
-                            6,
+                            5,
                             2,
                             2,
                             1,
@@ -264,24 +408,28 @@
                             1,
                             4,
                             1,
+                            2,
                             3,
                             1,
                             1,
                             3,
+                            1,
+                            1,
                             1,
                             1,
                             2,
-                            2
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-06-24T01:05:40.403409Z",
+                "last_check": "2023-07-02T01:06:53.652814Z",
                 "last_month_access": {
-                    "average_access_time": 530,
-                    "downtime_days": 9,
-                    "uptime_days": 21
+                    "average_access_time": 527,
+                    "downtime_days": 6,
+                    "uptime_days": 23
                 },
                 "license": false,
                 "operational": 429,
@@ -297,163 +445,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beagle-lib:3.1.1/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-06-25T01:08:17.149568Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": true,
-                "registration": false
-            },
-            "packages": true,
-            "source_packages": true,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 446,
-                "bioschemas": true,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 101,
-                        "serie": [
-                            2,
-                            2,
-                            1,
-                            2,
-                            1,
-                            5,
-                            3,
-                            3,
-                            2,
-                            2,
-                            3,
-                            2,
-                            3,
-                            2,
-                            1,
-                            6,
-                            1,
-                            1,
-                            3,
-                            1,
-                            3,
-                            1,
-                            1,
-                            2,
-                            1,
-                            4,
-                            4,
-                            9,
-                            3,
-                            2,
-                            1,
-                            3,
-                            1,
-                            1,
-                            2,
-                            3,
-                            9,
-                            3,
-                            2
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 80,
-                        "serie": [
-                            1,
-                            1,
-                            6,
-                            2,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            4,
-                            5,
-                            1,
-                            3,
-                            1,
-                            3,
-                            1,
-                            2,
-                            1,
-                            2,
-                            3,
-                            5,
-                            1,
-                            3,
-                            1,
-                            4,
-                            1,
-                            2,
-                            3,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-06-25T01:05:57.405122Z",
-                "last_month_access": {
-                    "average_access_time": 532,
-                    "downtime_days": 10,
-                    "uptime_days": 20
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT2424172S"
-            }
-        }
-    },
-    {
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beagle-lib:3.0.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-06-25T01:05:58.217645Z",
+        "@timestamp": "2023-07-02T01:06:54.023138Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -487,16 +482,13 @@
                 "description": true
             },
             "website": {
-                "access_time": 446,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 101,
+                        "days": 102,
                         "serie": [
-                            2,
-                            2,
-                            1,
                             2,
                             1,
                             5,
@@ -532,16 +524,16 @@
                             3,
                             9,
                             3,
+                            2,
+                            4,
                             2
                         ],
                         "status": 200
                     },
                     {
-                        "days": 80,
+                        "days": 78,
                         "serie": [
-                            1,
-                            1,
-                            6,
+                            5,
                             2,
                             2,
                             1,
@@ -577,20 +569,21 @@
                             1,
                             1,
                             2,
+                            1,
                             1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-06-25T01:05:57.405122Z",
+                "last_check": "2023-07-02T01:06:53.652814Z",
                 "last_month_access": {
-                    "average_access_time": 532,
-                    "downtime_days": 10,
-                    "uptime_days": 20
+                    "average_access_time": 527,
+                    "downtime_days": 6,
+                    "uptime_days": 23
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 429,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -606,7 +599,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beagle-lib:3.1.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-06-25T01:08:29.268437Z",
+        "@timestamp": "2023-07-02T01:09:17.414658Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -640,16 +633,13 @@
                 "description": true
             },
             "website": {
-                "access_time": 446,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 101,
+                        "days": 102,
                         "serie": [
-                            2,
-                            2,
-                            1,
                             2,
                             1,
                             5,
@@ -685,16 +675,16 @@
                             3,
                             9,
                             3,
+                            2,
+                            4,
                             2
                         ],
                         "status": 200
                     },
                     {
-                        "days": 80,
+                        "days": 78,
                         "serie": [
-                            1,
-                            1,
-                            6,
+                            5,
                             2,
                             2,
                             1,
@@ -730,20 +720,21 @@
                             1,
                             1,
                             2,
+                            1,
                             1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-06-25T01:05:57.405122Z",
+                "last_check": "2023-07-02T01:06:53.652814Z",
                 "last_month_access": {
-                    "average_access_time": 532,
-                    "downtime_days": 10,
-                    "uptime_days": 20
+                    "average_access_time": 527,
+                    "downtime_days": 6,
+                    "uptime_days": 23
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 429,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -759,7 +750,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beagle-lib:3.1.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-06-25T01:08:36.835089Z",
+        "@timestamp": "2023-07-02T01:09:21.863658Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -793,16 +784,13 @@
                 "description": true
             },
             "website": {
-                "access_time": 446,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 101,
+                        "days": 102,
                         "serie": [
-                            2,
-                            2,
-                            1,
                             2,
                             1,
                             5,
@@ -838,16 +826,16 @@
                             3,
                             9,
                             3,
+                            2,
+                            4,
                             2
                         ],
                         "status": 200
                     },
                     {
-                        "days": 80,
+                        "days": 78,
                         "serie": [
-                            1,
-                            1,
-                            6,
+                            5,
                             2,
                             2,
                             1,
@@ -883,20 +871,21 @@
                             1,
                             1,
                             2,
+                            1,
                             1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-06-25T01:05:57.405122Z",
+                "last_check": "2023-07-02T01:06:53.652814Z",
                 "last_month_access": {
-                    "average_access_time": 532,
-                    "downtime_days": 10,
-                    "uptime_days": 20
+                    "average_access_time": 527,
+                    "downtime_days": 6,
+                    "uptime_days": 23
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 429,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -912,7 +901,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:beagle-lib/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-06-24T05:28:59.315762Z",
+        "@timestamp": "2023-07-01T05:29:33.653102Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1039,16 +1028,13 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 388,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 99,
                         "serie": [
-                            3,
-                            2,
-                            1,
                             2,
                             1,
                             5,
@@ -1083,15 +1069,15 @@
                             3,
                             9,
                             2,
-                            2
+                            2,
+                            4,
+                            1
                         ],
                         "status": 200
                     },
                     {
                         "days": 81,
                         "serie": [
-                            1,
-                            1,
                             6,
                             2,
                             2,
@@ -1126,20 +1112,22 @@
                             1,
                             1,
                             2,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-06-24T01:05:40.403409Z",
+                "last_check": "2023-07-01T01:05:17.108254Z",
                 "last_month_access": {
-                    "average_access_time": 539,
-                    "downtime_days": 10,
-                    "uptime_days": 20
+                    "average_access_time": 544,
+                    "downtime_days": 8,
+                    "uptime_days": 21
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": null,
                 "ssl_err": null
             }
@@ -1155,7 +1143,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beagle-lib:4.0.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-06-24T06:43:07.391627Z",
+        "@timestamp": "2023-07-01T06:37:46.572817Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1189,16 +1177,13 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 388,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 102,
+                        "days": 101,
                         "serie": [
-                            3,
-                            2,
-                            1,
                             2,
                             1,
                             5,
@@ -1231,15 +1216,15 @@
                             6,
                             9,
                             2,
-                            2
+                            2,
+                            4,
+                            1
                         ],
                         "status": 200
                     },
                     {
                         "days": 79,
                         "serie": [
-                            1,
-                            1,
                             6,
                             2,
                             2,
@@ -1272,20 +1257,22 @@
                             1,
                             1,
                             2,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-06-24T01:05:40.403409Z",
+                "last_check": "2023-07-01T01:05:17.108254Z",
                 "last_month_access": {
-                    "average_access_time": 530,
-                    "downtime_days": 9,
+                    "average_access_time": 536,
+                    "downtime_days": 7,
                     "uptime_days": 21
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": null,
                 "ssl_err": null
             }
