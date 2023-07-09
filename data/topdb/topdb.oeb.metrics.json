@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:topdb/db/toPDB.enzim.hu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-07-01T04:20:02.111715Z",
+        "@timestamp": "2023-07-08T04:22:23.523730Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -126,28 +126,48 @@
                 "description": true
             },
             "website": {
-                "access_time": 597,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 3,
                         "serie": [
-                            180
+                            3
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 175,
+                        "serie": [
+                            175
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-07-01T04:19:55.911713Z",
+                "https": true,
+                "last_check": "2023-07-08T04:22:23.445715Z",
                 "last_month_access": {
-                    "average_access_time": 567,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 629,
+                    "downtime_days": 5,
+                    "uptime_days": 24
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 500,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://topdb.enzim.hu/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -159,7 +179,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/topdb",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-07-01T04:19:55.964236Z",
+        "@timestamp": "2023-07-08T04:22:17.625358Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -169,28 +189,48 @@
                 "description": true
             },
             "website": {
-                "access_time": 597,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 3,
                         "serie": [
-                            180
+                            3
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 175,
+                        "serie": [
+                            175
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-07-01T04:19:55.911713Z",
+                "https": true,
+                "last_check": "2023-07-08T04:22:17.504861Z",
                 "last_month_access": {
-                    "average_access_time": 567,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 629,
+                    "downtime_days": 5,
+                    "uptime_days": 24
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 500,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://topdb.enzim.hu/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
