@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:searchgtr/web/clustermine360.ca",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-07-08T03:49:46.652917Z",
+        "@timestamp": "2023-07-15T03:44:00.327056Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -140,7 +140,7 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2023-07-08T03:49:43.286504Z",
+                "last_check": "2023-07-15T03:44:00.24654Z",
                 "last_month_access": {
                     "average_access_time": 294,
                     "downtime_days": 29,
@@ -157,7 +157,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:searchgtr/web/www.nii.res.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-07-08T03:53:24.535191Z",
+        "@timestamp": "2023-07-15T03:45:55.442911Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -282,10 +282,10 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 50,
+                        "days": 56,
                         "serie": [
                             15,
-                            35
+                            41
                         ],
                         "status": 404
                     },
@@ -297,23 +297,36 @@
                         "status": 408
                     },
                     {
-                        "days": 129,
+                        "days": 122,
                         "serie": [
-                            129
+                            122
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2023-07-08T03:53:24.484551Z",
+                "https": true,
+                "last_check": "2023-07-15T03:45:55.373702Z",
                 "last_month_access": {
                     "average_access_time": 427,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 404,
-                "ssl": null,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://nii.res.insearchgtr.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -322,7 +335,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/searchgtr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-07-08T03:49:43.348333Z",
+        "@timestamp": "2023-07-15T03:41:57.468184Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -345,7 +358,7 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2023-07-08T03:49:43.286504Z",
+                "last_check": "2023-07-15T03:41:57.36653Z",
                 "last_month_access": {
                     "average_access_time": 294,
                     "downtime_days": 29,
@@ -362,7 +375,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:searchgtr:2.1.0/cmd/bitbucket.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-08T07:00:29.792008Z",
+        "@timestamp": "2023-07-15T06:35:33.708163Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -409,7 +422,7 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-08T03:02:58.905241Z",
+                "last_check": "2023-07-15T02:55:31.236891Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0

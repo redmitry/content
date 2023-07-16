@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bio_hansel",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-07-09T01:13:21.086904Z",
+        "@timestamp": "2023-07-16T01:09:44.304145Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,12 +33,12 @@
                 "description": true
             },
             "website": {
-                "access_time": 575,
+                "access_time": 580,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 41,
+                        "days": 46,
                         "serie": [
                             3,
                             1,
@@ -66,7 +66,9 @@
                             1,
                             1,
                             2,
-                            1
+                            2,
+                            1,
+                            3
                         ],
                         "status": 200
                     },
@@ -78,9 +80,9 @@
                         "status": 408
                     },
                     {
-                        "days": 138,
+                        "days": 133,
                         "serie": [
-                            16,
+                            9,
                             5,
                             16,
                             3,
@@ -107,17 +109,19 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:20.173833Z",
+                "last_check": "2023-07-16T01:09:43.503867Z",
                 "last_month_access": {
-                    "average_access_time": 661,
+                    "average_access_time": 703,
                     "downtime_days": 14,
-                    "uptime_days": 13
+                    "uptime_days": 15
                 },
                 "license": false,
                 "operational": 200,
@@ -142,119 +146,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:1.1.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:16:08.545191Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": true,
-            "source_packages": false,
-            "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
-                "public": true,
-                "readme": false,
-                "repository": {
-                    "anonymous": null,
-                    "online": null
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "readme": false,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 16,
-                        "serie": [
-                            3,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 163,
-                        "serie": [
-                            16,
-                            55,
-                            26,
-                            13,
-                            3,
-                            8,
-                            4,
-                            8,
-                            7,
-                            12,
-                            2,
-                            6,
-                            3
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-07-09T01:13:57.449061Z",
-                "last_month_access": {
-                    "average_access_time": 654,
-                    "downtime_days": 23,
-                    "uptime_days": 5
-                },
-                "license": false,
-                "operational": 429,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://github.com/phac-nml/biohansel"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:0.1.0/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:14:34.009308Z",
+        "@timestamp": "2023-07-16T01:12:22.866038Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -299,14 +191,14 @@
                             1,
                             1,
                             2,
-                            1,
                             2,
                             1,
                             1,
                             1,
                             1,
-                            1,
                             2,
+                            1,
+                            1,
                             2
                         ],
                         "status": 200
@@ -321,7 +213,125 @@
                     {
                         "days": 160,
                         "serie": [
-                            16,
+                            9,
+                            55,
+                            26,
+                            13,
+                            3,
+                            8,
+                            4,
+                            8,
+                            7,
+                            12,
+                            2,
+                            6,
+                            5,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-07-16T01:10:53.635056Z",
+                "last_month_access": {
+                    "average_access_time": 635,
+                    "downtime_days": 22,
+                    "uptime_days": 7
+                },
+                "license": false,
+                "operational": 429,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/phac-nml/biohansel"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:0.1.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-07-16T01:11:16.222037Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 22,
+                        "serie": [
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 157,
+                        "serie": [
+                            9,
                             55,
                             26,
                             13,
@@ -335,17 +345,19 @@
                             1,
                             2,
                             5,
-                            3
+                            5,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:57.449061Z",
+                "last_check": "2023-07-16T01:10:53.635056Z",
                 "last_month_access": {
-                    "average_access_time": 418,
-                    "downtime_days": 21,
-                    "uptime_days": 7
+                    "average_access_time": 333,
+                    "downtime_days": 20,
+                    "uptime_days": 9
                 },
                 "license": false,
                 "operational": 429,
@@ -370,7 +382,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:1.3.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:14:45.906764Z",
+        "@timestamp": "2023-07-16T01:11:22.711253Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -409,7 +421,7 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 16,
+                        "days": 19,
                         "serie": [
                             3,
                             1,
@@ -421,7 +433,9 @@
                             1,
                             1,
                             2,
-                            1
+                            1,
+                            1,
+                            2
                         ],
                         "status": 200
                     },
@@ -433,9 +447,9 @@
                         "status": 408
                     },
                     {
-                        "days": 163,
+                        "days": 160,
                         "serie": [
-                            16,
+                            9,
                             55,
                             26,
                             13,
@@ -447,17 +461,19 @@
                             12,
                             2,
                             6,
-                            3
+                            5,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:57.449061Z",
+                "last_check": "2023-07-16T01:10:53.635056Z",
                 "last_month_access": {
-                    "average_access_time": 490,
-                    "downtime_days": 23,
-                    "uptime_days": 5
+                    "average_access_time": 584,
+                    "downtime_days": 22,
+                    "uptime_days": 7
                 },
                 "license": false,
                 "operational": 429,
@@ -482,7 +498,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:2.1.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:12:09.450429Z",
+        "@timestamp": "2023-07-16T01:09:11.089429Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -516,16 +532,13 @@
                 "description": true
             },
             "website": {
-                "access_time": 728,
+                "access_time": 745,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 114,
+                        "days": 118,
                         "serie": [
-                            1,
-                            1,
-                            1,
                             1,
                             5,
                             1,
@@ -558,17 +571,13 @@
                             4,
                             7,
                             10,
-                            7
+                            14
                         ],
                         "status": 200
                     },
                     {
-                        "days": 66,
+                        "days": 62,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
                             6,
                             1,
                             3,
@@ -606,11 +615,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:11:50.774589Z",
+                "last_check": "2023-07-16T01:08:56.44988Z",
                 "last_month_access": {
-                    "average_access_time": 719,
-                    "downtime_days": 3,
-                    "uptime_days": 24
+                    "average_access_time": 715,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
@@ -635,7 +644,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:1.3.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:11:04.243517Z",
+        "@timestamp": "2023-07-16T01:08:08.276383Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -669,14 +678,13 @@
                 "description": true
             },
             "website": {
-                "access_time": 706,
+                "access_time": 840,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 80,
+                        "days": 86,
                         "serie": [
-                            1,
                             1,
                             3,
                             1,
@@ -714,15 +722,13 @@
                             1,
                             5,
                             1,
-                            7
+                            14
                         ],
                         "status": 200
                     },
                     {
-                        "days": 100,
+                        "days": 94,
                         "serie": [
-                            3,
-                            3,
                             8,
                             1,
                             3,
@@ -765,11 +771,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:11:03.648335Z",
+                "last_check": "2023-07-16T01:08:07.409161Z",
                 "last_month_access": {
-                    "average_access_time": 824,
-                    "downtime_days": 8,
-                    "uptime_days": 19
+                    "average_access_time": 788,
+                    "downtime_days": 6,
+                    "uptime_days": 23
                 },
                 "license": false,
                 "operational": 200,
@@ -794,7 +800,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:2.1.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:14:07.041906Z",
+        "@timestamp": "2023-07-16T01:10:51.973474Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -828,16 +834,13 @@
                 "description": true
             },
             "website": {
-                "access_time": 622,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 115,
+                        "days": 119,
                         "serie": [
-                            1,
-                            1,
-                            1,
                             1,
                             5,
                             1,
@@ -871,17 +874,13 @@
                             1,
                             7,
                             10,
-                            7
+                            14
                         ],
                         "status": 200
                     },
                     {
-                        "days": 65,
+                        "days": 61,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
                             6,
                             1,
                             3,
@@ -920,14 +919,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:33.125551Z",
+                "last_check": "2023-07-16T01:10:44.309384Z",
                 "last_month_access": {
-                    "average_access_time": 690,
-                    "downtime_days": 3,
-                    "uptime_days": 25
+                    "average_access_time": 674,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 429,
                 "redirects": [
                     {
                         "status": 301,
@@ -949,7 +948,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:0.2.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:13:23.570441Z",
+        "@timestamp": "2023-07-16T01:09:47.839679Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -983,12 +982,12 @@
                 "description": true
             },
             "website": {
-                "access_time": 529,
+                "access_time": 464,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 34,
+                        "days": 39,
                         "serie": [
                             3,
                             1,
@@ -1013,7 +1012,9 @@
                             1,
                             1,
                             2,
-                            1
+                            2,
+                            1,
+                            3
                         ],
                         "status": 200
                     },
@@ -1025,9 +1026,9 @@
                         "status": 408
                     },
                     {
-                        "days": 145,
+                        "days": 140,
                         "serie": [
-                            16,
+                            9,
                             5,
                             16,
                             3,
@@ -1051,17 +1052,19 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:22.551046Z",
+                "last_check": "2023-07-16T01:09:47.060566Z",
                 "last_month_access": {
-                    "average_access_time": 426,
+                    "average_access_time": 384,
                     "downtime_days": 14,
-                    "uptime_days": 13
+                    "uptime_days": 15
                 },
                 "license": false,
                 "operational": 200,
@@ -1086,7 +1089,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:1.1.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:14:09.844387Z",
+        "@timestamp": "2023-07-16T01:10:54.452993Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1125,7 +1128,7 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 26,
+                        "days": 29,
                         "serie": [
                             3,
                             1,
@@ -1144,7 +1147,9 @@
                             2,
                             1,
                             2,
-                            1
+                            1,
+                            1,
+                            2
                         ],
                         "status": 200
                     },
@@ -1156,9 +1161,9 @@
                         "status": 408
                     },
                     {
-                        "days": 153,
+                        "days": 150,
                         "serie": [
-                            16,
+                            9,
                             5,
                             48,
                             26,
@@ -1176,16 +1181,19 @@
                             2,
                             1,
                             3,
-                            2
+                            2,
+                            2,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:57.449061Z",
+                "last_check": "2023-07-16T01:10:53.635056Z",
                 "last_month_access": {
-                    "average_access_time": 598,
-                    "downtime_days": 17,
+                    "average_access_time": 613,
+                    "downtime_days": 18,
                     "uptime_days": 11
                 },
                 "license": false,
@@ -1211,7 +1219,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:1.2.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:11:51.353061Z",
+        "@timestamp": "2023-07-16T01:08:57.168205Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1245,12 +1253,12 @@
                 "description": true
             },
             "website": {
-                "access_time": 728,
+                "access_time": 745,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 58,
+                        "days": 64,
                         "serie": [
                             3,
                             1,
@@ -1286,7 +1294,8 @@
                             3,
                             1,
                             4,
-                            2
+                            5,
+                            3
                         ],
                         "status": 200
                     },
@@ -1298,9 +1307,9 @@
                         "status": 408
                     },
                     {
-                        "days": 121,
+                        "days": 115,
                         "serie": [
-                            16,
+                            9,
                             5,
                             16,
                             3,
@@ -1335,17 +1344,18 @@
                             1,
                             1,
                             1,
+                            1,
                             1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:11:50.774589Z",
+                "last_check": "2023-07-16T01:08:56.44988Z",
                 "last_month_access": {
-                    "average_access_time": 755,
-                    "downtime_days": 11,
-                    "uptime_days": 16
+                    "average_access_time": 752,
+                    "downtime_days": 10,
+                    "uptime_days": 19
                 },
                 "license": false,
                 "operational": 200,
@@ -1370,7 +1380,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:1.1.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:13:34.193301Z",
+        "@timestamp": "2023-07-16T01:10:04.786520Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1404,12 +1414,12 @@
                 "description": true
             },
             "website": {
-                "access_time": 622,
+                "access_time": 590,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 28,
+                        "days": 33,
                         "serie": [
                             3,
                             1,
@@ -1430,7 +1440,9 @@
                             1,
                             1,
                             2,
-                            1
+                            2,
+                            1,
+                            3
                         ],
                         "status": 200
                     },
@@ -1442,9 +1454,9 @@
                         "status": 408
                     },
                     {
-                        "days": 151,
+                        "days": 146,
                         "serie": [
-                            16,
+                            9,
                             5,
                             45,
                             2,
@@ -1464,17 +1476,19 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:33.125551Z",
+                "last_check": "2023-07-16T01:10:04.422861Z",
                 "last_month_access": {
-                    "average_access_time": 530,
-                    "downtime_days": 16,
-                    "uptime_days": 11
+                    "average_access_time": 488,
+                    "downtime_days": 15,
+                    "uptime_days": 14
                 },
                 "license": false,
                 "operational": 200,
@@ -1499,7 +1513,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:1.3.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:13:57.907786Z",
+        "@timestamp": "2023-07-16T01:10:44.960185Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1538,7 +1552,7 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 27,
+                        "days": 30,
                         "serie": [
                             3,
                             1,
@@ -1558,7 +1572,9 @@
                             1,
                             1,
                             2,
-                            1
+                            1,
+                            1,
+                            2
                         ],
                         "status": 200
                     },
@@ -1570,9 +1586,9 @@
                         "status": 408
                     },
                     {
-                        "days": 152,
+                        "days": 149,
                         "serie": [
-                            16,
+                            9,
                             5,
                             48,
                             26,
@@ -1591,16 +1607,19 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            2,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:57.449061Z",
+                "last_check": "2023-07-16T01:10:44.309384Z",
                 "last_month_access": {
-                    "average_access_time": 731,
-                    "downtime_days": 16,
+                    "average_access_time": 704,
+                    "downtime_days": 17,
                     "uptime_days": 12
                 },
                 "license": false,
@@ -1626,7 +1645,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:2.2.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:14:30.163248Z",
+        "@timestamp": "2023-07-16T01:11:11.921358Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1660,16 +1679,13 @@
                 "description": true
             },
             "website": {
-                "access_time": 622,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 115,
+                        "days": 119,
                         "serie": [
-                            1,
-                            1,
-                            1,
                             1,
                             5,
                             1,
@@ -1703,17 +1719,13 @@
                             1,
                             7,
                             10,
-                            7
+                            14
                         ],
                         "status": 200
                     },
                     {
-                        "days": 65,
+                        "days": 61,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
                             6,
                             1,
                             3,
@@ -1752,14 +1764,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:33.125551Z",
+                "last_check": "2023-07-16T01:10:44.309384Z",
                 "last_month_access": {
-                    "average_access_time": 628,
-                    "downtime_days": 3,
-                    "uptime_days": 25
+                    "average_access_time": 634,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 429,
                 "redirects": [
                     {
                         "status": 301,
@@ -1781,7 +1793,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio_hansel:2.0.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-09T01:14:32.264023Z",
+        "@timestamp": "2023-07-16T01:11:14.326096Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1820,7 +1832,7 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 19,
+                        "days": 22,
                         "serie": [
                             3,
                             1,
@@ -1834,6 +1846,8 @@
                             1,
                             1,
                             2,
+                            2,
+                            1,
                             2
                         ],
                         "status": 200
@@ -1846,9 +1860,9 @@
                         "status": 408
                     },
                     {
-                        "days": 160,
+                        "days": 157,
                         "serie": [
-                            16,
+                            9,
                             55,
                             26,
                             13,
@@ -1862,17 +1876,19 @@
                             1,
                             2,
                             5,
-                            3
+                            5,
+                            1,
+                            1
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:57.449061Z",
+                "last_check": "2023-07-16T01:10:53.635056Z",
                 "last_month_access": {
-                    "average_access_time": 624,
-                    "downtime_days": 21,
-                    "uptime_days": 7
+                    "average_access_time": 564,
+                    "downtime_days": 20,
+                    "uptime_days": 9
                 },
                 "license": false,
                 "operational": 429,
@@ -1897,7 +1913,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:bio_hansel:0.1.0/workflow/toolshed.g2.bx.psu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "galaxy",
-        "@timestamp": "2023-07-09T01:13:54.354880Z",
+        "@timestamp": "2023-07-16T01:10:41.052515Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -1920,10 +1936,10 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-07-09T01:13:53.808794Z",
+                "last_check": "2023-07-16T01:10:40.854239Z",
                 "last_month_access": {
                     "average_access_time": 745,
-                    "downtime_days": 27,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
