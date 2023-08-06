@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gotohscan:1.3/cmd/www.bioinf.uni-leipzig.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-07-29T02:14:35.362472Z",
+        "@timestamp": "2023-08-05T02:09:48.983943Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,7 +21,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 129,
+                "access_time": 431,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -33,16 +33,22 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-07-29T02:14:35.129537Z",
+                "https": true,
+                "last_check": "2023-08-05T02:09:48.906847Z",
                 "last_month_access": {
-                    "average_access_time": 122,
+                    "average_access_time": 149,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.bioinf.uni-leipzig.de/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -51,7 +57,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gotohscan:2.0/cmd/www.bioinf.uni-leipzig.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-07-29T02:15:35.030299Z",
+        "@timestamp": "2023-08-05T02:10:47.112175Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -75,7 +81,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 122,
+                "access_time": 625,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -88,14 +94,24 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2023-07-29T02:15:34.959321Z",
+                "last_check": "2023-08-05T02:10:47.06361Z",
                 "last_month_access": {
-                    "average_access_time": 134,
+                    "average_access_time": 163,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.bioinf.uni-leipzig.de/Software/GotohScan/"
+                    },
+                    {
+                        "status": 307,
+                        "url": "http://legacy.bioinf.uni-leipzig.de/Software/GotohScan/"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
@@ -108,7 +124,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/gotohscan",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-07-29T02:15:07.141569Z",
+        "@timestamp": "2023-08-05T02:10:22.778685Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -118,7 +134,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 129,
+                "access_time": 359,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -130,16 +146,22 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-07-29T02:14:35.129537Z",
+                "https": true,
+                "last_check": "2023-08-05T02:10:22.730145Z",
                 "last_month_access": {
-                    "average_access_time": 120,
+                    "average_access_time": 139,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.bioinf.uni-leipzig.de/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

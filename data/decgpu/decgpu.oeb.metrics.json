@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:decgpu/cmd/decgpu.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-07-29T07:20:32.238523Z",
+        "@timestamp": "2023-08-04T07:16:25.820266Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -119,27 +119,35 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 563,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 5,
                         "serie": [
-                            180
+                            5
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 175,
+                        "serie": [
+                            174,
+                            1
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-07-29T01:44:22.346076Z",
+                "https": true,
+                "last_check": "2023-08-04T07:16:25.728776Z",
                 "last_month_access": {
-                    "average_access_time": 554,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "average_access_time": 563,
+                    "downtime_days": 5,
+                    "uptime_days": 25
                 },
                 "license": false,
-                "operational": 403,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -158,7 +166,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/decgpu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-07-29T01:44:22.478813Z",
+        "@timestamp": "2023-08-05T01:39:59.665315Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -168,34 +176,42 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 600,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 1,
                         "serie": [
-                            180
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 179,
+                        "serie": [
+                            173,
+                            6
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-07-29T01:44:22.346076Z",
+                "https": true,
+                "last_check": "2023-08-05T01:39:59.370391Z",
                 "last_month_access": {
-                    "average_access_time": 627,
-                    "downtime_days": 0,
+                    "average_access_time": 653,
+                    "downtime_days": 1,
                     "uptime_days": 29
                 },
                 "license": false,
-                "operational": 403,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://decgpu.sourceforge.net/homepage.htm"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
