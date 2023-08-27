@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ic50-to-ki/web/botdb.abcc.ncifcrf.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-08-19T02:26:37.292765Z",
+        "@timestamp": "2023-08-26T02:39:29.836841Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -148,28 +148,44 @@
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 178,
                         "serie": [
-                            180
+                            173,
+                            1,
+                            4
                         ],
                         "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2023-08-19T02:26:37.182457Z",
+                "https": true,
+                "last_check": "2023-08-26T02:39:29.429536Z",
                 "last_month_access": {
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://botdb.abcc.ncifcrf.gov/toxin/kiConverter.jsp"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -181,7 +197,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ic50-to-ki",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-08-19T02:28:32.992208Z",
+        "@timestamp": "2023-08-26T02:40:42.186526Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -196,36 +212,46 @@
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 179,
+                        "days": 177,
                         "serie": [
-                            77,
-                            102
+                            70,
+                            102,
+                            1,
+                            4
                         ],
                         "status": 404
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 408
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 408
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2023-08-19T02:28:32.886013Z",
+                "https": true,
+                "last_check": "2023-08-26T02:40:42.093553Z",
                 "last_month_access": {
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://botdb.abcc.ncifcrf.gov/toxin/kiConverter.jsp"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
