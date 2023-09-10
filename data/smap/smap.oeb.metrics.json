@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.44.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T04:37:41.613135Z",
+        "@timestamp": "2023-09-09T04:08:17.986201Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -122,7 +122,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 204,
+                "access_time": 201,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -134,16 +134,22 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-09-02T04:37:41.548273Z",
+                "https": true,
+                "last_check": "2023-09-09T04:08:17.889862Z",
                 "last_month_access": {
-                    "average_access_time": 208,
+                    "average_access_time": 202,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.7/bioc/html/SMAP.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -152,7 +158,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.40.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T04:35:33.108471Z",
+        "@timestamp": "2023-09-09T04:05:58.236602Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -166,6 +172,883 @@
                 "osi": false
             },
             "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 542,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T04:05:58.163514Z",
+                "last_month_access": {
+                    "average_access_time": 133,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.5/bioc/html/SMAP.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.46.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-09-09T04:04:54.325430Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 25,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btn003",
+                            "pmid": "18204059",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1967"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 334,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T04:04:54.272459Z",
+                "last_month_access": {
+                    "average_access_time": 315,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.42.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-09-09T04:01:37.507460Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 761,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T04:01:37.374846Z",
+                "last_month_access": {
+                    "average_access_time": 135,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.6/bioc/html/SMAP.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.48.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-09-09T04:02:56.605092Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 25,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btn003",
+                            "pmid": "18204059",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1967"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 75,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T04:02:56.495119Z",
+                "last_month_access": {
+                    "average_access_time": 332,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:smap:1.38.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2023-09-09T06:49:41.748454Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 25,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btn003",
+                            "pmid": "18204059",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1967"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 681,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T06:49:41.50957Z",
+                "last_month_access": {
+                    "average_access_time": 206,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/SMAP.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:smap:1.38.0/lib/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2023-09-09T04:11:16.815942Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 25,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btn003",
+                            "pmid": "18204059",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1967"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 132,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T04:11:16.718102Z",
+                "last_month_access": {
+                    "average_access_time": 207,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/SMAP.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/smap",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2023-09-09T04:05:54.990064Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 749,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T04:05:54.934193Z",
+                "last_month_access": {
+                    "average_access_time": 220,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/SMAP.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.50.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-09-09T04:45:40.946551Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 25,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btn003",
+                            "pmid": "18204059",
+                            "ref_count": 37,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1967"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
             "summary": {
                 "description": true
             },
@@ -182,857 +1065,10 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-09-02T01:33:37.338722Z",
-                "last_month_access": {
-                    "average_access_time": 129,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.46.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T04:34:43.808522Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 25,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2020"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/btn003",
-                            "pmid": "18204059",
-                            "ref_count": 37,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1967"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1990"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1992"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1997"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                }
-                            ],
-                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
-                            "year": 2008
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 310,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
                 "https": true,
-                "last_check": "2023-09-02T04:34:43.757794Z",
+                "last_check": "2023-09-09T04:45:40.869744Z",
                 "last_month_access": {
-                    "average_access_time": 317,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.42.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T04:31:15.674827Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 125,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2023-09-02T01:29:01.965672Z",
-                "last_month_access": {
-                    "average_access_time": 134,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.48.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T04:32:43.230073Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 25,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2020"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/btn003",
-                            "pmid": "18204059",
-                            "ref_count": 37,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1967"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1990"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1992"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1997"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                }
-                            ],
-                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
-                            "year": 2008
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 412,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-09-02T04:32:43.078949Z",
-                "last_month_access": {
-                    "average_access_time": 344,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:smap:1.38.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2023-09-02T08:49:32.853488Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "manual": true
-            },
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 25,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2020"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/btn003",
-                            "pmid": "18204059",
-                            "ref_count": 37,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1967"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1990"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1992"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1997"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                }
-                            ],
-                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
-                            "year": 2008
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 235,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2023-09-02T04:35:30.845424Z",
-                "last_month_access": {
-                    "average_access_time": 205,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:smap:1.38.0/lib/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2023-09-02T04:40:37.185249Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "manual": true
-            },
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 25,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2020"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/btn003",
-                            "pmid": "18204059",
-                            "ref_count": 37,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1967"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1990"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1992"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1997"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                }
-                            ],
-                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
-                            "year": 2008
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 235,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2023-09-02T04:35:30.845424Z",
-                "last_month_access": {
-                    "average_access_time": 209,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/smap",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2023-09-02T04:35:30.952427Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 235,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2023-09-02T04:35:30.845424Z",
-                "last_month_access": {
-                    "average_access_time": 209,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.50.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T05:18:59.050538Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 25,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2020"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/btn003",
-                            "pmid": "18204059",
-                            "ref_count": 37,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1967"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1990"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1992"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1997"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 9,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                }
-                            ],
-                            "title": "A segmental maximum a posteriori approach to genome-wide copy number profiling.",
-                            "year": 2008
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 269,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-09-02T05:18:58.946332Z",
-                "last_month_access": {
-                    "average_access_time": 180,
+                    "average_access_time": 184,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -1047,7 +1083,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.52.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T05:23:53.677715Z",
+        "@timestamp": "2023-09-09T04:49:05.688493Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1166,7 +1202,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 195,
+                "access_time": 325,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1179,9 +1215,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T05:23:53.608214Z",
+                "last_check": "2023-09-09T04:49:05.640886Z",
                 "last_month_access": {
-                    "average_access_time": 129,
+                    "average_access_time": 122,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -1196,7 +1232,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.54.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T05:26:17.792409Z",
+        "@timestamp": "2023-09-09T04:50:36.181299Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1315,7 +1351,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 124,
+                "access_time": 161,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1328,9 +1364,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T05:26:17.744402Z",
+                "last_check": "2023-09-09T04:50:36.067599Z",
                 "last_month_access": {
-                    "average_access_time": 141,
+                    "average_access_time": 133,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -1345,7 +1381,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.56.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T06:22:40.790647Z",
+        "@timestamp": "2023-09-09T05:27:23.736368Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1464,7 +1500,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 124,
+                "access_time": 334,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1477,9 +1513,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T06:22:40.750119Z",
+                "last_check": "2023-09-09T05:27:23.695953Z",
                 "last_month_access": {
-                    "average_access_time": 127,
+                    "average_access_time": 129,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -1494,7 +1530,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.58.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T06:55:23.470474Z",
+        "@timestamp": "2023-09-09T05:48:20.854363Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1613,7 +1649,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 124,
+                "access_time": 119,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1626,9 +1662,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T06:55:23.410296Z",
+                "last_check": "2023-09-09T05:48:20.813999Z",
                 "last_month_access": {
-                    "average_access_time": 149,
+                    "average_access_time": 145,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -1643,7 +1679,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.62.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T08:25:45.732943Z",
+        "@timestamp": "2023-09-09T06:34:54.048803Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1762,7 +1798,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 126,
+                "access_time": 383,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1775,9 +1811,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T08:25:45.675679Z",
+                "last_check": "2023-09-09T06:34:54.018998Z",
                 "last_month_access": {
-                    "average_access_time": 149,
+                    "average_access_time": 148,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -1792,7 +1828,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:smap:1.64.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T08:54:08.810056Z",
+        "@timestamp": "2023-09-09T06:50:59.737482Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1911,22 +1947,22 @@
                 "description": true
             },
             "website": {
-                "access_time": 123,
+                "access_time": 379,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 55,
+                        "days": 62,
                         "serie": [
-                            55
+                            62
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T08:54:08.774735Z",
+                "last_check": "2023-09-09T06:50:59.711527Z",
                 "last_month_access": {
-                    "average_access_time": 133,
+                    "average_access_time": 131,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bioconductor-nondetects:2.8.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T01:28:17.799809Z",
+        "@timestamp": "2023-09-09T01:23:35.730557Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,7 +21,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 123,
+                "access_time": 351,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -33,8 +33,8 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-09-02T01:28:17.710115Z",
+                "https": true,
+                "last_check": "2023-09-09T01:23:35.666485Z",
                 "last_month_access": {
                     "average_access_time": 131,
                     "downtime_days": 0,
@@ -42,7 +42,13 @@
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.6/bioc/html/nondetects.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -51,7 +57,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconductor-nondetects",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-09-02T01:28:21.380956Z",
+        "@timestamp": "2023-09-09T01:23:42.282015Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -61,7 +67,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 123,
+                "access_time": 255,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -73,16 +79,22 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-09-02T01:28:17.710115Z",
+                "https": true,
+                "last_check": "2023-09-09T01:23:42.177642Z",
                 "last_month_access": {
-                    "average_access_time": 131,
+                    "average_access_time": 124,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.6/bioc/html/nondetects.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

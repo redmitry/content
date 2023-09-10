@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/metabolite_autoplotter",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-09-02T05:49:45.416058Z",
+        "@timestamp": "2023-09-09T05:09:23.474980Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -18,10 +18,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 18,
+                        "days": 17,
                         "serie": [
-                            1,
-                            1,
                             1,
                             1,
                             1,
@@ -32,15 +30,14 @@
                             1,
                             1,
                             1,
+                            1,
                             1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 165,
+                        "days": 166,
                         "serie": [
-                            4,
-                            1,
                             4,
                             17,
                             12,
@@ -52,15 +49,16 @@
                             21,
                             37,
                             16,
-                            4
+                            5,
+                            5
                         ],
                         "status": 202
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T05:49:44.904247Z",
+                "last_check": "2023-09-09T05:09:22.630264Z",
                 "last_month_access": {
-                    "average_access_time": 2190,
+                    "average_access_time": 1893,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -81,7 +79,108 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:metabolite_autoplotter/lib/mpietzke.shinyapps.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-09-02T05:49:45.796275Z",
+        "@timestamp": "2023-09-09T05:09:23.098929Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.21203/rs.2.24270/v2",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Metabolite AutoPlotter - an application to process and visualise metabolite data in the web-browser",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 16,
+                        "serie": [
+                            1,
+                            1,
+                            5,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 166,
+                        "serie": [
+                            4,
+                            17,
+                            12,
+                            14,
+                            6,
+                            20,
+                            4,
+                            5,
+                            21,
+                            37,
+                            16,
+                            5,
+                            5
+                        ],
+                        "status": 202
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T05:09:22.464706Z",
+                "last_month_access": {
+                    "average_access_time": 1744,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 202,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://mpietzke.shinyapps.io/AutoPlotter/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:metabolite_autoplotter/cmd/mpietzke.shinyapps.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2023-09-09T05:09:23.157480Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -126,12 +225,11 @@
                         "serie": [
                             1,
                             1,
-                            1,
-                            1,
                             5,
                             1,
                             2,
                             1,
+                            2,
                             1,
                             1,
                             1,
@@ -143,111 +241,6 @@
                         "days": 165,
                         "serie": [
                             4,
-                            1,
-                            4,
-                            17,
-                            12,
-                            14,
-                            6,
-                            20,
-                            4,
-                            5,
-                            21,
-                            37,
-                            16,
-                            4
-                        ],
-                        "status": 202
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-09-02T05:49:45.138834Z",
-                "last_month_access": {
-                    "average_access_time": 1677,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 202,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "https://mpietzke.shinyapps.io/AutoPlotter/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:metabolite_autoplotter/cmd/mpietzke.shinyapps.io",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2023-09-02T05:49:45.754774Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": false
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 0,
-                            "citations": [],
-                            "doi": "10.21203/rs.2.24270/v2",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "Metabolite AutoPlotter - an application to process and visualise metabolite data in the web-browser",
-                            "year": 2020
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 18,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            5,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 164,
-                        "serie": [
-                            4,
-                            1,
-                            4,
                             17,
                             12,
                             14,
@@ -258,15 +251,16 @@
                             20,
                             37,
                             16,
-                            4
+                            5,
+                            5
                         ],
                         "status": 202
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T05:49:45.058017Z",
+                "last_check": "2023-09-09T05:09:22.508558Z",
                 "last_month_access": {
-                    "average_access_time": 2354,
+                    "average_access_time": 2406,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },

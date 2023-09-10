@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:migsa:1.4.0/lib/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-09-02T03:11:06.001482Z",
+        "@timestamp": "2023-09-09T02:50:06.218587Z",
         "@type": "metrics",
         "distribution": {
             "source_packages": true,
@@ -38,7 +38,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 273,
+                "access_time": 134,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -50,16 +50,22 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-09-02T03:11:05.85187Z",
+                "https": true,
+                "last_check": "2023-09-09T02:50:06.140309Z",
                 "last_month_access": {
-                    "average_access_time": 199,
+                    "average_access_time": 203,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/MIGSA.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -71,7 +77,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/migsa",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-09-02T03:16:20.625678Z",
+        "@timestamp": "2023-09-09T02:54:42.633392Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -81,7 +87,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 273,
+                "access_time": 548,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -93,16 +99,22 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2023-09-02T03:11:05.85187Z",
+                "https": true,
+                "last_check": "2023-09-09T02:54:42.583433Z",
                 "last_month_access": {
-                    "average_access_time": 199,
+                    "average_access_time": 191,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/MIGSA.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -111,103 +123,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.6.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T06:32:43.378691Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 174,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-09-02T06:32:43.27823Z",
-                "last_month_access": {
-                    "average_access_time": 150,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.8.1/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T06:36:37.009339Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 119,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-09-02T06:36:36.96717Z",
-                "last_month_access": {
-                    "average_access_time": 160,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.14.1/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T06:38:45.819150Z",
+        "@timestamp": "2023-09-09T05:33:13.095381Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -238,9 +154,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T06:38:45.674955Z",
+                "last_check": "2023-09-09T05:33:12.999386Z",
                 "last_month_access": {
-                    "average_access_time": 126,
+                    "average_access_time": 142,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -252,58 +168,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.10.0/cmd/bioconductor.org",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.8.1/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T06:40:43.968409Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 122,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-09-02T06:40:43.924351Z",
-                "last_month_access": {
-                    "average_access_time": 129,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.12.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T06:41:15.062033Z",
+        "@timestamp": "2023-09-09T05:36:22.621569Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -334,9 +202,153 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T06:41:15.001385Z",
+                "last_check": "2023-09-09T05:36:22.541848Z",
                 "last_month_access": {
-                    "average_access_time": 130,
+                    "average_access_time": 151,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.14.1/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-09-09T05:37:21.850819Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 166,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T05:37:21.776324Z",
+                "last_month_access": {
+                    "average_access_time": 124,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.10.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-09-09T05:38:04.167663Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 115,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T05:38:04.026763Z",
+                "last_month_access": {
+                    "average_access_time": 128,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.12.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-09-09T05:38:20.032253Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 114,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T05:38:19.921209Z",
+                "last_month_access": {
+                    "average_access_time": 126,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -351,103 +363,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.16.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T06:43:19.106263Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 123,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-09-02T06:43:19.070061Z",
-                "last_month_access": {
-                    "average_access_time": 137,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.18.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T07:00:58.401537Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 120,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2023-09-02T07:00:58.362438Z",
-                "last_month_access": {
-                    "average_access_time": 141,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.21.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2023-09-02T08:27:39.580601Z",
+        "@timestamp": "2023-09-09T05:39:19.472134Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -478,9 +394,105 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-02T08:27:39.521849Z",
+                "last_check": "2023-09-09T05:39:19.437713Z",
                 "last_month_access": {
-                    "average_access_time": 141,
+                    "average_access_time": 131,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.18.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-09-09T05:53:12.684217Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 114,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T05:53:12.642317Z",
+                "last_month_access": {
+                    "average_access_time": 140,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:migsa:1.21.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2023-09-09T06:36:58.661156Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 503,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-09-09T06:36:58.63598Z",
+                "last_month_access": {
+                    "average_access_time": 139,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
