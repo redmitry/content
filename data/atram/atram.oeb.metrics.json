@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/atram",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-09-10T01:01:58.040137Z",
+        "@timestamp": "2023-09-17T01:01:41.376240Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,14 +33,14 @@
                 "description": true
             },
             "website": {
-                "access_time": 2344,
+                "access_time": 2650,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 160,
+                        "days": 159,
                         "serie": [
-                            10,
+                            4,
                             5,
                             7,
                             4,
@@ -53,15 +53,15 @@
                             2,
                             1,
                             7,
-                            63
+                            67,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 23,
+                        "days": 24,
                         "serie": [
                             1,
-                            1,
                             2,
                             3,
                             2,
@@ -73,22 +73,23 @@
                             2,
                             2,
                             1,
-                            1
+                            1,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-10T01:01:56.479359Z",
+                "last_check": "2023-09-17T01:01:39.948825Z",
                 "last_month_access": {
-                    "average_access_time": 1950,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2026,
+                    "downtime_days": 2,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": true,
-                "ssl_err": null
+                "ssl": false,
+                "ssl_err": "PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target\n"
             }
         },
         "support": {
@@ -102,7 +103,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:atram:1.04/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-09-09T01:09:13.523002Z",
+        "@timestamp": "2023-09-16T01:04:24.491071Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -225,15 +226,14 @@
                 "description": true
             },
             "website": {
-                "access_time": 1768,
+                "access_time": 2598,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 160,
+                        "days": 159,
                         "serie": [
-                            1,
-                            10,
+                            5,
                             5,
                             7,
                             4,
@@ -246,15 +246,14 @@
                             2,
                             1,
                             7,
-                            62
+                            67
                         ],
                         "status": 200
                     },
                     {
-                        "days": 23,
+                        "days": 24,
                         "serie": [
                             1,
-                            1,
                             2,
                             3,
                             2,
@@ -266,22 +265,23 @@
                             2,
                             2,
                             1,
-                            1
+                            1,
+                            2
                         ],
                         "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-09T01:01:43.287733Z",
+                "last_check": "2023-09-16T01:01:44.499233Z",
                 "last_month_access": {
-                    "average_access_time": 1963,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2023,
+                    "downtime_days": 2,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
                 "ssl": true,
-                "ssl_err": "PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target\n"
+                "ssl_err": null
             }
         },
         "support": {
