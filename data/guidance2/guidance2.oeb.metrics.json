@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:guidance2/web/guidance.tau.ac.il",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-09-23T02:25:03.024852Z",
+        "@timestamp": "2023-09-30T02:16:11.897300Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -155,49 +155,61 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 5,
+                        "days": 1,
                         "serie": [
-                            5
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 10,
+                        "serie": [
+                            6,
+                            4
                         ],
                         "status": 503
                     },
                     {
-                        "days": 165,
+                        "days": 12,
                         "serie": [
-                            10,
+                            6,
+                            2,
+                            3,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 160,
+                        "serie": [
+                            5,
                             3,
                             10,
                             142
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 13,
-                        "serie": [
-                            2,
-                            6,
-                            2,
-                            3
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2023-09-23T02:22:22.54275Z",
+                "https": true,
+                "last_check": "2023-09-30T02:16:11.837811Z",
                 "last_month_access": {
-                    "average_access_time": 378,
-                    "downtime_days": 5,
-                    "uptime_days": 25
+                    "average_access_time": 382,
+                    "downtime_days": 12,
+                    "uptime_days": 18
                 },
                 "license": false,
-                "operational": 503,
+                "operational": 404,
                 "redirects": [
                     {
+                        "status": 301,
+                        "url": "http://hpc-status.tau.ac.il/ver2/"
+                    },
+                    {
                         "status": 302,
-                        "url": "http://guidance.tau.ac.il/error/PAGE_NOT_FOUND"
+                        "url": "https://hpc-status.tau.ac.il/ver2/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -209,7 +221,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/guidance2",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-09-23T02:22:22.661009Z",
+        "@timestamp": "2023-09-30T02:13:14.165460Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -224,49 +236,61 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 5,
+                        "days": 1,
                         "serie": [
-                            5
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 10,
+                        "serie": [
+                            6,
+                            4
                         ],
                         "status": 503
                     },
                     {
-                        "days": 165,
+                        "days": 12,
                         "serie": [
-                            10,
+                            6,
+                            2,
+                            3,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 160,
+                        "serie": [
+                            5,
                             3,
                             10,
                             142
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 13,
-                        "serie": [
-                            2,
-                            6,
-                            2,
-                            3
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2023-09-23T02:22:22.54275Z",
+                "https": true,
+                "last_check": "2023-09-30T02:13:14.077196Z",
                 "last_month_access": {
-                    "average_access_time": 593,
-                    "downtime_days": 5,
-                    "uptime_days": 25
+                    "average_access_time": 595,
+                    "downtime_days": 12,
+                    "uptime_days": 18
                 },
                 "license": false,
-                "operational": 503,
+                "operational": 404,
                 "redirects": [
                     {
+                        "status": 301,
+                        "url": "http://hpc-status.tau.ac.il/ver2/"
+                    },
+                    {
                         "status": 302,
-                        "url": "http://guidance.tau.ac.il/error/PAGE_NOT_FOUND"
+                        "url": "https://hpc-status.tau.ac.il/ver2/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -275,7 +299,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:guidance2:3.0.3/cmd/rgcgithub.github.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-23T07:01:42.658298Z",
+        "@timestamp": "2023-09-30T06:40:33.483670Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -293,7 +317,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 89,
+                "access_time": 174,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -306,9 +330,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-23T05:08:37.307511Z",
+                "last_check": "2023-09-30T04:50:09.664636Z",
                 "last_month_access": {
-                    "average_access_time": 346,
+                    "average_access_time": 339,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
