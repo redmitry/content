@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:chinook/web/www.bcgsc.bc.ca",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-09-30T01:40:45.658665Z",
+        "@timestamp": "2023-10-07T01:37:49.837415Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -61,28 +61,42 @@
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 178,
                         "serie": [
-                            183
+                            175,
+                            1,
+                            2
                         ],
                         "status": 404
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            2,
+                            2
+                        ],
+                        "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2023-09-30T01:40:45.586906Z",
+                "https": true,
+                "last_check": "2023-10-07T01:37:49.786613Z",
                 "last_month_access": {
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 302,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "http://www.bcgsc.ca/chinook/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.bcgsc.ca/chinook/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -94,7 +108,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/chinook",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-09-30T01:37:42.249762Z",
+        "@timestamp": "2023-10-07T01:34:45.860966Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -109,17 +123,25 @@
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            177,
+                            4
                         ],
                         "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-30T01:37:42.204074Z",
+                "last_check": "2023-10-07T01:34:45.810514Z",
                 "last_month_access": {
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -143,7 +165,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:chinook:0.11/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-09-30T05:50:19.266745Z",
+        "@timestamp": "2023-10-07T06:01:43.877152Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -177,24 +199,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 532,
+                "access_time": 410,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2023-09-30T05:44:12.155496Z",
+                "last_check": "2023-10-07T05:55:43.703171Z",
                 "last_month_access": {
-                    "average_access_time": 476,
+                    "average_access_time": 420,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
