@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:genesplicer:1.0/cmd/www.cs.jhu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-10-19T01:57:50.453114Z",
+        "@timestamp": "2023-10-28T01:59:27.544493Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -34,7 +34,7 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-10-19T01:57:50.405007Z",
+                "last_check": "2023-10-28T01:59:27.496136Z",
                 "last_month_access": {
                     "average_access_time": 987,
                     "downtime_days": 29,
@@ -57,7 +57,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:genesplicer:0_2003.04.03/cmd/www.cs.jhu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-10-19T02:00:25.509559Z",
+        "@timestamp": "2023-10-28T02:01:53.257510Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -88,7 +88,7 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-10-19T02:00:25.460051Z",
+                "last_check": "2023-10-28T02:01:53.210636Z",
                 "last_month_access": {
                     "average_access_time": 567,
                     "downtime_days": 29,
@@ -111,7 +111,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:genesplicer/web/cbcb.umd.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-10-19T01:59:21.743667Z",
+        "@timestamp": "2023-10-28T02:00:40.569256Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -268,17 +268,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 146,
+                        "days": 138,
                         "serie": [
+                            64,
                             73,
-                            73
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 35,
+                        "days": 43,
                         "serie": [
-                            35
+                            43
                         ],
                         "status": 503
                     },
@@ -290,16 +291,22 @@
                         "status": 504
                     }
                 ],
-                "https": false,
-                "last_check": "2023-10-19T01:59:21.679521Z",
+                "https": true,
+                "last_check": "2023-10-28T02:00:40.508242Z",
                 "last_month_access": {
                     "average_access_time": 380,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 503,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cbcb.umd.edu/software/GeneSplicer/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -311,7 +318,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/genesplicer",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-10-19T02:01:29.782526Z",
+        "@timestamp": "2023-10-28T02:02:54.779236Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -326,35 +333,36 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 149,
+                        "days": 141,
                         "serie": [
-                            147,
-                            2
+                            138,
+                            2,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 33,
+                        "days": 41,
                         "serie": [
                             8,
-                            25
+                            33
                         ],
                         "status": 503
                     }
                 ],
-                "https": false,
-                "last_check": "2023-10-19T01:59:21.679521Z",
+                "https": true,
+                "last_check": "2023-10-28T02:02:54.694484Z",
                 "last_month_access": {
                     "average_access_time": 254,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 503,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://www.cs.jhu.edu/~genomics/GeneSplicer"
+                        "url": "https://cbcb.umd.edu/software/GeneSplicer/"
                     }
                 ],
                 "ssl": true,
