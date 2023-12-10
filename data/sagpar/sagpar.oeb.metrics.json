@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:sagpar/cmd/www.isical.ac.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-12-02T04:58:35.296660Z",
+        "@timestamp": "2023-12-09T04:58:29.253343Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -84,7 +84,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1274,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -99,9 +99,9 @@
                         "status": 404
                     },
                     {
-                        "days": 162,
+                        "days": 161,
                         "serie": [
-                            16,
+                            9,
                             1,
                             1,
                             2,
@@ -116,113 +116,15 @@
                             9,
                             3,
                             7,
-                            1
+                            1,
+                            6
                         ],
                         "status": 200
                     },
                     {
-                        "days": 11,
+                        "days": 12,
                         "serie": [
                             1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 3,
-                        "serie": [
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 302
-                    }
-                ],
-                "https": false,
-                "last_check": "2023-12-02T04:58:35.193307Z",
-                "last_month_access": {
-                    "average_access_time": 1346,
-                    "downtime_days": 5,
-                    "uptime_days": 24
-                },
-                "license": false,
-                "operational": 408,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "https://www.isical.ac.in/~rajat/"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/sagpar",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2023-12-02T04:56:15.179180Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 1325,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 6,
-                        "serie": [
-                            1,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 160,
-                        "serie": [
-                            15,
-                            1,
-                            1,
-                            2,
-                            2,
-                            7,
-                            2,
-                            60,
-                            1,
-                            1,
-                            39,
-                            1,
-                            8,
-                            9,
-                            3,
-                            7,
-                            1
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 13,
-                        "serie": [
-                            2,
                             1,
                             1,
                             2,
@@ -246,11 +148,113 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-12-02T04:56:14.978603Z",
+                "last_check": "2023-12-09T04:58:29.135864Z",
                 "last_month_access": {
-                    "average_access_time": 1307,
+                    "average_access_time": 1348,
                     "downtime_days": 5,
-                    "uptime_days": 24
+                    "uptime_days": 23
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.isical.ac.in/~rajat/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/sagpar",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2023-12-09T04:58:17.618048Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1270,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 6,
+                        "serie": [
+                            1,
+                            1,
+                            2,
+                            2
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 159,
+                        "serie": [
+                            8,
+                            1,
+                            1,
+                            2,
+                            2,
+                            7,
+                            2,
+                            60,
+                            1,
+                            1,
+                            39,
+                            1,
+                            8,
+                            9,
+                            3,
+                            7,
+                            6,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 14,
+                        "serie": [
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": true,
+                "last_check": "2023-12-09T04:58:17.479913Z",
+                "last_month_access": {
+                    "average_access_time": 1302,
+                    "downtime_days": 5,
+                    "uptime_days": 23
                 },
                 "license": false,
                 "operational": 200,

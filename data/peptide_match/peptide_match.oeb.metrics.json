@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:peptide_match:1/rest/research.bioinformatics.udel.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-12-02T04:12:22.154241Z",
+        "@timestamp": "2023-12-09T04:11:38.786631Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -107,21 +107,23 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 44,
+                        "days": 49,
                         "serie": [
                             1,
                             1,
                             9,
                             16,
                             15,
-                            2
+                            2,
+                            2,
+                            3
                         ],
                         "status": 503
                     },
                     {
-                        "days": 99,
+                        "days": 92,
                         "serie": [
-                            11,
+                            4,
                             21,
                             1,
                             1,
@@ -144,26 +146,28 @@
                         "status": 408
                     },
                     {
-                        "days": 34,
+                        "days": 36,
                         "serie": [
                             2,
                             1,
                             1,
                             18,
-                            12
+                            12,
+                            1,
+                            1
                         ],
                         "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2023-12-02T04:12:21.933842Z",
+                "last_check": "2023-12-09T04:11:38.378315Z",
                 "last_month_access": {
-                    "average_access_time": 945,
-                    "downtime_days": 14,
-                    "uptime_days": 15
+                    "average_access_time": 931,
+                    "downtime_days": 21,
+                    "uptime_days": 7
                 },
                 "license": false,
-                "operational": 301,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 301,
@@ -182,7 +186,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/peptide_match",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-12-02T04:13:02.066562Z",
+        "@timestamp": "2023-12-09T04:12:58.630378Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -197,21 +201,35 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 44,
+                        "days": 49,
                         "serie": [
                             1,
                             1,
                             9,
                             16,
                             15,
-                            2
+                            2,
+                            2,
+                            3
                         ],
                         "status": 503
                     },
                     {
-                        "days": 99,
+                        "days": 6,
                         "serie": [
-                            11,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 92,
+                        "serie": [
+                            4,
                             21,
                             1,
                             1,
@@ -224,44 +242,34 @@
                         "status": 200
                     },
                     {
-                        "days": 5,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 34,
+                        "days": 35,
                         "serie": [
                             2,
                             1,
                             1,
                             18,
-                            12
+                            12,
+                            1
                         ],
                         "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2023-12-02T04:13:01.833537Z",
+                "https": true,
+                "last_check": "2023-12-09T04:12:57.951692Z",
                 "last_month_access": {
-                    "average_access_time": 619,
-                    "downtime_days": 14,
-                    "uptime_days": 15
+                    "average_access_time": 618,
+                    "downtime_days": 21,
+                    "uptime_days": 7
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://research.bioinformatics.udel.edu/peptidematch/docs/userguide.htm"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
