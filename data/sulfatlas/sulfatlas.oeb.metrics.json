@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:sulfatlas/db/abims.sb-roscoff.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-12-09T05:15:25.230801Z",
+        "@timestamp": "2023-12-16T05:48:08.403200Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,14 +13,13 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1554,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 3,
+                        "days": 2,
                         "serie": [
-                            1,
                             2
                         ],
                         "status": 500
@@ -33,6 +32,17 @@
                         "status": 503
                     },
                     {
+                        "days": 171,
+                        "serie": [
+                            1,
+                            134,
+                            29,
+                            1,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
                         "days": 4,
                         "serie": [
                             1,
@@ -42,33 +52,41 @@
                         "status": 408
                     },
                     {
-                        "days": 171,
+                        "days": 1,
                         "serie": [
-                            3,
-                            4,
-                            134,
-                            29,
                             1
                         ],
-                        "status": 200
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2023-12-09T05:15:25.17012Z",
+                "https": true,
+                "last_check": "2023-12-16T05:48:08.286699Z",
                 "last_month_access": {
-                    "average_access_time": 3962,
-                    "downtime_days": 3,
+                    "average_access_time": 4687,
+                    "downtime_days": 4,
                     "uptime_days": 25
                 },
                 "license": false,
-                "operational": 301,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "http://sulfatlas.sb-roscoff.fr/sulfatlas"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sulfatlas.sb-roscoff.fr/sulfatlas"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sulfatlas.sb-roscoff.fr/sulfatlas/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sulfatlas.sb-roscoff.fr/sulfatlas/;jsessionid=00D3AA887EB9ABDE9660B09A3B1BA354?execution=e1s1"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -77,7 +95,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/sulfatlas",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2023-12-09T08:12:57.448082Z",
+        "@timestamp": "2023-12-16T08:45:54.539749Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -87,7 +105,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 442,
+                "access_time": 504,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -109,11 +127,11 @@
                     {
                         "days": 172,
                         "serie": [
-                            8,
+                            1,
                             21,
                             111,
                             17,
-                            15
+                            22
                         ],
                         "status": 200
                     },
@@ -126,11 +144,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-12-09T08:12:44.186182Z",
+                "last_check": "2023-12-16T08:44:52.071813Z",
                 "last_month_access": {
-                    "average_access_time": 843,
+                    "average_access_time": 838,
                     "downtime_days": 1,
-                    "uptime_days": 27
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -145,7 +163,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://sulfatlas.sb-roscoff.fr/sulfatlas/;jsessionid=F2DEE04760C7BB6FD4C476586F8AF603?execution=e1s1"
+                        "url": "https://sulfatlas.sb-roscoff.fr/sulfatlas/;jsessionid=2EA5840501DF62ED95401C24D37A232C?execution=e1s1"
                     }
                 ],
                 "ssl": true,
@@ -157,7 +175,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:sulfatlas:2.2.1/cmd/cran.r-project.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2023-12-09T08:06:42.358746Z",
+        "@timestamp": "2023-12-16T08:37:08.698562Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -175,15 +193,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 68,
+                "access_time": 67,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 181,
                         "serie": [
-                            159,
-                            22
+                            152,
+                            29
                         ],
                         "status": 200
                     },
@@ -196,11 +214,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-12-09T08:06:42.332212Z",
+                "last_check": "2023-12-16T08:37:08.646576Z",
                 "last_month_access": {
                     "average_access_time": 74,
-                    "downtime_days": 1,
-                    "uptime_days": 27
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -219,7 +237,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:sulfatlas/db/sulfatlas.sb-roscoff.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2023-12-09T08:07:17.872115Z",
+        "@timestamp": "2023-12-16T08:37:42.390362Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -335,7 +353,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 5572,
+                "access_time": 1042,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -357,11 +375,11 @@
                     {
                         "days": 172,
                         "serie": [
-                            8,
+                            1,
                             21,
                             111,
                             17,
-                            15
+                            22
                         ],
                         "status": 200
                     },
@@ -374,11 +392,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2023-12-09T08:07:17.842033Z",
+                "last_check": "2023-12-16T08:37:42.338082Z",
                 "last_month_access": {
-                    "average_access_time": 2289,
+                    "average_access_time": 2457,
                     "downtime_days": 1,
-                    "uptime_days": 27
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -393,7 +411,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://sulfatlas.sb-roscoff.fr/sulfatlas/;jsessionid=20CD15A8631EBC5F0A8EA0C3CD531B82?execution=e1s1"
+                        "url": "https://sulfatlas.sb-roscoff.fr/sulfatlas/;jsessionid=9873E4F9DC6E038A813E8429C3B5454E?execution=e1s1"
                     }
                 ],
                 "ssl": true,
