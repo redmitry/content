@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mdlab/cmd/mdlab.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-01-06T03:39:04.845695Z",
+        "@timestamp": "2024-01-13T03:41:52.454839Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -142,10 +142,17 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 1644,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 403
+                    },
                     {
                         "days": 1,
                         "serie": [
@@ -154,10 +161,11 @@
                         "status": 404
                     },
                     {
-                        "days": 181,
+                        "days": 180,
                         "serie": [
-                            136,
-                            45
+                            129,
+                            45,
+                            6
                         ],
                         "status": 200
                     },
@@ -169,15 +177,15 @@
                         "status": 523
                     }
                 ],
-                "https": false,
-                "last_check": "2024-01-06T03:39:04.783808Z",
+                "https": true,
+                "last_check": "2024-01-13T03:41:52.358962Z",
                 "last_month_access": {
-                    "average_access_time": 2298,
-                    "downtime_days": 1,
-                    "uptime_days": 29
+                    "average_access_time": 2179,
+                    "downtime_days": 2,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 403,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -186,9 +194,21 @@
                     {
                         "status": 301,
                         "url": "https://mdlab.sourceforge.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sourceforge.net/projects/mdlab/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sourceforge.net/directory/science-engineering/chemistry/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sourceforge.net/directory/chemistry/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -200,7 +220,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mdlab",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-01-06T03:39:13.070361Z",
+        "@timestamp": "2024-01-13T03:41:57.127993Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -210,14 +230,22 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 1377,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 1,
                         "serie": [
-                            182
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            175,
+                            6
                         ],
                         "status": 200
                     },
@@ -229,15 +257,15 @@
                         "status": 523
                     }
                 ],
-                "https": false,
-                "last_check": "2024-01-06T03:39:04.783808Z",
+                "https": true,
+                "last_check": "2024-01-13T03:41:57.000224Z",
                 "last_month_access": {
-                    "average_access_time": 1728,
-                    "downtime_days": 1,
-                    "uptime_days": 29
+                    "average_access_time": 1662,
+                    "downtime_days": 2,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 403,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -246,6 +274,18 @@
                     {
                         "status": 301,
                         "url": "https://mdlab.sourceforge.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://sourceforge.net/projects/mdlab/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sourceforge.net/directory/science-engineering/chemistry/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sourceforge.net/directory/chemistry/"
                     }
                 ],
                 "ssl": true,

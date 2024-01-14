@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:seq-em/cmd/www.cs.tau.ac.il",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-01-06T05:01:51.980Z",
+        "@timestamp": "2024-01-13T05:06:26.123233Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -98,22 +98,23 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 170,
+                        "days": 165,
                         "serie": [
-                            80,
+                            73,
                             10,
                             5,
                             12,
                             44,
                             6,
-                            13
+                            13,
+                            2
                         ],
                         "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 6,
                         "serie": [
-                            1
+                            6
                         ],
                         "status": 503
                     },
@@ -130,15 +131,21 @@
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-01-06T05:01:51.916372Z",
+                "https": true,
+                "last_check": "2024-01-13T05:06:25.880852Z",
                 "last_month_access": {
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 503,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.cs.tau.ac.il//~heran/cozygene/software/seqem.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -150,7 +157,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/seq-em",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-01-06T05:04:10.580491Z",
+        "@timestamp": "2024-01-13T05:08:45.441756Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -165,22 +172,23 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 170,
+                        "days": 165,
                         "serie": [
-                            80,
+                            73,
                             10,
                             5,
                             12,
                             44,
                             6,
-                            13
+                            13,
+                            2
                         ],
                         "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 6,
                         "serie": [
-                            1
+                            6
                         ],
                         "status": 503
                     },
@@ -197,15 +205,21 @@
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-01-06T05:01:51.916372Z",
+                "https": true,
+                "last_check": "2024-01-13T05:08:45.366657Z",
                 "last_month_access": {
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 503,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.cs.tau.ac.il//~heran/cozygene/software/seqem.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
