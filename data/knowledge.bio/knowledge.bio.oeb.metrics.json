@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:knowledge.bio/web/knowledge.bio",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-01-27T03:35:33.242003Z",
+        "@timestamp": "2024-02-03T03:22:20.481532Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -126,24 +126,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 240,
-                "bioschemas": false,
+                "access_time": 668,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 161,
+                        "days": 168,
                         "serie": [
                             7,
                             1,
                             2,
-                            151
+                            158
                         ],
                         "status": 200
                     },
                     {
-                        "days": 22,
+                        "days": 15,
                         "serie": [
-                            11,
+                            4,
                             2,
                             6,
                             3
@@ -151,16 +151,22 @@
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-01-27T03:35:10.393051Z",
+                "https": true,
+                "last_check": "2024-02-03T03:22:20.421953Z",
                 "last_month_access": {
-                    "average_access_time": 780,
+                    "average_access_time": 832,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://knowledge.bio/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -169,7 +175,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/knowledge.bio",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-01-27T03:35:10.622480Z",
+        "@timestamp": "2024-02-03T03:22:01.050628Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -179,41 +185,57 @@
                 "description": true
             },
             "website": {
-                "access_time": 240,
-                "bioschemas": false,
+                "access_time": 812,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 161,
+                        "days": 166,
                         "serie": [
                             7,
                             1,
                             2,
-                            151
+                            154,
+                            1,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 22,
+                        "days": 15,
                         "serie": [
-                            11,
+                            4,
                             2,
                             6,
                             3
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2024-01-27T03:35:10.393051Z",
+                "https": true,
+                "last_check": "2024-02-03T03:22:00.976543Z",
                 "last_month_access": {
-                    "average_access_time": 780,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 982,
+                    "downtime_days": 2,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://knowledge.bio/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
