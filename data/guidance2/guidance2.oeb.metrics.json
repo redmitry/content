@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:guidance2/web/guidance.tau.ac.il",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-02-03T03:17:22.141278Z",
+        "@timestamp": "2024-02-10T03:12:37.326134Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -155,7 +155,7 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 36,
+                        "days": 39,
                         "serie": [
                             3,
                             1,
@@ -167,125 +167,8 @@
                             6,
                             2,
                             1,
-                            4
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 69,
-                        "serie": [
-                            6,
                             4,
-                            6,
-                            4,
-                            13,
-                            1,
-                            4,
-                            6,
-                            6,
-                            6,
-                            6,
-                            6,
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 15,
-                        "serie": [
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 45,
-                        "serie": [
-                            45
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 18,
-                        "serie": [
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            7
-                        ],
-                        "status": 302
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-02-03T03:17:21.845318Z",
-                "last_month_access": {
-                    "average_access_time": 389,
-                    "downtime_days": 30,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 302,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "https://taux.evolseq.net/guidancever2/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/guidance2",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-02-03T03:13:48.956864Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 31,
-                        "serie": [
-                            3,
-                            2,
-                            2,
-                            2,
-                            3,
-                            6,
-                            5,
-                            6,
-                            1,
-                            1
+                            3
                         ],
                         "status": 404
                     },
@@ -336,14 +219,144 @@
                         "status": 408
                     },
                     {
-                        "days": 45,
+                        "days": 38,
                         "serie": [
-                            45
+                            38
                         ],
                         "status": 200
                     },
                     {
-                        "days": 21,
+                        "days": 20,
+                        "serie": [
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            7,
+                            2
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-02-10T03:12:37.180737Z",
+                "last_month_access": {
+                    "average_access_time": 389,
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://taux.evolseq.net/guidancever2/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/guidance2",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-02-10T03:09:34.150721Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 32,
+                        "serie": [
+                            3,
+                            2,
+                            2,
+                            2,
+                            3,
+                            6,
+                            5,
+                            6,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 69,
+                        "serie": [
+                            6,
+                            4,
+                            6,
+                            4,
+                            13,
+                            1,
+                            4,
+                            6,
+                            6,
+                            6,
+                            6,
+                            6,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 38,
+                        "serie": [
+                            38
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 25,
                         "serie": [
                             1,
                             1,
@@ -353,20 +366,22 @@
                             3,
                             6,
                             4,
-                            2
+                            4,
+                            1,
+                            1
                         ],
                         "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-03T03:13:48.853379Z",
+                "last_check": "2024-02-10T03:09:33.991031Z",
                 "last_month_access": {
                     "average_access_time": 532,
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 302,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
@@ -382,7 +397,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:guidance2:3.0.3/cmd/rgcgithub.github.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-02-03T07:46:03.340636Z",
+        "@timestamp": "2024-02-09T08:03:44.556992Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -400,7 +415,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 264,
+                "access_time": 302,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -413,11 +428,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-03T05:51:49.840451Z",
+                "last_check": "2024-02-09T05:55:15.522002Z",
                 "last_month_access": {
-                    "average_access_time": 273,
+                    "average_access_time": 277,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
