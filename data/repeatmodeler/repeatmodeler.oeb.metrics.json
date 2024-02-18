@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:repeatmodeler:1.0.11/cmd/www.repeatmasker.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-02-10T04:46:53.920201Z",
+        "@timestamp": "2024-02-17T05:54:09.450897Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,7 +21,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 326,
+                "access_time": 1508,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -34,9 +34,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-10T04:46:53.855794Z",
+                "last_check": "2024-02-17T05:54:09.377145Z",
                 "last_month_access": {
-                    "average_access_time": 617,
+                    "average_access_time": 984,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -57,7 +57,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:repeatmodeler:1.0.8/cmd/www.repeatmasker.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-02-10T04:49:37.084579Z",
+        "@timestamp": "2024-02-17T05:59:21.190791Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -75,24 +75,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 850,
+                "access_time": 845,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            181,
+                            1
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-10T04:49:37.027573Z",
+                "last_check": "2024-02-17T05:59:21.142913Z",
                 "last_month_access": {
-                    "average_access_time": 1188,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1166,
+                    "downtime_days": 1,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -111,7 +119,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:repeatmodeler:none/cmd/www.repeatmasker.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-02-10T04:51:22.218609Z",
+        "@timestamp": "2024-02-17T06:00:15.507874Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -144,7 +152,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1034,
+                "access_time": 1144,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -157,9 +165,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-10T04:51:22.161325Z",
+                "last_check": "2024-02-17T06:00:15.430932Z",
                 "last_month_access": {
-                    "average_access_time": 1426,
+                    "average_access_time": 1301,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -183,7 +191,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:repeatmodeler/cmd/www.repeatmasker.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-02-10T04:52:41.277421Z",
+        "@timestamp": "2024-02-17T06:03:58.270708Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -200,12 +208,23 @@
                 "open_source": true,
                 "osi": false
             },
-            "publications": [],
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1071,
+                "access_time": 1208,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -218,11 +237,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-10T04:52:41.224785Z",
+                "last_check": "2024-02-17T06:03:58.213629Z",
                 "last_month_access": {
-                    "average_access_time": 1420,
+                    "average_access_time": 1295,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 31
                 },
                 "license": false,
                 "operational": 200,
@@ -235,13 +254,16 @@
                 "ssl": true,
                 "ssl_err": null
             }
+        },
+        "support": {
+            "email": true
         }
     },
     {
         "@id": "https://openebench.bsc.es/monitor/metrics/repeatmodeler",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-02-10T04:50:21.632122Z",
+        "@timestamp": "2024-02-17T05:59:40.844878Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -251,7 +273,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1102,
+                "access_time": 850,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -264,9 +286,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-10T04:50:21.536072Z",
+                "last_check": "2024-02-17T05:59:40.765155Z",
                 "last_month_access": {
-                    "average_access_time": 1319,
+                    "average_access_time": 2497,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -275,7 +297,7 @@
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://www.repeatmasker.org/RepeatModeler/"
+                        "url": "https://www.repeatmasker.org/RepeatModeler.html"
                     }
                 ],
                 "ssl": true,
@@ -287,7 +309,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:repeatmodeler:2.0.1/cmd/www.repeatmasker.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-02-10T05:41:03.497012Z",
+        "@timestamp": "2024-02-17T07:18:04.297913Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -321,7 +343,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1114,
+                "access_time": 1036,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -334,9 +356,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-10T05:41:03.305808Z",
+                "last_check": "2024-02-17T07:18:04.245474Z",
                 "last_month_access": {
-                    "average_access_time": 1402,
+                    "average_access_time": 1508,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -363,7 +385,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:repeatmodeler:2.0.2a/cmd/www.repeatmasker.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-02-10T06:56:11.205935Z",
+        "@timestamp": "2024-02-17T08:15:50.478615Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -397,7 +419,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1077,
+                "access_time": 1007,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -410,9 +432,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-10T06:56:11.112209Z",
+                "last_check": "2024-02-17T08:15:50.429998Z",
                 "last_month_access": {
-                    "average_access_time": 1474,
+                    "average_access_time": 2205,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -439,7 +461,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:repeatmodeler:2.0.3/cmd/www.repeatmasker.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-02-09T07:47:51.615942Z",
+        "@timestamp": "2024-02-17T08:35:24.462550Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -473,7 +495,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1015,
+                "access_time": 1092,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -486,9 +508,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-09T07:47:51.581351Z",
+                "last_check": "2024-02-17T08:35:24.431717Z",
                 "last_month_access": {
-                    "average_access_time": 999,
+                    "average_access_time": 966,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -515,7 +537,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:repeatmodeler:2.0.4/cmd/www.repeatmasker.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-02-09T08:17:34.594564Z",
+        "@timestamp": "2024-02-17T06:03:57.143385Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -533,16 +555,16 @@
                 "description": true
             },
             "website": {
-                "access_time": 1015,
+                "access_time": 1144,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 181,
                         "serie": [
-                            24,
+                            16,
                             1,
-                            156
+                            164
                         ],
                         "status": 200
                     },
@@ -556,9 +578,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-09T07:47:51.581351Z",
+                "last_check": "2024-02-17T06:00:15.430932Z",
                 "last_month_access": {
-                    "average_access_time": 999,
+                    "average_access_time": 2402,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
@@ -579,7 +601,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:repeatmodeler:2.0.5/cmd/www.repeatmasker.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-02-09T08:23:03.214001Z",
+        "@timestamp": "2024-02-17T06:03:57.161835Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -597,22 +619,22 @@
                 "description": true
             },
             "website": {
-                "access_time": 1015,
+                "access_time": 1144,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 104,
+                        "days": 112,
                         "serie": [
-                            104
+                            112
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-09T07:47:51.581351Z",
+                "last_check": "2024-02-17T06:00:15.430932Z",
                 "last_month_access": {
-                    "average_access_time": 999,
+                    "average_access_time": 2402,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
