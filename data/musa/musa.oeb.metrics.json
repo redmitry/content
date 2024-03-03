@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:musa:0.5.6/cmd/kdbio.inesc-id.pt",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-02-23T04:33:01.749756Z",
+        "@timestamp": "2024-03-02T04:25:04.462665Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -143,18 +143,19 @@
                         "status": 404
                     },
                     {
-                        "days": 8,
+                        "days": 15,
                         "serie": [
-                            8
+                            15
                         ],
                         "status": 502
                     },
                     {
-                        "days": 78,
+                        "days": 69,
                         "serie": [
-                            30,
+                            20,
                             33,
-                            15
+                            15,
+                            1
                         ],
                         "status": 408
                     },
@@ -169,15 +170,21 @@
                         "status": 504
                     }
                 ],
-                "https": false,
-                "last_check": "2024-02-23T04:33:01.68394Z",
+                "https": true,
+                "last_check": "2024-03-02T04:25:04.343298Z",
                 "last_month_access": {
                     "downtime_days": 28,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 502,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://kdbio.inesc-id.pt/~ndm/software/musa.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -189,7 +196,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/musa",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-02-23T04:33:01.777571Z",
+        "@timestamp": "2024-03-02T04:25:04.423420Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -213,18 +220,19 @@
                         "status": 404
                     },
                     {
-                        "days": 8,
+                        "days": 15,
                         "serie": [
-                            8
+                            15
                         ],
                         "status": 502
                     },
                     {
-                        "days": 78,
+                        "days": 69,
                         "serie": [
-                            30,
+                            20,
                             33,
-                            15
+                            15,
+                            1
                         ],
                         "status": 408
                     },
@@ -239,15 +247,21 @@
                         "status": 504
                     }
                 ],
-                "https": false,
-                "last_check": "2024-02-23T04:33:01.68425Z",
+                "https": true,
+                "last_check": "2024-03-02T04:25:04.330975Z",
                 "last_month_access": {
                     "downtime_days": 28,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 502,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://kdbio.inesc-id.pt/~ndm/software/musa.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:jprogo/web/www.jprogo.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-02-23T03:56:32.306315Z",
+        "@timestamp": "2024-03-02T03:44:10.903752Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -103,19 +103,21 @@
                         "status": 404
                     },
                     {
-                        "days": 5,
+                        "days": 10,
                         "serie": [
                             1,
                             2,
+                            1,
+                            4,
                             1,
                             1
                         ],
                         "status": 502
                     },
                     {
-                        "days": 135,
+                        "days": 128,
                         "serie": [
-                            100,
+                            90,
                             1,
                             4,
                             3,
@@ -123,7 +125,9 @@
                             2,
                             1,
                             1,
-                            1
+                            1,
+                            1,
+                            2
                         ],
                         "status": 200
                     },
@@ -152,11 +156,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-23T03:56:32.236293Z",
+                "last_check": "2024-03-02T03:44:10.769011Z",
                 "last_month_access": {
-                    "average_access_time": 3745,
-                    "downtime_days": 7,
-                    "uptime_days": 21
+                    "average_access_time": 7092,
+                    "downtime_days": 12,
+                    "uptime_days": 16
                 },
                 "license": false,
                 "operational": 502,
@@ -175,7 +179,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/jprogo",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-02-23T03:57:33.501922Z",
+        "@timestamp": "2024-03-02T03:45:22.925204Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -185,7 +189,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 29443,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
@@ -204,12 +208,32 @@
                         "status": 404
                     },
                     {
-                        "days": 2,
+                        "days": 5,
                         "serie": [
+                            1,
+                            1,
+                            1,
                             1,
                             1
                         ],
                         "status": 502
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            90,
+                            1,
+                            4,
+                            3,
+                            22,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1
+                        ],
+                        "status": 200
                     },
                     {
                         "days": 3,
@@ -219,20 +243,6 @@
                             1
                         ],
                         "status": 504
-                    },
-                    {
-                        "days": 136,
-                        "serie": [
-                            100,
-                            1,
-                            4,
-                            3,
-                            22,
-                            2,
-                            3,
-                            1
-                        ],
-                        "status": 200
                     },
                     {
                         "days": 3,
@@ -245,14 +255,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-02-23T03:57:33.073367Z",
+                "last_check": "2024-03-02T03:45:22.806841Z",
                 "last_month_access": {
-                    "average_access_time": 4730,
-                    "downtime_days": 6,
-                    "uptime_days": 22
+                    "average_access_time": 8811,
+                    "downtime_days": 9,
+                    "uptime_days": 19
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 502,
                 "redirects": [
                     {
                         "status": 301,
