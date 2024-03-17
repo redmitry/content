@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:particlestats/web/www.ParticleStats.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-03-09T04:40:35.533062Z",
+        "@timestamp": "2024-03-16T04:05:35.297718Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -103,8 +103,8 @@
                 "description": true
             },
             "website": {
-                "access_time": 561,
-                "bioschemas": false,
+                "access_time": 785,
+                "bioschemas": true,
                 "copyright": true,
                 "half_year_stat": [
                     {
@@ -115,79 +115,27 @@
                         "status": 502
                     },
                     {
-                        "days": 180,
-                        "serie": [
-                            11,
-                            169
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-03-08T04:57:02.856131Z",
-                "last_month_access": {
-                    "average_access_time": 1178,
-                    "downtime_days": 0,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "http://particlestats.com"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/particlestats",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-03-09T04:40:36.128444Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 953,
-                "bioschemas": true,
-                "copyright": true,
-                "half_year_stat": [
-                    {
                         "days": 2,
                         "serie": [
-                            1,
-                            1
+                            2
                         ],
-                        "status": 502
+                        "status": 503
                     },
                     {
-                        "days": 179,
+                        "days": 178,
                         "serie": [
-                            11,
-                            131,
-                            37
+                            4,
+                            174
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-03-09T04:40:35.932291Z",
+                "last_check": "2024-03-16T04:05:34.759912Z",
                 "last_month_access": {
-                    "average_access_time": 1079,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "average_access_time": 1081,
+                    "downtime_days": 2,
+                    "uptime_days": 26
                 },
                 "license": false,
                 "operational": 200,
@@ -202,6 +150,72 @@
                     }
                 ],
                 "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/particlestats",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-03-16T04:05:34.950986Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": true,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            4,
+                            131,
+                            42
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-03-15T04:10:58.464278Z",
+                "last_month_access": {
+                    "average_access_time": 1246,
+                    "downtime_days": 2,
+                    "uptime_days": 26
+                },
+                "license": false,
+                "operational": 503,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://particlestats.com"
+                    }
+                ],
+                "ssl": null,
                 "ssl_err": null
             }
         }

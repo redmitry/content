@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/desso",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-03-09T03:12:56.992603Z",
+        "@timestamp": "2024-03-16T02:34:54.990873Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,28 +13,30 @@
                 "description": true
             },
             "website": {
-                "access_time": 2620,
+                "access_time": 346,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 160,
+                        "days": 159,
                         "serie": [
-                            36,
+                            29,
                             1,
                             106,
                             3,
                             1,
                             1,
                             11,
+                            6,
                             1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 14,
+                        "days": 15,
                         "serie": [
-                            14
+                            14,
+                            1
                         ],
                         "status": 408
                     },
@@ -51,12 +53,204 @@
                         "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2024-03-09T03:12:56.853012Z",
+                "https": true,
+                "last_check": "2024-03-16T02:34:54.898205Z",
                 "last_month_access": {
-                    "average_access_time": 2407,
+                    "average_access_time": 2312,
                     "downtime_days": 15,
                     "uptime_days": 13
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cloud.osubmi.com/DESSO/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:desso/web/bmbl.bmi.osumc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-03-16T02:34:53.005311Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 11,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkz672",
+                            "pmcid": "PMC6735894",
+                            "pmid": "31372637",
+                            "ref_count": 84,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Prediction of regulatory motifs from human Chip-sequencing data using a deep learning framework.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1944,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 160,
+                        "serie": [
+                            65,
+                            65,
+                            1,
+                            11,
+                            8,
+                            3,
+                            6,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 16,
+                        "serie": [
+                            1,
+                            14,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-03-16T02:34:52.897189Z",
+                "last_month_access": {
+                    "average_access_time": 1339,
+                    "downtime_days": 17,
+                    "uptime_days": 11
                 },
                 "license": false,
                 "operational": 200,
@@ -76,200 +270,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:desso/web/bmbl.bmi.osumc.edu",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-03-09T03:12:57.459654Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": false
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 11,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1093/nar/gkz672",
-                            "pmcid": "PMC6735894",
-                            "pmid": "31372637",
-                            "ref_count": 84,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1987"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1989"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "1991"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 10,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 8,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 10,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 15,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2019"
-                                }
-                            ],
-                            "title": "Prediction of regulatory motifs from human Chip-sequencing data using a deep learning framework.",
-                            "year": 2019
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 638,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 161,
-                        "serie": [
-                            72,
-                            65,
-                            1,
-                            11,
-                            8,
-                            3,
-                            1
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 15,
-                        "serie": [
-                            1,
-                            14
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 5,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 301
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-03-09T03:12:57.365542Z",
-                "last_month_access": {
-                    "average_access_time": 1542,
-                    "downtime_days": 16,
-                    "uptime_days": 12
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://cloud.osubmi.com/DESSO/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:desso/db/bmbl.bmi.osumc.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-03-09T03:13:41.028483Z",
+        "@timestamp": "2024-03-16T02:34:53.624651Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -398,28 +402,30 @@
                 "description": true
             },
             "website": {
-                "access_time": 1430,
+                "access_time": 349,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 161,
+                        "days": 160,
                         "serie": [
-                            72,
+                            65,
                             65,
                             1,
                             11,
                             8,
                             3,
+                            6,
                             1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 15,
+                        "days": 16,
                         "serie": [
                             1,
-                            14
+                            14,
+                            1
                         ],
                         "status": 408
                     },
@@ -436,11 +442,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-03-09T03:13:40.93729Z",
+                "last_check": "2024-03-16T02:34:53.556254Z",
                 "last_month_access": {
-                    "average_access_time": 1181,
-                    "downtime_days": 16,
-                    "uptime_days": 12
+                    "average_access_time": 805,
+                    "downtime_days": 17,
+                    "uptime_days": 11
                 },
                 "license": false,
                 "operational": 200,
@@ -459,7 +465,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:desso/cmd/bmbl.bmi.osumc.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-03-09T03:14:08.408851Z",
+        "@timestamp": "2024-03-16T02:34:54.416067Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -588,28 +594,30 @@
                 "description": true
             },
             "website": {
-                "access_time": 2302,
+                "access_time": 355,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 161,
+                        "days": 160,
                         "serie": [
-                            72,
+                            65,
                             65,
                             1,
                             11,
                             8,
                             3,
+                            6,
                             1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 15,
+                        "days": 16,
                         "serie": [
                             1,
-                            14
+                            14,
+                            1
                         ],
                         "status": 408
                     },
@@ -626,11 +634,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-03-09T03:14:08.327818Z",
+                "last_check": "2024-03-16T02:34:54.358691Z",
                 "last_month_access": {
-                    "average_access_time": 1094,
-                    "downtime_days": 16,
-                    "uptime_days": 12
+                    "average_access_time": 1289,
+                    "downtime_days": 17,
+                    "uptime_days": 11
                 },
                 "license": false,
                 "operational": 200,

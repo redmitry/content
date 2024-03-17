@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hawkeye/app/amos.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-03-09T03:43:36.909788Z",
+        "@timestamp": "2024-03-16T03:03:03.782598Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -144,15 +144,16 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 631,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 4,
                         "serie": [
                             1,
-                            1
+                            1,
+                            2
                         ],
                         "status": 403
                     },
@@ -164,25 +165,26 @@
                         "status": 500
                     },
                     {
-                        "days": 178,
+                        "days": 176,
                         "serie": [
-                            118,
+                            111,
                             7,
                             5,
-                            48
+                            48,
+                            5
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2024-03-09T03:42:34.764224Z",
+                "https": true,
+                "last_check": "2024-03-16T03:03:03.684684Z",
                 "last_month_access": {
-                    "average_access_time": 460,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "average_access_time": 568,
+                    "downtime_days": 2,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 403,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -198,7 +200,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hawkeye/app/sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-03-09T03:42:57.293099Z",
+        "@timestamp": "2024-03-16T03:05:10.230593Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -340,15 +342,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 384,
-                "bioschemas": false,
+                "access_time": 751,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 180,
                         "serie": [
-                            62,
-                            118
+                            55,
+                            125
                         ],
                         "status": 200
                     },
@@ -361,9 +363,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-03-09T03:42:57.210442Z",
+                "last_check": "2024-03-16T03:05:10.156001Z",
                 "last_month_access": {
-                    "average_access_time": 796,
+                    "average_access_time": 777,
                     "downtime_days": 0,
                     "uptime_days": 28
                 },
@@ -371,8 +373,12 @@
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "https://sourceforge.net/#!/apps/mediawiki/amos/index.php"
+                        "status": 301,
+                        "url": "http://sourceforge.net/projects/amos/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sourceforge.net/projects/amos/"
                     }
                 ],
                 "ssl": true,
@@ -384,7 +390,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hawkeye/cmd/amos.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-03-09T03:42:34.878109Z",
+        "@timestamp": "2024-03-16T03:03:04.922159Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -525,15 +531,16 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 516,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 4,
                         "serie": [
                             1,
-                            1
+                            1,
+                            2
                         ],
                         "status": 403
                     },
@@ -545,32 +552,33 @@
                         "status": 500
                     },
                     {
-                        "days": 178,
+                        "days": 176,
                         "serie": [
-                            118,
+                            111,
                             7,
                             5,
-                            48
+                            48,
+                            5
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2024-03-09T03:42:34.764224Z",
+                "https": true,
+                "last_check": "2024-03-16T03:03:04.834355Z",
                 "last_month_access": {
-                    "average_access_time": 704,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "average_access_time": 707,
+                    "downtime_days": 2,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 403,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://amos.sourceforge.net/wiki/index.php?title=Hawkeye"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -579,7 +587,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/hawkeye",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-03-09T03:43:38.560958Z",
+        "@timestamp": "2024-03-16T03:03:04.655215Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -589,15 +597,16 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 548,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 4,
                         "serie": [
                             1,
-                            1
+                            1,
+                            2
                         ],
                         "status": 403
                     },
@@ -609,25 +618,26 @@
                         "status": 500
                     },
                     {
-                        "days": 178,
+                        "days": 176,
                         "serie": [
-                            118,
+                            111,
                             7,
                             5,
-                            48
+                            48,
+                            5
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2024-03-09T03:42:34.764224Z",
+                "https": true,
+                "last_check": "2024-03-16T03:03:04.356902Z",
                 "last_month_access": {
-                    "average_access_time": 921,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "average_access_time": 925,
+                    "downtime_days": 2,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 403,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
