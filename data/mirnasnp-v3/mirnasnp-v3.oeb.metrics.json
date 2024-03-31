@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mirnasnp-v3",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-03-23T08:06:10.694435Z",
+        "@timestamp": "2024-03-30T02:53:40.765666Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,7 +13,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1917,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -28,11 +28,155 @@
                     {
                         "days": 177,
                         "serie": [
-                            162,
+                            155,
                             9,
                             2,
                             2,
-                            2
+                            9
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-03-30T02:53:40.668538Z",
+                "last_month_access": {
+                    "average_access_time": 18839,
+                    "downtime_days": 4,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://guolab.wchscu.cn/miRNASNP//"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mirnasnp-v3/db/bioinfo.life.hust.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-03-30T02:55:09.734301Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 31,
+                            "citations": [
+                                {
+                                    "count": 12,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkaa783",
+                            "pmcid": "PMC7778889",
+                            "pmid": "32990748",
+                            "ref_count": 32,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "miRNASNP-v3: a comprehensive database for SNPs and disease-related variations in miRNAs and miRNA targets.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 107247,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            155,
+                            9,
+                            3,
+                            4,
+                            6
                         ],
                         "status": 200
                     },
@@ -46,11 +190,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-03-23T08:06:10.618533Z",
+                "last_check": "2024-03-30T02:55:02.686592Z",
                 "last_month_access": {
-                    "average_access_time": 13852,
+                    "average_access_time": 13976,
                     "downtime_days": 4,
-                    "uptime_days": 23
+                    "uptime_days": 25
                 },
                 "license": false,
                 "operational": 200,
@@ -66,10 +210,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mirnasnp-v3/db/bioinfo.life.hust.edu.cn",
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mirnasnp-v3/web/bioinfo.life.hust.edu.cn",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-03-23T08:09:28.690511Z",
+        "@timestamp": "2024-03-30T03:00:31.900889Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -170,29 +314,34 @@
                         "status": 404
                     },
                     {
-                        "days": 178,
+                        "days": 6,
                         "serie": [
-                            162,
-                            9,
-                            3,
-                            4
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
+                            2,
+                            1,
+                            2,
                             1
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 173,
+                        "serie": [
+                            155,
+                            9,
+                            4,
+                            1,
+                            2,
+                            2
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2024-03-23T08:09:28.608133Z",
+                "last_check": "2024-03-30T02:53:40.668538Z",
                 "last_month_access": {
-                    "average_access_time": 13899,
-                    "downtime_days": 3,
-                    "uptime_days": 24
+                    "average_access_time": 9472,
+                    "downtime_days": 8,
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 408,
@@ -203,149 +352,6 @@
                     }
                 ],
                 "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mirnasnp-v3/web/bioinfo.life.hust.edu.cn",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-03-23T08:09:24.651270Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 31,
-                            "citations": [
-                                {
-                                    "count": 12,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 15,
-                                    "year": "2022"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2023"
-                                }
-                            ],
-                            "doi": "10.1093/nar/gkaa783",
-                            "pmcid": "PMC7778889",
-                            "pmid": "32990748",
-                            "ref_count": 32,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2020"
-                                }
-                            ],
-                            "title": "miRNASNP-v3: a comprehensive database for SNPs and disease-related variations in miRNAs and miRNA targets.",
-                            "year": 2021
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 1852,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 3,
-                        "serie": [
-                            2,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 176,
-                        "serie": [
-                            162,
-                            9,
-                            4,
-                            1
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-03-23T08:09:22.776467Z",
-                "last_month_access": {
-                    "average_access_time": 12289,
-                    "downtime_days": 5,
-                    "uptime_days": 22
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://guolab.wchscu.cn/miRNASNP//"
-                    }
-                ],
-                "ssl": true,
                 "ssl_err": null
             }
         }
