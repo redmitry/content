@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/anarci",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-03-30T03:25:37.973250Z",
+        "@timestamp": "2024-04-06T12:51:39.906345Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,14 +13,14 @@
                 "description": true
             },
             "website": {
-                "access_time": 480,
+                "access_time": 340,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 147,
+                        "days": 142,
                         "serie": [
-                            28,
+                            22,
                             13,
                             9,
                             4,
@@ -28,12 +28,13 @@
                             37,
                             3,
                             25,
-                            12
+                            12,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 30,
+                        "days": 36,
                         "serie": [
                             3,
                             1,
@@ -44,7 +45,8 @@
                             4,
                             1,
                             12,
-                            3
+                            4,
+                            5
                         ],
                         "status": 200
                     },
@@ -57,11 +59,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-03-30T03:25:33.273422Z",
+                "last_check": "2024-04-06T12:51:39.469983Z",
                 "last_month_access": {
-                    "average_access_time": 350,
-                    "downtime_days": 14,
-                    "uptime_days": 15
+                    "average_access_time": 348,
+                    "downtime_days": 9,
+                    "uptime_days": 20
                 },
                 "license": false,
                 "operational": 200,
@@ -84,7 +86,166 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:anarci/app/opig.stats.ox.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-03-30T05:09:57.997232Z",
+        "@timestamp": "2024-04-05T07:40:16.649585Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 105,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 31,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btv552",
+                            "pmcid": "PMC4708101",
+                            "pmid": "26424857",
+                            "ref_count": 15,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "ANARCI: antigen receptor numbering and receptor classification.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 180,
+                        "serie": [
+                            169,
+                            11
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-04-05T07:40:16.57416Z",
+                "last_month_access": {
+                    "average_access_time": 399,
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/ANARCI.php"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:anarci/web/opig.stats.ox.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-04-05T07:40:16.644927Z",
         "@type": "metrics",
         "distribution": {
             "sourcecode": {
@@ -203,168 +364,9 @@
                     {
                         "days": 179,
                         "serie": [
-                            174,
-                            5
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-03-30T05:09:57.867636Z",
-                "last_month_access": {
-                    "average_access_time": 399,
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 404,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/ANARCI.php"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": false
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:anarci/web/opig.stats.ox.ac.uk",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-03-30T05:09:57.995825Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "general": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 105,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 12,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 12,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 11,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 20,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 31,
-                                    "year": "2022"
-                                },
-                                {
-                                    "count": 10,
-                                    "year": "2023"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/btv552",
-                            "pmcid": "PMC4708101",
-                            "pmid": "26424857",
-                            "ref_count": 15,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1991"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "1997"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2015"
-                                }
-                            ],
-                            "title": "ANARCI: antigen receptor numbering and receptor classification.",
-                            "year": 2016
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 178,
-                        "serie": [
-                            151,
+                            146,
                             22,
-                            5
+                            11
                         ],
                         "status": 404
                     },
@@ -384,10 +386,10 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-03-30T05:09:57.856597Z",
+                "last_check": "2024-04-05T07:40:16.580299Z",
                 "last_month_access": {
                     "average_access_time": 196,
-                    "downtime_days": 29,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -410,7 +412,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:anarci:2020.04.23/cmd/opig.stats.ox.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-03-30T03:25:33.989844Z",
+        "@timestamp": "2024-04-06T12:51:39.528220Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -444,15 +446,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 384,
+                "access_time": 420,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 177,
+                        "days": 178,
                         "serie": [
-                            174,
-                            3
+                            168,
+                            10
                         ],
                         "status": 200
                     },
@@ -465,9 +467,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-03-30T03:25:33.209541Z",
+                "last_check": "2024-04-06T12:51:39.469989Z",
                 "last_month_access": {
-                    "average_access_time": 489,
+                    "average_access_time": 462,
                     "downtime_days": 4,
                     "uptime_days": 25
                 },
@@ -498,7 +500,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:anarci:2021.02.04/cmd/opig.stats.ox.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-03-30T03:25:33.859115Z",
+        "@timestamp": "2024-04-06T12:51:39.523168Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -532,15 +534,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 342,
+                "access_time": 492,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 177,
+                        "days": 178,
                         "serie": [
-                            174,
-                            3
+                            168,
+                            10
                         ],
                         "status": 200
                     },
@@ -553,9 +555,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-03-30T03:25:33.266214Z",
+                "last_check": "2024-04-06T12:51:39.463664Z",
                 "last_month_access": {
-                    "average_access_time": 478,
+                    "average_access_time": 462,
                     "downtime_days": 4,
                     "uptime_days": 25
                 },
