@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:omim/web/www.ncbi.nlm.nih.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-06T02:04:50.985117Z",
+        "@timestamp": "2024-04-13T05:12:38.775049Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -373,7 +374,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1487,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -385,18 +386,20 @@
                         "status": 503
                     },
                     {
-                        "days": 179,
+                        "days": 178,
                         "serie": [
-                            46,
+                            39,
                             29,
                             15,
-                            89
+                            89,
+                            6
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
+                            1,
                             1,
                             1
                         ],
@@ -404,14 +407,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T02:04:47.724429Z",
+                "last_check": "2024-04-13T05:12:38.629274Z",
                 "last_month_access": {
-                    "average_access_time": 1533,
-                    "downtime_days": 0,
+                    "average_access_time": 1481,
+                    "downtime_days": 1,
                     "uptime_days": 29
                 },
                 "license": false,
-                "operational": 301,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -419,7 +422,11 @@
                     },
                     {
                         "status": 301,
-                        "url": "https://.ncbi.nlm.nih.gov/sites/omim"
+                        "url": "https://www.ncbi.nlm.nih.gov/sites/omim"
+                    },
+                    {
+                        "status": 303,
+                        "url": "https://www.ncbi.nlm.nih.gov/omim"
                     }
                 ],
                 "ssl": true,
@@ -431,8 +438,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:omim/db/www.ncbi.nlm.nih.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-06T01:52:31.346465Z",
+        "@timestamp": "2024-04-13T05:10:15.331892Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -801,7 +809,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 2368,
+                "access_time": 1310,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -814,11 +822,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T01:52:29.256421Z",
+                "last_check": "2024-04-13T05:10:14.994233Z",
                 "last_month_access": {
-                    "average_access_time": 1495,
+                    "average_access_time": 1452,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -848,8 +856,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:omim/rest/www.ncbi.nlm.nih.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-06T02:20:05.319666Z",
+        "@timestamp": "2024-04-13T05:17:05.080313Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -1218,7 +1227,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1395,
+                "access_time": 1311,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1239,10 +1248,10 @@
                     {
                         "days": 179,
                         "serie": [
-                            46,
+                            39,
                             31,
                             56,
-                            46
+                            53
                         ],
                         "status": 200
                     },
@@ -1255,11 +1264,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T02:20:04.515449Z",
+                "last_check": "2024-04-13T05:17:04.884743Z",
                 "last_month_access": {
-                    "average_access_time": 1554,
+                    "average_access_time": 1453,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -1286,7 +1295,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/omim",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-06T02:02:19.447115Z",
+        "@timestamp": "2024-04-13T05:12:08.401380Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -1296,7 +1305,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1319,
+                "access_time": 1361,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1310,18 +1319,18 @@
                     {
                         "days": 181,
                         "serie": [
-                            135,
-                            46
+                            128,
+                            53
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T02:02:17.076311Z",
+                "last_check": "2024-04-13T05:12:08.27685Z",
                 "last_month_access": {
-                    "average_access_time": 1575,
+                    "average_access_time": 1448,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,

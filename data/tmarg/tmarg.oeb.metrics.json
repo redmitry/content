@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tmarg:1.0/cmd/www.engr.uconn.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-06T08:01:59.073291Z",
+        "@timestamp": "2024-04-13T07:08:54.700805Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -109,35 +110,43 @@
                 "description": true
             },
             "website": {
-                "access_time": 1652,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            182
+                            175,
+                            6
                         ],
                         "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T08:01:58.929809Z",
+                "last_check": "2024-04-13T07:08:54.606511Z",
                 "last_month_access": {
-                    "average_access_time": 2005,
+                    "average_access_time": 1652,
                     "downtime_days": 29,
-                    "uptime_days": 0
+                    "uptime_days": 1
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://www.engr.uconn.edu/~ywu/TMARG.html"
                     },
                     {
-                        "status": 302,
-                        "url": "https://itstatus.uconn.edu/aurora-outage.html"
+                        "status": 301,
+                        "url": "https://engineering.uconn.edu/~ywu/TMARG.html"
                     }
                 ],
                 "ssl": true,
@@ -152,7 +161,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/tmarg",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-06T07:58:20.051140Z",
+        "@timestamp": "2024-04-13T07:07:47.476149Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -175,9 +184,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T07:58:17.593165Z",
+                "last_check": "2024-04-13T07:07:47.408969Z",
                 "last_month_access": {
-                    "downtime_days": 29,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,

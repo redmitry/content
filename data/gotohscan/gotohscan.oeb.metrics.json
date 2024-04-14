@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gotohscan:1.3/cmd/www.bioinf.uni-leipzig.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-05T09:53:59.305109Z",
+        "@timestamp": "2024-04-13T03:58:35.014162Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,7 +21,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 425,
+                "access_time": 419,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -34,9 +34,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-05T09:53:58.342561Z",
+                "last_check": "2024-04-13T03:58:34.866164Z",
                 "last_month_access": {
-                    "average_access_time": 484,
+                    "average_access_time": 429,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -57,8 +57,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gotohscan:2.0/cmd/www.bioinf.uni-leipzig.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-05T09:57:34.888090Z",
+        "@timestamp": "2024-04-13T03:58:55.603505Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -81,7 +82,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 455,
+                "access_time": 530,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -94,9 +95,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-04-05T09:57:28.221654Z",
+                "last_check": "2024-04-13T03:58:55.535529Z",
                 "last_month_access": {
-                    "average_access_time": 478,
+                    "average_access_time": 476,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -124,7 +125,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/gotohscan",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-05T09:55:45.887034Z",
+        "@timestamp": "2024-04-13T03:58:52.297996Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -134,7 +135,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 334,
+                "access_time": 511,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -146,10 +147,10 @@
                         "status": 200
                     }
                 ],
-                "https": true,
-                "last_check": "2024-04-05T09:55:37.845446Z",
+                "https": false,
+                "last_check": "2024-04-13T03:58:52.225505Z",
                 "last_month_access": {
-                    "average_access_time": 486,
+                    "average_access_time": 476,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -158,10 +159,14 @@
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://www.bioinf.uni-leipzig.de/"
+                        "url": "https://www.bioinf.uni-leipzig.de/Software/GotohScan/"
+                    },
+                    {
+                        "status": 308,
+                        "url": "http://legacy.bioinf.uni-leipzig.de/Software/GotohScan/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

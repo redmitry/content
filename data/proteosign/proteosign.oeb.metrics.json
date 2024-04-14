@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:proteosign/web/bioinformatics.med.uoc.gr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-06T03:15:28.309622Z",
+        "@timestamp": "2024-04-13T05:31:53.709189Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -135,15 +136,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 1103,
+                "access_time": 653,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 181,
                         "serie": [
-                            117,
-                            64
+                            110,
+                            71
                         ],
                         "status": 200
                     },
@@ -155,16 +156,22 @@
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-04-06T03:15:07.915085Z",
+                "https": true,
+                "last_check": "2024-04-13T05:31:53.518251Z",
                 "last_month_access": {
-                    "average_access_time": 276,
+                    "average_access_time": 357,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.med.uoc.gr/ProteoSign/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -180,7 +187,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/proteosign",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-06T03:15:08.622293Z",
+        "@timestamp": "2024-04-13T05:31:53.676892Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -190,15 +197,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 1103,
+                "access_time": 428,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 181,
                         "serie": [
-                            117,
-                            64
+                            110,
+                            71
                         ],
                         "status": 200
                     },
@@ -210,16 +217,22 @@
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-04-06T03:15:07.915085Z",
+                "https": true,
+                "last_check": "2024-04-13T05:31:53.559598Z",
                 "last_month_access": {
-                    "average_access_time": 275,
+                    "average_access_time": 361,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.med.uoc.gr/ProteoSign/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

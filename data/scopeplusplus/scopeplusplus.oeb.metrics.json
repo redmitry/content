@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:scopeplusplus:20130523/cmd/code.google.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-06T06:42:55.779068Z",
+        "@timestamp": "2024-04-13T06:26:14.017877Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -86,22 +87,23 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1697,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 20,
+                        "days": 21,
                         "serie": [
                             1,
                             1,
                             1,
                             1,
                             1,
+                            2,
+                            2,
+                            2,
                             1,
-                            2,
-                            2,
-                            2,
+                            1,
                             1,
                             1,
                             1,
@@ -114,10 +116,9 @@
                         "status": 500
                     },
                     {
-                        "days": 161,
+                        "days": 160,
                         "serie": [
-                            1,
-                            22,
+                            17,
                             3,
                             13,
                             4,
@@ -134,6 +135,8 @@
                             13,
                             14,
                             4,
+                            2,
+                            3,
                             2
                         ],
                         "status": 200
@@ -146,15 +149,15 @@
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-04-06T06:41:41.683665Z",
+                "https": true,
+                "last_check": "2024-04-13T06:26:13.594501Z",
                 "last_month_access": {
-                    "average_access_time": 338,
-                    "downtime_days": 3,
-                    "uptime_days": 26
+                    "average_access_time": 363,
+                    "downtime_days": 5,
+                    "uptime_days": 25
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -170,7 +173,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/scopeplusplus",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-06T06:42:56.585154Z",
+        "@timestamp": "2024-04-13T06:26:13.852138Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -185,10 +188,8 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 35,
+                        "days": 36,
                         "serie": [
-                            1,
-                            1,
                             2,
                             1,
                             1,
@@ -210,16 +211,17 @@
                             1,
                             1,
                             1,
-                            2
+                            2,
+                            1,
+                            1,
+                            1
                         ],
                         "status": 500
                     },
                     {
-                        "days": 144,
+                        "days": 142,
                         "serie": [
-                            1,
-                            1,
-                            20,
+                            17,
                             2,
                             10,
                             2,
@@ -243,13 +245,16 @@
                             4,
                             7,
                             3,
-                            2
+                            2,
+                            2,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 3,
+                        "days": 4,
                         "serie": [
+                            1,
                             1,
                             1,
                             1
@@ -258,11 +263,11 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-04-06T06:41:41.683665Z",
+                "last_check": "2024-04-13T06:26:13.200813Z",
                 "last_month_access": {
-                    "average_access_time": 339,
-                    "downtime_days": 6,
-                    "uptime_days": 23
+                    "average_access_time": 296,
+                    "downtime_days": 10,
+                    "uptime_days": 20
                 },
                 "license": false,
                 "operational": 500,
@@ -272,7 +277,7 @@
                         "url": "https://code.google.com/archive/p/scopeplusplus"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

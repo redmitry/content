@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/clair",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-06T09:15:17.896689Z",
+        "@timestamp": "2024-04-13T07:41:04.054755Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,7 +33,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 595,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -46,11 +46,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.562429Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 427,
+                    "average_access_time": 423,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -69,8 +69,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:clair/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-06T09:15:18.280824Z",
+        "@timestamp": "2024-04-13T07:41:04.034362Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -128,7 +129,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 203,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -141,11 +142,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 403,
+                    "average_access_time": 439,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -164,77 +165,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.1.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.414705Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": true,
-            "source_packages": true,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 203,
-                "bioschemas": true,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 182,
-                        "serie": [
-                            182
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
-                "last_month_access": {
-                    "average_access_time": 436,
-                    "downtime_days": 0,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT4505027S"
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.1.1/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.610072Z",
+        "@timestamp": "2024-04-13T07:41:03.890246Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -281,11 +212,81 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.558193Z",
+                "last_check": "2024-04-13T07:41:03.717294Z",
                 "last_month_access": {
-                    "average_access_time": 377,
+                    "average_access_time": 427,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT4505027S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.1.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-04-13T07:41:03.926136Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 584,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-04-13T07:41:03.720647Z",
+                "last_month_access": {
+                    "average_access_time": 428,
+                    "downtime_days": 0,
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -304,7 +305,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.0.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.597558Z",
+        "@timestamp": "2024-04-13T07:41:04.076151Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -338,7 +339,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 203,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -351,11 +352,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 408,
+                    "average_access_time": 432,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -374,7 +375,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.0.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.597965Z",
+        "@timestamp": "2024-04-13T07:41:04.177077Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -408,7 +409,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 203,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -421,11 +422,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 388,
+                    "average_access_time": 416,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -444,7 +445,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.0.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.598110Z",
+        "@timestamp": "2024-04-13T07:41:04.195631Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -478,7 +479,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 203,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -491,11 +492,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 388,
+                    "average_access_time": 416,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -514,7 +515,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.0.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.592134Z",
+        "@timestamp": "2024-04-13T07:41:04.200663Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -548,7 +549,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 203,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -561,11 +562,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 388,
+                    "average_access_time": 416,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -584,7 +585,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.0.4/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.594994Z",
+        "@timestamp": "2024-04-13T07:41:04.271536Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -618,7 +619,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 203,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -631,11 +632,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 388,
+                    "average_access_time": 403,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -654,7 +655,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.0.5/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.435844Z",
+        "@timestamp": "2024-04-13T07:41:04.296609Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -688,7 +689,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 203,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -701,11 +702,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 388,
+                    "average_access_time": 403,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -724,7 +725,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.0.6/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.482206Z",
+        "@timestamp": "2024-04-13T07:41:04.336070Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -758,7 +759,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 203,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -771,11 +772,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 388,
+                    "average_access_time": 403,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -794,7 +795,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:clair:2.0.7/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-06T09:15:44.535238Z",
+        "@timestamp": "2024-04-13T07:41:04.370845Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -828,7 +829,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 203,
+                "access_time": 584,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -841,11 +842,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-06T09:15:17.753674Z",
+                "last_check": "2024-04-13T07:41:03.720647Z",
                 "last_month_access": {
-                    "average_access_time": 388,
+                    "average_access_time": 403,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,

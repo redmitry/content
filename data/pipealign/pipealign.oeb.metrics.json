@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pipealign/web/www.lbgi.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-06T03:52:21.484563Z",
+        "@timestamp": "2024-04-13T05:46:40.903009Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -736,7 +737,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 311,
+                "access_time": 2932,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -748,16 +749,26 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2024-04-06T03:52:16.539377Z",
+                "https": true,
+                "last_check": "2024-04-13T05:46:40.721463Z",
                 "last_month_access": {
-                    "average_access_time": 1748,
+                    "average_access_time": 1665,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://lbgi.fr/pipealign"
+                    },
+                    {
+                        "status": 308,
+                        "url": "https://lbgi.fr/pipealign/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -766,7 +777,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pipealign/web/bips.u-strasbg.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-06T08:35:04.698560Z",
+        "@timestamp": "2024-04-13T07:36:03.742101Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -1509,9 +1520,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-04-06T08:35:01.557627Z",
+                "last_check": "2024-04-13T07:36:03.637267Z",
                 "last_month_access": {
-                    "downtime_days": 29,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -1525,7 +1536,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pipealign",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-06T03:52:18.875648Z",
+        "@timestamp": "2024-04-13T05:46:40.009716Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -1535,7 +1546,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 311,
+                "access_time": 1374,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -1547,16 +1558,26 @@
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2024-04-06T03:52:16.539377Z",
+                "https": true,
+                "last_check": "2024-04-13T05:46:39.902656Z",
                 "last_month_access": {
-                    "average_access_time": 1599,
+                    "average_access_time": 1691,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://lbgi.fr/pipealign"
+                    },
+                    {
+                        "status": 308,
+                        "url": "https://lbgi.fr/pipealign/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
