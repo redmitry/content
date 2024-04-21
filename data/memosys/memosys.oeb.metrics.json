@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:memosys/cmd/icbi.at",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-13T04:47:06.221844Z",
+        "@timestamp": "2024-04-20T04:31:04.726251Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -88,27 +88,35 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 290,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 178,
                         "serie": [
-                            182
+                            175,
+                            3
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            4
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-04-13T04:45:52.309323Z",
+                "https": true,
+                "last_check": "2024-04-20T04:31:04.655499Z",
                 "last_month_access": {
-                    "average_access_time": 261,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 272,
+                    "downtime_days": 4,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -127,7 +135,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/memosys",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-13T04:45:52.406895Z",
+        "@timestamp": "2024-04-20T04:31:05.056319Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -137,34 +145,42 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 442,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 178,
                         "serie": [
-                            182
+                            175,
+                            3
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            4
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-04-13T04:45:52.309323Z",
+                "https": true,
+                "last_check": "2024-04-20T04:31:04.6808Z",
                 "last_month_access": {
-                    "average_access_time": 441,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 428,
+                    "downtime_days": 4,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://icbi.i-med.ac.at/software/memosys/memosys.shtml"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
