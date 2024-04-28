@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rsrs",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-20T07:31:08.043233Z",
+        "@timestamp": "2024-04-27T08:42:56.097993Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,41 +13,43 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 6971,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 4,
                         "serie": [
                             1,
-                            1
+                            1,
+                            2
                         ],
                         "status": 500
                     },
                     {
-                        "days": 80,
+                        "days": 73,
                         "serie": [
-                            78,
+                            71,
                             2
                         ],
                         "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 4,
                         "serie": [
-                            1
+                            4
                         ],
                         "status": 503
                     },
                     {
-                        "days": 94,
+                        "days": 96,
                         "serie": [
                             34,
                             39,
                             7,
                             11,
-                            3
+                            3,
+                            2
                         ],
                         "status": 200
                     },
@@ -69,18 +71,26 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-20T07:31:07.924507Z",
+                "last_check": "2024-04-27T08:42:55.904255Z",
                 "last_month_access": {
-                    "average_access_time": 5700,
-                    "downtime_days": 6,
-                    "uptime_days": 24
+                    "average_access_time": 5598,
+                    "downtime_days": 10,
+                    "uptime_days": 20
                 },
                 "license": false,
-                "operational": 503,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://bioinformatics.fafu.edu.cn/RSRS"
+                    },
+                    {
+                        "status": 308,
+                        "url": "http://bioinformatics.fafu.edu.cn/RSRS/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.fafu.edu.cn/RSRS/"
                     }
                 ],
                 "ssl": true,

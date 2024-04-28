@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:evag/db/www.european-virus-archive.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-20T03:37:34.414164Z",
+        "@timestamp": "2024-04-27T04:34:15.091420Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -54,10 +54,17 @@
                 "description": true
             },
             "website": {
-                "access_time": 109,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 404
+                    },
                     {
                         "days": 8,
                         "serie": [
@@ -66,9 +73,9 @@
                         "status": 500
                     },
                     {
-                        "days": 161,
+                        "days": 160,
                         "serie": [
-                            14,
+                            7,
                             3,
                             11,
                             15,
@@ -77,7 +84,8 @@
                             23,
                             22,
                             29,
-                            16
+                            20,
+                            2
                         ],
                         "status": 200
                     },
@@ -97,18 +105,22 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-20T03:37:33.99094Z",
+                "last_check": "2024-04-27T04:34:14.597568Z",
                 "last_month_access": {
-                    "average_access_time": 1159,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 1013,
+                    "downtime_days": 3,
+                    "uptime_days": 27
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://www.european-virus-archive.com/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.european-virus-archive.com/page-not-found"
                     }
                 ],
                 "ssl": true,
@@ -120,7 +132,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/evag",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-20T03:37:34.720064Z",
+        "@timestamp": "2024-04-27T04:34:16.156877Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -130,7 +142,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 144,
+                "access_time": 252,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -151,14 +163,14 @@
                     {
                         "days": 167,
                         "serie": [
-                            33,
+                            26,
                             15,
                             16,
                             37,
                             22,
                             29,
                             4,
-                            11
+                            18
                         ],
                         "status": 200
                     },
@@ -175,9 +187,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-20T03:37:34.365815Z",
+                "last_check": "2024-04-27T04:34:14.574498Z",
                 "last_month_access": {
-                    "average_access_time": 990,
+                    "average_access_time": 557,
                     "downtime_days": 3,
                     "uptime_days": 27
                 },

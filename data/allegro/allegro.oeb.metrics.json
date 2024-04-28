@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/allegro",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-04-20T03:10:40.462631Z",
+        "@timestamp": "2024-04-27T04:06:29.919315Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,7 +13,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 254,
+                "access_time": 277,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -27,14 +27,14 @@
                     {
                         "days": 171,
                         "serie": [
-                            19,
+                            12,
                             11,
                             22,
                             1,
                             4,
                             68,
                             34,
-                            12
+                            19
                         ],
                         "status": 200
                     },
@@ -52,10 +52,96 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-04-20T03:10:40.352384Z",
+                "last_check": "2024-04-27T04:06:29.424796Z",
                 "last_month_access": {
-                    "average_access_time": 443,
+                    "average_access_time": 351,
                     "downtime_days": 1,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/articles/ng1005-1015"
+                    },
+                    {
+                        "status": 303,
+                        "url": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=ea570750-affe-410d-8da6-4fb592d724ce"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=ea570750-affe-410d-8da6-4fb592d724ce"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:allegro:2/cmd/www.nature.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-04-27T03:53:05.507805Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1147,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-04-27T03:53:05.367068Z",
+                "last_month_access": {
+                    "average_access_time": 1361,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
@@ -75,97 +161,11 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=02a289d7-7892-4bab-8200-9e950a0c3dd9"
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=69d6f2cd-3ae6-4a46-a017-3d3b6015a5fc"
                     },
                     {
                         "status": 302,
-                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=02a289d7-7892-4bab-8200-9e950a0c3dd9"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:allegro:2/cmd/www.nature.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2024-04-20T03:01:28.120548Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": true,
-            "source_packages": false,
-            "sourcecode": {
-                "free": true,
-                "interpreted": false,
-                "license": false,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 1385,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 182,
-                        "serie": [
-                            182
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-04-20T03:01:28.04317Z",
-                "last_month_access": {
-                    "average_access_time": 1279,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://www.nature.com/articles/ng1005-1015"
-                    },
-                    {
-                        "status": 303,
-                        "url": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=8b08469b-6501-482c-8732-16e0981bf9fd"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=8b08469b-6501-482c-8732-16e0981bf9fd"
+                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=69d6f2cd-3ae6-4a46-a017-3d3b6015a5fc"
                     }
                 ],
                 "ssl": true,
@@ -183,7 +183,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:allegro:3/cmd/www.nature.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-04-20T03:02:56.333364Z",
+        "@timestamp": "2024-04-27T03:54:44.225680Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -217,7 +217,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 654,
+                "access_time": 688,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -230,11 +230,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-20T03:02:56.264225Z",
+                "last_check": "2024-04-27T03:54:44.098295Z",
                 "last_month_access": {
-                    "average_access_time": 621,
+                    "average_access_time": 646,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -253,11 +253,11 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=6f792b77-c871-4b79-84cb-143f11ca48bc"
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=cbb3c23a-5012-4280-b9bf-531658b1b1ef"
                     },
                     {
                         "status": 302,
-                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=6f792b77-c871-4b79-84cb-143f11ca48bc"
+                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=cbb3c23a-5012-4280-b9bf-531658b1b1ef"
                     }
                 ],
                 "ssl": true,
@@ -275,7 +275,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:allegro:1.0/app/acgt.cs.tau.ac.il",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-20T03:10:41.123963Z",
+        "@timestamp": "2024-04-27T04:06:29.652117Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -424,7 +424,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 254,
+                "access_time": 227,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -438,14 +438,14 @@
                     {
                         "days": 167,
                         "serie": [
-                            10,
+                            3,
                             8,
                             11,
                             22,
                             4,
                             68,
                             32,
-                            12
+                            19
                         ],
                         "status": 200
                     },
@@ -463,11 +463,11 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-04-20T03:10:40.352384Z",
+                "last_check": "2024-04-27T04:06:29.393413Z",
                 "last_month_access": {
-                    "average_access_time": 207,
+                    "average_access_time": 206,
                     "downtime_days": 3,
-                    "uptime_days": 27
+                    "uptime_days": 26
                 },
                 "license": false,
                 "operational": 200,
@@ -486,11 +486,11 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=02a289d7-7892-4bab-8200-9e950a0c3dd9"
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=ea570750-affe-410d-8da6-4fb592d724ce"
                     },
                     {
                         "status": 302,
-                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=02a289d7-7892-4bab-8200-9e950a0c3dd9"
+                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=ea570750-affe-410d-8da6-4fb592d724ce"
                     }
                 ],
                 "ssl": null,
