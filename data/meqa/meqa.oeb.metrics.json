@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:meqa:1.0/cmd/life.tongji.edu.cn",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-27T05:33:52.646950Z",
+        "@timestamp": "2024-05-04T05:18:29.512227Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -83,7 +83,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 9197,
+                "access_time": 9408,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -96,14 +96,14 @@
                         "status": 403
                     },
                     {
-                        "days": 129,
+                        "days": 136,
                         "serie": [
                             21,
                             3,
                             18,
                             75,
                             5,
-                            7
+                            14
                         ],
                         "status": 200
                     },
@@ -116,19 +116,121 @@
                         "status": 408
                     },
                     {
-                        "days": 49,
+                        "days": 41,
                         "serie": [
-                            48,
+                            40,
                             1
                         ],
                         "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2024-04-27T05:33:52.261516Z",
+                "last_check": "2024-05-04T05:18:29.156513Z",
                 "last_month_access": {
-                    "average_access_time": 7626,
+                    "average_access_time": 7445,
                     "downtime_days": 2,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://life.tongji.edu.cn/meqa/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://life.tongji.edu.cn/meqa/main.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://life.tongji.edu.cn/meqa/main.psp"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://life.tongji.edu.cn/meqa/main.psp"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://iam.tongji.edu.cn/idp/oauth2/authorize?grant_type=authorization_code&response_type=code&scope=base_user&client_id=SYS20230097&redirect_uri=https%3A%2F%2Fjgdw.tongji.edu.cn%2F_DoAuthLogin&state=http%3A%2F%2Flife.tongji.edu.cn%2Ferrorx.jsp"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=64f3c060-0ebe-4906-8c21-aa27fffe8f3b&entityId=SYS20230097"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=64f3c060-0ebe-4906-8c21-aa27fffe8f3b"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/meqa",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-05-04T05:18:29.590578Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 9405,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 137,
+                        "serie": [
+                            21,
+                            3,
+                            18,
+                            81,
+                            14
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 40,
+                        "serie": [
+                            17,
+                            22,
+                            1
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-05-04T05:18:29.177989Z",
+                "last_month_access": {
+                    "average_access_time": 8163,
+                    "downtime_days": 1,
                     "uptime_days": 28
                 },
                 "license": false,
@@ -156,113 +258,11 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=bf0ab5cf-2cb3-442c-998d-4b43f270269a&entityId=SYS20230097"
+                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=fb23c551-131e-49c4-a4c4-851e8eb8dc8e&entityId=SYS20230097"
                     },
                     {
                         "status": 302,
-                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=bf0ab5cf-2cb3-442c-998d-4b43f270269a"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": false
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/meqa",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-04-27T05:33:52.476914Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 9260,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 403
-                    },
-                    {
-                        "days": 130,
-                        "serie": [
-                            21,
-                            3,
-                            18,
-                            81,
-                            7
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 48,
-                        "serie": [
-                            25,
-                            22,
-                            1
-                        ],
-                        "status": 302
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-04-27T05:33:52.292361Z",
-                "last_month_access": {
-                    "average_access_time": 8269,
-                    "downtime_days": 1,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "https://life.tongji.edu.cn/meqa/"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://life.tongji.edu.cn/meqa/main.htm"
-                    },
-                    {
-                        "status": 301,
-                        "url": "http://life.tongji.edu.cn/meqa/main.psp"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://life.tongji.edu.cn/meqa/main.psp"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://iam.tongji.edu.cn/idp/oauth2/authorize?grant_type=authorization_code&response_type=code&scope=base_user&client_id=SYS20230097&redirect_uri=https%3A%2F%2Fjgdw.tongji.edu.cn%2F_DoAuthLogin&state=http%3A%2F%2Flife.tongji.edu.cn%2Ferrorx.jsp"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=8e2e1fc2-1d99-46bf-b503-c50e113ea185&entityId=SYS20230097"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=8e2e1fc2-1d99-46bf-b503-c50e113ea185"
+                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=fb23c551-131e-49c4-a4c4-851e8eb8dc8e"
                     }
                 ],
                 "ssl": true,

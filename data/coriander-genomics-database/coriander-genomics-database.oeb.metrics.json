@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:coriander-genomics-database/db/cgdb.bio2db.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-04-27T09:42:55.397894Z",
+        "@timestamp": "2024-05-04T09:35:39.115804Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -89,11 +89,75 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 69,
+                        "days": 76,
                         "serie": [
                             1,
                             40,
-                            28
+                            35
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 100,
+                        "serie": [
+                            10,
+                            34,
+                            17,
+                            35,
+                            4
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-05-04T09:35:39.039519Z",
+                "last_month_access": {
+                    "average_access_time": 888,
+                    "downtime_days": 28,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 502,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/coriander-genomics-database",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-05-04T09:35:39.104219Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 76,
+                        "serie": [
+                            1,
+                            40,
+                            35
                         ],
                         "status": 502
                     },
@@ -110,75 +174,9 @@
                         "status": 408
                     },
                     {
-                        "days": 107,
+                        "days": 99,
                         "serie": [
-                            17,
-                            34,
-                            17,
-                            35,
-                            4
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-04-27T09:42:55.289566Z",
-                "last_month_access": {
-                    "average_access_time": 888,
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 502,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/coriander-genomics-database",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-04-27T09:42:55.334798Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 69,
-                        "serie": [
-                            1,
-                            40,
-                            28
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 7,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 106,
-                        "serie": [
-                            17,
+                            10,
                             34,
                             13,
                             3,
@@ -189,10 +187,10 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-04-27T09:42:55.254224Z",
+                "last_check": "2024-05-04T09:35:39.014426Z",
                 "last_month_access": {
                     "average_access_time": 1043,
-                    "downtime_days": 29,
+                    "downtime_days": 28,
                     "uptime_days": 0
                 },
                 "license": false,
