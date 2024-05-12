@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ncbi_bookshelf/db/www.ncbi.nlm.nih.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-05-04T05:30:25.380145Z",
+        "@timestamp": "2024-05-10T04:19:53.319978Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -71,7 +71,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1571,
+                "access_time": 1291,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -93,14 +93,14 @@
                     {
                         "days": 172,
                         "serie": [
-                            17,
+                            11,
                             36,
                             51,
                             18,
                             32,
                             5,
                             6,
-                            7
+                            13
                         ],
                         "status": 200
                     },
@@ -116,11 +116,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-05-04T05:30:25.291614Z",
+                "last_check": "2024-05-10T04:19:53.237222Z",
                 "last_month_access": {
-                    "average_access_time": 1690,
+                    "average_access_time": 1613,
                     "downtime_days": 4,
-                    "uptime_days": 24
+                    "uptime_days": 25
                 },
                 "license": false,
                 "operational": 200,
@@ -131,10 +131,6 @@
                     },
                     {
                         "status": 301,
-                        "url": "https://www.ncbi.nlm.nih.gov/sites/books"
-                    },
-                    {
-                        "status": 303,
                         "url": "https://www.ncbi.nlm.nih.gov/books"
                     }
                 ],
@@ -150,7 +146,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ncbi_bookshelf",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-05-04T05:28:32.791710Z",
+        "@timestamp": "2024-05-10T04:19:19.320725Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -160,7 +156,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1742,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -179,32 +175,34 @@
                         "status": 503
                     },
                     {
-                        "days": 178,
+                        "days": 177,
                         "serie": [
-                            17,
+                            11,
                             45,
                             102,
-                            14
+                            14,
+                            5
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
+                            1,
                             1
                         ],
                         "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2024-05-04T05:28:32.597765Z",
+                "last_check": "2024-05-10T04:19:19.22837Z",
                 "last_month_access": {
-                    "average_access_time": 1596,
-                    "downtime_days": 1,
+                    "average_access_time": 1504,
+                    "downtime_days": 2,
                     "uptime_days": 27
                 },
                 "license": false,
-                "operational": 301,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -212,7 +210,11 @@
                     },
                     {
                         "status": 301,
-                        "url": "https://.ncbi.nlm.nih.gov/sites/books"
+                        "url": "https://www.ncbi.nlm.nih.gov/sites/books"
+                    },
+                    {
+                        "status": 303,
+                        "url": "https://www.ncbi.nlm.nih.gov/books"
                     }
                 ],
                 "ssl": true,
