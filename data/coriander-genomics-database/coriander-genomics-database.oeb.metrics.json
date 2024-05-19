@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:coriander-genomics-database/db/cgdb.bio2db.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-05-10T08:10:00.103777Z",
+        "@timestamp": "2024-05-18T08:54:17.367116Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -89,11 +89,73 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 82,
+                        "days": 90,
                         "serie": [
                             1,
                             40,
-                            41
+                            49
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 87,
+                        "serie": [
+                            31,
+                            17,
+                            35,
+                            4
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-05-18T08:54:17.285764Z",
+                "last_month_access": {
+                    "average_access_time": 888,
+                    "downtime_days": 28,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 502,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/coriander-genomics-database",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-05-18T08:54:16.379019Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 90,
+                        "serie": [
+                            1,
+                            40,
+                            49
                         ],
                         "status": 502
                     },
@@ -109,75 +171,9 @@
                         "status": 408
                     },
                     {
-                        "days": 94,
+                        "days": 86,
                         "serie": [
-                            4,
-                            34,
-                            17,
-                            35,
-                            4
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-05-10T08:09:59.699654Z",
-                "last_month_access": {
-                    "average_access_time": 888,
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 502,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/coriander-genomics-database",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-05-10T08:09:59.960378Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 82,
-                        "serie": [
-                            1,
-                            40,
-                            41
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 6,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 93,
-                        "serie": [
-                            4,
-                            34,
+                            31,
                             13,
                             3,
                             35,
@@ -187,10 +183,10 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-05-10T08:09:59.647304Z",
+                "last_check": "2024-05-18T08:54:16.254613Z",
                 "last_month_access": {
                     "average_access_time": 1043,
-                    "downtime_days": 29,
+                    "downtime_days": 28,
                     "uptime_days": 0
                 },
                 "license": false,
