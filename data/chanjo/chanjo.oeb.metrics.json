@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:chanjo:3.3.0/cmd/www.chanjo.co",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-05-18T10:41:55.828839Z",
+        "@timestamp": "2024-05-25T09:07:55.736323Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -40,39 +40,40 @@
                         "status": 503
                     },
                     {
-                        "days": 2,
+                        "days": 7,
                         "serie": [
-                            2
+                            1,
+                            6
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
                         ],
                         "status": 504
                     },
                     {
-                        "days": 176,
+                        "days": 169,
                         "serie": [
-                            152,
+                            145,
                             6,
                             15,
                             3
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2024-05-18T10:41:55.679563Z",
+                "last_check": "2024-05-25T09:07:55.635012Z",
                 "last_month_access": {
-                    "average_access_time": 3655,
-                    "downtime_days": 5,
-                    "uptime_days": 24
+                    "average_access_time": 2543,
+                    "downtime_days": 11,
+                    "uptime_days": 18
                 },
                 "license": false,
-                "operational": 504,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
@@ -88,7 +89,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:chanjo:3.1.1/cmd/www.chanjo.co",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-05-18T10:41:55.828238Z",
+        "@timestamp": "2024-05-25T09:07:55.830463Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -118,38 +119,39 @@
                         "status": 503
                     },
                     {
-                        "days": 2,
+                        "days": 7,
                         "serie": [
-                            2
+                            1,
+                            6
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
                         ],
                         "status": 504
                     },
                     {
-                        "days": 177,
+                        "days": 170,
                         "serie": [
-                            152,
+                            145,
                             22,
                             3
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2024-05-18T10:41:55.705811Z",
+                "last_check": "2024-05-25T09:07:55.635012Z",
                 "last_month_access": {
-                    "average_access_time": 4340,
-                    "downtime_days": 4,
-                    "uptime_days": 25
+                    "average_access_time": 3557,
+                    "downtime_days": 10,
+                    "uptime_days": 19
                 },
                 "license": false,
-                "operational": 504,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
@@ -165,7 +167,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/chanjo",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-05-18T10:40:09.324157Z",
+        "@timestamp": "2024-05-25T09:07:55.927979Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -195,16 +197,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 509,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 179,
+                        "days": 7,
                         "serie": [
-                            152,
+                            1,
+                            6
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 173,
+                        "serie": [
+                            145,
                             26,
-                            1
+                            2
                         ],
                         "status": 200
                     },
@@ -214,31 +224,24 @@
                             1
                         ],
                         "status": 504
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2024-05-18T10:40:08.847373Z",
+                "https": false,
+                "last_check": "2024-05-25T09:07:55.635012Z",
                 "last_month_access": {
-                    "average_access_time": 1945,
-                    "downtime_days": 2,
-                    "uptime_days": 27
+                    "average_access_time": 2147,
+                    "downtime_days": 7,
+                    "uptime_days": 21
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "http://ww38.chanjo.co/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -253,7 +256,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:chanjo/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-05-18T10:40:09.307055Z",
+        "@timestamp": "2024-05-25T09:07:59.924379Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -302,7 +305,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 494,
+                "access_time": 531,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -315,11 +318,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-05-18T10:40:08.849202Z",
+                "last_check": "2024-05-25T09:07:59.78825Z",
                 "last_month_access": {
-                    "average_access_time": 636,
+                    "average_access_time": 618,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
