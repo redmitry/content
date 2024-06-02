@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/checklist",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-05-25T06:49:48.847460Z",
+        "@timestamp": "2024-06-01T06:49:29.847418Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -20,10 +20,17 @@
                     {
                         "days": 180,
                         "serie": [
-                            146,
-                            34
+                            140,
+                            40
                         ],
                         "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 502
                     },
                     {
                         "days": 1,
@@ -34,14 +41,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-05-25T06:49:48.663532Z",
+                "last_check": "2024-06-01T06:49:29.761826Z",
                 "last_month_access": {
                     "average_access_time": 114,
-                    "downtime_days": 29,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 502,
                 "redirects": [
                     {
                         "status": 301,

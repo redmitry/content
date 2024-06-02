@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/betatpred",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-05-25T02:21:57.962344Z",
+        "@timestamp": "2024-06-01T02:12:02.233092Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,25 +13,30 @@
                 "description": true
             },
             "website": {
-                "access_time": 644,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 503
+                    },
+                    {
                         "days": 164,
                         "serie": [
-                            3,
-                            86,
+                            85,
                             38,
                             27,
-                            10
+                            14
                         ],
                         "status": 200
                     },
                     {
-                        "days": 17,
+                        "days": 15,
                         "serie": [
-                            2,
                             1,
                             13,
                             1
@@ -40,14 +45,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-05-25T02:21:57.633262Z",
+                "last_check": "2024-06-01T02:12:02.055186Z",
                 "last_month_access": {
-                    "average_access_time": 780,
-                    "downtime_days": 1,
-                    "uptime_days": 28
+                    "average_access_time": 784,
+                    "downtime_days": 4,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 301,
@@ -67,7 +72,150 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:betatpred/web/www.imtech.res.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-05-25T02:23:56.564838Z",
+        "@timestamp": "2024-06-01T02:13:47.010510Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 14,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/18.3.498",
+                            "pmid": "11934756",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "BetaTPred: prediction of beta-TURNS in a protein using statistical algorithms.",
+                            "year": 2002
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1388,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 129,
+                        "serie": [
+                            1,
+                            8,
+                            113,
+                            1,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 301
+                    },
+                    {
+                        "days": 51,
+                        "serie": [
+                            3,
+                            46,
+                            1,
+                            1
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-06-01T02:13:46.653339Z",
+                "last_month_access": {
+                    "average_access_time": 1921,
+                    "downtime_days": 2,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.imtech.res.in/raghava/betatpred/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://crdd.osdd.net/raghava/betatpred/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:betatpred/web/webs.iiitd.edu.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-06-01T02:12:02.087783Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -150,163 +298,25 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 3,
                         "serie": [
-                            1,
-                            4,
-                            8,
-                            113,
-                            1
+                            3
                         ],
-                        "status": 200
+                        "status": 503
                     },
-                    {
-                        "days": 4,
-                        "serie": [
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 301
-                    },
-                    {
-                        "days": 50,
-                        "serie": [
-                            3,
-                            46,
-                            1
-                        ],
-                        "status": 302
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-05-25T02:23:56.152314Z",
-                "last_month_access": {
-                    "average_access_time": 1977,
-                    "downtime_days": 1,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 302,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://www.imtech.res.in/raghava/betatpred/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "http://crdd.osdd.net/raghava/betatpred/"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:betatpred/web/webs.iiitd.edu.in",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-05-25T02:21:57.436766Z",
-        "@type": "metrics",
-        "deprecated": true,
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "general": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 14,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": "2002"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2018"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/18.3.498",
-                            "pmid": "11934756",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "BetaTPred: prediction of beta-TURNS in a protein using statistical algorithms.",
-                            "year": 2002
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 663,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
                     {
                         "days": 164,
                         "serie": [
-                            4,
                             85,
                             38,
                             27,
-                            10
+                            14
                         ],
                         "status": 200
                     },
                     {
-                        "days": 17,
+                        "days": 15,
                         "serie": [
-                            2,
                             1,
                             13,
                             1
@@ -315,14 +325,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-05-25T02:21:57.385962Z",
+                "last_check": "2024-06-01T02:12:02.033864Z",
                 "last_month_access": {
-                    "average_access_time": 768,
-                    "downtime_days": 1,
-                    "uptime_days": 28
+                    "average_access_time": 776,
+                    "downtime_days": 4,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 301,

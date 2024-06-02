@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bcepred",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-05-25T02:13:04.225054Z",
+        "@timestamp": "2024-06-01T02:01:52.914344Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,24 +13,29 @@
                 "description": true
             },
             "website": {
-                "access_time": 838,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 503
+                    },
+                    {
                         "days": 165,
                         "serie": [
-                            3,
-                            125,
+                            124,
                             27,
-                            10
+                            14
                         ],
                         "status": 200
                     },
                     {
-                        "days": 16,
+                        "days": 14,
                         "serie": [
-                            2,
                             13,
                             1
                         ],
@@ -38,14 +43,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-05-25T02:13:03.944055Z",
+                "last_check": "2024-06-01T02:01:52.655032Z",
                 "last_month_access": {
-                    "average_access_time": 936,
-                    "downtime_days": 1,
-                    "uptime_days": 28
+                    "average_access_time": 950,
+                    "downtime_days": 4,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 301,
@@ -65,7 +70,102 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcepred/cmd/www.imtech.res.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-05-25T02:17:11.898608Z",
+        "@timestamp": "2024-06-01T02:07:02.275629Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1007/978-3-540-30220-9_16",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1610,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 130,
+                        "serie": [
+                            10,
+                            111,
+                            3,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 301
+                    },
+                    {
+                        "days": 49,
+                        "serie": [
+                            4,
+                            45
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-06-01T02:07:01.917578Z",
+                "last_month_access": {
+                    "average_access_time": 2048,
+                    "downtime_days": 2,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.imtech.res.in/raghava/bcepred/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://crdd.osdd.net/raghava/bcepred/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcepred/cmd/webs.iiitd.edu.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-06-01T02:01:53.032691Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -96,106 +196,24 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 130,
+                        "days": 3,
                         "serie": [
-                            16,
-                            111,
                             3
                         ],
-                        "status": 200
+                        "status": 503
                     },
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 301
-                    },
-                    {
-                        "days": 49,
-                        "serie": [
-                            4,
-                            45
-                        ],
-                        "status": 302
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-05-25T02:17:11.47267Z",
-                "last_month_access": {
-                    "average_access_time": 2260,
-                    "downtime_days": 1,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 408,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://www.imtech.res.in/raghava/bcepred/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "http://crdd.osdd.net/raghava/bcepred/"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": false
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcepred/cmd/webs.iiitd.edu.in",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-05-25T02:13:04.154311Z",
-        "@type": "metrics",
-        "deprecated": true,
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "general": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 0,
-                            "citations": [],
-                            "doi": "10.1007/978-3-540-30220-9_16",
-                            "ref_count": 0,
-                            "refs": []
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 776,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
                     {
                         "days": 165,
                         "serie": [
-                            4,
                             124,
                             27,
-                            10
+                            14
                         ],
                         "status": 200
                     },
                     {
-                        "days": 16,
+                        "days": 14,
                         "serie": [
-                            2,
                             13,
                             1
                         ],
@@ -203,14 +221,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-05-25T02:13:04.0543Z",
+                "last_check": "2024-06-01T02:01:52.655032Z",
                 "last_month_access": {
-                    "average_access_time": 985,
-                    "downtime_days": 1,
-                    "uptime_days": 28
+                    "average_access_time": 1005,
+                    "downtime_days": 4,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 503,
                 "redirects": [
                     {
                         "status": 301,

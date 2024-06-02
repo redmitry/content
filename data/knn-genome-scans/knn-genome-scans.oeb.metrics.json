@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/knn-genome-scans",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-05-25T03:33:29.972688Z",
+        "@timestamp": "2024-06-01T03:28:01.546678Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,7 +13,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 11985,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -26,12 +26,19 @@
                         "status": 403
                     },
                     {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 504
+                    },
+                    {
                         "days": 178,
                         "serie": [
-                            92,
+                            86,
                             1,
                             32,
-                            53
+                            59
                         ],
                         "status": 200
                     },
@@ -44,14 +51,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-05-25T03:33:29.880899Z",
+                "last_check": "2024-06-01T03:28:01.457867Z",
                 "last_month_access": {
-                    "average_access_time": 7059,
-                    "downtime_days": 0,
+                    "average_access_time": 6823,
+                    "downtime_days": 1,
                     "uptime_days": 29
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 504,
                 "redirects": [
                     {
                         "status": 302,
@@ -60,10 +67,6 @@
                     {
                         "status": 302,
                         "url": "https://www.biorxiv.org/lookup/doi/10.1101/752758"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://www.biorxiv.org/content/10.1101/752758v3"
                     }
                 ],
                 "ssl": true,
