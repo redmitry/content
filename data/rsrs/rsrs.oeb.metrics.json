@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rsrs",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-06-01T07:06:52.489434Z",
+        "@timestamp": "2024-06-08T07:18:33.121588Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -18,20 +18,20 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 7,
+                        "days": 14,
                         "serie": [
                             1,
                             1,
                             2,
                             1,
-                            2
+                            9
                         ],
                         "status": 500
                     },
                     {
-                        "days": 38,
+                        "days": 31,
                         "serie": [
-                            36,
+                            29,
                             2
                         ],
                         "status": 404
@@ -79,18 +79,26 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-06-01T07:06:52.360778Z",
+                "last_check": "2024-06-08T07:18:33.000083Z",
                 "last_month_access": {
-                    "average_access_time": 8608,
-                    "downtime_days": 13,
-                    "uptime_days": 17
+                    "average_access_time": 10209,
+                    "downtime_days": 17,
+                    "uptime_days": 12
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://bioinformatics.fafu.edu.cn/RSRS"
+                    },
+                    {
+                        "status": 308,
+                        "url": "http://bioinformatics.fafu.edu.cn/blast/RSRS/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.fafu.edu.cn/blast/RSRS/"
                     }
                 ],
                 "ssl": true,

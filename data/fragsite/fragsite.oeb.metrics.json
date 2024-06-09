@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:fragsite/web/sites.gatech.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-06-01T01:46:25.051103Z",
+        "@timestamp": "2024-06-08T02:13:40.398961Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -132,15 +132,16 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1949,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 180,
                         "serie": [
-                            28,
-                            153
+                            21,
+                            153,
+                            6
                         ],
                         "status": 200
                     },
@@ -150,21 +151,32 @@
                             1
                         ],
                         "status": 504
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2024-06-01T01:46:24.949975Z",
+                "last_check": "2024-06-08T02:13:40.342106Z",
                 "last_month_access": {
-                    "average_access_time": 2000,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1972,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 301,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://sites.gatech.edu/cssb/FRAGSITE"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sites.gatech.edu/cssb/FRAGSITE/"
                     }
                 ],
                 "ssl": true,
@@ -176,7 +188,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/fragsite",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-06-01T01:46:22.980826Z",
+        "@timestamp": "2024-06-08T02:13:39.824468Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -186,27 +198,35 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1792,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            182
+                            175,
+                            6
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-06-01T01:46:22.901974Z",
+                "https": true,
+                "last_check": "2024-06-08T02:13:39.750434Z",
                 "last_month_access": {
-                    "average_access_time": 2212,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2183,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -217,7 +237,7 @@
                         "url": "https://sites.gatech.edu/cssb/FRAGSITE/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
