@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:poeas/web/caps.ncbs.res.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-06-08T05:15:00.923337Z",
+        "@timestamp": "2024-06-15T11:13:49.641360Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -95,28 +95,41 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1166,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 179,
                         "serie": [
-                            182
+                            179
                         ],
                         "status": 503
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2024-06-08T05:14:46.105376Z",
+                "https": true,
+                "last_check": "2024-06-15T11:13:49.50653Z",
                 "last_month_access": {
-                    "average_access_time": 3977,
-                    "downtime_days": 29,
-                    "uptime_days": 0
+                    "average_access_time": 1155,
+                    "downtime_days": 27,
+                    "uptime_days": 2
                 },
                 "license": false,
-                "operational": 503,
-                "ssl": null,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://caps.ncbs.res.in/poeas/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -128,7 +141,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/poeas",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-06-08T05:14:46.186776Z",
+        "@timestamp": "2024-06-15T11:13:49.951477Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -138,40 +151,51 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 987,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 3,
+                        "days": 2,
                         "serie": [
-                            1,
                             1,
                             1
                         ],
                         "status": 502
                     },
                     {
-                        "days": 179,
+                        "days": 177,
                         "serie": [
-                            6,
                             36,
                             13,
-                            124
+                            128
                         ],
                         "status": 503
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2024-06-08T05:14:46.105376Z",
+                "https": true,
+                "last_check": "2024-06-15T11:13:49.86326Z",
                 "last_month_access": {
-                    "average_access_time": 3977,
-                    "downtime_days": 29,
-                    "uptime_days": 0
+                    "average_access_time": 1080,
+                    "downtime_days": 27,
+                    "uptime_days": 2
                 },
                 "license": false,
-                "operational": 503,
-                "ssl": null,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://caps.ncbs.res.in/poeas/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/virusmed",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-06-08T01:10:55.103690Z",
+        "@timestamp": "2024-06-13T09:29:30.532503Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,7 +13,168 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 5700,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 171,
+                        "serie": [
+                            63,
+                            88,
+                            4,
+                            10,
+                            2,
+                            4
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 8,
+                        "serie": [
+                            1,
+                            7
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-06-13T09:29:30.480197Z",
+                "last_month_access": {
+                    "average_access_time": 6625,
+                    "downtime_days": 10,
+                    "uptime_days": 20
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:virusmed/db/virusmed.biocloud.top",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-06-13T09:29:30.270047Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1107/s2052252521009076",
+                            "pmcid": "PMC8479994",
+                            "pmid": "34614039",
+                            "ref_count": 70,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2021"
+                                }
+                            ],
+                            "title": "virusMED: an atlas of hotspots of viral proteins. ",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 5098,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -28,10 +189,10 @@
                     {
                         "days": 172,
                         "serie": [
-                            68,
+                            63,
                             88,
-                            4,
-                            10,
+                            1,
+                            18,
                             2
                         ],
                         "status": 200
@@ -46,167 +207,10 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-06-08T01:10:55.004542Z",
+                "last_check": "2024-06-13T09:29:30.217213Z",
                 "last_month_access": {
-                    "average_access_time": 6877,
+                    "average_access_time": 6486,
                     "downtime_days": 9,
-                    "uptime_days": 20
-                },
-                "license": false,
-                "operational": 500,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:virusmed/db/virusmed.biocloud.top",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-06-08T01:11:06.293287Z",
-        "@type": "metrics",
-        "deprecated": true,
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 2,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": "2022"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2023"
-                                }
-                            ],
-                            "doi": "10.1107/s2052252521009076",
-                            "pmcid": "PMC8479994",
-                            "pmid": "34614039",
-                            "ref_count": 70,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "1998"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2005"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2006"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2009"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 7,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 13,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 10,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 12,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2021"
-                                }
-                            ],
-                            "title": "virusMED: an atlas of hotspots of viral proteins. ",
-                            "year": 2021
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 16466,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 173,
-                        "serie": [
-                            68,
-                            88,
-                            1,
-                            16
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 8,
-                        "serie": [
-                            1,
-                            7
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-06-08T01:11:06.223113Z",
-                "last_month_access": {
-                    "average_access_time": 6751,
-                    "downtime_days": 8,
                     "uptime_days": 21
                 },
                 "license": false,
@@ -220,7 +224,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:virusmed/web/virusmed.biocloud.top",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-06-08T01:11:01.795239Z",
+        "@timestamp": "2024-06-13T09:29:30.346461Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -329,7 +333,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 12281,
+                "access_time": 5006,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -344,11 +348,11 @@
                     {
                         "days": 172,
                         "serie": [
-                            68,
+                            63,
                             88,
                             9,
                             1,
-                            6
+                            11
                         ],
                         "status": 200
                     },
@@ -362,11 +366,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-06-08T01:11:01.727726Z",
+                "last_check": "2024-06-13T09:29:30.301662Z",
                 "last_month_access": {
-                    "average_access_time": 6415,
+                    "average_access_time": 6221,
                     "downtime_days": 9,
-                    "uptime_days": 20
+                    "uptime_days": 21
                 },
                 "license": false,
                 "operational": 200,
