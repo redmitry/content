@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:orione:1/workbench/orione.crs4.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-06-13T07:07:53.180465Z",
+        "@timestamp": "2024-06-21T01:31:01.619969Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -124,31 +124,38 @@
                         "status": 503
                     },
                     {
-                        "days": 180,
+                        "days": 1,
                         "serie": [
-                            20,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 179,
+                        "serie": [
+                            12,
                             23,
-                            137
+                            144
                         ],
                         "status": 302
                     }
                 ],
-                "https": true,
-                "last_check": "2024-06-13T07:07:53.04538Z",
+                "https": false,
+                "last_check": "2024-06-21T01:30:59.53668Z",
                 "last_month_access": {
                     "average_access_time": 1020,
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 302,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://orione.crs4.it/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -160,7 +167,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/orione",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-06-13T06:59:13.228496Z",
+        "@timestamp": "2024-06-21T01:30:59.840812Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -175,8 +182,9 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 6,
+                        "days": 7,
                         "serie": [
+                            1,
                             1,
                             1,
                             1,
@@ -187,35 +195,43 @@
                         "status": 503
                     },
                     {
-                        "days": 176,
+                        "days": 1,
                         "serie": [
-                            61,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 174,
+                        "serie": [
+                            53,
                             6,
                             4,
                             21,
                             5,
                             50,
-                            29
+                            33,
+                            2
                         ],
                         "status": 302
                     }
                 ],
-                "https": true,
-                "last_check": "2024-06-13T06:59:12.92546Z",
+                "https": false,
+                "last_check": "2024-06-21T01:30:59.53633Z",
                 "last_month_access": {
                     "average_access_time": 1146,
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 302,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://orione.crs4.it/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
