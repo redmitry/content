@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:openastexviewer/app/openastexviewer.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-06-21T06:20:28.740857Z",
+        "@timestamp": "2024-06-29T06:27:04.226855Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -106,7 +106,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 1255,
+                "access_time": 1294,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -121,11 +121,79 @@
                     {
                         "days": 170,
                         "serie": [
-                            118,
+                            110,
                             35,
                             3,
                             1,
                             5,
+                            16
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 9,
+                        "serie": [
+                            1,
+                            6,
+                            2
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-06-29T06:27:04.140462Z",
+                "last_month_access": {
+                    "average_access_time": 965,
+                    "downtime_days": 8,
+                    "uptime_days": 22
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://ww38.openastexviewer.net/web/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/openastexviewer",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-06-29T06:27:04.280002Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 415,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 439
+                    },
+                    {
+                        "days": 170,
+                        "serie": [
+                            110,
+                            40,
+                            5,
+                            7,
                             8
                         ],
                         "status": 200
@@ -141,9 +209,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-06-21T06:20:28.655115Z",
+                "last_check": "2024-06-29T06:27:04.194662Z",
                 "last_month_access": {
-                    "average_access_time": 843,
+                    "average_access_time": 435,
                     "downtime_days": 10,
                     "uptime_days": 20
                 },
@@ -152,74 +220,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.openastexviewer.net/web/?subid1=20240621-1620-281b-a183-ee2601754768"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/openastexviewer",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-06-21T06:20:29.872605Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 409,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 3,
-                        "serie": [
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 439
-                    },
-                    {
-                        "days": 170,
-                        "serie": [
-                            118,
-                            40,
-                            5,
-                            7
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 9,
-                        "serie": [
-                            1,
-                            6,
-                            2
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-06-21T06:20:29.797444Z",
-                "last_month_access": {
-                    "average_access_time": 578,
-                    "downtime_days": 11,
-                    "uptime_days": 19
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "http://ww25.openastexviewer.net/web/?subid1=20240621-1620-305c-bde8-64dd511544a3"
+                        "url": "http://ww25.openastexviewer.net/web/?subid1=20240629-1627-048d-addb-afab6153f201"
                     }
                 ],
                 "ssl": null,

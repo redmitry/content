@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-forks:0.36/cmd/search.cpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-06-21T06:11:31.431547Z",
+        "@timestamp": "2024-06-29T06:18:20.491767Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,7 +21,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 71,
+                "access_time": 74,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -42,17 +42,17 @@
                     {
                         "days": 180,
                         "serie": [
-                            25,
+                            17,
                             35,
-                            120
+                            128
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-06-21T06:11:31.370242Z",
+                "last_check": "2024-06-29T06:18:20.430231Z",
                 "last_month_access": {
-                    "average_access_time": 432,
+                    "average_access_time": 180,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -77,7 +77,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/perl-forks",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-06-21T06:04:22.300076Z",
+        "@timestamp": "2024-06-29T06:13:00.543928Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -87,7 +87,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 74,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -99,35 +99,41 @@
                         "status": 502
                     },
                     {
-                        "days": 1,
+                        "days": 3,
                         "serie": [
-                            1
+                            1,
+                            2
                         ],
                         "status": 503
                     },
                     {
-                        "days": 180,
+                        "days": 178,
                         "serie": [
-                            25,
+                            17,
                             35,
-                            120
+                            120,
+                            6
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-06-21T06:04:22.227579Z",
+                "last_check": "2024-06-29T06:13:00.474147Z",
                 "last_month_access": {
-                    "average_access_time": 319,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 280,
+                    "downtime_days": 2,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 503,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://metacpan.org/pod/distribution/forks/lib/forks.pm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://metacpan.org/dist/forks/view/lib/forks.pm"
                     }
                 ],
                 "ssl": true,

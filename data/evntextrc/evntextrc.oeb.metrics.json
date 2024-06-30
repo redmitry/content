@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/evntextrc",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-06-21T05:05:03.899651Z",
+        "@timestamp": "2024-06-29T05:17:21.643660Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,7 +33,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 522,
+                "access_time": 261,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -46,9 +46,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-06-21T05:05:03.589397Z",
+                "last_check": "2024-06-29T05:17:21.326297Z",
                 "last_month_access": {
-                    "average_access_time": 468,
+                    "average_access_time": 460,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -69,7 +69,102 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:evntextrc/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-06-21T05:05:03.965389Z",
+        "@timestamp": "2024-06-29T05:17:21.647624Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btz607",
+                            "pmid": "31392318",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Context awareness and embedding for biomedical event extraction.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 375,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-06-29T05:17:21.324918Z",
+                "last_month_access": {
+                    "average_access_time": 412,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:evntextrc/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-06-29T05:17:21.625848Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -141,104 +236,9 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-06-21T05:05:03.636783Z",
+                "last_check": "2024-06-29T05:17:21.305426Z",
                 "last_month_access": {
-                    "average_access_time": 431,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:evntextrc/cmd/github.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-06-21T05:05:03.859810Z",
-        "@type": "metrics",
-        "deprecated": true,
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": null,
-            "source_packages": false,
-            "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
-                "public": true,
-                "readme": true,
-                "repository": {
-                    "anonymous": true,
-                    "online": true
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 3,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/btz607",
-                            "pmid": "31392318",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "Context awareness and embedding for biomedical event extraction.",
-                            "year": 2020
-                        }
-                    ]
-                }
-            ],
-            "readme": true,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 458,
-                "bioschemas": true,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 182,
-                        "serie": [
-                            182
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-06-21T05:05:03.48485Z",
-                "last_month_access": {
-                    "average_access_time": 385,
+                    "average_access_time": 401,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
