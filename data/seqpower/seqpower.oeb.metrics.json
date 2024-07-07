@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:seqpower/cmd/bioinformatics.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-06-29T07:42:05.316516Z",
+        "@timestamp": "2024-07-06T07:29:29.617267Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -88,16 +88,71 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 160,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 178,
                         "serie": [
-                            75,
+                            67,
                             1,
-                            104
+                            104,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-07-06T07:29:29.545547Z",
+                "last_month_access": {
+                    "average_access_time": 524,
+                    "downtime_days": 1,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/seqpower",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-07-06T07:29:29.636489Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 160,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 179,
+                        "serie": [
+                            68,
+                            105,
+                            6
                         ],
                         "status": 200
                     },
@@ -111,65 +166,14 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-06-29T07:42:05.243118Z",
+                "last_check": "2024-07-06T07:29:29.545547Z",
                 "last_month_access": {
-                    "average_access_time": 585,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 636,
+                    "downtime_days": 1,
+                    "uptime_days": 27
                 },
                 "license": false,
-                "operational": 408,
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/seqpower",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-06-29T07:42:07.390807Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 181,
-                        "serie": [
-                            76,
-                            105
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-06-29T07:42:07.29157Z",
-                "last_month_access": {
-                    "average_access_time": 650,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 408,
+                "operational": 200,
                 "ssl": null,
                 "ssl_err": null
             }
