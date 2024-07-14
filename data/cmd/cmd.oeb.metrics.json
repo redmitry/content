@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cmd/db/eds.gene.le.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-07-06T04:44:46.245046Z",
+        "@timestamp": "2024-07-13T04:14:33.510911Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -132,7 +132,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 800,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -144,6 +144,13 @@
                         "status": 503
                     },
                     {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
                         "days": 1,
                         "serie": [
                             1
@@ -151,28 +158,32 @@
                         "status": 301
                     },
                     {
-                        "days": 179,
+                        "days": 176,
                         "serie": [
-                            30,
+                            23,
                             34,
-                            115
+                            119
                         ],
                         "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2024-07-06T04:44:46.16096Z",
+                "last_check": "2024-07-13T04:14:33.43904Z",
                 "last_month_access": {
-                    "average_access_time": 1864,
-                    "downtime_days": 28,
-                    "uptime_days": 0
+                    "average_access_time": 786,
+                    "downtime_days": 25,
+                    "uptime_days": 3
                 },
                 "license": false,
-                "operational": 302,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://lovd.nl/EDS-genes"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://databases.lovd.nl/shared/genes?search_id_=%3D%22ADAMTS2%22%7C%3D%22AEBP1%22%7C%3D%22B3GALT6%22%7C%3D%22B4GALT7%22%7C%3D%22C1R%22%7C%3D%22C1S%22%7C%3D%22CHST14%22%7C%3D%22COL1A1%22%7C%3D%22COL1A2%22%7C%3D%22COL3A1%22%7C%3D%22COL5A1%22%7C%3D%22COL5A2%22%7C%3D%22COL12A1%22%7C%3D%22DSE%22%7C%3D%22FKBP14%22%7C%3D%22PLOD1%22%7C%3D%22PRDM5%22%7C%3D%22SLC39A13%22%7C%3D%22TNXB%22%7C%3D%22ZNF469%22"
                     }
                 ],
                 "ssl": true,
@@ -187,7 +198,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/cmd",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-07-06T04:44:46.128323Z",
+        "@timestamp": "2024-07-13T04:14:33.570530Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -197,7 +208,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 916,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -209,27 +220,38 @@
                         "status": 503
                     },
                     {
-                        "days": 180,
+                        "days": 3,
                         "serie": [
-                            65,
-                            115
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            58,
+                            119
                         ],
                         "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2024-07-06T04:44:46.068494Z",
+                "last_check": "2024-07-13T04:14:33.508356Z",
                 "last_month_access": {
-                    "average_access_time": 568,
-                    "downtime_days": 28,
-                    "uptime_days": 0
+                    "average_access_time": 636,
+                    "downtime_days": 25,
+                    "uptime_days": 3
                 },
                 "license": false,
-                "operational": 302,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://lovd.nl/EDS-genes"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://databases.lovd.nl/shared/genes?search_id_=%3D%22ADAMTS2%22%7C%3D%22AEBP1%22%7C%3D%22B3GALT6%22%7C%3D%22B4GALT7%22%7C%3D%22C1R%22%7C%3D%22C1S%22%7C%3D%22CHST14%22%7C%3D%22COL1A1%22%7C%3D%22COL1A2%22%7C%3D%22COL3A1%22%7C%3D%22COL5A1%22%7C%3D%22COL5A2%22%7C%3D%22COL12A1%22%7C%3D%22DSE%22%7C%3D%22FKBP14%22%7C%3D%22PLOD1%22%7C%3D%22PRDM5%22%7C%3D%22SLC39A13%22%7C%3D%22TNXB%22%7C%3D%22ZNF469%22"
                     }
                 ],
                 "ssl": true,

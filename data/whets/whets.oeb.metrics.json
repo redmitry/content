@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:whets/web/www.rothamsted.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-07-06T08:01:50.778301Z",
+        "@timestamp": "2024-07-13T07:30:49.517328Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -105,7 +105,7 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-07-06T08:01:50.717328Z",
+                "last_check": "2024-07-13T07:30:49.456717Z",
                 "last_month_access": {
                     "downtime_days": 28,
                     "uptime_days": 0
@@ -127,7 +127,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/whets",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-07-06T08:10:01.457026Z",
+        "@timestamp": "2024-07-13T07:38:33.251047Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -142,28 +142,36 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 179,
                         "serie": [
-                            181
+                            174,
+                            5
                         ],
                         "status": 404
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-06T08:10:01.397364Z",
+                "https": true,
+                "last_check": "2024-07-13T07:38:33.19088Z",
                 "last_month_access": {
                     "downtime_days": 28,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://www.rothamsted.ac.uk/whets/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

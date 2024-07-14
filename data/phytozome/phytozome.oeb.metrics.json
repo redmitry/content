@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:phytozome/db/www.phytozome.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-07-06T06:39:35.763903Z",
+        "@timestamp": "2024-07-13T06:03:55.178052Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -160,7 +160,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 3442,
+                "access_time": 4511,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -172,25 +172,18 @@
                         "status": 503
                     },
                     {
-                        "days": 179,
+                        "days": 180,
                         "serie": [
-                            76,
-                            103
+                            70,
+                            110
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2024-07-06T06:39:35.686449Z",
+                "last_check": "2024-07-13T06:03:55.09841Z",
                 "last_month_access": {
-                    "average_access_time": 5239,
+                    "average_access_time": 5137,
                     "downtime_days": 0,
                     "uptime_days": 28
                 },
@@ -218,7 +211,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/phytozome",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-07-06T06:41:53.558274Z",
+        "@timestamp": "2024-07-13T06:07:12.268619Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -228,7 +221,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 3397,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -240,23 +233,31 @@
                         "status": 503
                     },
                     {
-                        "days": 180,
+                        "days": 178,
                         "serie": [
-                            77,
-                            103
+                            70,
+                            103,
+                            5
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-06T06:41:53.461817Z",
+                "https": true,
+                "last_check": "2024-07-13T06:07:12.159405Z",
                 "last_month_access": {
-                    "average_access_time": 3085,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "average_access_time": 3637,
+                    "downtime_days": 2,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -267,7 +268,7 @@
                         "url": "https://phytozome-next.jgi.doe.gov/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

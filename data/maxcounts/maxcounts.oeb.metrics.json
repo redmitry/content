@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:maxcounts:1.0.2/cmd/sysbiobig.dei.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-07-06T05:36:58.291984Z",
+        "@timestamp": "2024-07-13T05:01:40.208Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -108,17 +108,25 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 2866,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 178,
                         "serie": [
-                            109,
-                            71
+                            102,
+                            71,
+                            5
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     },
                     {
                         "days": 1,
@@ -128,15 +136,15 @@
                         "status": 504
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-06T05:33:27.225329Z",
+                "https": true,
+                "last_check": "2024-07-13T05:01:40.121478Z",
                 "last_month_access": {
-                    "average_access_time": 1950,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "average_access_time": 2021,
+                    "downtime_days": 2,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
@@ -159,7 +167,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/maxcounts",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-07-06T05:33:27.314068Z",
+        "@timestamp": "2024-07-13T05:01:40.198029Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -169,7 +177,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 2806,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -182,24 +190,32 @@
                         "status": 500
                     },
                     {
-                        "days": 179,
+                        "days": 177,
                         "serie": [
-                            96,
+                            89,
                             12,
-                            71
+                            71,
+                            5
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-06T05:33:27.225329Z",
+                "https": true,
+                "last_check": "2024-07-13T05:01:40.119746Z",
                 "last_month_access": {
-                    "average_access_time": 2190,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "average_access_time": 2240,
+                    "downtime_days": 2,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
@@ -210,7 +226,7 @@
                         "url": "https://sysbiobig.dei.unipd.it/software/?q=software"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
