@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gbrowse/web/gmod.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-07-20T05:21:13.367043Z",
+        "@timestamp": "2024-07-27T04:47:54.147360Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -79,12 +79,19 @@
                 "description": true
             },
             "website": {
-                "access_time": 1028,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 16,
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 19,
                         "serie": [
                             2,
                             2,
@@ -96,14 +103,15 @@
                             1,
                             2,
                             1,
-                            1
+                            1,
+                            3
                         ],
                         "status": 500
                     },
                     {
-                        "days": 162,
+                        "days": 156,
                         "serie": [
-                            17,
+                            10,
                             3,
                             8,
                             33,
@@ -114,7 +122,8 @@
                             2,
                             1,
                             4,
-                            8
+                            8,
+                            1
                         ],
                         "status": 200
                     },
@@ -126,16 +135,26 @@
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-20T05:21:13.207443Z",
+                "https": true,
+                "last_check": "2024-07-27T04:47:53.936376Z",
                 "last_month_access": {
-                    "average_access_time": 11112,
-                    "downtime_days": 10,
-                    "uptime_days": 19
+                    "average_access_time": 9431,
+                    "downtime_days": 13,
+                    "uptime_days": 16
                 },
                 "license": true,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://gmod.org/wiki/GBrowse"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://gmod.org/wiki/GBrowse/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -147,7 +166,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/gbrowse",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-07-20T05:21:13.435207Z",
+        "@timestamp": "2024-07-27T04:47:54.151914Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -157,12 +176,19 @@
                 "description": true
             },
             "website": {
-                "access_time": 1159,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 16,
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 19,
                         "serie": [
                             2,
                             2,
@@ -174,14 +200,15 @@
                             1,
                             2,
                             1,
-                            1
+                            1,
+                            3
                         ],
                         "status": 500
                     },
                     {
-                        "days": 162,
+                        "days": 156,
                         "serie": [
-                            17,
+                            10,
                             3,
                             8,
                             33,
@@ -192,7 +219,8 @@
                             2,
                             1,
                             4,
-                            8
+                            8,
+                            1
                         ],
                         "status": 200
                     },
@@ -204,16 +232,26 @@
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-20T05:21:13.189435Z",
+                "https": true,
+                "last_check": "2024-07-27T04:47:53.936886Z",
                 "last_month_access": {
-                    "average_access_time": 10816,
-                    "downtime_days": 10,
-                    "uptime_days": 19
+                    "average_access_time": 9690,
+                    "downtime_days": 13,
+                    "uptime_days": 16
                 },
                 "license": true,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://gmod.org/wiki/GBrowse"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://gmod.org/wiki/GBrowse/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

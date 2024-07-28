@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:spot-seq-rna/web/sparks-lab.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-07-20T07:27:19.957434Z",
+        "@timestamp": "2024-07-27T06:51:58.109200Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -109,9 +109,9 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 168,
+                        "days": 165,
                         "serie": [
-                            131,
+                            124,
                             1,
                             1,
                             17,
@@ -119,12 +119,14 @@
                             1,
                             3,
                             9,
-                            4
+                            4,
+                            2,
+                            2
                         ],
                         "status": 404
                     },
                     {
-                        "days": 13,
+                        "days": 16,
                         "serie": [
                             1,
                             2,
@@ -134,13 +136,90 @@
                             1,
                             1,
                             2,
-                            2
+                            4,
+                            1
                         ],
                         "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2024-07-20T07:27:19.846178Z",
+                "last_check": "2024-07-27T06:51:58.042048Z",
+                "last_month_access": {
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://sparks-lab.org/server/SPOT-Seq-RNA/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/spot-seq-rna",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-07-27T06:51:58.353224Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 161,
+                        "serie": [
+                            122,
+                            1,
+                            1,
+                            1,
+                            1,
+                            4,
+                            5,
+                            1,
+                            2,
+                            13,
+                            3,
+                            7
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 20,
+                        "serie": [
+                            1,
+                            1,
+                            2,
+                            3,
+                            3,
+                            2,
+                            2,
+                            1,
+                            1,
+                            3,
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-07-27T06:51:58.284585Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
@@ -184,81 +263,6 @@
                         "status": 301,
                         "url": "https://sparks-lab.org/server/SPOT-Seq-RNA/"
                     },
-                    {
-                        "status": 301,
-                        "url": "https://sparks-lab.org/server/SPOT-Seq-RNA/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/spot-seq-rna",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-07-20T07:27:19.095419Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 161,
-                        "serie": [
-                            129,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            5,
-                            1,
-                            2,
-                            13,
-                            3
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 20,
-                        "serie": [
-                            1,
-                            1,
-                            2,
-                            3,
-                            3,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1
-                        ],
-                        "status": 301
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-07-20T07:27:19.006926Z",
-                "last_month_access": {
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 404,
-                "redirects": [
                     {
                         "status": 301,
                         "url": "https://sparks-lab.org/server/SPOT-Seq-RNA/"

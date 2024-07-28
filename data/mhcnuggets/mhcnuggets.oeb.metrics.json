@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcnuggets:2.2/cmd/karchinlab.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-07-20T02:43:03.080577Z",
+        "@timestamp": "2024-07-27T02:03:38.414111Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -26,10 +26,11 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 175,
+                        "days": 174,
                         "serie": [
-                            155,
-                            20
+                            148,
+                            20,
+                            6
                         ],
                         "status": 404
                     },
@@ -41,9 +42,10 @@
                         "status": 408
                     },
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
-                            2
+                            2,
+                            1
                         ],
                         "status": 522
                     },
@@ -55,22 +57,22 @@
                         "status": 523
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-20T02:43:02.338162Z",
+                "https": true,
+                "last_check": "2024-07-27T02:03:38.024588Z",
                 "last_month_access": {
                     "average_access_time": 750,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 522,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://karchinlab.org/apps/mhcnuggets.html"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -79,11 +81,91 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mhcnuggets",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-07-20T02:43:02.604151Z",
+        "@timestamp": "2024-07-27T02:03:39.092604Z",
         "@type": "metrics",
         "project": {
             "build": {},
             "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 174,
+                        "serie": [
+                            148,
+                            20,
+                            6
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 522
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 523
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-07-27T02:03:38.960493Z",
+                "last_month_access": {
+                    "average_access_time": 618,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://karchinlab.org/apps/mhcnuggets.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcnuggets:2.3.2/cmd/karchinlab.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-07-27T02:04:33.517050Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
             "publications": [],
             "summary": {
                 "description": true
@@ -96,92 +178,16 @@
                     {
                         "days": 175,
                         "serie": [
-                            155,
-                            20
+                            169,
+                            6
                         ],
                         "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
                     },
                     {
                         "days": 3,
                         "serie": [
                             2,
                             1
-                        ],
-                        "status": 522
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 523
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-07-20T02:43:02.347672Z",
-                "last_month_access": {
-                    "average_access_time": 618,
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 522,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "https://karchinlab.org/apps/mhcnuggets.html"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcnuggets:2.3.2/cmd/karchinlab.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2024-07-20T02:43:33.563872Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 176,
-                        "serie": [
-                            176
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
                         ],
                         "status": 522
                     },
@@ -193,22 +199,22 @@
                         "status": 523
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-20T02:43:33.50976Z",
+                "https": true,
+                "last_check": "2024-07-27T02:04:33.461858Z",
                 "last_month_access": {
                     "average_access_time": 747,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 522,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://karchinlab.org/apps/mhcnuggets.html"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -217,7 +223,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcnuggets:2.3.1/cmd/karchinlab.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-07-20T02:43:02.071052Z",
+        "@timestamp": "2024-07-27T02:03:38.079399Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -240,16 +246,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 176,
+                        "days": 175,
                         "serie": [
-                            176
+                            169,
+                            6
                         ],
                         "status": 404
                     },
                     {
-                        "days": 3,
+                        "days": 4,
                         "serie": [
                             2,
+                            1,
                             1
                         ],
                         "status": 522
@@ -263,22 +271,22 @@
                         "status": 523
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-20T02:43:01.988644Z",
+                "https": true,
+                "last_check": "2024-07-27T02:03:37.963757Z",
                 "last_month_access": {
                     "average_access_time": 687,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 522,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://karchinlab.org/apps/mhcnuggets.html"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -287,7 +295,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcnuggets:2.4.0/cmd/karchinlab.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-07-20T02:43:02.463799Z",
+        "@timestamp": "2024-07-27T02:03:39.637191Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -310,16 +318,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 176,
+                        "days": 175,
                         "serie": [
-                            176
+                            169,
+                            6
                         ],
                         "status": 404
                     },
                     {
-                        "days": 4,
+                        "days": 5,
                         "serie": [
-                            4
+                            4,
+                            1
                         ],
                         "status": 522
                     },
@@ -331,22 +341,22 @@
                         "status": 523
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-20T02:43:02.358331Z",
+                "https": true,
+                "last_check": "2024-07-27T02:03:39.536827Z",
                 "last_month_access": {
                     "average_access_time": 719,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 522,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://karchinlab.org/apps/mhcnuggets.html"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -355,7 +365,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcnuggets:2.4.1/cmd/karchinlab.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-07-20T02:43:02.412641Z",
+        "@timestamp": "2024-07-27T02:03:38.206753Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -378,16 +388,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 176,
+                        "days": 175,
                         "serie": [
-                            176
+                            169,
+                            6
                         ],
                         "status": 404
                     },
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
-                            2
+                            2,
+                            1
                         ],
                         "status": 522
                     },
@@ -399,22 +411,22 @@
                         "status": 523
                     }
                 ],
-                "https": false,
-                "last_check": "2024-07-20T02:43:02.204869Z",
+                "https": true,
+                "last_check": "2024-07-27T02:03:37.987025Z",
                 "last_month_access": {
                     "average_access_time": 640,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 522,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://karchinlab.org/apps/mhcnuggets.html"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

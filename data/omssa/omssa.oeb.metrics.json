@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:omssa/cmd/pubchem.ncbi.nlm.nih.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-07-20T06:04:56.590993Z",
+        "@timestamp": "2024-07-27T05:26:55.006079Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -116,15 +116,23 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 180,
                         "serie": [
-                            181
+                            179,
+                            1
                         ],
                         "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2024-07-20T06:04:56.535976Z",
+                "last_check": "2024-07-27T05:26:54.917405Z",
                 "last_month_access": {
                     "average_access_time": 1267,
                     "downtime_days": 29,
@@ -141,7 +149,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/omssa",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-07-20T06:04:57.104139Z",
+        "@timestamp": "2024-07-27T05:26:55.756352Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -158,21 +166,27 @@
                     {
                         "days": 164,
                         "serie": [
-                            5,
-                            2,
+                            1,
                             71,
                             8,
                             29,
                             16,
                             22,
-                            11
+                            16,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 17,
+                        "days": 1,
                         "serie": [
-                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 16,
+                        "serie": [
                             4,
                             4,
                             1,
@@ -184,7 +198,7 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-07-20T06:04:56.907116Z",
+                "last_check": "2024-07-27T05:26:55.546922Z",
                 "last_month_access": {
                     "average_access_time": 1025,
                     "downtime_days": 24,
@@ -201,7 +215,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:omssa:2.1.9/cmd/ftp.ncbi.nlm.nih.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-07-20T06:05:17.078202Z",
+        "@timestamp": "2024-07-27T05:27:24.799063Z",
         "@type": "metrics",
         "distribution": {
             "packages": true
@@ -232,14 +246,14 @@
                     {
                         "days": 180,
                         "serie": [
-                            16,
-                            164
+                            9,
+                            171
                         ],
                         "status": 205
                     }
                 ],
                 "https": false,
-                "last_check": "2024-07-20T06:05:17.032565Z",
+                "last_check": "2024-07-27T05:27:24.749762Z",
                 "last_month_access": {
                     "downtime_days": 0,
                     "uptime_days": 29
