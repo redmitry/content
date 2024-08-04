@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mowserv:1/web/bitlab-es.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-07-27T05:13:51.563821Z",
+        "@timestamp": "2024-08-03T06:22:58.195583Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -94,17 +94,18 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 632,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 10,
+                        "days": 11,
                         "serie": [
                             2,
                             1,
                             1,
                             2,
+                            1,
                             1,
                             1,
                             1,
@@ -113,9 +114,9 @@
                         "status": 439
                     },
                     {
-                        "days": 162,
+                        "days": 161,
                         "serie": [
-                            80,
+                            73,
                             1,
                             22,
                             15,
@@ -126,91 +127,7 @@
                             16,
                             4,
                             1,
-                            7
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 9,
-                        "serie": [
-                            1,
-                            6,
-                            2
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-07-27T05:13:51.469742Z",
-                "last_month_access": {
-                    "average_access_time": 662,
-                    "downtime_days": 3,
-                    "uptime_days": 26
-                },
-                "license": false,
-                "operational": 439,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "http://ww16.bitlab-es.com/gnv5/?sub1=20240727-1513-5100-b29b-cf14aa24a9b2"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/mowserv",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-07-27T05:13:55.292059Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 469,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 6,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 439
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 165,
-                        "serie": [
-                            95,
-                            15,
-                            2,
                             7,
-                            5,
-                            16,
-                            3,
-                            16,
                             6
                         ],
                         "status": 200
@@ -226,10 +143,10 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-07-27T05:13:55.175641Z",
+                "last_check": "2024-08-03T06:22:57.97387Z",
                 "last_month_access": {
-                    "average_access_time": 459,
-                    "downtime_days": 3,
+                    "average_access_time": 671,
+                    "downtime_days": 4,
                     "uptime_days": 26
                 },
                 "license": false,
@@ -237,7 +154,93 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/gnv5/?subid1=20240727-1513-55e1-a84e-3ac3944e23bf"
+                        "url": "http://ww25.bitlab-es.com/gnv5/?subid1=20240803-1622-587e-a635-9757955c068f"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/mowserv",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-08-03T06:23:02.008186Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 436,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 8,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2
+                        ],
+                        "status": 439
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 163,
+                        "serie": [
+                            88,
+                            15,
+                            2,
+                            7,
+                            5,
+                            16,
+                            3,
+                            16,
+                            11
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 9,
+                        "serie": [
+                            1,
+                            6,
+                            2
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-08-03T06:23:01.851965Z",
+                "last_month_access": {
+                    "average_access_time": 458,
+                    "downtime_days": 3,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://ww25.bitlab-es.com/gnv5/?subid1=20240803-1623-02de-98a9-b0f57b8b3b75"
                     }
                 ],
                 "ssl": null,
