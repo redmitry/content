@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mowserv:1/web/bitlab-es.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-08-03T06:22:58.195583Z",
+        "@timestamp": "2024-08-10T05:00:42.720115Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -94,17 +94,18 @@
                 "description": true
             },
             "website": {
-                "access_time": 632,
+                "access_time": 407,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 11,
+                        "days": 12,
                         "serie": [
                             2,
                             1,
                             1,
                             2,
+                            1,
                             1,
                             1,
                             1,
@@ -114,9 +115,9 @@
                         "status": 439
                     },
                     {
-                        "days": 161,
+                        "days": 160,
                         "serie": [
-                            73,
+                            66,
                             1,
                             22,
                             15,
@@ -128,6 +129,95 @@
                             4,
                             1,
                             7,
+                            11,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 9,
+                        "serie": [
+                            1,
+                            6,
+                            2
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-08-10T05:00:42.562564Z",
+                "last_month_access": {
+                    "average_access_time": 814,
+                    "downtime_days": 5,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://ww25.bitlab-es.com/gnv5/?subid1=20240810-1500-42a9-9de2-77020e7c0567"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/mowserv",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-08-10T05:00:42.334218Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 752,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 9,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1
+                        ],
+                        "status": 439
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 162,
+                        "serie": [
+                            81,
+                            15,
+                            2,
+                            7,
+                            5,
+                            16,
+                            3,
+                            16,
+                            11,
                             6
                         ],
                         "status": 200
@@ -143,9 +233,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-08-03T06:22:57.97387Z",
+                "last_check": "2024-08-10T05:00:42.153283Z",
                 "last_month_access": {
-                    "average_access_time": 671,
+                    "average_access_time": 446,
                     "downtime_days": 4,
                     "uptime_days": 26
                 },
@@ -154,93 +244,7 @@
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://ww25.bitlab-es.com/gnv5/?subid1=20240803-1622-587e-a635-9757955c068f"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/mowserv",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-08-03T06:23:02.008186Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 436,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 8,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
-                        ],
-                        "status": 439
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 163,
-                        "serie": [
-                            88,
-                            15,
-                            2,
-                            7,
-                            5,
-                            16,
-                            3,
-                            16,
-                            11
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 9,
-                        "serie": [
-                            1,
-                            6,
-                            2
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-08-03T06:23:01.851965Z",
-                "last_month_access": {
-                    "average_access_time": 458,
-                    "downtime_days": 3,
-                    "uptime_days": 27
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "http://ww25.bitlab-es.com/gnv5/?subid1=20240803-1623-02de-98a9-b0f57b8b3b75"
+                        "url": "http://ww25.bitlab-es.com/gnv5/?subid1=20240810-1500-42a4-bb47-20e2fffb48b9"
                     }
                 ],
                 "ssl": null,
