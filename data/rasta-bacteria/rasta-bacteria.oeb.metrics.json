@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rasta-bacteria/web/genoweb1.irisa.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-08-10T06:06:34.922376Z",
+        "@timestamp": "2024-08-17T07:27:07.326435Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -195,16 +195,22 @@
                         "status": 503
                     }
                 ],
-                "https": false,
-                "last_check": "2024-08-10T06:06:34.851867Z",
+                "https": true,
+                "last_check": "2024-08-17T07:27:07.24612Z",
                 "last_month_access": {
                     "average_access_time": 254,
-                    "downtime_days": 30,
+                    "downtime_days": 28,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 503,
-                "ssl": null,
+                "operational": 502,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://genoweb1.irisa.fr/duals/RASTA-Bacteria/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -216,7 +222,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rasta-bacteria",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-08-10T06:06:35.014398Z",
+        "@timestamp": "2024-08-17T07:27:07.507858Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -238,16 +244,22 @@
                         "status": 503
                     }
                 ],
-                "https": false,
-                "last_check": "2024-08-10T06:06:34.851867Z",
+                "https": true,
+                "last_check": "2024-08-17T07:27:07.245834Z",
                 "last_month_access": {
                     "average_access_time": 254,
-                    "downtime_days": 30,
+                    "downtime_days": 28,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 503,
-                "ssl": null,
+                "operational": 502,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://genoweb1.irisa.fr/duals/RASTA-Bacteria/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
