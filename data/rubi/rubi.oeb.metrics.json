@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rubi:1.0/web/protein.bio.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-08-24T08:26:25.987625Z",
+        "@timestamp": "2024-08-31T06:55:24.654472Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -135,22 +135,23 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 125,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 23,
+                        "days": 26,
                         "serie": [
-                            23
+                            26
                         ],
                         "status": 404
                     },
                     {
-                        "days": 156,
+                        "days": 155,
                         "serie": [
-                            69,
-                            87
+                            64,
+                            87,
+                            4
                         ],
                         "status": 200
                     },
@@ -162,22 +163,26 @@
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2024-08-24T08:26:22.488352Z",
+                "https": false,
+                "last_check": "2024-08-31T06:55:24.011905Z",
                 "last_month_access": {
-                    "average_access_time": 340,
-                    "downtime_days": 23,
-                    "uptime_days": 7
+                    "average_access_time": 116,
+                    "downtime_days": 26,
+                    "uptime_days": 4
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 307,
                         "url": "https://protein.bio.unipd.it/rubi/"
+                    },
+                    {
+                        "status": 307,
+                        "url": "http://old.protein.bio.unipd.it/rubi/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -189,7 +194,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rubi",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-08-24T08:26:26.452372Z",
+        "@timestamp": "2024-08-31T06:55:23.836171Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -199,22 +204,23 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 351,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 23,
+                        "days": 26,
                         "serie": [
-                            23
+                            26
                         ],
                         "status": 404
                     },
                     {
-                        "days": 156,
+                        "days": 155,
                         "serie": [
-                            69,
-                            87
+                            64,
+                            87,
+                            4
                         ],
                         "status": 200
                     },
@@ -226,22 +232,26 @@
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2024-08-24T08:26:26.340621Z",
+                "https": false,
+                "last_check": "2024-08-31T06:55:23.695927Z",
                 "last_month_access": {
-                    "average_access_time": 401,
-                    "downtime_days": 23,
-                    "uptime_days": 7
+                    "average_access_time": 315,
+                    "downtime_days": 26,
+                    "uptime_days": 4
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 307,
                         "url": "https://protein.bio.unipd.it/rubi/"
+                    },
+                    {
+                        "status": 307,
+                        "url": "http://old.protein.bio.unipd.it/rubi/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
