@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/covidnlp",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-06T12:00:05.101682Z",
+        "@timestamp": "2024-09-13T09:11:46.043229Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -25,19 +25,21 @@
                         "status": 500
                     },
                     {
-                        "days": 1,
+                        "days": 3,
                         "serie": [
-                            1
+                            1,
+                            2
                         ],
                         "status": 503
                     },
                     {
-                        "days": 175,
+                        "days": 173,
                         "serie": [
-                            48,
+                            41,
                             48,
                             67,
-                            12
+                            12,
+                            5
                         ],
                         "status": 200
                     },
@@ -50,14 +52,14 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-09-06T12:00:05.020544Z",
+                "last_check": "2024-09-13T09:11:45.946159Z",
                 "last_month_access": {
-                    "average_access_time": 1037,
-                    "downtime_days": 3,
+                    "average_access_time": 1009,
+                    "downtime_days": 5,
                     "uptime_days": 25
                 },
                 "license": false,
-                "operational": 503,
+                "operational": 408,
                 "ssl": null,
                 "ssl_err": null
             }
@@ -67,7 +69,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:covidnlp/web/covidnlp.tavlab.iiitd.edu.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-06T12:00:05.103538Z",
+        "@timestamp": "2024-09-13T09:11:46.005208Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -80,8 +82,13 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1101/2020.04.25.20079129",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
                             "title": "<i>CovidNLP</i>: A Web Application for Distilling Systemic Implications of COVID-19 Pandemic with Natural Language Processing",
                             "year": 2020
                         }
@@ -104,19 +111,21 @@
                         "status": 500
                     },
                     {
-                        "days": 1,
+                        "days": 3,
                         "serie": [
-                            1
+                            1,
+                            2
                         ],
                         "status": 503
                     },
                     {
-                        "days": 175,
+                        "days": 173,
                         "serie": [
-                            48,
+                            41,
                             48,
                             67,
-                            12
+                            12,
+                            5
                         ],
                         "status": 200
                     },
@@ -129,14 +138,14 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-09-06T12:00:05.032702Z",
+                "last_check": "2024-09-13T09:11:45.94623Z",
                 "last_month_access": {
-                    "average_access_time": 856,
-                    "downtime_days": 3,
+                    "average_access_time": 955,
+                    "downtime_days": 5,
                     "uptime_days": 25
                 },
                 "license": false,
-                "operational": 503,
+                "operational": 408,
                 "ssl": null,
                 "ssl_err": null
             }

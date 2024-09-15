@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:guugle:1.2/rest/bibiserv.cebitec.uni-bielefeld.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-06T05:56:14.765250Z",
+        "@timestamp": "2024-09-13T04:04:55.178080Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -23,7 +23,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 30,
+                            "cit_count": 22,
                             "citations": [
                                 {
                                     "count": 1,
@@ -34,7 +34,7 @@
                                     "year": "2008"
                                 },
                                 {
-                                    "count": 2,
+                                    "count": 1,
                                     "year": "2010"
                                 },
                                 {
@@ -70,20 +70,8 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": "2019"
-                                },
-                                {
                                     "count": 1,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2022"
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btk041",
@@ -117,7 +105,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 365,
+                "access_time": 120,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -139,20 +127,20 @@
                     {
                         "days": 175,
                         "serie": [
-                            73,
+                            66,
                             5,
                             5,
-                            92
+                            99
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-06T05:56:08.500319Z",
+                "last_check": "2024-09-13T04:04:53.313401Z",
                 "last_month_access": {
-                    "average_access_time": 271,
+                    "average_access_time": 343,
                     "downtime_days": 0,
-                    "uptime_days": 28
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -174,7 +162,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:guugle:1.2/web/bibiserv.cebitec.uni-bielefeld.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-06T07:18:36.685956Z",
+        "@timestamp": "2024-09-13T05:08:21.068282Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -194,7 +182,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 30,
+                            "cit_count": 22,
                             "citations": [
                                 {
                                     "count": 1,
@@ -205,7 +193,7 @@
                                     "year": "2008"
                                 },
                                 {
-                                    "count": 2,
+                                    "count": 1,
                                     "year": "2010"
                                 },
                                 {
@@ -241,20 +229,8 @@
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": "2019"
-                                },
-                                {
                                     "count": 1,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2022"
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btk041",
@@ -284,6 +260,222 @@
                     ]
                 }
             ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 390,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 176,
+                        "serie": [
+                            61,
+                            11,
+                            5,
+                            99
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-09-13T05:08:20.889989Z",
+                "last_month_access": {
+                    "average_access_time": 382,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bibiserv.cebitec.uni-bielefeld.de/guugle"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:guugle:1.2/cmd/bibiserv.cebitec.uni-bielefeld.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-09-13T05:07:37.557922Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {},
+            "sourcecode": {
+                "interpreted": false,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 22,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btk041",
+                            "pmid": "16403789",
+                            "ref_count": 7,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                }
+                            ],
+                            "title": "GUUGle: a utility for fast exact matching under RNA complementary rules including G-U base pairing.",
+                            "year": 2006
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 344,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            79,
+                            99
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-09-13T05:07:37.390326Z",
+                "last_month_access": {
+                    "average_access_time": 491,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bibiserv.cebitec.uni-bielefeld.de/guugle"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/guugle",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-09-13T05:08:27.678513Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
             "summary": {
                 "description": true
             },
@@ -310,248 +502,20 @@
                     {
                         "days": 176,
                         "serie": [
-                            68,
+                            61,
                             11,
                             5,
-                            92
+                            99
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-06T07:18:33.315816Z",
+                "last_check": "2024-09-13T05:08:27.53702Z",
                 "last_month_access": {
-                    "average_access_time": 374,
+                    "average_access_time": 371,
                     "downtime_days": 0,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://bibiserv.cebitec.uni-bielefeld.de/guugle"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:guugle:1.2/cmd/bibiserv.cebitec.uni-bielefeld.de",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-09-06T07:16:08.232019Z",
-        "@type": "metrics",
-        "deprecated": true,
-        "distribution": {
-            "binaries": {},
-            "sourcecode": {
-                "interpreted": false,
-                "repository": {}
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "general": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 30,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2014"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2017"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2018"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2019"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2021"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2022"
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/btk041",
-                            "pmid": "16403789",
-                            "ref_count": 7,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "2001"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2003"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2004"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2005"
-                                }
-                            ],
-                            "title": "GUUGle: a utility for fast exact matching under RNA complementary rules including G-U base pairing.",
-                            "year": 2006
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 345,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 5,
-                        "serie": [
-                            5
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 178,
-                        "serie": [
-                            86,
-                            92
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-09-06T07:16:04.990853Z",
-                "last_month_access": {
-                    "average_access_time": 487,
-                    "downtime_days": 0,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://bibiserv.cebitec.uni-bielefeld.de/guugle"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/guugle",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-09-06T07:18:46.652963Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 323,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 5,
-                        "serie": [
-                            5
-                        ],
-                        "status": 503
-                    },
-                    {
-                        "days": 176,
-                        "serie": [
-                            68,
-                            11,
-                            5,
-                            92
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-09-06T07:18:46.300366Z",
-                "last_month_access": {
-                    "average_access_time": 357,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,

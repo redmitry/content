@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gwasrapidd/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-06T07:12:14.160133Z",
+        "@timestamp": "2024-09-13T05:06:26.720723Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -39,7 +39,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 16,
+                            "cit_count": 3,
                             "citations": [
                                 {
                                     "count": 1,
@@ -47,19 +47,11 @@
                                 },
                                 {
                                     "count": 1,
-                                    "year": "2020"
-                                },
-                                {
-                                    "count": 3,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 7,
+                                    "count": 1,
                                     "year": "2022"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btz605",
@@ -83,7 +75,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 639,
+                "access_time": 597,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -96,11 +88,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-06T07:12:13.956052Z",
+                "last_check": "2024-09-13T05:06:26.53871Z",
                 "last_month_access": {
-                    "average_access_time": 504,
+                    "average_access_time": 535,
                     "downtime_days": 0,
-                    "uptime_days": 28
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -119,7 +111,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/gwasrapidd",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-06T07:12:14.008649Z",
+        "@timestamp": "2024-09-13T05:06:26.636019Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -149,7 +141,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 197,
+                "access_time": 675,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -162,11 +154,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-06T07:12:13.897056Z",
+                "last_check": "2024-09-13T05:06:26.530234Z",
                 "last_month_access": {
-                    "average_access_time": 518,
+                    "average_access_time": 542,
                     "downtime_days": 0,
-                    "uptime_days": 28
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
@@ -178,6 +170,99 @@
             "issue_tracking": {
                 "public_tracker": true,
                 "resolve_time": "PT3518749S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasrapidd:4.8.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-09-14T02:03:17.515260Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 57,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.21105/JOSS.00027",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "sourmash: a library for MinHash sketching of DNA",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 95,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-09-14T02:03:17.448046Z",
+                "last_month_access": {
+                    "average_access_time": 225,
+                    "downtime_days": 0,
+                    "uptime_days": 5
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/sourmash-bio/sourmash"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
             }
         }
     }

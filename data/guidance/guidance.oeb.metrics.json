@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:guidance/web/guidance.tau.ac.il",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-06T07:42:52.235686Z",
+        "@timestamp": "2024-09-13T05:21:28.528941Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -21,58 +21,58 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 357,
+                            "cit_count": 275,
                             "citations": [
                                 {
                                     "count": 8,
                                     "year": "2011"
                                 },
                                 {
-                                    "count": 12,
+                                    "count": 10,
                                     "year": "2012"
                                 },
                                 {
-                                    "count": 38,
+                                    "count": 31,
                                     "year": "2013"
                                 },
                                 {
-                                    "count": 51,
+                                    "count": 43,
                                     "year": "2014"
                                 },
                                 {
-                                    "count": 44,
+                                    "count": 39,
                                     "year": "2015"
                                 },
                                 {
-                                    "count": 55,
+                                    "count": 51,
                                     "year": "2016"
                                 },
                                 {
-                                    "count": 47,
+                                    "count": 39,
                                     "year": "2017"
                                 },
                                 {
-                                    "count": 20,
+                                    "count": 16,
                                     "year": "2018"
                                 },
                                 {
-                                    "count": 24,
+                                    "count": 14,
                                     "year": "2019"
                                 },
                                 {
-                                    "count": 8,
+                                    "count": 5,
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 24,
+                                    "count": 8,
                                     "year": "2021"
                                 },
                                 {
-                                    "count": 21,
+                                    "count": 9,
                                     "year": "2022"
                                 },
                                 {
-                                    "count": 5,
+                                    "count": 2,
                                     "year": "2023"
                                 }
                             ],
@@ -177,10 +177,8 @@
                         "status": 500
                     },
                     {
-                        "days": 14,
+                        "days": 11,
                         "serie": [
-                            1,
-                            2,
                             2,
                             3,
                             1,
@@ -202,8 +200,7 @@
                     {
                         "days": 138,
                         "serie": [
-                            1,
-                            8,
+                            5,
                             15,
                             11,
                             4,
@@ -224,7 +221,9 @@
                             5,
                             5,
                             5,
-                            10
+                            10,
+                            3,
+                            1
                         ],
                         "status": 200
                     },
@@ -240,14 +239,22 @@
                             4
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            2,
+                            1
+                        ],
+                        "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-06T07:42:51.036167Z",
+                "last_check": "2024-09-13T05:21:25.147451Z",
                 "last_month_access": {
-                    "average_access_time": 442,
+                    "average_access_time": 964,
                     "downtime_days": 8,
-                    "uptime_days": 20
+                    "uptime_days": 22
                 },
                 "license": false,
                 "operational": 302,
@@ -269,7 +276,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/guidance",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-06T07:42:49.116192Z",
+        "@timestamp": "2024-09-13T05:18:26.995458Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -279,7 +286,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 644,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -308,10 +315,8 @@
                         "status": 500
                     },
                     {
-                        "days": 16,
+                        "days": 13,
                         "serie": [
-                            1,
-                            2,
                             2,
                             3,
                             1,
@@ -333,8 +338,7 @@
                     {
                         "days": 138,
                         "serie": [
-                            1,
-                            8,
+                            5,
                             15,
                             11,
                             4,
@@ -355,7 +359,8 @@
                             5,
                             5,
                             5,
-                            10
+                            10,
+                            4
                         ],
                         "status": 200
                     },
@@ -371,21 +376,33 @@
                             4
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            2,
+                            1
+                        ],
+                        "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-06T07:42:48.987824Z",
+                "last_check": "2024-09-13T05:18:26.726562Z",
                 "last_month_access": {
-                    "average_access_time": 410,
+                    "average_access_time": 467,
                     "downtime_days": 8,
-                    "uptime_days": 20
+                    "uptime_days": 22
                 },
                 "license": false,
-                "operational": 302,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://taux.evolseq.net/guidance"
+                    },
+                    {
+                        "status": 308,
+                        "url": "https://taux.evolseq.net/guidance/"
                     }
                 ],
                 "ssl": true,
