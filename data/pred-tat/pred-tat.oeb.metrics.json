@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pred-tat:1.1/web/www.compgen.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-13T05:48:05.262982Z",
+        "@timestamp": "2024-09-21T05:24:26.047462Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -150,24 +150,39 @@
                 "description": true
             },
             "website": {
-                "access_time": 631,
+                "access_time": 825,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 1,
                         "serie": [
-                            183
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            179,
+                            2
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-13T05:48:05.006281Z",
+                "last_check": "2024-09-21T05:24:25.910047Z",
                 "last_month_access": {
-                    "average_access_time": 1110,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 912,
+                    "downtime_days": 2,
+                    "uptime_days": 28
                 },
                 "license": true,
                 "operational": 200,
@@ -197,7 +212,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pred-tat",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-13T05:48:04.496660Z",
+        "@timestamp": "2024-09-21T05:24:25.552895Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -207,27 +222,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 809,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 2,
                         "serie": [
-                            183
+                            2
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            179,
+                            1
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2024-09-13T05:48:04.422414Z",
+                "https": false,
+                "last_check": "2024-09-21T05:24:25.377713Z",
                 "last_month_access": {
-                    "average_access_time": 749,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 797,
+                    "downtime_days": 3,
+                    "uptime_days": 27
                 },
                 "license": true,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
@@ -242,7 +272,7 @@
                         "url": "https://www.google.com/a/compgen.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&followup=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&ul=1"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

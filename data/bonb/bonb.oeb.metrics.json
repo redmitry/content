@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bonb:1.2/cmd/sysbiobig.dei.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-13T04:25:15.045789Z",
+        "@timestamp": "2024-09-21T03:55:29.577103Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -109,29 +109,35 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 2233,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 3,
+                        "days": 2,
                         "serie": [
-                            1,
                             1,
                             1
                         ],
                         "status": 500
                     },
                     {
-                        "days": 178,
+                        "days": 177,
                         "serie": [
-                            5,
-                            23,
+                            21,
                             12,
                             71,
-                            67
+                            67,
+                            6
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 504
                     },
                     {
                         "days": 2,
@@ -142,18 +148,22 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-13T04:25:14.896322Z",
+                "last_check": "2024-09-21T03:55:29.092315Z",
                 "last_month_access": {
-                    "average_access_time": 2406,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2517,
+                    "downtime_days": 2,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 504,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://sysbiobig.dei.unipd.it/?q=Software"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sysbiobig.dei.unipd.it/software/?q=software"
                     }
                 ],
                 "ssl": true,
@@ -168,7 +178,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bonb",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-13T04:25:15.312241Z",
+        "@timestamp": "2024-09-21T03:55:29.286864Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -178,18 +188,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 2174,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 178,
                         "serie": [
-                            42,
+                            34,
                             71,
-                            67
+                            67,
+                            6
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            2
+                        ],
+                        "status": 504
                     },
                     {
                         "days": 2,
@@ -197,28 +216,25 @@
                             2
                         ],
                         "status": 408
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-13T04:25:15.088754Z",
+                "last_check": "2024-09-21T03:55:29.068248Z",
                 "last_month_access": {
-                    "average_access_time": 2340,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2305,
+                    "downtime_days": 2,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 504,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://sysbiobig.dei.unipd.it/?q=Software"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sysbiobig.dei.unipd.it/software/?q=software"
                     }
                 ],
                 "ssl": true,

@@ -3,110 +3,12 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/animalnexus",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-13T04:29:39.114151Z",
+        "@timestamp": "2024-09-21T04:01:19.696476Z",
         "@type": "metrics",
         "project": {
             "build": {},
             "deployment": {},
             "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 582,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-09-13T04:29:38.89139Z",
-                "last_month_access": {
-                    "average_access_time": 459,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:animalnexus/web/animalnexus.ca",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-09-13T04:29:39.115782Z",
-        "@type": "metrics",
-        "deprecated": true,
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "general": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 0,
-                            "citations": [],
-                            "doi": "10.1002/ece3.3240",
-                            "pmcid": "PMC5632613",
-                            "pmid": "29043042",
-                            "ref_count": 27,
-                            "refs": [
-                                {
-                                    "count": 2,
-                                    "year": "2007"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2008"
-                                },
-                                {
-                                    "count": 5,
-                                    "year": "2011"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 4,
-                                    "year": "2013"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2015"
-                                },
-                                {
-                                    "count": 6,
-                                    "year": "2016"
-                                },
-                                {
-                                    "count": 3,
-                                    "year": "2017"
-                                }
-                            ],
-                            "title": "feedr and animalnexus.ca: A paired R package and user-friendly Web application for transforming and visualizing animal movement data from static stations.",
-                            "year": 2017
-                        }
-                    ]
-                }
-            ],
             "summary": {
                 "description": true
             },
@@ -124,9 +26,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-09-13T04:29:38.891491Z",
+                "last_check": "2024-09-21T04:01:19.61836Z",
                 "last_month_access": {
-                    "average_access_time": 486,
+                    "average_access_time": 453,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
@@ -135,16 +37,13 @@
                 "ssl": null,
                 "ssl_err": null
             }
-        },
-        "support": {
-            "email": true
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:animalnexus/lib/animalnexus.ca",
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:animalnexus/web/animalnexus.ca",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-13T04:29:39.189389Z",
+        "@timestamp": "2024-09-21T04:01:19.732566Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -212,15 +111,116 @@
                 "description": true
             },
             "website": {
-                "access_time": 456,
+                "access_time": 328,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-09-21T04:01:19.671765Z",
+                "last_month_access": {
+                    "average_access_time": 448,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:animalnexus/lib/animalnexus.ca",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-09-21T04:01:19.712314Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1002/ece3.3240",
+                            "pmcid": "PMC5632613",
+                            "pmid": "29043042",
+                            "ref_count": 27,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "feedr and animalnexus.ca: A paired R package and user-friendly Web application for transforming and visualizing animal movement data from static stations.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 335,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 182,
                         "serie": [
-                            79,
-                            103
+                            71,
+                            111
                         ],
                         "status": 200
                     },
@@ -233,9 +233,9 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-09-13T04:29:38.891157Z",
+                "last_check": "2024-09-21T04:01:19.618743Z",
                 "last_month_access": {
-                    "average_access_time": 458,
+                    "average_access_time": 459,
                     "downtime_days": 0,
                     "uptime_days": 30
                 },
