@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pred-tmbb2:1.1/web/www.compgen.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-21T05:19:28.748015Z",
+        "@timestamp": "2024-09-28T05:08:18.303314Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -401,16 +401,23 @@
                 "description": true
             },
             "website": {
-                "access_time": 1370,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 3,
                         "serie": [
-                            47,
-                            131,
                             3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            40,
+                            131,
+                            7
                         ],
                         "status": 200
                     },
@@ -423,15 +430,15 @@
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2024-09-21T05:19:28.584046Z",
+                "https": false,
+                "last_check": "2024-09-28T05:08:18.174603Z",
                 "last_month_access": {
-                    "average_access_time": 921,
-                    "downtime_days": 1,
-                    "uptime_days": 29
+                    "average_access_time": 1027,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": true,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
@@ -446,7 +453,7 @@
                         "url": "https://www.google.com/a/compgen.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&followup=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&ul=1"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -458,7 +465,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pred-tmbb2",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-21T05:19:29.321791Z",
+        "@timestamp": "2024-09-28T05:08:18.843320Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -473,11 +480,20 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 5,
                         "serie": [
-                            47,
+                            1,
+                            4
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 176,
+                        "serie": [
+                            40,
                             131,
-                            3
+                            3,
+                            2
                         ],
                         "status": 200
                     },
@@ -490,12 +506,12 @@
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2024-09-21T05:19:29.218227Z",
+                "https": false,
+                "last_check": "2024-09-28T05:08:18.726951Z",
                 "last_month_access": {
-                    "average_access_time": 960,
-                    "downtime_days": 1,
-                    "uptime_days": 29
+                    "average_access_time": 998,
+                    "downtime_days": 5,
+                    "uptime_days": 24
                 },
                 "license": true,
                 "operational": 404,
@@ -507,9 +523,13 @@
                     {
                         "status": 302,
                         "url": "https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host=www.compgen.org&webspace=lab"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.google.com/a/compgen.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&followup=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&ul=1"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

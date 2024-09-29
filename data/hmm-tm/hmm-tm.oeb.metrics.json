@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hmm-tm:1.1/web/www.compgen.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-21T04:47:36.138273Z",
+        "@timestamp": "2024-09-28T04:43:05.001957Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -148,19 +148,21 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 8,
                         "serie": [
                             1,
-                            1
+                            3,
+                            4
                         ],
                         "status": 404
                     },
                     {
-                        "days": 180,
+                        "days": 174,
                         "serie": [
-                            119,
+                            112,
                             59,
-                            2
+                            2,
+                            1
                         ],
                         "status": 200
                     },
@@ -173,11 +175,11 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-09-21T04:47:36.071564Z",
+                "last_check": "2024-09-28T04:43:04.826298Z",
                 "last_month_access": {
-                    "average_access_time": 1269,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 1377,
+                    "downtime_days": 7,
+                    "uptime_days": 22
                 },
                 "license": true,
                 "operational": 404,
@@ -207,7 +209,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/hmm-tm",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-21T04:47:36.762227Z",
+        "@timestamp": "2024-09-28T04:43:05.120980Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -222,17 +224,17 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 9,
                         "serie": [
                             1,
-                            1
+                            8
                         ],
                         "status": 404
                     },
                     {
-                        "days": 180,
+                        "days": 173,
                         "serie": [
-                            119,
+                            112,
                             59,
                             2
                         ],
@@ -246,12 +248,12 @@
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2024-09-21T04:47:36.635411Z",
+                "https": false,
+                "last_check": "2024-09-28T04:43:04.826298Z",
                 "last_month_access": {
-                    "average_access_time": 1121,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 1275,
+                    "downtime_days": 8,
+                    "uptime_days": 21
                 },
                 "license": true,
                 "operational": 404,
@@ -263,9 +265,13 @@
                     {
                         "status": 302,
                         "url": "https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host=www.compgen.org&webspace=lab"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.google.com/a/compgen.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&followup=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&ul=1"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

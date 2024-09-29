@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:slicembler/lib/sites.google.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-21T03:41:50.826102Z",
+        "@timestamp": "2024-09-28T03:26:40.064437Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -100,27 +100,30 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 4,
+                        "days": 9,
                         "serie": [
+                            4,
+                            1,
                             4
                         ],
                         "status": 404
                     },
                     {
-                        "days": 179,
+                        "days": 174,
                         "serie": [
-                            127,
-                            52
+                            120,
+                            52,
+                            2
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-21T03:41:49.613585Z",
+                "last_check": "2024-09-28T03:26:38.993865Z",
                 "last_month_access": {
-                    "average_access_time": 2710,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2749,
+                    "downtime_days": 4,
+                    "uptime_days": 25
                 },
                 "license": false,
                 "operational": 404,
@@ -128,26 +131,6 @@
                     {
                         "status": 302,
                         "url": "https://sites.google.com/a/ucr.edu/sites/system/errors/WebspaceNotFound?path=%2Fslicembler%2F"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.google.com/a/ucr.edu/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/ucr.edu/sites/system/errors/WebspaceNotFound?path%3D/slicembler/&followup=https://sites.google.com/a/ucr.edu/sites/system/errors/WebspaceNotFound?path%3D/slicembler/&ul=1"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://accounts.google.com/samlredirect?continue=https%3A%2F%2Fsites.google.com%2Fa%2Fucr.edu%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fslicembler%2F&sso_profile=inboundSamlSsoProfiles%2F01qdzxd60zermdc"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://shibboleth.ucr.edu/shibboleth-idp/profile/SAML2/Redirect/SSO?SAMLRequest=lZLNbsIwEIRfJfI9%2F4GARYIiEBISrRCFHnqpXGcBS44NXocCT99AoaU9UPVqz%2BzMfnavv6%2BkswODQquMhF5AHFBcl0KtMrKYj9wO6ec9ZJWMNrSo7VrNYFsDWqcxKqSfNxmpjaKaoUCqWAVILadPxcOERl5AN0ZbzbUkToEIxjZRA62wrsA8gdkJDovZJCNrazdIfZ9xrmtl0VtpvZLgcV35pxiz8YNwWx73ZTs4gqlK3kiROCNtOJyrZWTJJAJxxsOMvKZ8GfMkZnEMccibqXE7STtx2upErbf2stPIcMoQxQ6%2BjYg1jBVapmxGoiBK3KDrRuE8iGkS0qTrtdPohTjPV2LNfuTCh57N5hbMfS7sSuO8Q8XsffnpRJTu8iyloKywB5L%2Fn1rPv6379biPzfjxcKql4AenkFK%2FDwww27Cxpoa%2FK4Ze%2BLtixYQsytIAIvHzS%2B7Pb5R%2FAA%3D%3D&RelayState=b.z6IAlyT2uwjAMAOA3v5GJlQvUArdNhITYGFkRE0pc90dKcBQ7A7dnYP7-Dy9HM1KPAZHxSIEIx955dIM_DXGc_e65mhU9A-hmrN0isiTuSDIEaFQ7ntqPQD9qnIFrlarw4KglEN_FbtLe07UEWy-gaSPOMXGF_d8XQfArSw%3D%3D"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://shibboleth.ucr.edu/shibboleth-idp/profile/SAML2/Redirect/SSO?execution=e1s1"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://shibboleth.ucr.edu/shibboleth-idp/Authn/External?conversation=e1s1"
                     }
                 ],
                 "ssl": true,
@@ -162,7 +145,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/slicembler",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-21T03:41:47.525938Z",
+        "@timestamp": "2024-09-28T03:26:39.446316Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -172,60 +155,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 2173,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 8,
+                        "days": 13,
                         "serie": [
                             4,
                             1,
                             1,
-                            2
+                            2,
+                            5
                         ],
                         "status": 404
                     },
                     {
-                        "days": 175,
+                        "days": 170,
                         "serie": [
-                            127,
+                            120,
                             18,
                             14,
-                            16
+                            16,
+                            2
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-21T03:41:46.983427Z",
+                "last_check": "2024-09-28T03:26:38.830856Z",
                 "last_month_access": {
-                    "average_access_time": 2789,
-                    "downtime_days": 3,
-                    "uptime_days": 27
+                    "average_access_time": 3024,
+                    "downtime_days": 7,
+                    "uptime_days": 22
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://sites.google.com/a/ucr.edu/sites/system/errors/WebspaceNotFound?path=%2Fslicembler%2F"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.google.com/a/ucr.edu/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/ucr.edu/sites/system/errors/WebspaceNotFound?path%3D/slicembler/&followup=https://sites.google.com/a/ucr.edu/sites/system/errors/WebspaceNotFound?path%3D/slicembler/&ul=1"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://accounts.google.com/samlredirect?continue=https%3A%2F%2Fsites.google.com%2Fa%2Fucr.edu%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fslicembler%2F&sso_profile=inboundSamlSsoProfiles%2F01qdzxd60zermdc"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://shibboleth.ucr.edu/shibboleth-idp/profile/SAML2/Redirect/SSO?SAMLRequest=lZJLT8MwEIT%2FSuR7EidN0tRqUkUgpEoFofI4cEHG3raWHDt4nQL99YTw5gDias94Zr%2F1fPHY6mAPDpU1FUkiSgIwwkplthW5ujwJS7Ko58hbnXas6f3OrOG%2BB%2FTBYDTIXm8q0jvDLEeFzPAWkHnBLprTFUsjyjpnvRVWk6BBBOeHqCNrsG%2FBXYDbKwFX61VFdt53yOKYC2F74zHaWrvVEAnbxi8xrotpci8Pj7KgB3CtFIMUSXBinYCxWkU2XCOQYHlckds8zQtalHKaJJt8UpQTAbm8o%2BkdhWI2FbNBhuccUe3h04jYw9Kg58ZXJKVpFtJZmCaXdMKyhGVFlGXlDQmu34kN85E3Pmw0u69gfufC32mMM7Tc%2Fy5%2FOVEy3IxSBsYr%2F0Tq%2F1Obx1%2Frfiz3bHh%2BeXxutRJPQaO1fThywP3Axrse%2Fq6YRMnPii1XupHSASKJ67fc79%2BofgY%3D&RelayState=b.z6IAlya0OwjAQAGA0EoXlBXb7SbuNhOCQWIIi7fXYlrRc07sK3h6B_vanl-mNbe0Uxq57m8FOA5IJvu19S3YecT48V9UsZwDZlKRZmJdIDXICBxVLQ6H-CeQrSgmoFC4CD_KSHdKd9cb1E67Z6XoBiRtS8pEKHHc_Dpcq7g%3D%3D"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://shibboleth.ucr.edu/shibboleth-idp/profile/SAML2/Redirect/SSO?execution=e1s1"
                     }
                 ],
                 "ssl": true,

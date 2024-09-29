@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/chicane",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-21T02:00:23.951228Z",
+        "@timestamp": "2024-09-28T01:50:42.332335Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,7 +13,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 69,
+                "access_time": 70,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -26,11 +26,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-21T02:00:23.873028Z",
+                "last_check": "2024-09-28T01:50:41.727249Z",
                 "last_month_access": {
-                    "average_access_time": 110,
+                    "average_access_time": 90,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -49,7 +49,94 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:chicane/lib/cran.r-project.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-21T02:00:23.942012Z",
+        "@timestamp": "2024-09-28T01:50:41.740264Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1038/s41596-021-00498-1",
+                            "pmid": "33837305",
+                            "ref_count": 5,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Identifying high-confidence capture Hi-C interactions using CHiCANE.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 68,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-09-28T01:50:41.657977Z",
+                "last_month_access": {
+                    "average_access_time": 140,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cran.r-project.org/web/packages/chicane/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:chicane/suite/cran.r-project.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-09-28T01:50:41.950897Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -113,98 +200,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-21T02:00:23.818722Z",
+                "last_check": "2024-09-28T01:50:41.885532Z",
                 "last_month_access": {
-                    "average_access_time": 162,
+                    "average_access_time": 86,
                     "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://cran.r-project.org/web/packages/chicane/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:chicane/suite/cran.r-project.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-09-21T02:00:23.960208Z",
-        "@type": "metrics",
-        "deprecated": true,
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "manual": true
-            },
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 0,
-                            "citations": [],
-                            "doi": "10.1038/s41596-021-00498-1",
-                            "pmid": "33837305",
-                            "ref_count": 5,
-                            "refs": [
-                                {
-                                    "count": 2,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 1,
-                                    "year": "2012"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2016"
-                                }
-                            ],
-                            "title": "Identifying high-confidence capture Hi-C interactions using CHiCANE.",
-                            "year": 2021
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 70,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-09-21T02:00:23.89784Z",
-                "last_month_access": {
-                    "average_access_time": 93,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,

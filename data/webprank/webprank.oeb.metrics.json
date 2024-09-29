@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:webprank:1/web/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-21T07:01:20.068935Z",
+        "@timestamp": "2024-09-28T06:46:08.228774Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -125,7 +125,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 212,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -137,33 +137,35 @@
                         "status": 500
                     },
                     {
-                        "days": 179,
+                        "days": 178,
                         "serie": [
-                            95,
+                            88,
                             55,
                             14,
-                            15
+                            15,
+                            6
                         ],
                         "status": 200
                     },
                     {
-                        "days": 3,
+                        "days": 4,
                         "serie": [
                             1,
-                            2
+                            2,
+                            1
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-09-21T06:56:43.16346Z",
+                "https": true,
+                "last_check": "2024-09-28T06:46:08.116634Z",
                 "last_month_access": {
-                    "average_access_time": 206,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 212,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -182,7 +184,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/webprank",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-21T06:56:43.238688Z",
+        "@timestamp": "2024-09-28T06:46:08.372700Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -192,7 +194,7 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 244,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -204,30 +206,38 @@
                         "status": 500
                     },
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            151,
-                            31
+                            144,
+                            31,
+                            6
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-09-21T06:56:43.16346Z",
+                "https": true,
+                "last_check": "2024-09-28T06:46:08.297431Z",
                 "last_month_access": {
-                    "average_access_time": 180,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 185,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://www.ebi.ac.uk/goldman-srv/webprank/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

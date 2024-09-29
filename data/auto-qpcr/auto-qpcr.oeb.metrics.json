@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/auto-qpcr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-09-21T09:06:35.139422Z",
+        "@timestamp": "2024-09-28T09:00:00.888346Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,7 +13,97 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1028,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 6,
+                        "serie": [
+                            2,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 175,
+                        "serie": [
+                            17,
+                            3,
+                            6,
+                            27,
+                            109,
+                            7,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-09-28T09:00:00.772413Z",
+                "last_month_access": {
+                    "average_access_time": 868,
+                    "downtime_days": 3,
+                    "uptime_days": 26
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://auto-q-pcr.com/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:auto-qpcr/cmd/auto-q-pcr.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-09-28T09:00:01.147607Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.01.14.426748",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Auto-qPCR: A Python-based web app for automated and reproducible analysis of qPCR data",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 514,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -30,98 +120,12 @@
                     {
                         "days": 176,
                         "serie": [
-                            24,
-                            3,
-                            6,
-                            27,
-                            109,
-                            7
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
-                        ],
-                        "status": 408
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-09-21T09:06:35.023005Z",
-                "last_month_access": {
-                    "average_access_time": 979,
-                    "downtime_days": 2,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 500,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://auto-q-pcr.com/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:auto-qpcr/cmd/auto-q-pcr.com",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-09-21T09:06:34.517510Z",
-        "@type": "metrics",
-        "deprecated": true,
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 0,
-                            "citations": [],
-                            "doi": "10.1101/2021.01.14.426748",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "Auto-qPCR: A Python-based web app for automated and reproducible analysis of qPCR data",
-                            "year": 2021
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 4,
-                        "serie": [
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 177,
-                        "serie": [
-                            24,
+                            17,
                             10,
                             125,
                             11,
-                            7
+                            7,
+                            6
                         ],
                         "status": 200
                     },
@@ -134,14 +138,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-21T09:06:34.457555Z",
+                "last_check": "2024-09-28T09:00:01.080043Z",
                 "last_month_access": {
-                    "average_access_time": 843,
-                    "downtime_days": 3,
-                    "uptime_days": 27
+                    "average_access_time": 826,
+                    "downtime_days": 4,
+                    "uptime_days": 25
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -157,7 +161,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:auto-qpcr/web/auto-q-pcr.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-09-21T09:06:35.795598Z",
+        "@timestamp": "2024-09-28T09:00:01.320996Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -187,27 +191,29 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 257,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 4,
+                        "days": 5,
                         "serie": [
                             2,
+                            1,
                             1,
                             1
                         ],
                         "status": 500
                     },
                     {
-                        "days": 177,
+                        "days": 176,
                         "serie": [
-                            24,
+                            17,
                             10,
                             125,
                             11,
-                            7
+                            7,
+                            6
                         ],
                         "status": 200
                     },
@@ -220,14 +226,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-09-21T09:06:35.738329Z",
+                "last_check": "2024-09-28T09:00:01.264232Z",
                 "last_month_access": {
-                    "average_access_time": 925,
-                    "downtime_days": 3,
-                    "uptime_days": 27
+                    "average_access_time": 837,
+                    "downtime_days": 4,
+                    "uptime_days": 25
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
