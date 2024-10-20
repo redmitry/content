@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:sting_millenium/web/sms.cbi.cnptia.embrapa.br",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-10-05T06:48:44.609555Z",
+        "@timestamp": "2024-10-19T06:32:08.420760Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -646,11 +646,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 47,
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 58,
                         "serie": [
                             2,
                             2,
-                            43
+                            54
                         ],
                         "status": 503
                     },
@@ -664,24 +671,30 @@
                         "status": 408
                     },
                     {
-                        "days": 132,
+                        "days": 118,
                         "serie": [
-                            124,
+                            110,
                             8
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2024-10-05T06:48:44.19033Z",
+                "https": true,
+                "last_check": "2024-10-19T06:32:07.035664Z",
                 "last_month_access": {
                     "average_access_time": 1561,
-                    "downtime_days": 28,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 503,
-                "ssl": null,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://sms.cbi.cnptia.embrapa.br/SMS/STINGm/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -693,7 +706,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/sting_millenium",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-10-05T06:48:44.567553Z",
+        "@timestamp": "2024-10-19T06:32:10.543325Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -708,11 +721,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 46,
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 57,
                         "serie": [
                             2,
                             1,
-                            43
+                            54
                         ],
                         "status": 503
                     },
@@ -726,24 +746,30 @@
                         "status": 408
                     },
                     {
-                        "days": 132,
+                        "days": 118,
                         "serie": [
-                            124,
+                            110,
                             8
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2024-10-05T06:48:44.250998Z",
+                "https": true,
+                "last_check": "2024-10-19T06:32:07.067235Z",
                 "last_month_access": {
                     "average_access_time": 964,
-                    "downtime_days": 28,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 503,
-                "ssl": null,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://sms.cbi.cnptia.embrapa.br/SMS/STINGm/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
