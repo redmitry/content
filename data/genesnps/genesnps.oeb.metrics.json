@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:genesnps/db/www.genome.utah.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-10-19T09:41:21.555444Z",
+        "@timestamp": "2024-10-26T08:15:22.783068Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -17,28 +17,45 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1724,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 1,
                         "serie": [
-                            182
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            181
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-10-19T09:41:20.667781Z",
+                "https": true,
+                "last_check": "2024-10-26T08:15:21.367079Z",
                 "last_month_access": {
-                    "average_access_time": 883,
-                    "downtime_days": 29,
-                    "uptime_days": 0
+                    "average_access_time": 975,
+                    "downtime_days": 27,
+                    "uptime_days": 1
                 },
                 "license": false,
-                "operational": 408,
-                "ssl": null,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 308,
+                        "url": "https://www.genome.utah.edu/genesnps/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://genome.utah.edu"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -50,7 +67,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/genesnps",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-10-19T09:40:56.227345Z",
+        "@timestamp": "2024-10-26T08:14:23.498642Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -60,28 +77,45 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 2104,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 1,
                         "serie": [
-                            182
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            181
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-10-19T09:40:56.091745Z",
+                "https": true,
+                "last_check": "2024-10-26T08:14:23.438384Z",
                 "last_month_access": {
-                    "average_access_time": 883,
-                    "downtime_days": 29,
-                    "uptime_days": 0
+                    "average_access_time": 1340,
+                    "downtime_days": 27,
+                    "uptime_days": 1
                 },
                 "license": false,
-                "operational": 408,
-                "ssl": null,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 308,
+                        "url": "https://www.genome.utah.edu/genesnps/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://genome.utah.edu"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

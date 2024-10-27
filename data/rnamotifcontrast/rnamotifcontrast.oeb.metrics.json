@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rnamotifcontrast",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-10-19T02:17:35.931868Z",
+        "@timestamp": "2024-10-26T01:30:17.750698Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,7 +13,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 543,
+                "access_time": 551,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -26,11 +26,11 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-10-19T02:17:35.703784Z",
+                "last_check": "2024-10-26T01:30:17.712369Z",
                 "last_month_access": {
-                    "average_access_time": 551,
+                    "average_access_time": 552,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -53,7 +53,97 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rnamotifcontrast/web/genome.ucf.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-10-19T02:17:36.371458Z",
+        "@timestamp": "2024-10-26T01:30:18.094164Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkab131",
+                            "pmcid": "PMC8216276",
+                            "pmid": "33693841",
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                }
+                            ],
+                            "title": "RNAMotifContrast: a method to discover and visualize RNA structural motif subfamilies.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 547,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-10-26T01:30:18.054416Z",
+                "last_month_access": {
+                    "average_access_time": 544,
+                    "downtime_days": 0,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://genome.ucf.edu/RNAMotifContrast/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://genome.ucf.edu/RNAMotifContrast/v2/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rnamotifcontrast/cmd/genome.ucf.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-10-26T01:30:18.288310Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -116,101 +206,11 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-10-19T02:17:36.195282Z",
+                "last_check": "2024-10-26T01:30:18.247747Z",
                 "last_month_access": {
-                    "average_access_time": 517,
+                    "average_access_time": 472,
                     "downtime_days": 0,
-                    "uptime_days": 29
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "http://genome.ucf.edu/RNAMotifContrast/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "http://genome.ucf.edu/RNAMotifContrast/v2/"
-                    }
-                ],
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rnamotifcontrast/cmd/genome.ucf.edu",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2024-10-19T02:17:36.382459Z",
-        "@type": "metrics",
-        "deprecated": true,
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": "2023"
-                                }
-                            ],
-                            "doi": "10.1093/nar/gkab131",
-                            "pmcid": "PMC8216276",
-                            "pmid": "33693841",
-                            "ref_count": 3,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": "2010"
-                                },
-                                {
-                                    "count": 2,
-                                    "year": "2015"
-                                }
-                            ],
-                            "title": "RNAMotifContrast: a method to discover and visualize RNA structural motif subfamilies.",
-                            "year": 2021
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 401,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 182,
-                        "serie": [
-                            182
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2024-10-19T02:17:36.334991Z",
-                "last_month_access": {
-                    "average_access_time": 455,
-                    "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -233,7 +233,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rnamotifcontrast:20220126/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-10-19T10:15:31.883319Z",
+        "@timestamp": "2024-10-26T08:41:20.333157Z",
         "@type": "metrics",
         "distribution": {
             "packages": true
@@ -250,7 +250,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 53,
+                "access_time": 475,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
@@ -263,11 +263,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-10-19T10:15:29.842845Z",
+                "last_check": "2024-10-26T08:41:17.482052Z",
                 "last_month_access": {
-                    "average_access_time": 393,
+                    "average_access_time": 354,
                     "downtime_days": 0,
-                    "uptime_days": 29
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
