@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pred-signal:1.1/web/www.compgen.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-10-26T04:23:04.054037Z",
+        "@timestamp": "2024-10-31T05:39:08.831384Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -155,18 +155,19 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 35,
+                        "days": 38,
                         "serie": [
                             2,
                             2,
-                            31
+                            32,
+                            2
                         ],
                         "status": 404
                     },
                     {
-                        "days": 146,
+                        "days": 142,
                         "serie": [
-                            139,
+                            135,
                             2,
                             4,
                             1
@@ -179,32 +180,32 @@
                             1
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2024-10-26T04:23:03.997667Z",
+                "https": true,
+                "last_check": "2024-10-31T05:39:08.770328Z",
                 "last_month_access": {
                     "average_access_time": 1277,
-                    "downtime_days": 28,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": true,
-                "operational": 404,
+                "operational": 301,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host=www.compgen.org&webspace=lab"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host=www.compgen.org&webspace=lab"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.google.com/a/compgen.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&followup=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&ul=1"
+                        "status": 301,
+                        "url": "https://www.compgen.org/tools/PRED-SIGNAL"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -216,7 +217,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pred-signal",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-10-26T04:23:04.160851Z",
+        "@timestamp": "2024-10-31T05:39:08.878266Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -231,18 +232,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 34,
+                        "days": 39,
                         "serie": [
                             2,
                             1,
-                            31
+                            36
                         ],
                         "status": 404
                     },
                     {
-                        "days": 147,
+                        "days": 143,
                         "serie": [
-                            139,
+                            135,
                             2,
                             5,
                             1
@@ -258,26 +259,18 @@
                     }
                 ],
                 "https": false,
-                "last_check": "2024-10-26T04:23:04.10957Z",
+                "last_check": "2024-10-31T05:39:08.807236Z",
                 "last_month_access": {
                     "average_access_time": 850,
-                    "downtime_days": 28,
+                    "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": true,
                 "operational": 404,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host=www.compgen.org&webspace=lab"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host=www.compgen.org&webspace=lab"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.google.com/a/compgen.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&followup=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&ul=1"
+                        "status": 301,
+                        "url": "https://www.compgen.org/tools/PRED-SIGNAL"
                     }
                 ],
                 "ssl": null,
