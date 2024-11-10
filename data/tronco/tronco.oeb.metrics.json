@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tronco:2/workbench/sites.google.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-10-31T03:50:20.249591Z",
+        "@timestamp": "2024-11-09T03:27:17.225473Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -51,7 +51,7 @@
                             "doi": "10.1093/bioinformatics/btw035",
                             "pmcid": "PMC6280783",
                             "pmid": "26861821",
-                            "ref_count": 7,
+                            "ref_count": 8,
                             "refs": [
                                 {
                                     "count": 1,
@@ -66,7 +66,7 @@
                                     "year": "2013"
                                 },
                                 {
-                                    "count": 1,
+                                    "count": 2,
                                     "year": "2014"
                                 },
                                 {
@@ -82,10 +82,10 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 15,
+                            "cit_count": 14,
                             "citations": [
                                 {
-                                    "count": 2,
+                                    "count": 1,
                                     "year": "2015"
                                 },
                                 {
@@ -329,23 +329,26 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1220,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 37,
+                        "days": 45,
                         "serie": [
                             1,
                             1,
-                            35
+                            35,
+                            7,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 146,
+                        "days": 138,
                         "serie": [
-                            143,
+                            134,
+                            1,
                             1,
                             1,
                             1
@@ -354,18 +357,30 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-10-31T03:50:20.096523Z",
+                "last_check": "2024-11-09T03:27:17.105249Z",
                 "last_month_access": {
-                    "average_access_time": 1163,
-                    "downtime_days": 29,
-                    "uptime_days": 1
+                    "average_access_time": 1600,
+                    "downtime_days": 28,
+                    "uptime_days": 2
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Ftroncopackage%2F"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/troncopackage/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/troncopackage/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/troncopackage/&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/troncopackage/&osid=1&passive=1209600&ifkv=AcMMx-eOCruu66Zd51b9gdthQXd8VwmFYH8pHNnsgJXpkeSa5KD2gDT1Au29qlFjkD8cYQNY14Cg_g"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Ftroncopackage%2F&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Ftroncopackage%2F&ifkv=AcMMx-didnaCfk13FP-SJifjcx5hC9ANzomJZhc8t0EwDggLOi-x2aEInt0wh6tKmw6O1pWeMFqfEw&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-66185136%3A1731122836599269&ddm=1"
                     }
                 ],
                 "ssl": true,
@@ -380,7 +395,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/tronco",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-10-31T03:50:20.107155Z",
+        "@timestamp": "2024-11-09T03:27:19.621289Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -395,28 +410,31 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 39,
+                        "days": 44,
                         "serie": [
                             3,
-                            36
+                            40,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 144,
+                        "days": 139,
                         "serie": [
-                            141,
-                            3
+                            132,
+                            3,
+                            2,
+                            2
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2024-10-31T03:50:19.934446Z",
+                "last_check": "2024-11-09T03:27:19.467402Z",
                 "last_month_access": {
-                    "average_access_time": 928,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 1711,
+                    "downtime_days": 26,
+                    "uptime_days": 4
                 },
                 "license": false,
                 "operational": 404,

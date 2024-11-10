@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/juchmme",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-10-31T03:53:41.978582Z",
+        "@timestamp": "2024-11-09T03:33:01.266402Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -18,17 +18,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 41,
+                        "days": 46,
                         "serie": [
                             1,
-                            40
+                            40,
+                            5
                         ],
                         "status": 404
                     },
                     {
-                        "days": 141,
+                        "days": 132,
                         "serie": [
-                            139,
+                            130,
                             1,
                             1
                         ],
@@ -40,24 +41,32 @@
                             1
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            3,
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": true,
-                "last_check": "2024-10-31T03:53:41.449719Z",
+                "https": false,
+                "last_check": "2024-11-09T03:33:01.141061Z",
                 "last_month_access": {
                     "average_access_time": 799,
                     "downtime_days": 30,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 301,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://www.compgen.org/tools/juchmme"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
@@ -66,7 +75,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:juchmme:1.0.5/cmd/www.compgen.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-10-31T03:53:41.622083Z",
+        "@timestamp": "2024-11-09T03:33:02.745847Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -124,18 +133,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 40,
+                        "days": 47,
                         "serie": [
                             3,
                             1,
-                            36
+                            43
                         ],
                         "status": 404
                     },
                     {
-                        "days": 142,
+                        "days": 133,
                         "serie": [
-                            139,
+                            130,
                             1,
                             1,
                             1
@@ -148,10 +157,17 @@
                             1
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 301
                     }
                 ],
                 "https": false,
-                "last_check": "2024-10-31T03:53:41.542168Z",
+                "last_check": "2024-11-09T03:33:01.141061Z",
                 "last_month_access": {
                     "average_access_time": 1134,
                     "downtime_days": 30,
@@ -161,19 +177,11 @@
                 "operational": 404,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host=www.compgen.org&webspace=lab"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host=www.compgen.org&webspace=lab"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://www.google.com/a/compgen.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&followup=https://sites.google.com/a/compgen.org/sites/system/errors/ProxiedWebspaceNotFound?host%3Dwww.compgen.org%26webspace%3Dlab&ul=1"
+                        "status": 301,
+                        "url": "https://www.compgen.org/tools/juchmme"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
