@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:metax/lib/metax.genomics.cn",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-11-16T02:59:14.075279Z",
+        "@timestamp": "2024-11-23T03:19:45.209711Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -25,7 +25,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 33,
+                            "cit_count": 34,
                             "citations": [
                                 {
                                     "count": 3,
@@ -44,7 +44,7 @@
                                     "year": "2020"
                                 },
                                 {
-                                    "count": 1,
+                                    "count": 2,
                                     "year": "2022"
                                 }
                             ],
@@ -132,28 +132,48 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1571,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 2,
                         "serie": [
-                            183
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 504
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            180
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-11-16T02:59:13.969256Z",
+                "https": true,
+                "last_check": "2024-11-23T03:19:45.06286Z",
                 "last_month_access": {
-                    "average_access_time": 3946,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 2316,
+                    "downtime_days": 27,
+                    "uptime_days": 2
                 },
                 "license": false,
-                "operational": 408,
-                "ssl": null,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://metax.genomics.cn"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -165,7 +185,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/metax",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-11-16T02:59:28.390471Z",
+        "@timestamp": "2024-11-23T03:20:43.020783Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -175,28 +195,41 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1257,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 2,
                         "serie": [
-                            183
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            181
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-11-16T02:59:28.301416Z",
+                "https": true,
+                "last_check": "2024-11-23T03:20:42.935237Z",
                 "last_month_access": {
-                    "average_access_time": 3992,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 1794,
+                    "downtime_days": 27,
+                    "uptime_days": 2
                 },
                 "license": false,
-                "operational": 408,
-                "ssl": null,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://metax.genomics.cn"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
