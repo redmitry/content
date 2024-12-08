@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:sas:1/web/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-11-30T05:30:36.972611Z",
+        "@timestamp": "2024-12-06T05:24:43.353237Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -114,26 +114,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 405,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 3,
+                        "days": 4,
                         "serie": [
                             1,
                             1,
-                            1
+                            2
                         ],
                         "status": 500
                     },
                     {
-                        "days": 178,
+                        "days": 176,
                         "serie": [
-                            26,
+                            19,
                             69,
                             71,
-                            12
+                            12,
+                            5
                         ],
                         "status": 200
                     },
@@ -146,18 +147,22 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-11-30T05:30:36.89664Z",
+                "last_check": "2024-12-06T05:24:43.258543Z",
                 "last_month_access": {
-                    "average_access_time": 315,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 376,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://www.ebi.ac.uk/thornton-srv/databases/sas"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/thornton-srv/databases/sas/"
                     }
                 ],
                 "ssl": true,
@@ -172,7 +177,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/sas",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-11-30T05:31:44.171342Z",
+        "@timestamp": "2024-12-06T05:27:55.669651Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -182,7 +187,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 726,
+                "access_time": 388,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -195,11 +200,12 @@
                         "status": 500
                     },
                     {
-                        "days": 179,
+                        "days": 178,
                         "serie": [
-                            26,
+                            19,
                             69,
-                            84
+                            84,
+                            6
                         ],
                         "status": 200
                     },
@@ -212,11 +218,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-11-30T05:31:44.084272Z",
+                "last_check": "2024-12-06T05:27:55.591979Z",
                 "last_month_access": {
-                    "average_access_time": 4838,
+                    "average_access_time": 4531,
                     "downtime_days": 1,
-                    "uptime_days": 29
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,

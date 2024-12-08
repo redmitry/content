@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gwama:2.2.2/cmd/www.geenivaramu.ee",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-11-30T05:05:31.725241Z",
+        "@timestamp": "2024-12-06T05:05:57.804110Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -129,18 +129,108 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 178,
+                        "days": 175,
                         "serie": [
-                            6,
                             158,
                             12,
-                            2
+                            2,
+                            1,
+                            1,
+                            1
                         ],
                         "status": 404
                     },
                     {
                         "days": 1,
                         "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 301
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T05:05:57.637923Z",
+                "last_month_access": {
+                    "average_access_time": 632,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://geenivaramu.ee/en/tools/gwama"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://genomics.ut.ee//en/tools/gwama"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://genomics.ut.ee/en/tools/gwama"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gwama",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-12-06T05:08:21.684889Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 175,
+                        "serie": [
+                            48,
+                            70,
+                            51,
+                            2,
+                            4
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            1,
                             1
                         ],
                         "status": 408
@@ -162,84 +252,14 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-11-30T05:05:31.565407Z",
-                "last_month_access": {
-                    "average_access_time": 632,
-                    "downtime_days": 30,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 301,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://geenivaramu.ee/en/tools/gwama"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": false
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/gwama",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-11-30T05:05:07.309084Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 177,
-                        "serie": [
-                            6,
-                            48,
-                            70,
-                            51,
-                            2
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 3,
-                        "serie": [
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 3,
-                        "serie": [
-                            2,
-                            1
-                        ],
-                        "status": 301
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-11-30T05:05:06.989283Z",
+                "last_check": "2024-12-06T05:08:21.553256Z",
                 "last_month_access": {
                     "average_access_time": 1367,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 302,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 301,
@@ -263,7 +283,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwama:2.2.2/cmd/www.geenivaramu.ee",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2024-11-30T05:05:40.001858Z",
+        "@timestamp": "2024-12-06T05:05:42.366025Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -392,15 +412,15 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 174,
+                        "days": 173,
                         "serie": [
-                            6,
                             17,
                             36,
                             36,
                             20,
                             58,
-                            1
+                            1,
+                            5
                         ],
                         "status": 404
                     },
@@ -415,29 +435,37 @@
                     {
                         "days": 7,
                         "serie": [
-                            2,
                             1,
                             1,
                             1,
                             1,
-                            1
+                            1,
+                            2
                         ],
                         "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2024-11-30T05:05:39.792099Z",
+                "last_check": "2024-12-06T05:05:42.22994Z",
                 "last_month_access": {
                     "average_access_time": 2355,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 301,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://geenivaramu.ee/en/tools/gwama"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://genomics.ut.ee//en/tools/gwama"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://genomics.ut.ee/en/tools/gwama"
                     }
                 ],
                 "ssl": true,
