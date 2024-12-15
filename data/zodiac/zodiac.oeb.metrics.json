@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:zodiac/web/www.compgenome.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-12-06T05:45:18.282526Z",
+        "@timestamp": "2024-12-14T03:21:02.935251Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -124,18 +124,22 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 178,
+                        "days": 175,
                         "serie": [
-                            24,
+                            16,
                             64,
                             70,
-                            20
+                            20,
+                            3,
+                            2
                         ],
                         "status": 404
                     },
                     {
-                        "days": 4,
+                        "days": 7,
                         "serie": [
+                            1,
+                            2,
                             1,
                             2,
                             1
@@ -143,29 +147,21 @@
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-12-06T05:45:18.193395Z",
+                "https": true,
+                "last_check": "2024-12-14T03:21:02.80939Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 404,
                 "redirects": [
-                    {
-                        "status": 302,
-                        "url": "http://www.compgenome.org/zodiac2/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "http://www.compgenome.org/zodiac2/"
-                    },
                     {
                         "status": 301,
                         "url": "https://ccte.uchicago.edu/zodiac2/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -177,7 +173,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/zodiac",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-12-06T05:45:18.465446Z",
+        "@timestamp": "2024-12-14T03:19:56.811515Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -192,42 +188,52 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 177,
+                        "days": 175,
                         "serie": [
-                            24,
+                            16,
                             64,
                             23,
                             46,
-                            20
+                            20,
+                            6
                         ],
                         "status": 404
                     },
                     {
-                        "days": 5,
+                        "days": 7,
                         "serie": [
                             1,
                             2,
                             1,
-                            1
+                            1,
+                            2
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2024-12-06T05:45:18.283802Z",
+                "https": true,
+                "last_check": "2024-12-14T03:19:56.729599Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 404,
                 "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://www.compgenome.org/zodiac2/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://www.compgenome.org/zodiac2/"
+                    },
                     {
                         "status": 301,
                         "url": "https://ccte.uchicago.edu/zodiac2/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

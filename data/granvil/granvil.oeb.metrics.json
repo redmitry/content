@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:granvil/cmd/www.geenivaramu.ee",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-12-06T05:06:31.745744Z",
+        "@timestamp": "2024-12-14T02:44:21.730690Z",
         "@type": "metrics",
         "deprecated": true,
         "distribution": {
@@ -82,35 +82,42 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 174,
+                        "days": 169,
                         "serie": [
-                            62,
+                            54,
                             108,
                             2,
-                            2
+                            2,
+                            2,
+                            1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 3,
                         "serie": [
+                            1,
+                            1,
                             1
                         ],
                         "status": 408
                     },
                     {
-                        "days": 5,
+                        "days": 7,
                         "serie": [
                             1,
                             2,
+                            1,
+                            1,
                             1,
                             1
                         ],
                         "status": 301
                     },
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
+                            1,
                             1,
                             1
                         ],
@@ -118,7 +125,7 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-12-06T05:06:30.62532Z",
+                "last_check": "2024-12-14T02:44:19.384545Z",
                 "last_month_access": {
                     "average_access_time": 792,
                     "downtime_days": 29,
@@ -149,7 +156,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/granvil",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2024-12-07T06:01:58.103889Z",
+        "@timestamp": "2024-12-14T02:43:53.889463Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -164,19 +171,22 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 174,
+                        "days": 173,
                         "serie": [
-                            17,
+                            11,
                             71,
                             82,
                             2,
-                            2
+                            2,
+                            1,
+                            4
                         ],
                         "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
+                            1,
                             1
                         ],
                         "status": 408
@@ -185,8 +195,8 @@
                         "days": 5,
                         "serie": [
                             1,
-                            1,
                             2,
+                            1,
                             1
                         ],
                         "status": 301
@@ -201,18 +211,26 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2024-12-07T06:01:57.933627Z",
+                "last_check": "2024-12-14T02:43:53.551855Z",
                 "last_month_access": {
                     "average_access_time": 1469,
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 301,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://geenivaramu.ee/en/tools/granvil"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://genomics.ut.ee//en/tools/granvil"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://genomics.ut.ee/en/tools/granvil"
                     }
                 ],
                 "ssl": true,

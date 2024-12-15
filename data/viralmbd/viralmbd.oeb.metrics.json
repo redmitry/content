@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:viralmbd:1/cmd/www.biobix.be",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2024-12-06T05:59:09.692062Z",
+        "@timestamp": "2024-12-14T03:33:05.821881Z",
         "@type": "metrics",
         "deprecated": true,
         "project": {
@@ -120,83 +120,13 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 179,
-                        "serie": [
-                            34,
-                            52,
-                            73,
-                            20
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 301
-                    }
-                ],
-                "https": true,
-                "last_check": "2024-12-06T05:59:09.494483Z",
-                "last_month_access": {
-                    "downtime_days": 29,
-                    "uptime_days": 0
-                },
-                "license": false,
-                "operational": 404,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "http://biobix.ugent.be/viralmbd/"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://biobix.ugent.be/viralmbd/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/viralmbd",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2024-12-06T06:01:32.473390Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": null,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
                         "days": 178,
                         "serie": [
-                            27,
-                            6,
-                            126,
-                            18,
-                            1
+                            26,
+                            52,
+                            73,
+                            22,
+                            5
                         ],
                         "status": 404
                     },
@@ -217,14 +147,14 @@
                         "status": 301
                     }
                 ],
-                "https": true,
-                "last_check": "2024-12-06T06:01:32.36324Z",
+                "https": false,
+                "last_check": "2024-12-14T03:33:05.581322Z",
                 "last_month_access": {
                     "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 301,
@@ -235,7 +165,81 @@
                         "url": "https://biobix.ugent.be/viralmbd/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/viralmbd",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-12-14T03:33:05.740893Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 177,
+                        "serie": [
+                            19,
+                            6,
+                            126,
+                            18,
+                            3,
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-12-14T03:33:05.58139Z",
+                "last_month_access": {
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://biobix.ugent.be/viralmbd/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://biobix.ugent.be/viralmbd/"
+                    }
+                ],
+                "ssl": null,
                 "ssl_err": null
             }
         }
