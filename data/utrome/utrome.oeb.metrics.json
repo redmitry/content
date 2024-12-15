@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/utrome",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:23:03.146113Z",
+        "@timestamp": "2024-12-07T02:58:02.575042Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,24 +13,44 @@
                 "description": true
             },
             "website": {
-                "access_time": 1674,
+                "access_time": 1326,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 178,
                         "serie": [
-                            183
+                            27,
+                            144,
+                            2,
+                            2,
+                            3
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:23:03.075607Z",
+                "https": true,
+                "last_check": "2024-12-07T02:58:01.916376Z",
                 "last_month_access": {
-                    "average_access_time": 1188,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 801,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
                 "operational": 200,
@@ -38,9 +58,13 @@
                     {
                         "status": 301,
                         "url": "http://tomato.biodesign.asu.edu/cgi-bin/UTRome/utrome.cgi"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://tomato.biodesign.asu.edu/cgi-bin/UTRome/utrome.cgi"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -49,8 +73,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:utrome/undefined/www.UTRome.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:10:14.437250Z",
+        "@timestamp": "2024-12-07T03:00:02.245689Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -58,97 +83,28 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 5,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1101/gr.254839.119",
                             "pmcid": "PMC6886508",
                             "pmid": "31744903",
-                            "ref_count": 45,
+                            "ref_count": 5,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1990
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1995
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2001
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2003
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2004
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2010
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2012
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2018
+                                    "year": "2012"
                                 }
                             ],
                             "title": "The <i>C. elegans</i> 3' UTRome v2 resource for studying mRNA cleavage and polyadenylation, 3'-UTR biology, and miRNA targeting.",
@@ -161,31 +117,43 @@
                 "description": true
             },
             "website": {
-                "access_time": 777,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 180,
                         "serie": [
-                            100
+                            175,
+                            5
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T10:14:16.319369Z",
+                "last_check": "2024-12-07T03:00:02.093318Z",
                 "last_month_access": {
-                    "average_access_time": 972,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1187,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "http://tomato.biodesign.asu.edu/cgi-bin/UTRome/utrome.cgi"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://tomato.biodesign.asu.edu/cgi-bin/UTRome/utrome.cgi"
                     }
                 ],
                 "ssl": null,

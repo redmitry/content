@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:prsice/cmd/prsice.info",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:33.772270Z",
+        "@timestamp": "2024-12-06T05:40:27.911439Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -20,35 +21,43 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 519,
+                            "cit_count": 347,
                             "citations": [
                                 {
-                                    "count": 23,
-                                    "year": 2016
+                                    "count": 22,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 52,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 94,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 114,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 138,
-                                    "year": 2020
+                                    "count": 46,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 93,
-                                    "year": 2021
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2022
+                                    "count": 96,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 82,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btu848",
@@ -58,27 +67,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2015
+                                    "year": "2015"
                                 }
                             ],
                             "title": "PRSice: Polygenic Risk Score software.",
@@ -91,34 +100,49 @@
                 "description": true
             },
             "website": {
-                "access_time": 387,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 1,
                         "serie": [
-                            183
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 122,
+                        "serie": [
+                            122
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 59,
+                        "serie": [
+                            22,
+                            37
+                        ],
+                        "status": 522
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:52:31.81588Z",
+                "https": true,
+                "last_check": "2024-12-06T05:40:27.769273Z",
                 "last_month_access": {
-                    "average_access_time": 494,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1466,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 522,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "http://www.prsice.info/"
+                        "url": "https://kozkincskonyvtar.com/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -130,7 +154,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/prsice",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:53:53.621709Z",
+        "@timestamp": "2024-12-06T05:40:27.482785Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -140,34 +164,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 127,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 122,
                         "serie": [
-                            183
+                            122
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 60,
+                        "serie": [
+                            60
+                        ],
+                        "status": 522
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:53:53.539591Z",
+                "https": true,
+                "last_check": "2024-12-06T05:40:27.303091Z",
                 "last_month_access": {
-                    "average_access_time": 165,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1310,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 522,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "http://www.prsice.info/"
+                        "url": "https://kozkincskonyvtar.com/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

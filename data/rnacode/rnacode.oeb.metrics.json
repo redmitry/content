@@ -3,14 +3,14 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rnacode:0.3/cmd/wash.github.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:50:12.884752Z",
+        "@timestamp": "2024-12-06T05:08:07.696246Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
+            "packages": true,
             "source_packages": false,
             "sourcecode": {
                 "free": null,
@@ -42,17 +42,17 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 404
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T07:43:18.851599Z",
+                "last_check": "2024-12-06T05:08:07.579927Z",
                 "last_month_access": {
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -72,7 +72,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rnacode",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:50:12.908520Z",
+        "@timestamp": "2024-12-06T05:08:07.649527Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -107,17 +107,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 404
                     }
                 ],
                 "https": false,
-                "last_check": "2021-04-25T03:33:08.552694Z",
+                "last_check": "2024-12-06T05:08:07.580158Z",
                 "last_month_access": {
-                    "downtime_days": 1,
+                    "average_access_time": 235,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -130,6 +131,108 @@
             "issue_tracking": {
                 "public_tracker": null,
                 "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rnacode/web/rnacode.bioinf.uni-leipzig.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-06T09:24:16.627948Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1515/jib-2022-0046",
+                            "pmcid": "PMC10757073",
+                            "pmid": "37615674",
+                            "ref_count": 10,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "RNAcode_Web - Convenient identification of evolutionary conserved protein coding regions.",
+                            "year": 2023
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 275,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 88,
+                        "serie": [
+                            88
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-12-06T09:24:16.602533Z",
+                "last_month_access": {
+                    "average_access_time": 371,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
             }
         }
     }

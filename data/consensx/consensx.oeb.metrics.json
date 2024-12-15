@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/consensx",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:40:56.538096Z",
+        "@timestamp": "2024-12-06T07:13:10.293711Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,36 +13,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 229,
+                "access_time": 391,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
                         "days": 182,
                         "serie": [
-                            171,
-                            11
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:40:56.494679Z",
+                "https": true,
+                "last_check": "2024-12-06T07:13:10.224612Z",
                 "last_month_access": {
-                    "average_access_time": 332,
-                    "downtime_days": 1,
+                    "average_access_time": 431,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://consensx.itk.ppke.hu"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -51,8 +49,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:consensx/web/consensx.itk.ppke.hu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:59:47.776444Z",
+        "@timestamp": "2024-12-06T07:13:10.455985Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -73,8 +72,13 @@
                             "citations": [],
                             "doi": "10.1007/978-1-0716-0270-6_16",
                             "pmid": "32006289",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                }
+                            ],
                             "title": "Evaluation and Selection of Dynamic Protein Structural Ensembles with CoNSEnsX<sup>.</sup>",
                             "year": 2020
                         }
@@ -85,28 +89,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 179,
+                "access_time": 299,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:40:56.494664Z",
+                "https": true,
+                "last_check": "2024-12-06T07:13:10.279717Z",
                 "last_month_access": {
-                    "average_access_time": 278,
+                    "average_access_time": 429,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://consensx.itk.ppke.hu"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

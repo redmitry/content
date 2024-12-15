@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ricopili",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:57:01.257889Z",
+        "@timestamp": "2024-12-07T03:39:55.932115Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,24 +13,44 @@
                 "description": true
             },
             "website": {
-                "access_time": 692,
+                "access_time": 633,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 56,
                         "serie": [
-                            183
+                            1,
+                            33,
+                            10,
+                            3,
+                            5,
+                            2,
+                            2
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 126,
+                        "serie": [
+                            42,
+                            65,
+                            1,
+                            1,
+                            1,
+                            1,
+                            7,
+                            8
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T07:57:01.215767Z",
+                "last_check": "2024-12-07T03:39:55.276627Z",
                 "last_month_access": {
-                    "average_access_time": 844,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 963,
+                    "downtime_days": 12,
+                    "uptime_days": 17
                 },
                 "license": false,
                 "operational": 200,
@@ -41,7 +61,15 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://www.google.com/a/broadinstitute.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&followup=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&ul=1"
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&followup=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&followup=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&osid=1&passive=1209600&ifkv=AcMMx-dnK5310J1ldNt7Jl4QjTczzWFSirja_bp1-ZLj0rzwbKgjaNS8--DFYhhrExgvYsXG4594fg"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fa%2Fbroadinstitute.org%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2FRICOPILI%2Fhome&followup=https%3A%2F%2Fsites.google.com%2Fa%2Fbroadinstitute.org%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2FRICOPILI%2Fhome&ifkv=AcMMx-fTzBD6_WxVFvucb5kuTdHuyY36Cy6YyE3S3BE3XldthH2x4qHHWfb81SsLsr2XHSP9ajYx2g&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1561249264%3A1733542795521410&ddm=1"
                     }
                 ],
                 "ssl": true,
@@ -53,8 +81,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ricopili/undefined/sites.google.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:45.471351Z",
+        "@timestamp": "2024-12-07T03:39:55.788548Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -67,69 +96,53 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 34,
+                            "cit_count": 10,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 19,
-                                    "year": 2021
+                                    "count": 4,
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2022
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btz633",
                             "pmcid": "PMC7868045",
                             "pmid": "31393554",
-                            "ref_count": 20,
+                            "ref_count": 8,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2011
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2014
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2018
+                                    "count": 1,
+                                    "year": "2016"
                                 }
                             ],
                             "title": "RICOPILI: Rapid Imputation for COnsortias PIpeLIne.",
@@ -142,24 +155,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 637,
+                "access_time": 538,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 52,
                         "serie": [
-                            100
+                            1,
+                            1,
+                            31,
+                            14,
+                            1,
+                            1,
+                            1,
+                            2
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 130,
+                        "serie": [
+                            42,
+                            63,
+                            1,
+                            1,
+                            4,
+                            2,
+                            2,
+                            7,
+                            8
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:15:02.9219Z",
+                "last_check": "2024-12-07T03:39:55.622181Z",
                 "last_month_access": {
-                    "average_access_time": 729,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 923,
+                    "downtime_days": 6,
+                    "uptime_days": 23
                 },
                 "license": false,
                 "operational": 200,
@@ -170,7 +205,15 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://www.google.com/a/broadinstitute.org/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&followup=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&ul=1"
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&followup=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&followup=https://sites.google.com/a/broadinstitute.org/sites/system/errors/WebspaceNotFound?path%3D/RICOPILI/home&osid=1&passive=1209600&ifkv=AcMMx-e1wD9tuwJIpZfjnuLKwEKlNpWybFUkkMxpRz59FooSVcj8dIW0_0RURN5iWIFAVk9oJvp1Ow"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fa%2Fbroadinstitute.org%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2FRICOPILI%2Fhome&followup=https%3A%2F%2Fsites.google.com%2Fa%2Fbroadinstitute.org%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2FRICOPILI%2Fhome&ifkv=AcMMx-eByE5ku8ob9AlqOJGWkVAsmzI9QApGaiRoy1qHNG0uSDGbTiio2teqzRrSOmxg2fwJuZJaOA&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1592757938%3A1733542795659877&ddm=1"
                     }
                 ],
                 "ssl": true,

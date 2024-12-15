@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cpmd/cmd/www.cpmd.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:59:18.971995Z",
+        "@timestamp": "2024-12-07T04:31:04.359346Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -25,12 +26,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1016/S0167-8191(00)00014-4",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -39,35 +36,39 @@
                 "description": true
             },
             "website": {
-                "access_time": 1214,
-                "bioschemas": false,
+                "access_time": 1987,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            160,
+                            21
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:59:03.770549Z",
+                "last_check": "2024-12-07T04:31:02.567101Z",
                 "last_month_access": {
-                    "average_access_time": 1209,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2084,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://www.cpmd.org/wordpress/"
-                    },
-                    {
                         "status": 301,
-                        "url": "https://www.cpmd.org/wordpress/"
+                        "url": "https://github.com/CPMD-code"
                     }
                 ],
                 "ssl": true,
@@ -82,8 +83,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cpmd/workflow/www.cpmd.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:59:19.020433Z",
+        "@timestamp": "2024-12-07T04:32:36.953148Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -104,12 +106,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1016/S0167-8191(00)00014-4",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -118,35 +116,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 1051,
-                "bioschemas": false,
+                "access_time": 215,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 180,
                         "serie": [
-                            183
+                            160,
+                            20
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:10:22.856089Z",
+                "last_check": "2024-12-07T04:32:36.333338Z",
                 "last_month_access": {
-                    "average_access_time": 1046,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1455,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://www.cpmd.org/wordpress/"
-                    },
-                    {
                         "status": 301,
-                        "url": "https://www.cpmd.org/wordpress/"
+                        "url": "https://github.com/CPMD-code"
                     }
                 ],
                 "ssl": true,
@@ -158,7 +167,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/cpmd",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T03:04:38.218810Z",
+        "@timestamp": "2024-12-07T04:32:35.648708Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -168,38 +177,186 @@
                 "description": true
             },
             "website": {
-                "access_time": 1026,
-                "bioschemas": false,
+                "access_time": 2063,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 179,
                         "serie": [
-                            183
+                            46,
+                            113,
+                            19,
+                            1
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:04:38.146664Z",
+                "last_check": "2024-12-07T04:32:34.757831Z",
                 "last_month_access": {
-                    "average_access_time": 1056,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2447,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://www.cpmd.org/wordpress/"
-                    },
-                    {
                         "status": 301,
-                        "url": "https://www.cpmd.org/wordpress/"
+                        "url": "https://github.com/CPMD-code"
                     }
                 ],
                 "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cpmd:1.3.17/cmd/bitbucket.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T09:22:33.919075Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 40,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1186/s12859-018-2336-6",
+                            "pmcid": "PMC6116485",
+                            "pmid": "30157759",
+                            "ref_count": 19,
+                            "refs": [
+                                {
+                                    "count": 4,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1970"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "Rapid and precise alignment of raw reads against redundant databases with KMA.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 904,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T09:22:32.956466Z",
+                "last_month_access": {
+                    "average_access_time": 672,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
                 "ssl_err": null
             }
         }

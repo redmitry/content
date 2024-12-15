@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ring:1.0/web/protein.bio.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:45.753902Z",
+        "@timestamp": "2024-12-07T02:56:14.533102Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -15,100 +16,100 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 63,
+                            "cit_count": 51,
                             "citations": [
                                 {
                                     "count": 4,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 12,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2015
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2017
+                                    "count": 10,
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2018
+                                    "count": 8,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2020
+                                    "count": 6,
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2021
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btr191",
                             "pmid": "21493660",
-                            "ref_count": 17,
+                            "ref_count": 16,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2008
+                                    "count": 3,
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 }
                             ],
                             "title": "RING: networking interacting residues, evolutionary information and energetics in protein structures.",
@@ -121,42 +122,54 @@
                 "description": true
             },
             "website": {
-                "access_time": 360,
+                "access_time": 284,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 26,
                         "serie": [
-                            183
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            54,
+                            45,
+                            56
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:58:07.770997Z",
+                "https": true,
+                "last_check": "2024-12-07T02:56:14.300724Z",
                 "last_month_access": {
-                    "average_access_time": 385,
+                    "average_access_time": 563,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/ring"
                     },
                     {
-                        "status": 301,
-                        "url": "http://old.protein.bio.unipd.it/ring"
-                    },
-                    {
-                        "status": 301,
-                        "url": "http://old.protein.bio.unipd.it/ring/"
+                        "status": 307,
+                        "url": "https://ring.biocomputingup.it"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -168,8 +181,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ring:1.0/rest/protein.bio.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:45.712593Z",
+        "@timestamp": "2024-12-07T02:56:14.713822Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -180,100 +194,100 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 63,
+                            "cit_count": 51,
                             "citations": [
                                 {
                                     "count": 4,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 12,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2015
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2017
+                                    "count": 10,
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2018
+                                    "count": 8,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2020
+                                    "count": 6,
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2021
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btr191",
                             "pmid": "21493660",
-                            "ref_count": 17,
+                            "ref_count": 16,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2008
+                                    "count": 3,
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 }
                             ],
                             "title": "RING: networking interacting residues, evolutionary information and energetics in protein structures.",
@@ -286,42 +300,54 @@
                 "description": true
             },
             "website": {
-                "access_time": 349,
+                "access_time": 112,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 26,
                         "serie": [
-                            183
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            54,
+                            45,
+                            56
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:54:36.697541Z",
+                "https": true,
+                "last_check": "2024-12-07T02:56:14.50613Z",
                 "last_month_access": {
-                    "average_access_time": 504,
+                    "average_access_time": 562,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/ring"
                     },
                     {
-                        "status": 301,
-                        "url": "http://old.protein.bio.unipd.it/ring"
-                    },
-                    {
-                        "status": 301,
-                        "url": "http://old.protein.bio.unipd.it/ring/"
+                        "status": 307,
+                        "url": "https://ring.biocomputingup.it"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -333,7 +359,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ring",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T08:01:08.242829Z",
+        "@timestamp": "2024-12-07T02:56:15.134673Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -343,42 +369,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 355,
+                "access_time": 222,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            125,
+                            56
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T08:01:08.186186Z",
+                "https": true,
+                "last_check": "2024-12-07T02:56:14.282228Z",
                 "last_month_access": {
-                    "average_access_time": 370,
+                    "average_access_time": 763,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/ring"
                     },
                     {
-                        "status": 301,
-                        "url": "http://old.protein.bio.unipd.it/ring"
-                    },
-                    {
-                        "status": 301,
-                        "url": "http://old.protein.bio.unipd.it/ring/"
+                        "status": 307,
+                        "url": "https://ring.biocomputingup.it"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -387,8 +417,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ring:1.0/cmd/protein.bio.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:45.791472Z",
+        "@timestamp": "2024-12-07T02:56:14.652008Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -399,100 +430,100 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 63,
+                            "cit_count": 51,
                             "citations": [
                                 {
                                     "count": 4,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 12,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2015
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2017
+                                    "count": 10,
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2018
+                                    "count": 8,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2020
+                                    "count": 6,
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2021
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btr191",
                             "pmid": "21493660",
-                            "ref_count": 17,
+                            "ref_count": 16,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2008
+                                    "count": 3,
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 }
                             ],
                             "title": "RING: networking interacting residues, evolutionary information and energetics in protein structures.",
@@ -505,42 +536,738 @@
                 "description": true
             },
             "website": {
-                "access_time": 350,
+                "access_time": 113,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 26,
+                        "serie": [
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            54,
+                            45,
+                            56
+                        ],
+                        "status": 200
+                    },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T10:25:20.261201Z",
+                "https": true,
+                "last_check": "2024-12-07T02:56:14.595039Z",
                 "last_month_access": {
-                    "average_access_time": 353,
+                    "average_access_time": 518,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/ring"
                     },
                     {
-                        "status": 301,
-                        "url": "http://old.protein.bio.unipd.it/ring"
-                    },
-                    {
-                        "status": 301,
-                        "url": "http://old.protein.bio.unipd.it/ring/"
+                        "status": 307,
+                        "url": "https://ring.biocomputingup.it"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ring:3.0/rest/ring.biocomputingup.it",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T02:56:14.418886Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 51,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr191",
+                            "pmid": "21493660",
+                            "ref_count": 16,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "RING: networking interacting residues, evolutionary information and energetics in protein structures.",
+                            "year": 2011
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkac365",
+                            "pmcid": "PMC9252747",
+                            "pmid": "35554554",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "title": "RING 3.0: fast generation of probabilistic residue interaction networks from structural ensembles.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 127,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 181,
+                        "serie": [
+                            125,
+                            56
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T02:56:14.348613Z",
+                "last_month_access": {
+                    "average_access_time": 710,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 307,
+                        "url": "https://protein.bio.unipd.it/ring"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://ring.biocomputingup.it"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ring:3.0/web/ring.biocomputingup.it",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T02:56:14.465620Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 51,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr191",
+                            "pmid": "21493660",
+                            "ref_count": 16,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "RING: networking interacting residues, evolutionary information and energetics in protein structures.",
+                            "year": 2011
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkac365",
+                            "pmcid": "PMC9252747",
+                            "pmid": "35554554",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "title": "RING 3.0: fast generation of probabilistic residue interaction networks from structural ensembles.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 130,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 181,
+                        "serie": [
+                            125,
+                            56
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T02:56:14.404662Z",
+                "last_month_access": {
+                    "average_access_time": 736,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 307,
+                        "url": "https://protein.bio.unipd.it/ring"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://ring.biocomputingup.it"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ring:3.0/cmd/ring.biocomputingup.it",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T02:56:14.388692Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 51,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr191",
+                            "pmid": "21493660",
+                            "ref_count": 16,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "RING: networking interacting residues, evolutionary information and energetics in protein structures.",
+                            "year": 2011
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkac365",
+                            "pmcid": "PMC9252747",
+                            "pmid": "35554554",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "title": "RING 3.0: fast generation of probabilistic residue interaction networks from structural ensembles.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 374,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 181,
+                        "serie": [
+                            125,
+                            56
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T02:56:14.316626Z",
+                "last_month_access": {
+                    "average_access_time": 737,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 307,
+                        "url": "https://protein.bio.unipd.it/ring"
+                    },
+                    {
+                        "status": 307,
+                        "url": "https://ring.biocomputingup.it"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

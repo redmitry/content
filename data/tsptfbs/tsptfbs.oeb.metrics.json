@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/tsptfbs",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:45:43.504663Z",
+        "@timestamp": "2024-12-06T07:31:26.399255Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,101 +33,35 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 64,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 92,
+                        "days": 180,
                         "serie": [
-                            3,
-                            1,
-                            2,
-                            11,
-                            2,
-                            5,
-                            1,
-                            10,
-                            4,
-                            1,
-                            3,
-                            1,
-                            5,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            7,
-                            1,
-                            2,
-                            1,
-                            3,
-                            8,
-                            1,
-                            1,
-                            3,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            83,
+                            97
                         ],
                         "status": 200
                     },
                     {
-                        "days": 91,
+                        "days": 2,
                         "serie": [
-                            2,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            4,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            2,
-                            3,
-                            1,
-                            3,
-                            4,
-                            1,
-                            15,
-                            1,
-                            1,
-                            2,
-                            3,
-                            2,
-                            5,
-                            8,
-                            1,
-                            1,
-                            1,
-                            5
+                            2
                         ],
-                        "status": 429
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:06:50.449365Z",
+                "last_check": "2024-12-06T07:31:25.85124Z",
                 "last_month_access": {
-                    "average_access_time": 444,
-                    "downtime_days": 22,
-                    "uptime_days": 8
+                    "average_access_time": 718,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -143,8 +77,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tsptfbs/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:09:54.845305Z",
+        "@timestamp": "2024-12-06T07:31:26.427196Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -154,7 +89,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -175,9 +110,14 @@
                             "citations": [],
                             "doi": "10.1093/bioinformatics/btaa1100",
                             "pmid": "33416862",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "TSPTFBS: a docker image for Trans-Species Prediction of Transcription Factor Binding Sites in Plants.",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "TSPTFBS: a Docker image for trans-species prediction of transcription factor binding sites in plants.",
                             "year": 2021
                         }
                     ]
@@ -188,103 +128,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 440,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 89,
+                        "days": 182,
                         "serie": [
-                            3,
-                            1,
-                            2,
-                            11,
-                            2,
-                            5,
-                            1,
-                            10,
-                            4,
-                            1,
-                            3,
-                            1,
-                            3,
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            5,
-                            1,
-                            2,
-                            1,
-                            3,
-                            8,
-                            1,
-                            1,
-                            3,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 94,
-                        "serie": [
-                            2,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            4,
-                            2,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            2,
-                            5,
-                            1,
-                            3,
-                            4,
-                            1,
-                            15,
-                            1,
-                            1,
-                            2,
-                            3,
-                            2,
-                            5,
-                            8,
-                            1,
-                            1,
-                            1,
-                            5
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-09T10:07:08.930186Z",
+                "last_check": "2024-12-06T07:31:25.850772Z",
                 "last_month_access": {
-                    "average_access_time": 426,
-                    "downtime_days": 16,
-                    "uptime_days": 11
+                    "average_access_time": 715,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -300,8 +164,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tsptfbs/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:09:54.850138Z",
+        "@timestamp": "2024-12-06T07:31:26.370093Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -311,7 +176,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -332,9 +197,14 @@
                             "citations": [],
                             "doi": "10.1093/bioinformatics/btaa1100",
                             "pmid": "33416862",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "TSPTFBS: a docker image for Trans-Species Prediction of Transcription Factor Binding Sites in Plants.",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "TSPTFBS: a Docker image for trans-species prediction of transcription factor binding sites in plants.",
                             "year": 2021
                         }
                     ]
@@ -345,103 +215,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 707,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 89,
+                        "days": 182,
                         "serie": [
-                            3,
-                            1,
-                            2,
-                            11,
-                            2,
-                            5,
-                            1,
-                            10,
-                            4,
-                            1,
-                            1,
-                            1,
-                            1,
-                            5,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            5,
-                            1,
-                            2,
-                            1,
-                            3,
-                            8,
-                            1,
-                            1,
-                            3,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 94,
-                        "serie": [
-                            2,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            4,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            2,
-                            5,
-                            1,
-                            3,
-                            4,
-                            1,
-                            15,
-                            1,
-                            1,
-                            2,
-                            3,
-                            2,
-                            5,
-                            8,
-                            1,
-                            1,
-                            1,
-                            5
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-09T10:07:08.948442Z",
+                "last_check": "2024-12-06T07:31:25.853621Z",
                 "last_month_access": {
-                    "average_access_time": 387,
-                    "downtime_days": 12,
-                    "uptime_days": 15
+                    "average_access_time": 609,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }

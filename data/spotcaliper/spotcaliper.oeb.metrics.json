@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:spotcaliper/plugin/bigwww.epfl.ch",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:09:29.574318Z",
+        "@timestamp": "2024-12-06T05:24:49.663005Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -20,15 +21,11 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 2,
+                            "cit_count": 1,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btv728",
@@ -37,19 +34,19 @@
                             "refs": [
                                 {
                                     "count": 4,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 }
                             ],
                             "title": "SpotCaliper: fast wavelet-based spot detection with accurate size estimation.",
@@ -62,28 +59,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 94,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
-                        "status": 200
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T08:06:09.924005Z",
+                "https": true,
+                "last_check": "2024-12-06T05:24:49.593245Z",
                 "last_month_access": {
-                    "average_access_time": 484,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 121,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 301,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bigwww.epfl.ch/algorithms/spotcaliper/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -95,7 +98,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/spotcaliper",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T08:08:35.271773Z",
+        "@timestamp": "2024-12-06T05:24:49.724988Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -105,28 +108,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 94,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
-                        "status": 200
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2021-07-14T03:18:39.077537Z",
+                "https": true,
+                "last_check": "2024-12-06T05:24:49.594107Z",
                 "last_month_access": {
-                    "average_access_time": 484,
-                    "downtime_days": 1,
+                    "average_access_time": 87,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 301,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bigwww.epfl.ch/algorithms/spotcaliper/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

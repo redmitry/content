@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/enzymine",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:47:08.251563Z",
+        "@timestamp": "2024-12-07T02:58:07.239525Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,48 +13,43 @@
                 "description": true
             },
             "website": {
-                "access_time": 637,
+                "access_time": 624,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
-                            1
+                            2
                         ],
                         "status": 500
                     },
                     {
-                        "days": 177,
+                        "days": 3,
                         "serie": [
-                            3,
-                            52,
-                            27,
-                            57,
-                            1,
-                            9,
-                            28
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 5,
-                        "serie": [
-                            1,
-                            1,
                             1,
                             1,
                             1
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            62,
+                            25,
+                            58,
+                            32
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T09:47:08.218411Z",
+                "last_check": "2024-12-07T02:58:04.51317Z",
                 "last_month_access": {
-                    "average_access_time": 804,
+                    "average_access_time": 972,
                     "downtime_days": 1,
-                    "uptime_days": 29
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -67,8 +62,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:enzymine/undefined/www.rxnfinder.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:01:07.886723Z",
+        "@timestamp": "2024-12-07T02:58:07.111753Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -79,16 +75,49 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1093/database/baaa065",
+                            "pmcid": "PMC10755256",
                             "pmid": "33002112",
-                            "ref_count": 3,
+                            "ref_count": 17,
                             "refs": [
                                 {
-                                    "count": 2,
-                                    "year": 2015
+                                    "count": 1,
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2020
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2020"
                                 }
                             ],
                             "title": "EnzyMine: a comprehensive database for enzyme function annotation with enzymatic reaction chemical feature.",
@@ -101,39 +130,95 @@
                 "description": true
             },
             "website": {
-                "access_time": 637,
+                "access_time": 624,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 96,
+                        "days": 2,
                         "serie": [
-                            1,
-                            57,
-                            1,
-                            9,
-                            28
+                            2
                         ],
-                        "status": 200
+                        "status": 500
                     },
                     {
-                        "days": 4,
+                        "days": 3,
                         "serie": [
-                            1,
                             1,
                             1,
                             1
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            62,
+                            25,
+                            58,
+                            32
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": false,
+                "last_check": "2024-12-07T02:58:04.51317Z",
                 "last_month_access": {
-                    "average_access_time": 804
+                    "average_access_time": 805,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
                 "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:enzymine:1.10.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T10:07:06.989883Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 31,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T10:07:06.948928Z",
+                "last_month_access": {
+                    "average_access_time": 107,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
                 "ssl_err": null
             }
         }

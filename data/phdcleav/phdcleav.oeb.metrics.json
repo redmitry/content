@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:phdcleav/web/www.imtech.res.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:18.344489Z",
+        "@timestamp": "2024-12-07T05:58:25.568146Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -15,43 +16,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 21,
+                            "cit_count": 18,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2018
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2020
+                                    "count": 1,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2021
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1186/1471-2105-14-s14-s9",
@@ -61,55 +66,55 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 }
                             ],
                             "title": "PHDcleav: a SVM based method for predicting human Dicer cleavage sites using sequence and secondary structure of miRNA precursors.",
@@ -122,51 +127,49 @@
                 "description": true
             },
             "website": {
-                "access_time": 1213,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 160,
+                        "days": 95,
                         "serie": [
-                            84,
-                            37,
-                            7,
-                            32
+                            22,
+                            73
                         ],
                         "status": 200
                     },
                     {
-                        "days": 23,
+                        "days": 86,
                         "serie": [
-                            5,
-                            8,
-                            1,
-                            9
+                            86
+                        ],
+                        "status": 301
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
                         ],
                         "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:51:28.409543Z",
+                "https": true,
+                "last_check": "2024-12-07T05:58:25.279078Z",
                 "last_month_access": {
-                    "average_access_time": 1495,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1545,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 301,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://www.imtech.res.in/raghava/phdcleav/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "http://crdd.osdd.net/raghava/phdcleav/"
+                        "url": "https://172.16.1.235raghava/phdcleav/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -178,7 +181,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/phdcleav",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:51:49.676957Z",
+        "@timestamp": "2024-12-07T03:03:43.340307Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -188,51 +191,228 @@
                 "description": true
             },
             "website": {
-                "access_time": 2124,
+                "access_time": 1006,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 161,
+                        "days": 170,
                         "serie": [
-                            85,
-                            37,
-                            7,
-                            32
+                            73,
+                            28,
+                            19,
+                            23,
+                            10,
+                            17
                         ],
                         "status": 200
                     },
                     {
-                        "days": 22,
+                        "days": 12,
                         "serie": [
-                            5,
-                            7,
+                            2,
+                            3,
                             1,
-                            9
+                            4,
+                            1,
+                            1
                         ],
-                        "status": 302
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:51:49.606882Z",
+                "https": true,
+                "last_check": "2024-12-07T03:03:42.625105Z",
                 "last_month_access": {
-                    "average_access_time": 2241,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1086,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://www.imtech.res.in/raghava/phdcleav/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "http://crdd.osdd.net/raghava/phdcleav/"
+                        "url": "https://webs.iiitd.edu.in/raghava/phdcleav/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:phdcleav/web/webs.iiitd.edu.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T03:03:34.369557Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 18,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-14-s14-s9",
+                            "pmcid": "PMC3851333",
+                            "pmid": "24267009",
+                            "ref_count": 67,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "PHDcleav: a SVM based method for predicting human Dicer cleavage sites using sequence and secondary structure of miRNA precursors.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 987,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 170,
+                        "serie": [
+                            73,
+                            28,
+                            19,
+                            23,
+                            10,
+                            17
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 12,
+                        "serie": [
+                            2,
+                            3,
+                            1,
+                            4,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:03:34.216821Z",
+                "last_month_access": {
+                    "average_access_time": 1047,
+                    "downtime_days": 2,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://webs.iiitd.edu.in/raghava/phdcleav/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

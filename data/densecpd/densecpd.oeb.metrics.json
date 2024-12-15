@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:densecpd/web/protein.org.cn",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:00:32.142069Z",
+        "@timestamp": "2024-12-06T07:55:34.315119Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -27,36 +28,44 @@
                 "description": true
             },
             "website": {
-                "access_time": 515,
+                "access_time": 1824,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 180,
                         "serie": [
-                            11,
-                            171
+                            162,
+                            1,
+                            17
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
+                            1,
                             1
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:46:10.30056Z",
+                "https": true,
+                "last_check": "2024-12-06T07:55:34.222226Z",
                 "last_month_access": {
-                    "average_access_time": 1052,
-                    "downtime_days": 0,
-                    "uptime_days": 28
+                    "average_access_time": 1456,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://protein.org.cn/densecpd.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -65,7 +74,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/densecpd",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:46:09.837794Z",
+        "@timestamp": "2024-12-06T07:50:25.524778Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -75,36 +84,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 1050,
+                "access_time": 1890,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 182,
                         "serie": [
-                            11,
-                            171
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:46:09.794808Z",
+                "https": true,
+                "last_check": "2024-12-06T07:50:25.433447Z",
                 "last_month_access": {
-                    "average_access_time": 1257,
+                    "average_access_time": 2454,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://protein.org.cn/densecpd.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

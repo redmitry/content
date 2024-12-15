@@ -3,13 +3,15 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mmp/db/mmp.sfb.uit.no",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:46.148128Z",
+        "@timestamp": "2024-12-07T05:18:13.568155Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
             "documentation": {
-                "general": true
+                "general": true,
+                "terms_of_use": true
             },
             "license": {
                 "open_source": true,
@@ -19,77 +21,85 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 18,
+                            "cit_count": 14,
                             "citations": [
                                 {
-                                    "count": 9,
-                                    "year": 2019
+                                    "count": 7,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2020
+                                    "count": 3,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2021
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/nar/gkx1036",
                             "pmcid": "PMC5753341",
                             "pmid": "29106641",
-                            "ref_count": 39,
+                            "ref_count": 38,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2017
+                                    "count": 7,
+                                    "year": "2017"
                                 }
                             ],
                             "title": "The MAR databases: development and implementation of databases specific for marine metagenomics.",
@@ -102,35 +112,44 @@
                 "description": true
             },
             "website": {
-                "access_time": 1051,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 135,
+                        "days": 172,
                         "serie": [
-                            120,
-                            15
+                            94,
+                            8,
+                            70
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 48,
+                        "days": 3,
                         "serie": [
-                            48
+                            1,
+                            2
                         ],
                         "status": 408
+                    },
+                    {
+                        "days": 7,
+                        "serie": [
+                            7
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:03:32.650066Z",
+                "last_check": "2024-12-07T05:18:13.416313Z",
                 "last_month_access": {
-                    "average_access_time": 1119,
-                    "downtime_days": 0,
-                    "uptime_days": 14
+                    "average_access_time": 339,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
@@ -150,7 +169,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mmp",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:08:39.186693Z",
+        "@timestamp": "2024-12-06T09:27:19.575089Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -160,43 +179,255 @@
                 "description": true
             },
             "website": {
-                "access_time": 1031,
+                "access_time": 364,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 135,
+                        "days": 1,
                         "serie": [
-                            120,
-                            15
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 19,
+                        "serie": [
+                            8,
+                            11
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 83,
+                        "serie": [
+                            83
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 75,
+                        "serie": [
+                            8,
+                            11,
+                            52,
+                            4
                         ],
                         "status": 200
                     },
                     {
-                        "days": 48,
+                        "days": 3,
                         "serie": [
-                            48
+                            1,
+                            2
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:08:39.133117Z",
+                "last_check": "2024-12-06T09:27:18.909009Z",
                 "last_month_access": {
-                    "average_access_time": 1040,
-                    "downtime_days": 0,
-                    "uptime_days": 14
+                    "average_access_time": 1025,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "http://mmp2.sfb.uit.no/"
+                        "url": "http://mmp2.sfb.uit.no/databases/"
                     },
                     {
                         "status": 301,
-                        "url": "https://mmp2.sfb.uit.no/"
+                        "url": "https://mmp2.sfb.uit.no/databases/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mmp/db/sfb.mmp2.sigma2.no",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-06T09:27:19.095127Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "terms_of_use": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 14,
+                            "citations": [
+                                {
+                                    "count": 7,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkx1036",
+                            "pmcid": "PMC5753341",
+                            "pmid": "29106641",
+                            "ref_count": 38,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "The MAR databases: development and implementation of databases specific for marine metagenomics.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 374,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            2,
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 19,
+                        "serie": [
+                            8,
+                            11
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 64,
+                        "serie": [
+                            8,
+                            52,
+                            4
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T09:27:19.04322Z",
+                "last_month_access": {
+                    "average_access_time": 1010,
+                    "downtime_days": 2,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://mmp2.sfb.uit.no/databases/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://mmp2.sfb.uit.no/databases/"
                     }
                 ],
                 "ssl": true,

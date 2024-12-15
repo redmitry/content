@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ami",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:06:56.332465Z",
+        "@timestamp": "2024-12-07T03:34:28.696774Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,34 +13,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 2641,
+                "access_time": 919,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            46,
+                            135
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:06:55.250908Z",
+                "https": true,
+                "last_check": "2024-12-07T03:34:28.173017Z",
                 "last_month_access": {
-                    "average_access_time": 1096,
+                    "average_access_time": 874,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://scripts.iucr.org/cgi-bin/paper?S2053230X19009853"
+                        "url": "https://scripts.iucr.org/cgi-bin/paper?S2053230X19009853"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://journals.iucr.org/paper?S2053230X19009853"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://journals.iucr.org/f/issues/2019/08/00/ft5102/index.html"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -49,8 +65,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ami/undefined/doi.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:21.415370Z",
+        "@timestamp": "2024-12-07T02:54:16.087103Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -63,33 +80,24 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1107/s2053230x19009853",
                             "pmcid": "PMC6688666",
                             "pmid": "31397323",
-                            "ref_count": 7,
+                            "ref_count": 3,
                             "refs": [
                                 {
-                                    "count": 4,
-                                    "year": 0
+                                    "count": 1,
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 }
                             ],
                             "title": "AMi: a GUI-based, open-source system for imaging samples in multi-well plates.",
@@ -102,34 +110,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 317,
+                "access_time": 3334,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 182,
                         "serie": [
-                            100
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T10:15:14.428647Z",
+                "https": true,
+                "last_check": "2024-12-07T02:54:15.828691Z",
                 "last_month_access": {
-                    "average_access_time": 350,
+                    "average_access_time": 1612,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://scripts.iucr.org/cgi-bin/paper?S2053230X19009853"
+                        "url": "https://scripts.iucr.org/cgi-bin/paper?S2053230X19009853"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://journals.iucr.org/paper?S2053230X19009853"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://journals.iucr.org/f/issues/2019/08/00/ft5102/index.html"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

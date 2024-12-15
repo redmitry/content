@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rlasso-cox",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:38:11.545289Z",
+        "@timestamp": "2024-12-06T07:09:47.568598Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,15 +13,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 226,
+                "access_time": 243,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            59,
-                            123
+                            53,
+                            128
                         ],
                         "status": 200
                     },
@@ -33,16 +33,22 @@
                         "status": 504
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:38:11.509981Z",
+                "https": true,
+                "last_check": "2024-12-06T07:09:47.518563Z",
                 "last_month_access": {
-                    "average_access_time": 257,
+                    "average_access_time": 290,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/devel/bioc/html/RLassoCox.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -51,8 +57,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rlasso-cox/undefined/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:46.900989Z",
+        "@timestamp": "2024-12-07T02:51:15.107536Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -69,19 +76,14 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1093/bioinformatics/btaa1046",
                             "pmid": "33325490",
                             "ref_count": 0,
                             "refs": [],
                             "title": "Integration of gene interaction information into a reweighted Lasso-Cox model for accurate survival prediction.",
-                            "year": 2020
+                            "year": 2021
                         }
                     ]
                 }
@@ -90,25 +92,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 226,
+                "access_time": 135,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 182,
                         "serie": [
-                            100
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
+                "https": true,
+                "last_check": "2024-12-07T02:51:14.811958Z",
                 "last_month_access": {
-                    "average_access_time": 257
+                    "average_access_time": 415,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/devel/bioc/html/RLassoCox.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

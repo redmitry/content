@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:snpalyze/app/www.dynacom.co.jp",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:08:42.944296Z",
+        "@timestamp": "2024-12-06T05:29:50.910244Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -15,19 +16,15 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 5,
+                            "cit_count": 2,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2004
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2005
+                                    "count": 1,
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 }
                             ],
                             "doi": "10.1007/s100380200100",
@@ -44,35 +41,31 @@
                 "description": true
             },
             "website": {
-                "access_time": 3689,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
-                        "status": 200
+                        "status": 404
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T08:07:54.095098Z",
+                "last_check": "2024-12-06T05:29:50.823735Z",
                 "last_month_access": {
-                    "average_access_time": 2454,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1607,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://www.dynacom.co.jp/english/snpalyze_e/"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://www.dynacom.co.jp/english/snpalyze_e"
                     }
                 ],
                 "ssl": true,
@@ -87,7 +80,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/snpalyze",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T08:19:53.835736Z",
+        "@timestamp": "2024-12-06T05:31:35.380413Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -97,39 +90,111 @@
                 "description": true
             },
             "website": {
-                "access_time": 2211,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
+                        ],
+                        "status": 404
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T05:31:35.312385Z",
+                "last_month_access": {
+                    "average_access_time": 1596,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.dynacom.co.jp/english/snpalyze_e/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:snpalyze:0.4.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T02:48:41.968409Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 782,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T08:19:53.770474Z",
+                "last_check": "2024-12-07T02:48:41.745433Z",
                 "last_month_access": {
-                    "average_access_time": 2746,
+                    "average_access_time": 763,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "https://www.dynacom.co.jp/english/snpalyze_e/"
-                    },
-                    {
                         "status": 301,
-                        "url": "https://www.dynacom.co.jp/english/snpalyze_e"
+                        "url": "https://github.com/ropensci/rebird"
                     }
                 ],
                 "ssl": true,
                 "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1670602S"
             }
         }
     }

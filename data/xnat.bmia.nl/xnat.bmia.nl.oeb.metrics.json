@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:xnat.bmia.nl:1/rest/xnat.bmia.nl",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T09:14:38.405264Z",
+        "@timestamp": "2024-12-06T05:40:30.628282Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -16,27 +17,43 @@
                 "description": true
             },
             "website": {
-                "access_time": 575,
+                "access_time": 750,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 174,
                         "serie": [
-                            183
+                            42,
+                            110,
+                            22
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 8,
+                        "serie": [
+                            7,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:14:38.350346Z",
+                "last_check": "2024-12-06T05:40:30.516294Z",
                 "last_month_access": {
-                    "average_access_time": 1022,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1054,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://xnat.health-ri.nl/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -49,7 +66,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/xnat.bmia.nl",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:15:34.588426Z",
+        "@timestamp": "2024-12-06T05:40:30.904490Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -59,27 +76,43 @@
                 "description": true
             },
             "website": {
-                "access_time": 575,
+                "access_time": 824,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 174,
                         "serie": [
-                            183
+                            42,
+                            110,
+                            22
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 8,
+                        "serie": [
+                            7,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2021-07-28T03:55:53.679019Z",
+                "last_check": "2024-12-06T05:40:30.81287Z",
                 "last_month_access": {
-                    "average_access_time": 1022,
+                    "average_access_time": 955,
                     "downtime_days": 1,
-                    "uptime_days": 0
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://xnat.health-ri.nl/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }

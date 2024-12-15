@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bcforms",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:26:37.794787Z",
+        "@timestamp": "2024-12-06T07:59:09.887918Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,27 +13,36 @@
                 "description": true
             },
             "website": {
-                "access_time": 708,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 154,
                         "serie": [
-                            183
+                            1,
+                            153
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            5,
+                            23
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:26:37.75683Z",
+                "last_check": "2024-12-06T07:59:09.741931Z",
                 "last_month_access": {
-                    "average_access_time": 659,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 940,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -43,24 +52,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcforms/cmd/www.bcforms.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:21.994632Z",
+        "@timestamp": "2024-12-06T07:59:10.222530Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -80,105 +90,57 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
+                            "cit_count": 1,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1186/s13059-020-02025-z",
                             "pmcid": "PMC7236495",
                             "pmid": "32423472",
-                            "ref_count": 63,
+                            "ref_count": 15,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1977
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1980
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1988
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1990
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1996
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2002
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2008
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2010
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2019
+                                    "count": 1,
+                                    "year": "2020"
                                 }
                             ],
                             "title": "BpForms and BcForms: a toolkit for concretely describing non-canonical polymers and complexes to facilitate global biochemical networks.",
@@ -187,39 +149,48 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 661,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 154,
                         "serie": [
-                            183
+                            1,
+                            153
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            5,
+                            23
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:26:37.752689Z",
+                "last_check": "2024-12-06T07:59:09.741495Z",
                 "last_month_access": {
-                    "average_access_time": 558,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 940,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }
@@ -228,24 +199,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcforms/lib/www.bcforms.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:22.049547Z",
+        "@timestamp": "2024-12-06T08:00:37.954723Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -265,105 +237,57 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
+                            "cit_count": 1,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1186/s13059-020-02025-z",
                             "pmcid": "PMC7236495",
                             "pmid": "32423472",
-                            "ref_count": 63,
+                            "ref_count": 15,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1977
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1980
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1988
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1990
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1996
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2002
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2008
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2010
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2019
+                                    "count": 1,
+                                    "year": "2020"
                                 }
                             ],
                             "title": "BpForms and BcForms: a toolkit for concretely describing non-canonical polymers and complexes to facilitate global biochemical networks.",
@@ -372,39 +296,48 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 363,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 154,
                         "serie": [
-                            183
+                            1,
+                            153
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            5,
+                            23
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:26:37.913729Z",
+                "last_check": "2024-12-06T08:00:37.805555Z",
                 "last_month_access": {
-                    "average_access_time": 463,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 940,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }
@@ -413,24 +346,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcforms/web/www.bcforms.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:22.066568Z",
+        "@timestamp": "2024-12-06T07:59:10.222531Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -450,105 +384,57 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
+                            "cit_count": 1,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1186/s13059-020-02025-z",
                             "pmcid": "PMC7236495",
                             "pmid": "32423472",
-                            "ref_count": 63,
+                            "ref_count": 15,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1977
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1980
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1988
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1990
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1996
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2002
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2008
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2010
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2019
+                                    "count": 1,
+                                    "year": "2020"
                                 }
                             ],
                             "title": "BpForms and BcForms: a toolkit for concretely describing non-canonical polymers and complexes to facilitate global biochemical networks.",
@@ -557,39 +443,48 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 708,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 154,
                         "serie": [
-                            183
+                            1,
+                            153
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            5,
+                            23
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-09T09:27:01.374392Z",
+                "last_check": "2024-12-06T07:59:09.741384Z",
                 "last_month_access": {
-                    "average_access_time": 487,
-                    "downtime_days": 0,
-                    "uptime_days": 27
+                    "average_access_time": 898,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }
@@ -598,24 +493,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcforms/rest/www.bcforms.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:22.109180Z",
+        "@timestamp": "2024-12-06T07:59:54.881131Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -635,105 +531,57 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
+                            "cit_count": 1,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1186/s13059-020-02025-z",
                             "pmcid": "PMC7236495",
                             "pmid": "32423472",
-                            "ref_count": 63,
+                            "ref_count": 15,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1977
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1980
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1988
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1990
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1996
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2002
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2008
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2010
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2019
+                                    "count": 1,
+                                    "year": "2020"
                                 }
                             ],
                             "title": "BpForms and BcForms: a toolkit for concretely describing non-canonical polymers and complexes to facilitate global biochemical networks.",
@@ -742,39 +590,48 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 708,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 154,
                         "serie": [
-                            183
+                            1,
+                            153
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            5,
+                            23
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-09T09:27:01.298063Z",
+                "last_check": "2024-12-06T07:59:54.801305Z",
                 "last_month_access": {
-                    "average_access_time": 507,
-                    "downtime_days": 0,
-                    "uptime_days": 27
+                    "average_access_time": 940,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }

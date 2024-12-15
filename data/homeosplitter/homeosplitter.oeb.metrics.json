@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:homeosplitter/cmd/bioweb.supagro.inra.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:53.776934Z",
+        "@timestamp": "2024-12-07T05:08:14.220258Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -20,35 +21,31 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 9,
+                            "cit_count": 8,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1186/1471-2105-14-s15-s15",
@@ -58,67 +55,67 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1950
+                                    "year": "1950"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1993
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2013
+                                    "year": "2013"
                                 }
                             ],
                             "title": "Disentangling homeologous contigs in allo-tetraploid assembly: application to durum wheat.",
@@ -131,28 +128,54 @@
                 "description": true
             },
             "website": {
-                "access_time": 232,
+                "access_time": 750,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 180,
                         "serie": [
-                            183
+                            72,
+                            100,
+                            8
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:57:31.917069Z",
+                "https": true,
+                "last_check": "2024-12-07T05:08:14.089801Z",
                 "last_month_access": {
-                    "average_access_time": 326,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 714,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioweb.supagro.inrae.fr/homeoSplitter/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.agap-ge2pop.org/homeosplitter/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -164,7 +187,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/homeosplitter",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:58:47.513812Z",
+        "@timestamp": "2024-12-07T05:08:14.100198Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -174,28 +197,54 @@
                 "description": true
             },
             "website": {
-                "access_time": 232,
+                "access_time": 1020,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 180,
                         "serie": [
-                            183
+                            72,
+                            100,
+                            8
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2021-10-11T03:47:47.925454Z",
+                "https": true,
+                "last_check": "2024-12-07T05:08:13.976853Z",
                 "last_month_access": {
-                    "average_access_time": 326,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 727,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioweb.supagro.inrae.fr/homeoSplitter/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.agap-ge2pop.org/homeosplitter/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/spiec-easi",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:45:15.825871Z",
+        "@timestamp": "2024-12-06T08:07:25.426345Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -11,16 +11,16 @@
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -28,47 +28,39 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 397,
+                "access_time": 560,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 177,
+                        "days": 176,
                         "serie": [
-                            28,
-                            20,
-                            19,
-                            4,
-                            13,
-                            56,
-                            37
+                            46,
+                            51,
+                            79
                         ],
                         "status": 200
                     },
                     {
                         "days": 6,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
+                            5,
                             1
                         ],
-                        "status": 429
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:19:31.146067Z",
+                "last_check": "2024-12-06T08:07:25.097881Z",
                 "last_month_access": {
-                    "average_access_time": 494,
+                    "average_access_time": 492,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -84,8 +76,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1756305S"
             }
         }
     },
@@ -93,24 +85,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:spiec-easi/undefined/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:08:51.764190Z",
+        "@timestamp": "2024-12-06T08:07:26.152047Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -132,65 +125,37 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 427,
+                "access_time": 432,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 25,
+                        "days": 177,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            2,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            2,
-                            1
+                            46,
+                            131
                         ],
                         "status": 200
                     },
                     {
-                        "days": 75,
+                        "days": 5,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            7,
-                            6,
-                            2,
-                            3,
-                            17,
-                            4,
-                            5,
-                            1,
-                            10,
-                            5,
-                            7,
-                            2,
-                            2
+                            5
                         ],
-                        "status": 429
+                        "status": 408
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T08:07:25.104147Z",
                 "last_month_access": {
-                    "average_access_time": 538
+                    "average_access_time": 499,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -200,14 +165,14 @@
                         "url": "https://github.com/zdk123/SpiecEasi"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1756305S"
             }
         }
     },
@@ -215,24 +180,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:spiec-easi:1.1.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:45:15.848313Z",
+        "@timestamp": "2024-12-06T09:17:18.562463Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -244,45 +209,45 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 433,
+                "access_time": 573,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 174,
                         "serie": [
-                            24,
-                            32,
-                            8,
-                            8,
-                            3,
-                            18
+                            44,
+                            51,
+                            79
                         ],
                         "status": 200
                     },
                     {
-                        "days": 6,
+                        "days": 7,
                         "serie": [
-                            1,
-                            1,
-                            2,
-                            1,
+                            7
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
                             1
                         ],
-                        "status": 429
+                        "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:15:23.924599Z",
+                "last_check": "2024-12-06T09:17:18.472459Z",
                 "last_month_access": {
-                    "average_access_time": 493,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 598,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -298,8 +263,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1756305S"
             }
         }
     },
@@ -307,24 +272,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:spiec-easi:1.1.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:45:15.866468Z",
+        "@timestamp": "2024-12-06T09:08:12.622698Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -336,45 +301,45 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 420,
+                "access_time": 608,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 174,
                         "serie": [
-                            24,
-                            32,
-                            8,
-                            8,
-                            3,
-                            18
+                            44,
+                            51,
+                            79
                         ],
                         "status": 200
                     },
                     {
-                        "days": 6,
+                        "days": 7,
                         "serie": [
-                            1,
-                            1,
-                            2,
-                            1,
+                            7
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
                             1
                         ],
-                        "status": 429
+                        "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:15:23.897819Z",
+                "last_check": "2024-12-06T09:08:12.513542Z",
                 "last_month_access": {
-                    "average_access_time": 479,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 350,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -390,8 +355,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1756305S"
             }
         }
     },
@@ -399,24 +364,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:spiec-easi:1.0.7/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:45:15.875956Z",
+        "@timestamp": "2024-12-06T09:08:12.745354Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -428,61 +393,37 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 454,
+                "access_time": 115,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 66,
+                        "days": 181,
                         "serie": [
-                            3,
-                            6,
-                            8,
-                            3,
-                            4,
-                            1,
-                            7,
-                            8,
-                            1,
-                            1,
-                            4,
-                            3,
-                            8,
-                            9
+                            102,
+                            79
                         ],
                         "status": 200
                     },
                     {
-                        "days": 24,
+                        "days": 1,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
                             1
                         ],
-                        "status": 429
+                        "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:16:27.351926Z",
+                "last_check": "2024-12-06T09:08:12.653484Z",
                 "last_month_access": {
-                    "average_access_time": 532,
-                    "downtime_days": 5,
-                    "uptime_days": 25
+                    "average_access_time": 445,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -498,8 +439,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1756305S"
             }
         }
     }

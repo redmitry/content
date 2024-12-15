@@ -3,24 +3,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/lipydomics",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:43:27.658639Z",
+        "@timestamp": "2024-12-07T03:03:32.709855Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -28,75 +28,29 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 583,
+                "access_time": 616,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 153,
+                        "days": 182,
                         "serie": [
-                            44,
-                            10,
-                            2,
-                            11,
-                            8,
-                            8,
-                            3,
-                            2,
-                            1,
-                            13,
-                            4,
-                            13,
-                            11,
-                            2,
-                            6,
-                            2,
-                            5,
-                            1,
-                            1,
-                            1,
-                            5
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 30,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            2,
-                            3,
-                            2,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:41:18.910087Z",
+                "last_check": "2024-12-07T03:03:32.387728Z",
                 "last_month_access": {
-                    "average_access_time": 535,
-                    "downtime_days": 10,
-                    "uptime_days": 20
+                    "average_access_time": 434,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -106,8 +60,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2943124S"
             }
         }
     },
@@ -115,24 +69,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:lipydomics/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:51.193343Z",
+        "@timestamp": "2024-12-07T03:03:32.713248Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -147,53 +102,41 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
+                            "cit_count": 1,
                             "citations": [
                                 {
-                                    "count": 3,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1021/acs.analchem.0c02560",
                             "pmcid": "PMC7816765",
                             "pmid": "33119270",
-                            "ref_count": 28,
+                            "ref_count": 9,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2016
+                                    "count": 2,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2020
+                                    "count": 3,
+                                    "year": "2020"
                                 }
                             ],
                             "title": "LiPydomics: A Python Package for Comprehensive Prediction of Lipid Collision Cross Sections and Retention Times and Analysis of Ion Mobility-Mass Spectrometry-Based Lipidomics Data.",
@@ -202,75 +145,29 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 563,
+                "access_time": 219,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 153,
+                        "days": 182,
                         "serie": [
-                            44,
-                            10,
-                            2,
-                            11,
-                            8,
-                            8,
-                            3,
-                            2,
-                            1,
-                            13,
-                            4,
-                            13,
-                            11,
-                            2,
-                            6,
-                            2,
-                            5,
-                            1,
-                            1,
-                            1,
-                            5
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 30,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            2,
-                            3,
-                            2,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:41:18.875029Z",
+                "last_check": "2024-12-07T03:03:32.311709Z",
                 "last_month_access": {
-                    "average_access_time": 438,
-                    "downtime_days": 8,
-                    "uptime_days": 22
+                    "average_access_time": 508,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -280,8 +177,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2943124S"
             }
         }
     },
@@ -289,24 +186,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:lipydomics/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:51.231305Z",
+        "@timestamp": "2024-12-07T03:03:32.782454Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -321,53 +219,41 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
+                            "cit_count": 1,
                             "citations": [
                                 {
-                                    "count": 3,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1021/acs.analchem.0c02560",
                             "pmcid": "PMC7816765",
                             "pmid": "33119270",
-                            "ref_count": 28,
+                            "ref_count": 9,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2016
+                                    "count": 2,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2020
+                                    "count": 3,
+                                    "year": "2020"
                                 }
                             ],
                             "title": "LiPydomics: A Python Package for Comprehensive Prediction of Lipid Collision Cross Sections and Retention Times and Analysis of Ion Mobility-Mass Spectrometry-Based Lipidomics Data.",
@@ -376,75 +262,29 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 100,
+                "access_time": 68,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 153,
+                        "days": 182,
                         "serie": [
-                            44,
-                            10,
-                            2,
-                            11,
-                            8,
-                            8,
-                            3,
-                            2,
-                            1,
-                            13,
-                            4,
-                            13,
-                            11,
-                            2,
-                            6,
-                            2,
-                            5,
-                            1,
-                            1,
-                            1,
-                            5
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 30,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            2,
-                            3,
-                            2,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:41:18.727945Z",
+                "last_check": "2024-12-07T03:03:32.486984Z",
                 "last_month_access": {
-                    "average_access_time": 327,
-                    "downtime_days": 6,
-                    "uptime_days": 24
+                    "average_access_time": 502,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -454,8 +294,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2943124S"
             }
         }
     }

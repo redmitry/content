@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/koref",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:19:52.185555Z",
+        "@timestamp": "2024-12-06T06:07:15.450720Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,44 +13,68 @@
                 "description": true
             },
             "website": {
-                "access_time": 2814,
+                "access_time": 4080,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 2,
                         "serie": [
-                            109,
-                            7,
-                            65
+                            2
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 6,
+                        "serie": [
+                            1,
+                            4,
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 169,
+                        "serie": [
+                            44,
+                            5,
+                            20,
+                            63,
+                            5,
+                            10,
+                            22
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 5,
                         "serie": [
                             1,
-                            1
+                            4
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:19:52.078077Z",
+                "https": true,
+                "last_check": "2024-12-06T06:07:15.287414Z",
                 "last_month_access": {
-                    "average_access_time": 3040,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 4401,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "http://Koref.net/Main_Page"
+                        "url": "https://Koref.net/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://Koref.net/Main_Page"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -59,8 +83,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:koref/db/koref.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:34.053802Z",
+        "@timestamp": "2024-12-06T06:07:15.573288Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -68,57 +93,53 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 6,
+                            "cit_count": 3,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/gigascience/giz125",
                             "pmcid": "PMC6889754",
                             "pmid": "31794015",
-                            "ref_count": 23,
+                            "ref_count": 22,
                             "refs": [
                                 {
                                     "count": 12,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2019
+                                    "count": 2,
+                                    "year": "2019"
                                 }
                             ],
                             "title": "Chromosome-scale assembly comparison of the Korean Reference Genome KOREF from PromethION and PacBio with Hi-C mapping information.",
@@ -131,46 +152,68 @@
                 "description": true
             },
             "website": {
-                "access_time": 4048,
+                "access_time": 3488,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 2,
                         "serie": [
-                            102,
-                            6,
-                            7,
-                            65
+                            2
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 6,
+                        "serie": [
+                            1,
+                            4,
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 169,
+                        "serie": [
+                            44,
+                            5,
+                            20,
+                            63,
+                            5,
+                            10,
+                            22
                         ],
                         "status": 200
                     },
                     {
-                        "days": 3,
+                        "days": 5,
                         "serie": [
                             1,
-                            1,
-                            1
+                            4
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:30:32.913945Z",
+                "https": true,
+                "last_check": "2024-12-06T06:07:15.427341Z",
                 "last_month_access": {
-                    "average_access_time": 3661,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 4606,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "http://Koref.net/Main_Page"
+                        "url": "https://Koref.net/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://Koref.net/Main_Page"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

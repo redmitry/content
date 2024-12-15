@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bcigepred",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:41:01.344581Z",
+        "@timestamp": "2024-12-06T07:26:37.800120Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -13,14 +13,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -28,80 +28,37 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 962,
+                "access_time": 577,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 150,
+                        "days": 181,
                         "serie": [
-                            50,
-                            6,
-                            2,
-                            13,
-                            1,
-                            2,
-                            2,
-                            6,
-                            10,
-                            4,
-                            8,
-                            20,
-                            10,
-                            2,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1
+                            57,
+                            124
                         ],
                         "status": 200
                     },
                     {
-                        "days": 33,
+                        "days": 1,
                         "serie": [
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2
+                            1
                         ],
-                        "status": 429
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T01:05:54.327022Z",
+                "last_check": "2024-12-06T07:26:37.143296Z",
                 "last_month_access": {
-                    "average_access_time": 600,
+                    "average_access_time": 582,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -111,7 +68,7 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }
@@ -120,8 +77,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcigepred/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:59.432796Z",
+        "@timestamp": "2024-12-06T07:26:37.972348Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -130,14 +88,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -152,11 +110,15 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
+                            "cit_count": 2,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2021
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.7868/s0026898418020180",
@@ -169,80 +131,29 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 962,
+                "access_time": 577,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 150,
+                        "days": 182,
                         "serie": [
-                            50,
-                            6,
-                            2,
-                            13,
-                            1,
-                            2,
-                            2,
-                            6,
-                            10,
-                            4,
-                            8,
-                            20,
-                            10,
-                            2,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 33,
-                        "serie": [
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:13:01.346397Z",
+                "last_check": "2024-12-06T07:26:37.143296Z",
                 "last_month_access": {
-                    "average_access_time": 600,
-                    "downtime_days": 14,
-                    "uptime_days": 16
+                    "average_access_time": 494,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -252,7 +163,7 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }

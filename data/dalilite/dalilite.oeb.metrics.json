@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dalilite:1/web/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:00:23.400648Z",
+        "@timestamp": "2024-12-07T04:12:58.010615Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -17,87 +18,83 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 640,
+                            "cit_count": 512,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
-                                    "count": 19,
-                                    "year": 2005
+                                    "count": 12,
+                                    "year": "2005"
                                 },
                                 {
-                                    "count": 20,
-                                    "year": 2006
+                                    "count": 15,
+                                    "year": "2006"
                                 },
                                 {
-                                    "count": 47,
-                                    "year": 2007
+                                    "count": 30,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 39,
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 57,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 78,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 68,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 69,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 67,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 56,
-                                    "year": 2013
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 51,
-                                    "year": 2014
+                                    "year": "2010"
                                 },
                                 {
-                                    "count": 37,
-                                    "year": 2015
+                                    "count": 62,
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 20,
-                                    "year": 2016
+                                    "count": 59,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 49,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 45,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 17,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2018
+                                    "count": 9,
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
+                                    "count": 3,
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/16.6.566",
@@ -114,24 +111,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 319,
+                "access_time": 322,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 180,
                         "serie": [
-                            183
+                            88,
+                            92
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:00:20.836426Z",
+                "last_check": "2024-12-07T04:12:57.90791Z",
                 "last_month_access": {
-                    "average_access_time": 228,
+                    "average_access_time": 274,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -139,6 +144,14 @@
                     {
                         "status": 301,
                         "url": "https://www.ebi.ac.uk/Tools/structure/dalilite/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher/"
                     }
                 ],
                 "ssl": true,
@@ -153,7 +166,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/dalilite",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T03:01:22.488024Z",
+        "@timestamp": "2024-12-07T04:12:58.598359Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -163,24 +176,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 418,
+                "access_time": 222,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 180,
                         "serie": [
-                            183
+                            88,
+                            92
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:01:22.421637Z",
+                "last_check": "2024-12-07T04:12:58.5175Z",
                 "last_month_access": {
-                    "average_access_time": 409,
+                    "average_access_time": 220,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -188,6 +209,414 @@
                     {
                         "status": 301,
                         "url": "https://www.ebi.ac.uk/Tools/structure/dalilite/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dalilite:Retired/web/www.ebi.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T03:08:42.166360Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "terms_of_use": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 512,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 39,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 51,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 62,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 59,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 49,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 45,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/16.6.566",
+                            "pmid": "10980157",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DaliLite workbench for protein structure comparison.",
+                            "year": 2000
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 14,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkac240",
+                            "pmcid": "PMC9252731",
+                            "pmid": "35412617",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
+                                }
+                            ],
+                            "title": "Search and sequence analysis tools services from EMBL-EBI in 2022.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 360,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:08:42.059889Z",
+                "last_month_access": {
+                    "average_access_time": 355,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/Tools/structure/dalilite/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dalilite:Retired/soap/www.ebi.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T03:08:42.240081Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "terms_of_use": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 512,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 39,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 51,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 62,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 59,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 49,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 45,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/16.6.566",
+                            "pmid": "10980157",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DaliLite workbench for protein structure comparison.",
+                            "year": 2000
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 14,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkac240",
+                            "pmcid": "PMC9252731",
+                            "pmid": "35412617",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
+                                }
+                            ],
+                            "title": "Search and sequence analysis tools services from EMBL-EBI in 2022.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 346,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:08:42.199766Z",
+                "last_month_access": {
+                    "average_access_time": 361,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/Tools/structure/dalilite/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/jdispatcher/"
                     }
                 ],
                 "ssl": true,

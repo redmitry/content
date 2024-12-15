@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ancestree",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:23:42.863841Z",
+        "@timestamp": "2024-12-07T03:34:36.159516Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,28 +13,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 185,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            65,
+                            116
                         ],
-                        "status": 200
+                        "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-10-11T01:21:13.591802Z",
+                "https": true,
+                "last_check": "2024-12-07T03:34:35.688187Z",
                 "last_month_access": {
-                    "average_access_time": 319,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 349,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://ccmb.brown.edu/projects/ancestree/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://ccmb.brown.edu/projects/ancestree/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -43,8 +61,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ancestree/cmd/compbio.cs.brown.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:41.634809Z",
+        "@timestamp": "2024-12-07T03:34:36.861866Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -53,14 +72,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -74,31 +93,43 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 74,
+                            "cit_count": 60,
                             "citations": [
                                 {
-                                    "count": 5,
-                                    "year": 2016
+                                    "count": 4,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 18,
-                                    "year": 2017
+                                    "count": 16,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 19,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2020
+                                    "count": 17,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2021
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btv261",
@@ -108,39 +139,39 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1976
+                                    "year": "1976"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1991
+                                    "year": "1991"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 12,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 }
                             ],
                             "title": "Reconstruction of clonal trees and tumor composition from multi-sample sequencing data.",
@@ -149,41 +180,59 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 185,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            65,
+                            116
                         ],
-                        "status": 200
+                        "status": 404
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:21:23.179809Z",
+                "https": true,
+                "last_check": "2024-12-07T03:34:36.527374Z",
                 "last_month_access": {
-                    "average_access_time": 319,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 349,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://ccmb.brown.edu/projects/ancestree/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://ccmb.brown.edu/projects/ancestree/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "email": false,
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3545543S"
             }
         }
     }

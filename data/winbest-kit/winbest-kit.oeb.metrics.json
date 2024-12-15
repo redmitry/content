@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/winbest-kit",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:50:15.165171Z",
+        "@timestamp": "2024-12-06T08:01:55.365202Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,28 +13,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 2265,
+                "access_time": 1610,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:50:15.109373Z",
+                "https": true,
+                "last_check": "2024-12-06T08:01:55.240869Z",
                 "last_month_access": {
-                    "average_access_time": 1513,
+                    "average_access_time": 1889,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://winbest-kit.org/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -43,8 +49,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:winbest-kit/undefined/winbest-kit.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:10:36.711559Z",
+        "@timestamp": "2024-12-07T02:55:37.614422Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -57,17 +64,21 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1142/s0219720019500367",
                             "pmid": "32019416",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 2,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                }
+                            ],
                             "title": "WinBEST-KIT: Biochemical reaction simulator that can define and customize algebraic equations and events as GUI components.",
                             "year": 2019
                         }
@@ -78,25 +89,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 2265,
+                "access_time": 2462,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 182,
                         "serie": [
-                            100
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
+                "https": true,
+                "last_check": "2024-12-07T02:55:37.447689Z",
                 "last_month_access": {
-                    "average_access_time": 1513
+                    "average_access_time": 2420,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://winbest-kit.org/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

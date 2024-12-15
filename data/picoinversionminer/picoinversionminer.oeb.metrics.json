@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:picoinversionminer/cmd/faculty.cs.niu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:59.873422Z",
+        "@timestamp": "2024-12-07T06:05:37.451468Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -20,23 +21,15 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 4,
+                            "cit_count": 2,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2022
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btr566",
@@ -46,51 +39,51 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1980
+                                    "year": "1980"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 }
                             ],
                             "title": "Pico-inplace-inversions between human and chimpanzee.",
@@ -103,28 +96,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 540,
+                "access_time": 964,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:12:54.563749Z",
+                "https": true,
+                "last_check": "2024-12-07T06:05:37.345959Z",
                 "last_month_access": {
-                    "average_access_time": 506,
+                    "average_access_time": 1018,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://faculty.cs.niu.edu/~hou/PicoInversion.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -136,7 +135,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/picoinversionminer",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:17:51.367145Z",
+        "@timestamp": "2024-12-07T06:05:37.409676Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -146,28 +145,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 540,
+                "access_time": 877,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T03:17:17.472671Z",
+                "https": true,
+                "last_check": "2024-12-07T06:05:37.318726Z",
                 "last_month_access": {
-                    "average_access_time": 506,
+                    "average_access_time": 932,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://faculty.cs.niu.edu/~hou/PicoInversion.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

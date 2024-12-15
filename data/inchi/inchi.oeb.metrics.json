@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:inchi:1/soap/www.chemspider.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:17.540572Z",
+        "@timestamp": "2024-12-07T05:02:57.046522Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -18,12 +19,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1002/9780471650126.dob0949",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -32,36 +29,44 @@
                 "description": true
             },
             "website": {
-                "access_time": 95,
+                "access_time": 148,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 18,
                         "serie": [
-                            1
+                            7,
+                            11
                         ],
-                        "status": 500
+                        "status": 403
                     },
                     {
-                        "days": 182,
+                        "days": 164,
                         "serie": [
-                            104,
-                            78
+                            66,
+                            3,
+                            95
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T05:00:16.468439Z",
+                "https": true,
+                "last_check": "2024-12-07T05:02:56.94809Z",
                 "last_month_access": {
-                    "average_access_time": 311,
+                    "average_access_time": 709,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.chemspider.com/InChI.asmx"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -73,7 +78,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/inchi",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:00:54.005072Z",
+        "@timestamp": "2024-12-07T05:02:56.771807Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -83,36 +88,44 @@
                 "description": true
             },
             "website": {
-                "access_time": 95,
+                "access_time": 247,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 18,
                         "serie": [
-                            1
+                            7,
+                            11
                         ],
-                        "status": 500
+                        "status": 403
                     },
                     {
-                        "days": 182,
+                        "days": 164,
                         "serie": [
-                            104,
-                            78
+                            66,
+                            3,
+                            95
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-10-11T03:50:06.681086Z",
+                "https": true,
+                "last_check": "2024-12-07T05:02:56.644901Z",
                 "last_month_access": {
-                    "average_access_time": 311,
+                    "average_access_time": 647,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.chemspider.com/InChI.asmx"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

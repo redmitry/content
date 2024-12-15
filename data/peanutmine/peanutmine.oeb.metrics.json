@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:peanutmine:0.10/soap/mines.legumeinfo.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:45.252765Z",
+        "@timestamp": "2024-12-07T05:40:04.764996Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -13,14 +14,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -39,47 +40,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 132,
+                            "cit_count": 137,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2019
+                                    "count": 15,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2020
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 21,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts577",
@@ -89,27 +90,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
@@ -118,48 +119,44 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 692,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 7,
+                        "days": 182,
                         "serie": [
-                            7
+                            182
                         ],
                         "status": 404
-                    },
-                    {
-                        "days": 176,
-                        "serie": [
-                            131,
-                            45
-                        ],
-                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:38:20.410891Z",
+                "last_check": "2024-12-07T05:40:04.33437Z",
                 "last_month_access": {
-                    "average_access_time": 689,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 976,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "https://mines.legumeinfo.org/peanutmine/"
+                        "status": 301,
+                        "url": "https://mines.legumeinfo.org/arachismine"
                     },
                     {
                         "status": 302,
-                        "url": "https://mines.legumeinfo.org/peanutmine/begin.do"
+                        "url": "https://mines.legumeinfo.org/arachismine/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://mines.legumeinfo.org/arachismine/begin.do"
                     }
                 ],
                 "ssl": true,
@@ -168,8 +165,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT27909570S"
             }
         }
     },
@@ -177,7 +174,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/peanutmine",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:46:48.150472Z",
+        "@timestamp": "2024-12-07T05:40:04.787216Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -187,43 +184,39 @@
                 "description": true
             },
             "website": {
-                "access_time": 672,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 8,
+                        "days": 182,
                         "serie": [
-                            8
+                            182
                         ],
                         "status": 404
-                    },
-                    {
-                        "days": 175,
-                        "serie": [
-                            131,
-                            44
-                        ],
-                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:46:48.082012Z",
+                "last_check": "2024-12-07T05:40:04.554882Z",
                 "last_month_access": {
-                    "average_access_time": 678,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 921,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "https://mines.legumeinfo.org/peanutmine/"
+                        "status": 301,
+                        "url": "https://mines.legumeinfo.org/arachismine"
                     },
                     {
                         "status": 302,
-                        "url": "https://mines.legumeinfo.org/peanutmine/begin.do"
+                        "url": "https://mines.legumeinfo.org/arachismine/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://mines.legumeinfo.org/arachismine/begin.do"
                     }
                 ],
                 "ssl": true,
@@ -235,8 +228,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:peanutmine:0.10/db/mines.legumeinfo.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:45.214545Z",
+        "@timestamp": "2024-12-07T05:40:04.971437Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -245,14 +239,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -271,47 +265,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 132,
+                            "cit_count": 137,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2019
+                                    "count": 15,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2020
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 21,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts577",
@@ -321,27 +315,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
@@ -350,48 +344,44 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1231,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 7,
+                        "days": 182,
                         "serie": [
-                            7
+                            182
                         ],
                         "status": 404
-                    },
-                    {
-                        "days": 176,
-                        "serie": [
-                            131,
-                            45
-                        ],
-                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:35:14.506362Z",
+                "last_check": "2024-12-07T05:40:04.554882Z",
                 "last_month_access": {
-                    "average_access_time": 1241,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1071,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "https://mines.legumeinfo.org/peanutmine/"
+                        "status": 301,
+                        "url": "https://mines.legumeinfo.org/arachismine"
                     },
                     {
                         "status": 302,
-                        "url": "https://mines.legumeinfo.org/peanutmine/begin.do"
+                        "url": "https://mines.legumeinfo.org/arachismine/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://mines.legumeinfo.org/arachismine/begin.do"
                     }
                 ],
                 "ssl": true,
@@ -400,8 +390,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT27909570S"
             }
         }
     },
@@ -409,8 +399,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:peanutmine:0.10/web/mines.legumeinfo.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:45.267096Z",
+        "@timestamp": "2024-12-07T05:40:05.677222Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -419,14 +410,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -445,47 +436,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 132,
+                            "cit_count": 137,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2019
+                                    "count": 15,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2020
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 21,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts577",
@@ -495,27 +486,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
@@ -524,48 +515,44 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1245,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 7,
+                        "days": 182,
                         "serie": [
-                            7
+                            182
                         ],
                         "status": 404
-                    },
-                    {
-                        "days": 176,
-                        "serie": [
-                            131,
-                            45
-                        ],
-                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:45:06.902136Z",
+                "last_check": "2024-12-07T05:40:04.554882Z",
                 "last_month_access": {
-                    "average_access_time": 1241,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1068,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "https://mines.legumeinfo.org/peanutmine/"
+                        "status": 301,
+                        "url": "https://mines.legumeinfo.org/arachismine"
                     },
                     {
                         "status": 302,
-                        "url": "https://mines.legumeinfo.org/peanutmine/begin.do"
+                        "url": "https://mines.legumeinfo.org/arachismine/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://mines.legumeinfo.org/arachismine/begin.do"
                     }
                 ],
                 "ssl": true,
@@ -574,8 +561,78 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT27909570S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:peanutmine:0.2.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T05:04:15.952180Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 611,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T05:04:15.807683Z",
+                "last_month_access": {
+                    "average_access_time": 516,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5081980S"
             }
         }
     }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/adpribodb",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:30:40.903714Z",
+        "@timestamp": "2024-12-06T06:49:57.957674Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,42 +13,78 @@
                 "description": true
             },
             "website": {
-                "access_time": 766,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 6,
                         "serie": [
-                            21,
-                            161
+                            1,
+                            1,
+                            1,
+                            2,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 158,
+                        "serie": [
+                            82,
+                            8,
+                            4,
+                            1,
+                            1,
+                            1,
+                            16,
+                            16,
+                            5,
+                            19,
+                            2,
+                            1,
+                            1,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 18,
                         "serie": [
+                            1,
+                            3,
+                            4,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
                             1
                         ],
-                        "status": 408
+                        "status": 409
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:30:40.827512Z",
+                "https": true,
+                "last_check": "2024-12-06T06:49:57.850339Z",
                 "last_month_access": {
-                    "average_access_time": 930,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1432,
+                    "downtime_days": 7,
+                    "uptime_days": 22
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 409,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "http://adpribodb.adpribodb.org"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://adpribodb.adpribodb.org/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -57,8 +93,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:adpribodb:2.0/db/adpribodb.leunglab.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:14.312976Z",
+        "@timestamp": "2024-12-06T06:49:54.174231Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -71,62 +108,14 @@
                             "doi": "10.1101/2020.09.24.298851",
                             "pmcid": "PMC7523110",
                             "pmid": "32995784",
-                            "ref_count": 32,
+                            "ref_count": 1,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1963
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2020
+                                    "year": "2016"
                                 }
                             ],
-                            "title": "ADPriboDB v2.0: An Updated Database of ADP-ribosylated Proteins.",
+                            "title": "ADPriboDB v2.0: An Updated Database of ADP-ribosylated Proteins",
                             "year": 2020
                         }
                     ]
@@ -134,73 +123,24 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 2,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2021
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2022
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1093/nar/gkaa941",
                             "pmcid": "PMC7778992",
                             "pmid": "33137182",
-                            "ref_count": 35,
+                            "ref_count": 3,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1963
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
+                                    "year": "2019"
                                 }
                             ],
                             "title": "ADPriboDB 2.0: an updated database of ADP-ribosylated proteins.",
@@ -211,31 +151,23 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 21,
+                            "cit_count": 12,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2021
+                                    "count": 5,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1093/nar/gkw706",
@@ -245,59 +177,59 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1963
+                                    "year": "1963"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1996
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 12,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2016
+                                    "year": "2016"
                                 }
                             ],
                             "title": "ADPriboDB: The database of ADP-ribosylated proteins.",
@@ -310,50 +242,76 @@
                 "description": true
             },
             "website": {
-                "access_time": 766,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 7,
                         "serie": [
+                            4,
+                            1,
+                            1,
                             1
                         ],
-                        "status": 404
+                        "status": 408
                     },
                     {
-                        "days": 181,
+                        "days": 157,
                         "serie": [
-                            61,
-                            20,
-                            100
+                            82,
+                            8,
+                            4,
+                            1,
+                            1,
+                            1,
+                            16,
+                            16,
+                            5,
+                            19,
+                            2,
+                            1,
+                            1
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 18,
                         "serie": [
+                            1,
+                            3,
+                            4,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
                             1
                         ],
-                        "status": 408
+                        "status": 409
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:30:40.847344Z",
+                "https": true,
+                "last_check": "2024-12-06T06:49:54.043817Z",
                 "last_month_access": {
-                    "average_access_time": 865,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1205,
+                    "downtime_days": 8,
+                    "uptime_days": 21
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 409,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "http://adpribodb.adpribodb.org"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://adpribodb.adpribodb.org/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

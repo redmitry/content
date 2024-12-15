@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:myrna/workflow/bowtie-bio.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:25.291065Z",
+        "@timestamp": "2024-12-07T05:28:59.185988Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -20,55 +21,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 127,
+                            "cit_count": 113,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 14,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 24,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 24,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 19,
-                                    "year": 2014
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 12,
-                                    "year": 2015
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2018
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2020
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1186/gb-2010-11-8-r83",
@@ -78,31 +79,31 @@
                             "refs": [
                                 {
                                     "count": 11,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 11,
-                                    "year": 2010
+                                    "year": "2010"
                                 }
                             ],
                             "title": "Cloud-scale RNA-sequencing differential expression analysis with Myrna.",
@@ -115,36 +116,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 760,
+                "access_time": 642,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
                         "days": 182,
                         "serie": [
-                            143,
-                            39
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:09:40.693146Z",
+                "https": true,
+                "last_check": "2024-12-07T05:28:58.953839Z",
                 "last_month_access": {
-                    "average_access_time": 719,
+                    "average_access_time": 722,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bowtie-bio.sourceforge.net/myrna/index.shtml"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -156,7 +155,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/myrna",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:13:58.112099Z",
+        "@timestamp": "2024-12-07T05:30:23.900162Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -166,7 +165,7 @@
                 "description": true
             },
             "website": {
-                "access_time": 760,
+                "access_time": 370,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
@@ -175,27 +174,33 @@
                         "serie": [
                             1
                         ],
-                        "status": 503
+                        "status": 403
                     },
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            143,
-                            39
+                            119,
+                            62
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:41:22.264792Z",
+                "https": true,
+                "last_check": "2024-12-07T05:30:23.809996Z",
                 "last_month_access": {
-                    "average_access_time": 719,
+                    "average_access_time": 816,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bowtie-bio.sourceforge.net/myrna/index.shtml"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

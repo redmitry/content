@@ -3,18 +3,19 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gwasurvivr:1.2.0/lib/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:11:40.992851Z",
+        "@timestamp": "2024-12-07T04:57:53.322300Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -39,57 +40,49 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 20,
+                            "cit_count": 2,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bty920",
                             "pmcid": "PMC7963072",
                             "pmid": "30395168",
-                            "ref_count": 10,
+                            "ref_count": 7,
                             "refs": [
                                 {
-                                    "count": 2,
-                                    "year": 2007
+                                    "count": 1,
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2016
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
                                 }
                             ],
                             "title": "gwasurvivr: an R package for genome-wide survival analysis.",
@@ -103,34 +96,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 352,
+                "access_time": 432,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:44:31.806971Z",
+                "https": true,
+                "last_check": "2024-12-07T04:57:53.252775Z",
                 "last_month_access": {
-                    "average_access_time": 377,
+                    "average_access_time": 471,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/gwasurvivr"
+                    },
+                    {
                         "status": 302,
                         "url": "http://bioconductor.org/packages/release/bioc/html/gwasurvivr.html"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/gwasurvivr.html"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -145,7 +146,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/gwasurvivr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:47:02.544894Z",
+        "@timestamp": "2024-12-07T04:58:48.577517Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -155,34 +156,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 330,
+                "access_time": 45,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:47:02.504105Z",
+                "https": true,
+                "last_check": "2024-12-07T04:58:48.477177Z",
                 "last_month_access": {
-                    "average_access_time": 216,
+                    "average_access_time": 71,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/gwasurvivr"
+                    },
+                    {
                         "status": 302,
                         "url": "http://bioconductor.org/packages/release/bioc/html/gwasurvivr.html"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/gwasurvivr.html"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -191,7 +200,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.0.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:02:23.908938Z",
+        "@timestamp": "2024-12-06T10:03:16.566930Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -209,24 +218,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 126,
+                "access_time": 132,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:02:23.887693Z",
+                "last_check": "2024-12-06T10:03:16.499942Z",
                 "last_month_access": {
-                    "average_access_time": 145,
+                    "average_access_time": 138,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -239,7 +248,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.2.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:02:29.878564Z",
+        "@timestamp": "2024-12-06T10:06:47.453340Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -257,32 +266,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 126,
+                "access_time": 120,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 182,
                         "serie": [
-                            59,
-                            123
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:02:29.852241Z",
+                "last_check": "2024-12-06T10:06:47.381754Z",
                 "last_month_access": {
-                    "average_access_time": 135,
+                    "average_access_time": 134,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -295,7 +296,199 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.4.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:02:38.481732Z",
+        "@timestamp": "2024-12-06T10:07:48.029169Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 121,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T10:07:47.962839Z",
+                "last_month_access": {
+                    "average_access_time": 141,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.6.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T10:09:09.792953Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 180,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T10:09:09.731404Z",
+                "last_month_access": {
+                    "average_access_time": 132,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.8.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T10:11:53.167118Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 125,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T10:11:53.123368Z",
+                "last_month_access": {
+                    "average_access_time": 391,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.10.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T10:22:14.242451Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 161,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T10:22:14.182059Z",
+                "last_month_access": {
+                    "average_access_time": 142,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.12.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T02:53:22.631654Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -320,25 +513,17 @@
                     {
                         "days": 182,
                         "serie": [
-                            59,
-                            123
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:02:38.454125Z",
+                "last_check": "2024-12-07T02:53:22.539856Z",
                 "last_month_access": {
-                    "average_access_time": 155,
+                    "average_access_time": 1093,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -348,10 +533,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.6.0/cmd/bioconductor.org",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.16.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:02:44.959260Z",
+        "@timestamp": "2024-12-07T03:07:53.186955Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -369,32 +554,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 123,
+                "access_time": 124,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 182,
                         "serie": [
-                            59,
-                            123
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:02:44.936601Z",
+                "last_check": "2024-12-07T03:07:53.146609Z",
                 "last_month_access": {
-                    "average_access_time": 240,
+                    "average_access_time": 156,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -404,10 +581,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.8.0/cmd/bioconductor.org",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.18.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:02:52.553563Z",
+        "@timestamp": "2024-12-07T03:33:44.834976Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -425,24 +602,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 127,
+                "access_time": 124,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:02:52.529958Z",
+                "last_check": "2024-12-07T03:33:44.790263Z",
                 "last_month_access": {
-                    "average_access_time": 139,
+                    "average_access_time": 148,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -452,10 +629,10 @@
         }
     },
     {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.10.0/cmd/bioconductor.org",
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.20.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:06:19.788039Z",
+        "@timestamp": "2024-12-07T03:37:07.931596Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -473,72 +650,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 127,
+                "access_time": 117,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:06:19.762827Z",
+                "last_check": "2024-12-07T03:37:07.891918Z",
                 "last_month_access": {
-                    "average_access_time": 145,
+                    "average_access_time": 154,
                     "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gwasurvivr:1.12.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:16:26.412425Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 135,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 90,
-                        "serie": [
-                            90
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-02-12T10:16:26.392031Z",
-                "last_month_access": {
-                    "average_access_time": 146,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,

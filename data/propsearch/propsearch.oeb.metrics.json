@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:propsearch/web/abcis.cbs.cnrs.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:32.652983Z",
+        "@timestamp": "2024-12-07T06:04:00.346292Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -15,99 +16,95 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 111,
+                            "cit_count": 84,
                             "citations": [
                                 {
                                     "count": 5,
-                                    "year": 1996
-                                },
-                                {
-                                    "count": 14,
-                                    "year": 1997
-                                },
-                                {
-                                    "count": 14,
-                                    "year": 1998
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 1999
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2000
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2001
+                                    "year": "1997"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2002
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2003
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2004
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2007
+                                    "count": 10,
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2008
+                                    "year": "1999"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2009
+                                    "count": 7,
+                                    "year": "2000"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2010
+                                    "count": 7,
+                                    "year": "2001"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2011
+                                    "count": 5,
+                                    "year": "2002"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2013
+                                    "count": 6,
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2020
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2021
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1006/jmbi.1995.0442",
@@ -124,27 +121,33 @@
                 "description": true
             },
             "website": {
-                "access_time": 82,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2021-04-25T03:19:50.87931Z",
+                "last_check": "2024-12-07T06:04:00.224836Z",
                 "last_month_access": {
-                    "average_access_time": 205,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 83,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https:/bioserv.cbs.cnrs.fr/propsearch/"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
@@ -157,7 +160,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/propsearch",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:15:49.525666Z",
+        "@timestamp": "2024-12-07T06:04:00.425030Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -167,27 +170,33 @@
                 "description": true
             },
             "website": {
-                "access_time": 82,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T07:15:49.458625Z",
+                "last_check": "2024-12-07T06:04:00.224836Z",
                 "last_month_access": {
-                    "average_access_time": 205,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 83,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https:/bioserv.cbs.cnrs.fr/propsearch/"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }

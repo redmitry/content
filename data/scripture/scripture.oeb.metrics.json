@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:scripture/cmd/www.broadinstitute.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:09:08.118850Z",
+        "@timestamp": "2024-12-07T03:32:03.771744Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -20,55 +21,63 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 782,
+                            "cit_count": 703,
                             "citations": [
                                 {
                                     "count": 14,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 68,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 85,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 106,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 95,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 93,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 74,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 74,
-                                    "year": 2017
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 66,
-                                    "year": 2018
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 53,
-                                    "year": 2019
+                                    "count": 80,
+                                    "year": "2012"
                                 },
                                 {
-                                    "count": 31,
-                                    "year": 2020
+                                    "count": 96,
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 23,
-                                    "year": 2021
+                                    "count": 88,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 89,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 71,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 71,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 60,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 44,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nbt.1633",
@@ -78,35 +87,35 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1991
+                                    "year": "1991"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2010
+                                    "year": "2010"
                                 }
                             ],
                             "title": "Ab initio reconstruction of cell type-specific transcriptomes in mouse reveals the conserved multi-exonic structure of lincRNAs.",
@@ -119,27 +128,27 @@
                 "description": true
             },
             "website": {
-                "access_time": 1116,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
-                        "status": 200
+                        "status": 500
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:57:39.939847Z",
+                "https": true,
+                "last_check": "2024-12-07T03:32:03.402274Z",
                 "last_month_access": {
-                    "average_access_time": 1072,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1485,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 500,
                 "redirects": [
                     {
                         "status": 301,
@@ -148,9 +157,13 @@
                     {
                         "status": 301,
                         "url": "http://software.broadinstitute.org/software/scripture/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://software.broadinstitute.org/software/scripture/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -162,7 +175,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/scripture",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:47:54.426111Z",
+        "@timestamp": "2024-12-06T05:15:39.475175Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -172,27 +185,27 @@
                 "description": true
             },
             "website": {
-                "access_time": 1004,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
-                        "status": 200
+                        "status": 500
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:47:54.348863Z",
+                "https": true,
+                "last_check": "2024-12-06T05:15:39.405281Z",
                 "last_month_access": {
-                    "average_access_time": 1099,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1515,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 500,
                 "redirects": [
                     {
                         "status": 301,
@@ -201,9 +214,13 @@
                     {
                         "status": 301,
                         "url": "http://software.broadinstitute.org/software/scripture/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://software.broadinstitute.org/software/scripture/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

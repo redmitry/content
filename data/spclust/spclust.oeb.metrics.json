@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/spclust",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:45:35.007661Z",
+        "@timestamp": "2024-12-06T05:30:09.796038Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,24 +33,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 420,
+                "access_time": 669,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T08:23:26.581362Z",
+                "last_check": "2024-12-06T05:30:09.710578Z",
                 "last_month_access": {
-                    "average_access_time": 483,
+                    "average_access_time": 587,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -79,8 +79,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:spclust/undefined/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:09:26.287141Z",
+        "@timestamp": "2024-12-06T05:30:09.806707Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -90,7 +91,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": false,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -107,21 +108,34 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
+                            "cit_count": 2,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2020
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1016/j.compbiomed.2019.103439",
                             "pmid": "31550555",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "SpCLUST: Towards a fast and reliable clustering for potentially divergent biological sequences.",
                             "year": 2019
                         }
@@ -133,21 +147,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 420,
+                "access_time": 245,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 182,
                         "serie": [
-                            100
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T05:30:09.688371Z",
                 "last_month_access": {
-                    "average_access_time": 483
+                    "average_access_time": 550,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -161,7 +178,7 @@
                         "url": "https://pubmed.ncbi.nlm.nih.gov/31550555/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -169,6 +186,64 @@
             "issue_tracking": {
                 "public_tracker": null,
                 "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:spclust:28.5.19/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T05:30:10.621645Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 696,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T05:30:10.548501Z",
+                "last_month_access": {
+                    "average_access_time": 567,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=31550555"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/31550555/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
             }
         }
     }

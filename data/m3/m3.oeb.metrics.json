@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:m3:20121207/cmd/zhaocenter.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:59.726010Z",
+        "@timestamp": "2024-12-07T05:14:15.308485Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -20,12 +21,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1093/bioinformatics/btr6",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -39,23 +36,29 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:22:49.322692Z",
+                "https": true,
+                "last_check": "2024-12-07T05:14:13.97672Z",
                 "last_month_access": {
                     "average_access_time": 447,
-                    "downtime_days": 1,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://zhaocenter.org/software/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -67,7 +70,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/m3",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:30:17.021251Z",
+        "@timestamp": "2024-12-07T05:14:45.691406Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -82,23 +85,29 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:23:30.116748Z",
+                "https": true,
+                "last_check": "2024-12-07T05:14:45.269424Z",
                 "last_month_access": {
                     "average_access_time": 482,
-                    "downtime_days": 1,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://zhaocenter.org/software/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

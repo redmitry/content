@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/backtranseq-ebi",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:06:35.244083Z",
+        "@timestamp": "2024-12-07T03:39:11.599788Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,24 +13,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 384,
+                "access_time": 89,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T02:06:35.194122Z",
+                "https": false,
+                "last_check": "2024-12-07T03:39:11.377142Z",
                 "last_month_access": {
-                    "average_access_time": 413,
+                    "average_access_time": 52,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -40,7 +40,7 @@
                         "url": "https://www.ebi.ac.uk/Tools/st/emboss_backtranseq/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
@@ -49,8 +49,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:backtranseq-ebi:1/rest/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:11:00.206221Z",
+        "@timestamp": "2024-12-07T03:39:11.602471Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -63,116 +64,241 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3881,
+                            "cit_count": 5249,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2002
+                                    "count": 10,
+                                    "year": "2002"
                                 },
                                 {
-                                    "count": 44,
-                                    "year": 2003
+                                    "count": 53,
+                                    "year": "2003"
                                 },
                                 {
-                                    "count": 59,
-                                    "year": 2004
+                                    "count": 78,
+                                    "year": "2004"
                                 },
                                 {
-                                    "count": 92,
-                                    "year": 2005
+                                    "count": 148,
+                                    "year": "2005"
                                 },
                                 {
-                                    "count": 138,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 166,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 174,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 174,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 188,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 219,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 275,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 319,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 325,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 308,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 324,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 353,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 329,
-                                    "year": 2018
+                                    "count": 192,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 233,
-                                    "year": 2019
+                                    "year": "2007"
                                 },
                                 {
-                                    "count": 138,
-                                    "year": 2020
+                                    "count": 235,
+                                    "year": "2008"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2021
+                                    "count": 235,
+                                    "year": "2009"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2022
+                                    "count": 255,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 274,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 335,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 380,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 387,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 363,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 391,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 376,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 350,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 76,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/s0168-9525(00)02024-2",
                             "pmid": "10827456",
-                            "ref_count": 2,
+                            "ref_count": 5,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
                                 }
                             ],
                             "title": "EMBOSS: the European Molecular Biology Open Software Suite.",
                             "year": 2000
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/nar/gkae241",
+                            "pmcid": "PMC11223882",
+                            "pmid": "38597606",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "title": "The EMBL-EBI Job Dispatcher sequence analysis tools framework in 2024.",
+                            "year": 2024
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 14,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkac240",
+                            "pmcid": "PMC9252731",
+                            "pmid": "35412617",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
+                                }
+                            ],
+                            "title": "Search and sequence analysis tools services from EMBL-EBI in 2022.",
+                            "year": 2022
                         }
                     ]
                 }
@@ -181,24 +307,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 104,
+                "access_time": 90,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T02:02:00.085901Z",
+                "https": false,
+                "last_check": "2024-12-07T03:39:11.429207Z",
                 "last_month_access": {
-                    "average_access_time": 424,
+                    "average_access_time": 59,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -208,7 +334,7 @@
                         "url": "https://www.ebi.ac.uk/Tools/st/emboss_backtranseq/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -220,8 +346,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:backtranseq-ebi:1/web/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:11:00.243510Z",
+        "@timestamp": "2024-12-07T03:39:11.584261Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -234,116 +361,241 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3881,
+                            "cit_count": 5249,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2002
+                                    "count": 10,
+                                    "year": "2002"
                                 },
                                 {
-                                    "count": 44,
-                                    "year": 2003
+                                    "count": 53,
+                                    "year": "2003"
                                 },
                                 {
-                                    "count": 59,
-                                    "year": 2004
+                                    "count": 78,
+                                    "year": "2004"
                                 },
                                 {
-                                    "count": 92,
-                                    "year": 2005
+                                    "count": 148,
+                                    "year": "2005"
                                 },
                                 {
-                                    "count": 138,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 166,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 174,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 174,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 188,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 219,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 275,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 319,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 325,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 308,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 324,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 353,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 329,
-                                    "year": 2018
+                                    "count": 192,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 233,
-                                    "year": 2019
+                                    "year": "2007"
                                 },
                                 {
-                                    "count": 138,
-                                    "year": 2020
+                                    "count": 235,
+                                    "year": "2008"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2021
+                                    "count": 235,
+                                    "year": "2009"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2022
+                                    "count": 255,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 274,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 335,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 380,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 387,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 363,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 391,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 376,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 350,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 76,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/s0168-9525(00)02024-2",
                             "pmid": "10827456",
-                            "ref_count": 2,
+                            "ref_count": 5,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
                                 }
                             ],
                             "title": "EMBOSS: the European Molecular Biology Open Software Suite.",
                             "year": 2000
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/nar/gkae241",
+                            "pmcid": "PMC11223882",
+                            "pmid": "38597606",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "title": "The EMBL-EBI Job Dispatcher sequence analysis tools framework in 2024.",
+                            "year": 2024
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 14,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkac240",
+                            "pmcid": "PMC9252731",
+                            "pmid": "35412617",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
+                                }
+                            ],
+                            "title": "Search and sequence analysis tools services from EMBL-EBI in 2022.",
+                            "year": 2022
                         }
                     ]
                 }
@@ -352,24 +604,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 330,
+                "access_time": 148,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T02:04:46.40862Z",
+                "https": false,
+                "last_check": "2024-12-07T03:39:11.374489Z",
                 "last_month_access": {
-                    "average_access_time": 529,
+                    "average_access_time": 54,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -379,12 +631,305 @@
                         "url": "https://www.ebi.ac.uk/Tools/st/emboss_backtranseq/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
         "support": {
             "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:backtranseq-ebi:1/soap/www.ebi.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T03:39:11.672429Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "terms_of_use": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5249,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 53,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 78,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 148,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 192,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 233,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 235,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 235,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 255,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 274,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 335,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 380,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 387,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 363,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 391,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 417,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 376,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 350,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 76,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1016/s0168-9525(00)02024-2",
+                            "pmid": "10827456",
+                            "ref_count": 5,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                }
+                            ],
+                            "title": "EMBOSS: the European Molecular Biology Open Software Suite.",
+                            "year": 2000
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/nar/gkae241",
+                            "pmcid": "PMC11223882",
+                            "pmid": "38597606",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "title": "The EMBL-EBI Job Dispatcher sequence analysis tools framework in 2024.",
+                            "year": 2024
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 14,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkac240",
+                            "pmcid": "PMC9252731",
+                            "pmid": "35412617",
+                            "ref_count": 12,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
+                                }
+                            ],
+                            "title": "Search and sequence analysis tools services from EMBL-EBI in 2022.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 90,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-12-07T03:39:11.429207Z",
+                "last_month_access": {
+                    "average_access_time": 54,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/Tools/st/emboss_backtranseq/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
         }
     }
 ]

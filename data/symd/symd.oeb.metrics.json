@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:symd/web/ccrod.cancer.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:09:40.731773Z",
+        "@timestamp": "2024-12-06T05:33:49.320107Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -15,39 +16,35 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 13,
+                            "cit_count": 11,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2021
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/nar/gku364",
@@ -57,43 +54,43 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 }
                             ],
                             "title": "SymD webserver: a platform for detecting internally symmetric protein structures.",
@@ -106,15 +103,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 2039,
+                "access_time": 651,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            169,
-                            13
+                            48,
+                            133
                         ],
                         "status": 200
                     },
@@ -127,10 +124,10 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T08:36:30.548261Z",
+                "last_check": "2024-12-06T05:33:49.232365Z",
                 "last_month_access": {
-                    "average_access_time": 1200,
-                    "downtime_days": 1,
+                    "average_access_time": 785,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
@@ -147,7 +144,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/symd",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T08:45:31.765644Z",
+        "@timestamp": "2024-12-06T05:33:49.317771Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -157,15 +154,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 2039,
+                "access_time": 530,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            169,
-                            13
+                            48,
+                            133
                         ],
                         "status": 200
                     },
@@ -178,14 +175,68 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T04:03:15.165947Z",
+                "last_check": "2024-12-06T05:33:49.251462Z",
                 "last_month_access": {
-                    "average_access_time": 1200,
+                    "average_access_time": 768,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:symd:0.5.1/cmd/CRAN.R-project.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T03:34:51.308316Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 70,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:34:50.739682Z",
+                "last_month_access": {
+                    "average_access_time": 141,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 303,
+                        "url": "https://cran.r-project.org/web/packages/taxonomizr/index.html"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }

@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:covain:20140214/app/www.univie.ac.at",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:59:17.409075Z",
+        "@timestamp": "2024-12-07T04:11:58.741744Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -20,12 +21,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1007/s11306-012-0399-3",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -34,39 +31,31 @@
                 "description": true
             },
             "website": {
-                "access_time": 434,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
-                        "status": 200
+                        "status": 404
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:59:00.700986Z",
+                "last_check": "2024-12-07T04:11:57.973296Z",
                 "last_month_access": {
-                    "average_access_time": 470,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 4650,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://www.univie.ac.at/mosys/software.html"
-                    },
-                    {
-                        "status": 301,
-                        "url": "http://mosys.univie.ac.at/resources/software/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://mosys.univie.ac.at/resources/software/"
                     }
                 ],
                 "ssl": true,
@@ -81,7 +70,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/covain",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:49:47.581250Z",
+        "@timestamp": "2024-12-07T04:11:58.038993Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -91,43 +80,105 @@
                 "description": true
             },
             "website": {
-                "access_time": 752,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
+                        ],
+                        "status": 404
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T04:11:57.95612Z",
+                "last_month_access": {
+                    "average_access_time": 2520,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.univie.ac.at/mosys/software.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:covain:1.0.4/cmd/reneshbedre.github.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T10:21:05.731135Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 35,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:49:47.502541Z",
+                "last_check": "2024-12-06T10:21:05.513264Z",
                 "last_month_access": {
-                    "average_access_time": 1479,
+                    "average_access_time": 445,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "redirects": [
-                    {
-                        "status": 302,
-                        "url": "https://www.univie.ac.at/mosys/software.html"
-                    },
-                    {
-                        "status": 301,
-                        "url": "http://mosys.univie.ac.at/resources/software/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "https://mosys.univie.ac.at/resources/software/"
-                    }
-                ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
             }
         }
     }

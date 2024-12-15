@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ek-drd",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T03:28:02.484094Z",
+        "@timestamp": "2024-12-06T05:30:40.320300Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -20,37 +20,82 @@
                     {
                         "days": 130,
                         "serie": [
-                            5,
-                            75,
-                            50
+                            59,
+                            22,
+                            3,
+                            2,
+                            1,
+                            1,
+                            3,
+                            1,
+                            4,
+                            3,
+                            4,
+                            1,
+                            1,
+                            3,
+                            1,
+                            21
                         ],
                         "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 36,
                         "serie": [
+                            1,
+                            1,
+                            8,
+                            4,
+                            1,
+                            2,
+                            4,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
                             1
                         ],
                         "status": 408
                     },
                     {
-                        "days": 52,
+                        "days": 16,
                         "serie": [
-                            52
+                            3,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3
                         ],
-                        "status": 200
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T03:28:02.419978Z",
+                "https": true,
+                "last_check": "2024-12-06T05:30:39.893166Z",
                 "last_month_access": {
-                    "average_access_time": 3468,
-                    "downtime_days": 30,
+                    "average_access_time": 822,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.idruglab.com/drd/index.php"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -59,8 +104,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ek-drd/db/www.idruglab.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:00:52.887174Z",
+        "@timestamp": "2024-12-06T05:33:56.026857Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -68,20 +114,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1021/acs.jcim.9b00365",
                             "pmid": "31433187",
-                            "ref_count": 1,
+                            "ref_count": 4,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
                                 }
                             ],
                             "title": "EK-DRD: A Comprehensive Database for Drug Repositioning Inspired by Experimental Knowledge.",
@@ -99,39 +152,80 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 130,
+                        "days": 129,
                         "serie": [
+                            59,
+                            22,
+                            1,
                             5,
-                            75,
-                            50
+                            1,
+                            1,
+                            3,
+                            1,
+                            5,
+                            1,
+                            1,
+                            3,
+                            6,
+                            1,
+                            4,
+                            2,
+                            13
                         ],
                         "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 32,
                         "serie": [
+                            2,
+                            7,
+                            1,
+                            1,
+                            4,
+                            1,
+                            5,
+                            1,
+                            2,
+                            3,
+                            2,
+                            1,
+                            1,
                             1
                         ],
                         "status": 408
                     },
                     {
-                        "days": 52,
+                        "days": 21,
                         "serie": [
-                            52
+                            3,
+                            2,
+                            4,
+                            3,
+                            1,
+                            5,
+                            1,
+                            1,
+                            1
                         ],
-                        "status": 200
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T04:28:15.464032Z",
+                "https": true,
+                "last_check": "2024-12-06T05:33:55.792817Z",
                 "last_month_access": {
-                    "average_access_time": 3468,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 822,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.idruglab.com/drd/index.php"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mpra-data-access-portal",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T10:02:37.920844Z",
+        "@timestamp": "2024-12-06T10:20:45.459148Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,25 +13,35 @@
                 "description": true
             },
             "website": {
-                "access_time": 1639,
+                "access_time": 1563,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 175,
+                        "days": 2,
                         "serie": [
-                            49,
-                            96,
-                            30
+                            1,
+                            1
                         ],
-                        "status": 200
+                        "status": 403
                     },
                     {
                         "days": 5,
                         "serie": [
                             5
                         ],
-                        "status": 504
+                        "status": 500
+                    },
+                    {
+                        "days": 172,
+                        "serie": [
+                            46,
+                            24,
+                            10,
+                            52,
+                            40
+                        ],
+                        "status": 200
                     },
                     {
                         "days": 3,
@@ -42,11 +52,11 @@
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:02:37.841707Z",
+                "last_check": "2024-12-06T10:20:45.357073Z",
                 "last_month_access": {
-                    "average_access_time": 1748,
+                    "average_access_time": 1758,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -65,24 +75,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mpra-data-access-portal:0.1.8/cmd/mpra.gs.washington.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:48:41.048100Z",
+        "@timestamp": "2024-12-06T10:20:45.431324Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": true,
+            "packages": true,
+            "source_packages": false,
             "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
+                "free": null,
+                "interpreted": null,
+                "license": null,
                 "public": true,
-                "readme": true,
+                "readme": false,
                 "repository": {
-                    "anonymous": true,
-                    "online": true
+                    "anonymous": null,
+                    "online": null
                 }
             }
         },
@@ -94,47 +104,54 @@
                 "osi": true
             },
             "publications": [],
-            "readme": true,
+            "readme": false,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1605,
+                "access_time": 1560,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 175,
+                        "days": 2,
                         "serie": [
-                            49,
-                            95,
                             1,
-                            30
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            4
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 173,
+                        "serie": [
+                            71,
+                            10,
+                            52,
+                            40
                         ],
                         "status": 200
                     },
                     {
-                        "days": 5,
-                        "serie": [
-                            5
-                        ],
-                        "status": 504
-                    },
-                    {
                         "days": 3,
                         "serie": [
-                            1,
-                            2
+                            3
                         ],
                         "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:02:37.878685Z",
+                "last_check": "2024-12-06T10:20:45.3779Z",
                 "last_month_access": {
-                    "average_access_time": 1689,
+                    "average_access_time": 1766,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -150,8 +167,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT207890S"
+                "public_tracker": null,
+                "resolve_time": null
             }
         }
     },
@@ -159,24 +176,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mpra-data-access-portal:0.1.7/cmd/mpra.gs.washington.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:48:41.024157Z",
+        "@timestamp": "2024-12-06T10:20:45.410028Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": true,
+            "packages": true,
+            "source_packages": false,
             "sourcecode": {
-                "free": true,
-                "interpreted": true,
-                "license": true,
+                "free": null,
+                "interpreted": null,
+                "license": null,
                 "public": true,
-                "readme": true,
+                "readme": false,
                 "repository": {
-                    "anonymous": true,
-                    "online": true
+                    "anonymous": null,
+                    "online": null
                 }
             }
         },
@@ -188,45 +205,63 @@
                 "osi": true
             },
             "publications": [],
-            "readme": true,
+            "readme": false,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1622,
+                "access_time": 1583,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 176,
+                        "days": 7,
                         "serie": [
-                            49,
-                            97,
-                            30
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            2,
+                            2
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 168,
+                        "serie": [
+                            29,
+                            14,
+                            25,
+                            1,
+                            8,
+                            8,
+                            43,
+                            40
                         ],
                         "status": 200
                     },
                     {
-                        "days": 5,
+                        "days": 3,
                         "serie": [
-                            5
-                        ],
-                        "status": 504
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
+                            3
                         ],
                         "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:02:37.825035Z",
+                "last_check": "2024-12-06T10:20:45.340573Z",
                 "last_month_access": {
-                    "average_access_time": 1736,
+                    "average_access_time": 1756,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -242,8 +277,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": true,
-                "resolve_time": "PT207890S"
+                "public_tracker": null,
+                "resolve_time": null
             }
         }
     }

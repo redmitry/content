@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pb-net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:44:19.733464Z",
+        "@timestamp": "2024-12-06T06:31:57.786408Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -38,109 +38,22 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 86,
+                        "days": 182,
                         "serie": [
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            6,
-                            4,
-                            1,
-                            1,
-                            2,
-                            5,
-                            1,
-                            4,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            5,
-                            13,
-                            2
+                            182
                         ],
                         "status": 404
-                    },
-                    {
-                        "days": 97,
-                        "serie": [
-                            5,
-                            1,
-                            1,
-                            3,
-                            1,
-                            2,
-                            3,
-                            2,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            7,
-                            2,
-                            2,
-                            1,
-                            4,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            5,
-                            2,
-                            2,
-                            2,
-                            1,
-                            12,
-                            3,
-                            2,
-                            3,
-                            3,
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:31:45.00073Z",
+                "last_check": "2024-12-06T06:31:57.343967Z",
                 "last_month_access": {
                     "average_access_time": 450,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 404,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -156,8 +69,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pb-net/undefined/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:09.056847Z",
+        "@timestamp": "2024-12-06T06:31:57.610626Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -167,7 +81,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -188,12 +102,26 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 0,
-                            "citations": [],
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
                             "doi": "10.1016/j.jprot.2020.103820",
                             "pmid": "32416316",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
                             "title": "PB-Net: Automatic peak integration by sequential deep learning for multiple reaction monitoring.",
                             "year": 2020
                         }
@@ -210,70 +138,22 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 45,
+                        "days": 182,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            5,
-                            13,
-                            2
+                            182
                         ],
                         "status": 404
-                    },
-                    {
-                        "days": 55,
-                        "serie": [
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            5,
-                            2,
-                            2,
-                            2,
-                            1,
-                            12,
-                            3,
-                            2,
-                            3,
-                            3,
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_month_access": {},
+                "last_check": "2024-12-06T06:31:57.342367Z",
+                "last_month_access": {
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
                 "license": false,
-                "operational": 429,
-                "ssl": null,
+                "operational": 404,
+                "ssl": true,
                 "ssl_err": null
             }
         },

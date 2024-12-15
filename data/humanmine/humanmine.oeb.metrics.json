@@ -3,24 +3,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:humanmine:6.0_2019_May/db/www.humanmine.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:55.553876Z",
+        "@timestamp": "2024-12-07T05:06:51.800525Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": false,
                 "public": true,
                 "readme": false,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -39,47 +40,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 132,
+                            "cit_count": 137,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2019
+                                    "count": 15,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2020
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 21,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts577",
@@ -89,27 +90,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
@@ -123,24 +124,38 @@
                 "description": true
             },
             "website": {
-                "access_time": 396,
+                "access_time": 1178,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 174,
                         "serie": [
-                            183
+                            103,
+                            3,
+                            31,
+                            3,
+                            34
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 8,
+                        "serie": [
+                            2,
+                            1,
+                            1,
+                            4
+                        ],
+                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T04:38:45.167474Z",
+                "last_check": "2024-12-07T05:06:51.121823Z",
                 "last_month_access": {
-                    "average_access_time": 497,
+                    "average_access_time": 1263,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -164,8 +179,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT18744075S"
             }
         }
     },
@@ -173,7 +188,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/humanmine",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:47:18.256137Z",
+        "@timestamp": "2024-12-07T05:06:51.271432Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -183,24 +198,38 @@
                 "description": true
             },
             "website": {
-                "access_time": 396,
+                "access_time": 1092,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 174,
                         "serie": [
-                            183
+                            103,
+                            3,
+                            31,
+                            3,
+                            34
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 8,
+                        "serie": [
+                            2,
+                            1,
+                            1,
+                            4
+                        ],
+                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-29T01:57:42.906553Z",
+                "last_check": "2024-12-07T05:06:51.158795Z",
                 "last_month_access": {
-                    "average_access_time": 497,
+                    "average_access_time": 1302,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -227,24 +256,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:humanmine:6.0_2019_May/soap/www.humanmine.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:55.596314Z",
+        "@timestamp": "2024-12-07T05:06:51.799949Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": false,
                 "public": true,
                 "readme": false,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -263,47 +293,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 132,
+                            "cit_count": 137,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2019
+                                    "count": 15,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2020
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 21,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts577",
@@ -313,27 +343,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
@@ -347,24 +377,38 @@
                 "description": true
             },
             "website": {
-                "access_time": 396,
+                "access_time": 1092,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 174,
                         "serie": [
-                            183
+                            103,
+                            3,
+                            31,
+                            3,
+                            34
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 8,
+                        "serie": [
+                            2,
+                            1,
+                            1,
+                            4
+                        ],
+                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2021-10-11T03:29:30.976365Z",
+                "last_check": "2024-12-07T05:06:51.158795Z",
                 "last_month_access": {
-                    "average_access_time": 497,
+                    "average_access_time": 1261,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -388,8 +432,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT18744075S"
             }
         }
     },
@@ -397,24 +441,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:humanmine:6.0_2019_May/web/www.humanmine.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:55.638276Z",
+        "@timestamp": "2024-12-07T05:06:51.948141Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": false,
                 "public": true,
                 "readme": false,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -433,47 +478,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 132,
+                            "cit_count": 137,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2019
+                                    "count": 15,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2020
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 21,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts577",
@@ -483,27 +528,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
@@ -517,24 +562,38 @@
                 "description": true
             },
             "website": {
-                "access_time": 396,
+                "access_time": 1092,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 174,
                         "serie": [
-                            183
+                            103,
+                            3,
+                            31,
+                            3,
+                            34
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 8,
+                        "serie": [
+                            2,
+                            1,
+                            1,
+                            4
+                        ],
+                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-29T01:57:36.113077Z",
+                "last_check": "2024-12-07T05:06:51.158795Z",
                 "last_month_access": {
-                    "average_access_time": 497,
+                    "average_access_time": 1222,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -558,8 +617,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT18744075S"
             }
         }
     }

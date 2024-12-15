@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bcreval/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:00.159429Z",
+        "@timestamp": "2024-12-06T05:13:53.069042Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -13,14 +14,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -31,15 +32,11 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
+                            "cit_count": 1,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2021
-                                },
-                                {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1186/s12859-019-3334-z",
@@ -49,19 +46,19 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "BCREval: a computational method to estimate the bisulfite conversion ratio in WGBS.",
@@ -70,134 +67,28 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 225,
+                "access_time": 559,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 170,
+                        "days": 182,
                         "serie": [
-                            2,
-                            15,
-                            6,
-                            2,
-                            3,
-                            8,
-                            125,
-                            9
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 13,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            7,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:34:40.348304Z",
+                "last_check": "2024-12-06T05:13:52.620102Z",
                 "last_month_access": {
-                    "average_access_time": 424,
+                    "average_access_time": 503,
                     "downtime_days": 0,
-                    "uptime_days": 28
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bcreval",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-02-12T13:41:01.410549Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": null,
-            "source_packages": false,
-            "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
-                "public": true,
-                "readme": false,
-                "repository": {
-                    "anonymous": null,
-                    "online": null
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "readme": false,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 409,
-                "bioschemas": true,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 170,
-                        "serie": [
-                            2,
-                            15,
-                            6,
-                            2,
-                            3,
-                            8,
-                            125,
-                            9
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 13,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            7,
-                            1,
-                            1
-                        ],
-                        "status": 429
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-02-12T09:34:40.371236Z",
-                "last_month_access": {
-                    "average_access_time": 475,
-                    "downtime_days": 1,
                     "uptime_days": 29
                 },
                 "license": false,
@@ -208,8 +99,74 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT275714S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bcreval",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-12-06T05:13:53.069369Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 427,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T05:13:52.645853Z",
+                "last_month_access": {
+                    "average_access_time": 555,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT275714S"
             }
         }
     }

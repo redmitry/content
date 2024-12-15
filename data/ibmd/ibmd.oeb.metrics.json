@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ibmd",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:54:14.234840Z",
+        "@timestamp": "2024-12-06T07:52:42.686535Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,34 +13,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 1419,
+                "access_time": 1449,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 182,
                         "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 181,
-                        "serie": [
-                            28,
-                            38,
-                            115
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:54:14.182292Z",
+                "last_check": "2024-12-06T07:52:42.604108Z",
                 "last_month_access": {
-                    "average_access_time": 1607,
+                    "average_access_time": 1103,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -59,7 +49,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://efsab2c.b2clogin.com/efsab2c.onmicrosoft.com/B2C_1_R4EU/oauth2/v2.0/authorize?response_type=code&client_id=be616b14-895a-4257-9e38-b503da802ba3&scope=be616b14-895a-4257-9e38-b503da802ba3%20openid%20email&state=JRwA3vFC2MqJK27HGe44nr-4aDI2Xtk3vLOt5BRArsc%3D&redirect_uri=https://r4eu.efsa.europa.eu/login/oauth2/code/shinyproxy&nonce=PpjWNPcwW1wmdd3Tb3OWQKxXbRW7X775hf3Z-j3yUDI"
+                        "url": "https://efsab2c.b2clogin.com/efsab2c.onmicrosoft.com/b2c_1_signin/oauth2/v2.0/authorize?response_type=code&client_id=be616b14-895a-4257-9e38-b503da802ba3&scope=be616b14-895a-4257-9e38-b503da802ba3%20openid%20email&state=98F62T5y6qTI-E3FQT0ul3s2wsj_gHDpZ-mh3tfPZsI%3D&redirect_uri=https://r4eu.efsa.europa.eu/login/oauth2/code/shinyproxy&nonce=9odYPaaLAIo7Xt7iMUR5R3XuT4rCZK6tf8yEYFDU6FU"
                     }
                 ],
                 "ssl": true,
@@ -71,8 +61,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ibmd/web/shiny-efsa.openanalytics.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:30.138233Z",
+        "@timestamp": "2024-12-06T07:52:42.787632Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -89,94 +80,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 0,
-                            "citations": [],
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
                             "doi": "10.7717/peerj.10557",
                             "pmcid": "PMC7750002",
                             "pmid": "33362981",
-                            "ref_count": 38,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": 1984
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1990
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2001
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2002
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2004
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2020
-                                }
-                            ],
+                            "ref_count": 0,
+                            "refs": [],
                             "title": "<i>bmd</i>: an R package for benchmark dose estimation.",
                             "year": 2020
                         }
@@ -187,34 +102,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 1361,
+                "access_time": 1556,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 182,
                         "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 181,
-                        "serie": [
-                            28,
-                            20,
-                            133
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:54:14.047513Z",
+                "last_check": "2024-12-06T07:52:42.723158Z",
                 "last_month_access": {
-                    "average_access_time": 906,
+                    "average_access_time": 1358,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -233,7 +138,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://efsab2c.b2clogin.com/efsab2c.onmicrosoft.com/B2C_1_R4EU/oauth2/v2.0/authorize?response_type=code&client_id=be616b14-895a-4257-9e38-b503da802ba3&scope=be616b14-895a-4257-9e38-b503da802ba3%20openid%20email&state=2WRmUj3x5-9yGD938yDH4GzspzOpev7ChoeJM21GeHg%3D&redirect_uri=https://r4eu.efsa.europa.eu/login/oauth2/code/shinyproxy&nonce=ObKhuRRV7Dof2lYs1vDRsZ5pXdPHvY9omOOxVKP2AQI"
+                        "url": "https://efsab2c.b2clogin.com/efsab2c.onmicrosoft.com/b2c_1_signin/oauth2/v2.0/authorize?response_type=code&client_id=be616b14-895a-4257-9e38-b503da802ba3&scope=be616b14-895a-4257-9e38-b503da802ba3%20openid%20email&state=UTlWrUKApjIY50xxhM6Vv3mAXytG-1ZPgL9uCSvwDWA%3D&redirect_uri=https://r4eu.efsa.europa.eu/login/oauth2/code/shinyproxy&nonce=6lC2QldtZFHhddkQ7UWG6pF58IrH5UJDF1cCx1TMCkA"
                     }
                 ],
                 "ssl": true,
@@ -245,8 +150,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ibmd/cmd/shiny-efsa.openanalytics.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:30.155029Z",
+        "@timestamp": "2024-12-06T07:54:39.813397Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -263,94 +169,18 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 0,
-                            "citations": [],
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
                             "doi": "10.7717/peerj.10557",
                             "pmcid": "PMC7750002",
                             "pmid": "33362981",
-                            "ref_count": 38,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": 1984
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1990
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2001
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2002
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2004
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2020
-                                }
-                            ],
+                            "ref_count": 0,
+                            "refs": [],
                             "title": "<i>bmd</i>: an R package for benchmark dose estimation.",
                             "year": 2020
                         }
@@ -361,32 +191,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 288,
+                "access_time": 896,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 502
-                    },
-                    {
                         "days": 182,
                         "serie": [
-                            28,
-                            154
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:54:14.695099Z",
+                "last_check": "2024-12-06T07:54:39.735711Z",
                 "last_month_access": {
-                    "average_access_time": 608,
+                    "average_access_time": 1001,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -405,7 +227,7 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://efsab2c.b2clogin.com/efsab2c.onmicrosoft.com/B2C_1_R4EU/oauth2/v2.0/authorize?response_type=code&client_id=be616b14-895a-4257-9e38-b503da802ba3&scope=be616b14-895a-4257-9e38-b503da802ba3%20openid%20email&state=RmptGpHck93CxXFldBhI_W3yeM4bldGKzLqBd41kBdE%3D&redirect_uri=https://r4eu.efsa.europa.eu/login/oauth2/code/shinyproxy&nonce=1UGuduhDa9acmnBOhmLCobgGut3morIvLLFx1XsLST0"
+                        "url": "https://efsab2c.b2clogin.com/efsab2c.onmicrosoft.com/b2c_1_signin/oauth2/v2.0/authorize?response_type=code&client_id=be616b14-895a-4257-9e38-b503da802ba3&scope=be616b14-895a-4257-9e38-b503da802ba3%20openid%20email&state=Ffj2skXREpLa5-Nw_1qtrY3Sb83e2J9uFTJRBTFOEbQ%3D&redirect_uri=https://r4eu.efsa.europa.eu/login/oauth2/code/shinyproxy&nonce=9AWyqkPBRRg8a0kMfJa6QIxgPZuNNWj8zQNAEY_rhpU"
                     }
                 ],
                 "ssl": true,

@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cabs-flex_2.0/web/biocomp.chem.uw.edu.pl",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:47.425118Z",
+        "@timestamp": "2024-12-07T04:05:09.682986Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": true,
@@ -34,27 +35,23 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 43,
+                            "cit_count": 17,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2018
+                                    "count": 1,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2019
+                                    "count": 7,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 12,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 19,
-                                    "year": 2021
+                                    "count": 8,
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1093/nar/gky356",
@@ -64,43 +61,43 @@
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 }
                             ],
                             "title": "CABS-flex 2.0: a web server for fast simulations of flexibility of protein structures.",
@@ -114,28 +111,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 131,
+                "access_time": 111,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 179,
                         "serie": [
-                            183
+                            70,
+                            109
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T01:19:35.379044Z",
+                "https": true,
+                "last_check": "2024-12-07T04:05:09.530561Z",
                 "last_month_access": {
-                    "average_access_time": 226,
+                    "average_access_time": 402,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://biocomp.chem.uw.edu.pl/CABSflex2"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -151,7 +162,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/cabs-flex_2.0",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:35:35.954357Z",
+        "@timestamp": "2024-12-07T04:05:09.228662Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -161,28 +172,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 131,
+                "access_time": 345,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 179,
                         "serie": [
-                            183
+                            70,
+                            109
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:35:35.895416Z",
+                "https": true,
+                "last_check": "2024-12-07T04:05:09.075557Z",
                 "last_month_access": {
-                    "average_access_time": 226,
+                    "average_access_time": 423,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://biocomp.chem.uw.edu.pl/CABSflex2"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

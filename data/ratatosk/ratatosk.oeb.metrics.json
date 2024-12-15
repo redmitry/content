@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ratatosk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:44:59.095289Z",
+        "@timestamp": "2024-12-06T06:32:51.645063Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,118 +33,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 392,
+                "access_time": 456,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 106,
+                        "days": 182,
                         "serie": [
-                            4,
-                            2,
-                            2,
-                            2,
-                            1,
-                            3,
-                            3,
-                            1,
-                            1,
-                            8,
-                            2,
-                            5,
-                            1,
-                            1,
-                            1,
-                            2,
-                            4,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            2,
-                            1,
-                            2,
-                            4,
-                            3,
-                            2,
-                            1,
-                            13,
-                            4,
-                            3,
-                            5,
-                            1,
-                            1,
-                            1,
-                            2,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 77,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            2,
-                            5,
-                            2,
-                            3,
-                            1,
-                            1,
-                            3,
-                            1,
-                            3,
-                            4,
-                            1,
-                            4,
-                            3,
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:37:24.102274Z",
+                "last_check": "2024-12-06T06:32:51.054205Z",
                 "last_month_access": {
-                    "average_access_time": 471,
-                    "downtime_days": 19,
-                    "uptime_days": 11
+                    "average_access_time": 536,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -163,8 +69,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ratatosk/undefined/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:08:03.822348Z",
+        "@timestamp": "2024-12-06T06:32:51.624730Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -174,7 +81,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": false,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -211,74 +118,28 @@
                 "description": true
             },
             "website": {
-                "access_time": 392,
+                "access_time": 456,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 55,
+                        "days": 182,
                         "serie": [
-                            2,
-                            1,
-                            2,
-                            1,
-                            2,
-                            4,
-                            3,
-                            2,
-                            1,
-                            13,
-                            4,
-                            3,
-                            5,
-                            1,
-                            1,
-                            1,
-                            2,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 45,
-                        "serie": [
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            2,
-                            5,
-                            2,
-                            3,
-                            1,
-                            1,
-                            3,
-                            1,
-                            3,
-                            4,
-                            1,
-                            4,
-                            3,
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T06:32:51.054205Z",
                 "last_month_access": {
-                    "average_access_time": 471
+                    "average_access_time": 495,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -286,6 +147,159 @@
             "issue_tracking": {
                 "public_tracker": null,
                 "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ratatosk:0.7.6.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T06:32:51.363575Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 456,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T06:32:51.054205Z",
+                "last_month_access": {
+                    "average_access_time": 513,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ratatosk:0.9.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T06:32:51.374775Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1186/s13059-020-02244-4",
+                            "pmcid": "PMC7792008",
+                            "pmid": "33419473",
+                            "ref_count": 18,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "Ratatosk: hybrid error correction of long reads enables accurate variant calling and assembly.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 456,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T06:32:51.054205Z",
+                "last_month_access": {
+                    "average_access_time": 420,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
             }
         }
     }

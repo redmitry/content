@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.14.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T09:06:26.332728Z",
+        "@timestamp": "2024-12-06T05:37:53.556914Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,28 +21,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 241,
+                "access_time": 138,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:06:26.280883Z",
+                "https": true,
+                "last_check": "2024-12-06T05:37:53.486944Z",
                 "last_month_access": {
-                    "average_access_time": 297,
+                    "average_access_time": 176,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.7/bioc/html/wavClusteR.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -51,7 +57,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.11.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T09:07:12.521960Z",
+        "@timestamp": "2024-12-06T05:38:00.205482Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -69,28 +75,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 26,
+                "access_time": 130,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T04:11:07.552619Z",
+                "https": true,
+                "last_check": "2024-12-06T05:38:00.118371Z",
                 "last_month_access": {
-                    "average_access_time": 99,
+                    "average_access_time": 198,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.6/bioc/html/wavClusteR.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -99,8 +111,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:wavcluster:2.8.0/lib/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:12:39.858302Z",
+        "@timestamp": "2024-12-06T05:37:22.989945Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -120,31 +133,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 11,
+                            "cit_count": 10,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1186/s12859-015-0470-y",
@@ -154,35 +163,35 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2014"
                                 }
                             ],
                             "title": "Sensitive and highly resolved identification of RNA-protein interaction sites in PAR-CLIP data.",
@@ -195,28 +204,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 221,
+                "access_time": 132,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T08:58:23.166499Z",
+                "https": true,
+                "last_check": "2024-12-06T05:37:22.841853Z",
                 "last_month_access": {
-                    "average_access_time": 190,
+                    "average_access_time": 192,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/wavClusteR.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -228,8 +243,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:wavcluster:2.8.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:12:39.887848Z",
+        "@timestamp": "2024-12-06T05:37:49.485624Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -249,31 +265,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 11,
+                            "cit_count": 10,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1186/s12859-015-0470-y",
@@ -283,35 +295,35 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2014"
                                 }
                             ],
                             "title": "Sensitive and highly resolved identification of RNA-protein interaction sites in PAR-CLIP data.",
@@ -324,28 +336,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 221,
+                "access_time": 22,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T04:10:08.933186Z",
+                "https": true,
+                "last_check": "2024-12-06T05:37:49.398686Z",
                 "last_month_access": {
-                    "average_access_time": 190,
+                    "average_access_time": 46,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/wavClusteR.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -357,7 +375,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/wavcluster",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:10:37.198655Z",
+        "@timestamp": "2024-12-06T05:38:16.026902Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -367,28 +385,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 221,
+                "access_time": 23,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T04:12:31.978327Z",
+                "https": true,
+                "last_check": "2024-12-06T05:38:15.918462Z",
                 "last_month_access": {
-                    "average_access_time": 190,
+                    "average_access_time": 39,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/wavClusteR.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -397,7 +421,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.22.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:01:11.694603Z",
+        "@timestamp": "2024-12-06T09:45:50.189143Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -415,32 +439,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 141,
+                "access_time": 130,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 182,
                         "serie": [
-                            59,
-                            123
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:01:11.671129Z",
+                "last_check": "2024-12-06T09:45:50.142041Z",
                 "last_month_access": {
-                    "average_access_time": 151,
+                    "average_access_time": 132,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -453,7 +469,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.20.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:01:24.350904Z",
+        "@timestamp": "2024-12-06T09:48:37.907402Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -471,24 +487,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 136,
+                "access_time": 191,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:01:24.329184Z",
+                "last_check": "2024-12-06T09:48:37.788184Z",
                 "last_month_access": {
-                    "average_access_time": 139,
+                    "average_access_time": 134,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -501,7 +517,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.24.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:01:46.165381Z",
+        "@timestamp": "2024-12-06T09:56:01.371992Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -519,32 +535,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 143,
+                "access_time": 177,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 182,
                         "serie": [
-                            59,
-                            123
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 504
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:01:46.141792Z",
+                "last_check": "2024-12-06T09:56:01.309605Z",
                 "last_month_access": {
-                    "average_access_time": 175,
+                    "average_access_time": 139,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -557,7 +565,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.18.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:04:19.438554Z",
+        "@timestamp": "2024-12-06T10:20:20.885550Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -575,24 +583,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 201,
+                "access_time": 120,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:04:19.415036Z",
+                "last_check": "2024-12-06T10:20:20.81578Z",
                 "last_month_access": {
-                    "average_access_time": 171,
+                    "average_access_time": 149,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -605,7 +613,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.16.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:04:32.268875Z",
+        "@timestamp": "2024-12-06T10:20:32.597372Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -623,24 +631,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 218,
+                "access_time": 124,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:04:32.246178Z",
+                "last_check": "2024-12-06T10:20:32.53319Z",
                 "last_month_access": {
-                    "average_access_time": 148,
+                    "average_access_time": 143,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -653,7 +661,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.26.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:06:17.170597Z",
+        "@timestamp": "2024-12-06T10:22:08.526744Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -671,24 +679,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 221,
+                "access_time": 121,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:06:17.148078Z",
+                "last_check": "2024-12-06T10:22:08.152751Z",
                 "last_month_access": {
-                    "average_access_time": 144,
+                    "average_access_time": 149,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -701,7 +709,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.28.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:16:03.110037Z",
+        "@timestamp": "2024-12-07T02:52:13.707099Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -719,24 +727,168 @@
                 "description": true
             },
             "website": {
-                "access_time": 136,
+                "access_time": 122,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 91,
+                        "days": 182,
                         "serie": [
-                            91
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:16:03.092083Z",
+                "last_check": "2024-12-07T02:52:12.488142Z",
                 "last_month_access": {
-                    "average_access_time": 147,
+                    "average_access_time": 145,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.32.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T03:08:24.130530Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 123,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:08:23.986335Z",
+                "last_month_access": {
+                    "average_access_time": 148,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.34.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T03:33:31.010076Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 122,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:33:30.933884Z",
+                "last_month_access": {
+                    "average_access_time": 142,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:wavcluster:2.36.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T03:36:55.789517Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 120,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:36:55.676986Z",
+                "last_month_access": {
+                    "average_access_time": 146,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,

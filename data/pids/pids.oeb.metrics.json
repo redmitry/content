@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pids",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:57:43.314789Z",
+        "@timestamp": "2024-12-06T07:31:33.157625Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -18,21 +18,28 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:57:43.281344Z",
+                "last_check": "2024-12-06T07:31:32.937674Z",
                 "last_month_access": {
-                    "downtime_days": 30,
+                    "average_access_time": 2289,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://ssr.pids.online:8445/ssr/no/index;jsessionid=82D5A37D2D4732D17D28F284E7C88B2D"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -42,8 +49,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pids/undefined/ssr.pids.online",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:21.145710Z",
+        "@timestamp": "2024-12-06T07:31:33.318205Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -56,59 +64,11 @@
                             "doi": "10.3390/genes11040373",
                             "pmcid": "PMC7230844",
                             "pmid": "32235513",
-                            "ref_count": 24,
+                            "ref_count": 1,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2002
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2019
+                                    "year": "2007"
                                 }
                             ],
                             "title": "PIDS: A User-Friendly Plant DNA Fingerprint Database Management System.",
@@ -126,18 +86,28 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 182,
                         "serie": [
-                            100
+                            182
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_month_access": {},
+                "last_check": "2024-12-06T07:31:32.937278Z",
+                "last_month_access": {
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
                 "license": false,
                 "operational": 408,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://ssr.pids.online:8445/ssr/no/index;jsessionid=82D5A37D2D4732D17D28F284E7C88B2D"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

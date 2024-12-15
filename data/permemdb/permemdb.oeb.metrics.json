@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/permemdb",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:16:02.875223Z",
+        "@timestamp": "2024-12-06T07:47:00.866846Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -26,20 +26,20 @@
                         "status": 408
                     },
                     {
-                        "days": 181,
+                        "days": 180,
                         "serie": [
-                            111,
-                            6,
-                            64
+                            86,
+                            90,
+                            4
                         ],
                         "status": 302
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T09:16:02.673363Z",
+                "last_check": "2024-12-06T07:47:00.653203Z",
                 "last_month_access": {
-                    "average_access_time": 368,
-                    "downtime_days": 30,
+                    "average_access_time": 421,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -63,8 +63,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:permemdb/undefined/bioinformatics.biol.uoa.gr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:48.693478Z",
+        "@timestamp": "2024-12-06T07:49:17.975295Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -75,21 +76,25 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1016/j.bbamem.2019.183076",
                             "pmid": "31629694",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "PerMemDB: A database for eukaryotic peripheral membrane proteins.",
                             "year": 2020
                         }
@@ -113,19 +118,19 @@
                         "status": 408
                     },
                     {
-                        "days": 98,
+                        "days": 180,
                         "serie": [
-                            28,
-                            6,
-                            64
+                            86,
+                            90,
+                            4
                         ],
                         "status": 302
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T10:16:46.065333Z",
+                "last_check": "2024-12-06T07:49:17.869805Z",
                 "last_month_access": {
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,

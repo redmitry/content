@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:haplopainter/app/haplopainter.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:45.653467Z",
+        "@timestamp": "2024-12-07T04:56:56.520037Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -24,108 +25,84 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 186,
+                            "cit_count": 136,
                             "citations": [
                                 {
-                                    "count": 1,
-                                    "year": 2005
+                                    "count": 5,
+                                    "year": "2007"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2006
+                                    "count": 10,
+                                    "year": "2008"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2007
+                                    "count": 13,
+                                    "year": "2009"
                                 },
                                 {
-                                    "count": 14,
-                                    "year": 2008
+                                    "count": 16,
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 18,
-                                    "year": 2009
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 17,
-                                    "year": 2010
+                                    "count": 16,
+                                    "year": "2012"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2011
+                                    "count": 9,
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 17,
-                                    "year": 2012
+                                    "count": 12,
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2013
+                                    "count": 10,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 14,
-                                    "year": 2014
+                                    "count": 4,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 13,
-                                    "year": 2017
+                                    "count": 9,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2019
+                                    "count": 6,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2020
+                                    "count": 1,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bth488",
                             "pmid": "15377505",
-                            "ref_count": 11,
+                            "ref_count": 3,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1990
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1996
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1999
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2002
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2004
+                                    "year": "2002"
                                 }
                             ],
                             "title": "HaploPainter: a tool for drawing pedigrees with complex haplotypes.",
@@ -138,28 +115,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 374,
+                "access_time": 199,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 2,
                         "serie": [
-                            183
+                            2
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            117,
+                            63
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:06:45.07804Z",
+                "https": true,
+                "last_check": "2024-12-07T04:56:56.421262Z",
                 "last_month_access": {
-                    "average_access_time": 426,
+                    "average_access_time": 778,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://haplopainter.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -171,7 +162,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/haplopainter",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:41:18.891128Z",
+        "@timestamp": "2024-12-07T04:56:56.218394Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -181,28 +172,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 374,
+                "access_time": 419,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 2,
                         "serie": [
-                            183
+                            2
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            117,
+                            63
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:41:18.80604Z",
+                "https": true,
+                "last_check": "2024-12-07T04:56:56.08875Z",
                 "last_month_access": {
-                    "average_access_time": 426,
+                    "average_access_time": 730,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://haplopainter.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

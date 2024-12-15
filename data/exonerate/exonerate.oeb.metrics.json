@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:exonerate:2.2.0/cmd/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T04:19:13.483523Z",
+        "@timestamp": "2024-12-07T04:32:39.451942Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,43 +21,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 101,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 182,
                         "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 181,
-                        "serie": [
-                            89,
-                            72,
-                            20
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T01:50:15.706336Z",
+                "last_check": "2024-12-07T04:32:39.328351Z",
                 "last_month_access": {
-                    "average_access_time": 495,
+                    "average_access_time": 125,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -77,7 +61,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:exonerate:2.4.0/cmd/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T03:54:38.555637Z",
+        "@timestamp": "2024-12-07T04:32:39.646836Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -95,35 +79,37 @@
                 "description": true
             },
             "website": {
-                "access_time": 77,
+                "access_time": 101,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
                         "days": 182,
                         "serie": [
-                            89,
-                            93
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:54:38.479251Z",
+                "last_check": "2024-12-07T04:32:39.328351Z",
                 "last_month_access": {
-                    "average_access_time": 237,
+                    "average_access_time": 131,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -133,8 +119,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:exonerate/cmd/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:01:12.422397Z",
+        "@timestamp": "2024-12-07T04:42:36.121356Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -155,79 +142,87 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1121,
+                            "cit_count": 888,
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
-                                    "count": 12,
-                                    "year": 2006
+                                    "count": 10,
+                                    "year": "2006"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 34,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 36,
-                                    "year": 2009
+                                    "count": 24,
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 33,
-                                    "year": 2010
+                                    "year": "2008"
                                 },
                                 {
-                                    "count": 30,
-                                    "year": 2011
+                                    "count": 29,
+                                    "year": "2009"
                                 },
                                 {
-                                    "count": 39,
-                                    "year": 2012
+                                    "count": 33,
+                                    "year": "2010"
                                 },
                                 {
-                                    "count": 65,
-                                    "year": 2013
+                                    "count": 31,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 37,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 63,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 61,
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 64,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 68,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 106,
-                                    "year": 2016
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 99,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 109,
-                                    "year": 2018
+                                    "count": 98,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 124,
-                                    "year": 2019
+                                    "count": 101,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 99,
-                                    "year": 2020
+                                    "count": 111,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 171,
-                                    "year": 2021
+                                    "count": 55,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2022
+                                    "count": 20,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1186/1471-2105-6-31",
@@ -237,71 +232,71 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1975
+                                    "year": "1975"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1979
+                                    "year": "1979"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1981
+                                    "year": "1981"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1982
+                                    "year": "1982"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1985
+                                    "year": "1985"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1987
+                                    "year": "1987"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1992
+                                    "year": "1992"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1993
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 1996
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 }
                             ],
                             "title": "Automated generation of heuristics for biological sequence comparison.",
@@ -314,43 +309,35 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 298,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 180,
                         "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 181,
-                        "serie": [
-                            89,
-                            72,
-                            20
+                            88,
+                            92
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T04:10:45.992262Z",
+                "last_check": "2024-12-07T04:42:36.020309Z",
                 "last_month_access": {
-                    "average_access_time": 495,
-                    "downtime_days": 1,
+                    "average_access_time": 316,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -373,7 +360,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/exonerate",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:03:56.345723Z",
+        "@timestamp": "2024-12-07T04:32:42.131580Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -383,40 +370,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 77,
+                "access_time": 303,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 182,
                         "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 181,
-                        "serie": [
-                            89,
-                            72,
-                            20
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-05T04:02:30.268386Z",
+                "last_check": "2024-12-07T04:32:42.037113Z",
                 "last_month_access": {
-                    "average_access_time": 413,
-                    "downtime_days": 1,
-                    "uptime_days": 23
+                    "average_access_time": 217,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,

@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rxnsim/lib/cran.r-project.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:08:17.366328Z",
+        "@timestamp": "2024-12-06T05:15:15.853413Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "source_packages": true,
             "sourcecode": {
@@ -25,80 +26,72 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 6,
+                            "cit_count": 5,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btv416",
                             "pmid": "26187943",
-                            "ref_count": 15,
+                            "ref_count": 14,
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1992
+                                    "year": "1992"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 }
                             ],
                             "title": "RxnSim: a tool to compare biochemical reactions.",
@@ -111,24 +104,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 1113,
+                "access_time": 304,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T07:52:10.827924Z",
+                "last_check": "2024-12-06T05:15:15.745833Z",
                 "last_month_access": {
-                    "average_access_time": 210,
+                    "average_access_time": 149,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -147,7 +140,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rxnsim",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:53:42.618095Z",
+        "@timestamp": "2024-12-06T05:16:51.450259Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -157,24 +150,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 161,
+                "access_time": 67,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T07:53:42.564805Z",
+                "last_check": "2024-12-06T05:16:51.323911Z",
                 "last_month_access": {
-                    "average_access_time": 170,
+                    "average_access_time": 102,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -182,6 +175,162 @@
                     {
                         "status": 303,
                         "url": "https://cran.r-project.org/web/packages/RxnSim/index.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rxnsim:3.3.0.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T09:29:11.360910Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 8,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gky329",
+                            "pmcid": "PMC6030932",
+                            "pmid": "29788132",
+                            "ref_count": 74,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Freiburg RNA tools: a central online resource for RNA-focused research and teaching.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 733,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T09:29:10.584706Z",
+                "last_month_access": {
+                    "average_access_time": 525,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.bioinf.uni-freiburg.de/Software/"
                     }
                 ],
                 "ssl": true,

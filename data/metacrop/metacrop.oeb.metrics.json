@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:metacrop/db/metacrop.ipk-gatersleben.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:57.650141Z",
+        "@timestamp": "2024-12-07T05:25:02.874955Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -24,43 +25,39 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 23,
+                            "cit_count": 22,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2021
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1093/nar/gkr1004",
@@ -70,39 +67,39 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "MetaCrop 2.0: managing and exploring information about crop plant metabolism.",
@@ -115,46 +112,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 333,
+                "access_time": 770,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
                         "days": 182,
                         "serie": [
-                            84,
-                            98
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T05:57:13.957642Z",
+                "https": true,
+                "last_check": "2024-12-07T05:25:02.710624Z",
                 "last_month_access": {
-                    "average_access_time": 448,
+                    "average_access_time": 814,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
+                        "url": "https://metacrop.ipk-gatersleben.de/"
+                    },
+                    {
+                        "status": 302,
                         "url": "http://metacrop.ipk-gatersleben.de/apex/f?p=metacrop"
                     },
                     {
                         "status": 302,
+                        "url": "https://metacrop.ipk-gatersleben.de/apex/f?p=metacrop"
+                    },
+                    {
+                        "status": 302,
                         "url": "http://metacrop.ipk-gatersleben.de/apex/f?p=269:111::::::"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://metacrop.ipk-gatersleben.de/apex/f?p=269:111::::::"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -166,7 +167,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/metacrop",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:04:27.746138Z",
+        "@timestamp": "2024-12-07T05:26:05.443129Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -176,46 +177,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 362,
+                "access_time": 589,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
                         "days": 182,
                         "serie": [
-                            84,
-                            98
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:04:27.69536Z",
+                "https": true,
+                "last_check": "2024-12-07T05:26:05.30404Z",
                 "last_month_access": {
-                    "average_access_time": 389,
+                    "average_access_time": 643,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
+                        "url": "https://metacrop.ipk-gatersleben.de/"
+                    },
+                    {
+                        "status": 302,
                         "url": "http://metacrop.ipk-gatersleben.de/apex/f?p=metacrop"
                     },
                     {
                         "status": 302,
+                        "url": "https://metacrop.ipk-gatersleben.de/apex/f?p=metacrop"
+                    },
+                    {
+                        "status": 302,
                         "url": "http://metacrop.ipk-gatersleben.de/apex/f?p=269:111::::::"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://metacrop.ipk-gatersleben.de/apex/f?p=269:111::::::"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

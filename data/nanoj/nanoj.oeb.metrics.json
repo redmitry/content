@@ -3,24 +3,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nanoj/plugin/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:37.483470Z",
+        "@timestamp": "2024-12-07T02:56:00.547720Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -38,89 +39,53 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 14,
+                            "cit_count": 7,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2021
+                                    "count": 3,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1088/1361-6463/ab0261",
                             "pmcid": "PMC7655149",
                             "pmid": "33191949",
-                            "ref_count": 43,
+                            "ref_count": 5,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2009
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2019
+                                    "count": 1,
+                                    "year": "2018"
                                 }
                             ],
                             "title": "NanoJ: a high-performance open-source super-resolution microscopy toolbox.",
@@ -129,49 +94,29 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 410,
+                "access_time": 489,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 175,
+                        "days": 182,
                         "serie": [
-                            6,
-                            94,
-                            44,
-                            3,
-                            7,
-                            6,
-                            4,
-                            11
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 8,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:48:56.847267Z",
+                "last_check": "2024-12-07T02:56:00.331232Z",
                 "last_month_access": {
-                    "average_access_time": 423,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 548,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -181,8 +126,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2998350S"
             }
         }
     },
@@ -190,7 +135,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/nanoj",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:44:06.509562Z",
+        "@timestamp": "2024-12-07T02:56:00.644354Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -200,14 +145,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -215,47 +160,29 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 487,
+                "access_time": 579,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 176,
+                        "days": 182,
                         "serie": [
-                            6,
-                            94,
-                            44,
-                            3,
-                            7,
-                            11,
-                            11
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 7,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:48:56.972825Z",
+                "last_check": "2024-12-07T02:56:00.30771Z",
                 "last_month_access": {
-                    "average_access_time": 509,
-                    "downtime_days": 3,
-                    "uptime_days": 27
+                    "average_access_time": 551,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -265,7 +192,7 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }

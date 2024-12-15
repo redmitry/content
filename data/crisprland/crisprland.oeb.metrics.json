@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:crisprland/script/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:59:21.246706Z",
+        "@timestamp": "2024-12-07T03:04:15.059271Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -13,14 +14,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -31,13 +32,8 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1093/bioinformatics/btaa505",
                             "pmcid": "PMC7355252",
                             "pmid": "32657417",
@@ -45,51 +41,51 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1954
+                                    "year": "1954"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1996
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "CRISPRL\u2009and: Interpretable large-scale inference of DNA repair landscape based on a spectral approach.",
@@ -98,110 +94,29 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 366,
+                "access_time": 578,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 108,
+                        "days": 182,
                         "serie": [
-                            2,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            6,
-                            1,
-                            14,
-                            10,
-                            2,
-                            2,
-                            1,
-                            1,
-                            5,
-                            1,
-                            1,
-                            1,
-                            2,
-                            4,
-                            1,
-                            5,
-                            1,
-                            1,
-                            1,
-                            6,
-                            1,
-                            4,
-                            1,
-                            6,
-                            4,
-                            1,
-                            1,
-                            2,
-                            2,
-                            5,
-                            3,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 75,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            15,
-                            1,
-                            2,
-                            1,
-                            2,
-                            5,
-                            1,
-                            3,
-                            3,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-11T09:39:12.387688Z",
+                "last_check": "2024-12-07T03:04:14.097477Z",
                 "last_month_access": {
-                    "average_access_time": 334,
-                    "downtime_days": 11,
-                    "uptime_days": 19
+                    "average_access_time": 590,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -211,7 +126,7 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }
@@ -220,7 +135,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/crisprland",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:41:36.450586Z",
+        "@timestamp": "2024-12-07T03:04:14.848717Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -230,14 +145,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -245,110 +160,29 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 366,
+                "access_time": 578,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 108,
+                        "days": 182,
                         "serie": [
-                            2,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            6,
-                            1,
-                            14,
-                            10,
-                            2,
-                            2,
-                            1,
-                            1,
-                            5,
-                            1,
-                            1,
-                            1,
-                            2,
-                            4,
-                            1,
-                            5,
-                            1,
-                            1,
-                            1,
-                            6,
-                            1,
-                            4,
-                            1,
-                            6,
-                            4,
-                            1,
-                            1,
-                            2,
-                            2,
-                            5,
-                            3,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 75,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            15,
-                            1,
-                            2,
-                            1,
-                            2,
-                            5,
-                            1,
-                            3,
-                            3,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:41:47.340947Z",
+                "last_check": "2024-12-07T03:04:14.056347Z",
                 "last_month_access": {
-                    "average_access_time": 448,
-                    "downtime_days": 15,
-                    "uptime_days": 15
+                    "average_access_time": 616,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -358,7 +192,7 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }

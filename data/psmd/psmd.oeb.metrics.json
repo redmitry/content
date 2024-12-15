@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/psmd",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:20:35.514707Z",
+        "@timestamp": "2024-12-07T03:01:33.376178Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,37 +13,62 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1916,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 9,
+                        "days": 173,
+                        "serie": [
+                            3,
+                            8,
+                            36,
+                            30,
+                            86,
+                            10
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 5,
                         "serie": [
                             1,
-                            8
+                            1,
+                            3
                         ],
                         "status": 408
                     },
                     {
-                        "days": 174,
+                        "days": 3,
                         "serie": [
-                            156,
-                            18
+                            3
                         ],
-                        "status": 200
+                        "status": 202
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:20:35.057251Z",
+                "https": true,
+                "last_check": "2024-12-07T03:01:32.755495Z",
                 "last_month_access": {
-                    "average_access_time": 1167,
-                    "downtime_days": 9,
-                    "uptime_days": 21
+                    "average_access_time": 1967,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 408,
-                "ssl": null,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://big.cdu.edu.cn/psmd/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -52,8 +77,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:psmd/undefined/big.cdu.edu.cn",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:35.524524Z",
+        "@timestamp": "2024-12-07T03:01:32.889564Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -70,21 +96,17 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1111/1755-0998.13098",
                             "pmid": "31599098",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                }
+                            ],
                             "title": "PSMD: An extensive database for pan-species microsatellite investigation and marker development.",
                             "year": 2020
                         }
@@ -95,34 +117,62 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1696,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 9,
+                        "days": 173,
+                        "serie": [
+                            3,
+                            8,
+                            36,
+                            30,
+                            86,
+                            10
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 5,
                         "serie": [
                             1,
-                            8
+                            1,
+                            3
                         ],
                         "status": 408
                     },
                     {
-                        "days": 91,
+                        "days": 3,
                         "serie": [
-                            73,
-                            18
+                            3
                         ],
-                        "status": 200
+                        "status": 202
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
                     }
                 ],
-                "https": false,
+                "https": true,
+                "last_check": "2024-12-07T03:01:32.759398Z",
                 "last_month_access": {
-                    "average_access_time": 1167
+                    "average_access_time": 2025,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 408,
-                "ssl": null,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://big.cdu.edu.cn/psmd/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

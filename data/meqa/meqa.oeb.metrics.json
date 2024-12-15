@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:meqa:1.0/cmd/life.tongji.edu.cn",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:50.191312Z",
+        "@timestamp": "2024-12-07T06:05:43.666207Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -20,31 +21,39 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 10,
+                            "cit_count": 12,
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2018
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btr699",
@@ -53,19 +62,19 @@
                             "refs": [
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "MeQA: a pipeline for MeDIP-seq data quality assessment and analysis.",
@@ -78,75 +87,36 @@
                 "description": true
             },
             "website": {
-                "access_time": 3045,
+                "access_time": 7025,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 54,
+                        "days": 179,
                         "serie": [
-                            4,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            3,
-                            2,
                             9,
-                            1,
-                            9,
-                            2,
-                            2,
-                            2,
-                            3,
-                            1,
-                            1,
-                            2,
-                            1,
+                            8,
+                            28,
+                            134
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
                             1,
                             1,
                             1
                         ],
                         "status": 408
-                    },
-                    {
-                        "days": 129,
-                        "serie": [
-                            88,
-                            1,
-                            2,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            6,
-                            2,
-                            1,
-                            2
-                        ],
-                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T05:49:32.367296Z",
+                "last_check": "2024-12-07T06:05:42.693379Z",
                 "last_month_access": {
-                    "average_access_time": 3464,
-                    "downtime_days": 13,
-                    "uptime_days": 17
+                    "average_access_time": 8305,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -156,8 +126,28 @@
                         "url": "https://life.tongji.edu.cn/meqa/"
                     },
                     {
+                        "status": 301,
+                        "url": "https://life.tongji.edu.cn/meqa/main.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://life.tongji.edu.cn/meqa/main.psp"
+                    },
+                    {
                         "status": 302,
                         "url": "https://life.tongji.edu.cn/meqa/main.psp"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://iam.tongji.edu.cn/idp/oauth2/authorize?grant_type=authorization_code&response_type=code&scope=base_user&client_id=SYS20230097&redirect_uri=https%3A%2F%2Fjgdw.tongji.edu.cn%2F_DoAuthLogin&state=http%3A%2F%2Flife.tongji.edu.cn%2Ferrorx.jsp"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=9b7a0fa7-fd38-428c-ac12-b4bd009e4a19&entityId=SYS20230097"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=9b7a0fa7-fd38-428c-ac12-b4bd009e4a19"
                     }
                 ],
                 "ssl": true,
@@ -172,7 +162,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/meqa",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:54:00.777210Z",
+        "@timestamp": "2024-12-07T06:05:42.947345Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -182,45 +172,76 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 8290,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 95,
+                        "days": 179,
                         "serie": [
-                            95
+                            47,
+                            44,
+                            10,
+                            78
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
                         ],
                         "status": 408
                     },
                     {
-                        "days": 88,
+                        "days": 1,
                         "serie": [
-                            88
+                            1
                         ],
-                        "status": 200
+                        "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T05:54:00.561502Z",
+                "https": true,
+                "last_check": "2024-12-07T06:05:42.205615Z",
                 "last_month_access": {
-                    "average_access_time": 1996,
-                    "downtime_days": 27,
-                    "uptime_days": 0
+                    "average_access_time": 7689,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 408,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "https://life.tongji.edu.cn/meqa/"
                     },
                     {
+                        "status": 301,
+                        "url": "https://life.tongji.edu.cn/meqa/main.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://life.tongji.edu.cn/meqa/main.psp"
+                    },
+                    {
                         "status": 302,
                         "url": "https://life.tongji.edu.cn/meqa/main.psp"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://iam.tongji.edu.cn/idp/oauth2/authorize?grant_type=authorization_code&response_type=code&scope=base_user&client_id=SYS20230097&redirect_uri=https%3A%2F%2Fjgdw.tongji.edu.cn%2F_DoAuthLogin&state=http%3A%2F%2Flife.tongji.edu.cn%2Ferrorx.jsp"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://iam.tongji.edu.cn:443/idp/AuthnEngine?authnLcKey=622c4228-041e-44a5-a272-024b8f1c1d82&entityId=SYS20230097"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://iam.tongji.edu.cn:443/idp/authcenter/ActionAuthChain?entityId=SYS20230097&authnLcKey=622c4228-041e-44a5-a272-024b8f1c1d82"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

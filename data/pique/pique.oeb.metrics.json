@@ -3,24 +3,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pique/cmd/ryneches.github.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:00.719986Z",
+        "@timestamp": "2024-12-06T06:34:59.312138Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -46,73 +47,7 @@
                     ]
                 }
             ],
-            "readme": false,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 199,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2022-02-12T09:28:29.457672Z",
-                "last_month_access": {
-                    "average_access_time": 237,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/pique",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-02-12T13:44:38.572050Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": null,
-            "source_packages": false,
-            "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
-                "public": true,
-                "readme": false,
-                "repository": {
-                    "anonymous": null,
-                    "online": null
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
@@ -122,19 +57,19 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T09:28:29.45747Z",
+                "last_check": "2024-12-06T06:34:59.229225Z",
                 "last_month_access": {
-                    "average_access_time": 253,
+                    "average_access_time": 276,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -144,8 +79,81 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT902247S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pique",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-12-06T06:34:59.316308Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 217,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 181,
+                        "serie": [
+                            181
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2024-12-06T06:34:59.229225Z",
+                "last_month_access": {
+                    "average_access_time": 247,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT902247S"
             }
         }
     }

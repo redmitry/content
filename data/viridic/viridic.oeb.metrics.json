@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/viridic",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:49:57.954249Z",
+        "@timestamp": "2024-12-07T02:55:15.496308Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,34 +13,48 @@
                 "description": true
             },
             "website": {
-                "access_time": 421,
+                "access_time": 767,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 176,
                         "serie": [
-                            183
+                            78,
+                            20,
+                            78
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 6,
+                        "serie": [
+                            1,
+                            5
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:49:57.928298Z",
+                "https": true,
+                "last_check": "2024-12-07T02:55:15.189897Z",
                 "last_month_access": {
-                    "average_access_time": 458,
+                    "average_access_time": 867,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://kronos.icbm.uni-oldenburg.de/viridic/"
+                        "url": "http://rhea.icbm.uni-oldenburg.de/viridic/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://rhea.icbm.uni-oldenburg.de/viridic/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -49,8 +63,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:viridic/undefined/viridic.icbm.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:10:19.934312Z",
+        "@timestamp": "2024-12-07T02:55:15.325943Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -73,34 +88,56 @@
                 "description": true
             },
             "website": {
-                "access_time": 231,
+                "access_time": 754,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 175,
                         "serie": [
-                            100
+                            62,
+                            15,
+                            20,
+                            78
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 6,
+                        "serie": [
+                            1,
+                            5
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 504
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T10:12:53.647137Z",
+                "https": true,
+                "last_check": "2024-12-07T02:55:15.203216Z",
                 "last_month_access": {
-                    "average_access_time": 247,
+                    "average_access_time": 837,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 302,
-                        "url": "http://kronos.icbm.uni-oldenburg.de/viridic/"
+                        "url": "http://rhea.icbm.uni-oldenburg.de/viridic/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://rhea.icbm.uni-oldenburg.de/viridic/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

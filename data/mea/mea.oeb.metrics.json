@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mea:0.6.4/cmd/www.bioinf.uni-leipzig.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T05:34:19.186474Z",
+        "@timestamp": "2024-12-07T05:18:00.497611Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,27 +21,37 @@
                 "description": true
             },
             "website": {
-                "access_time": 114,
+                "access_time": 505,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T05:34:19.098909Z",
+                "last_check": "2024-12-07T05:18:00.424004Z",
                 "last_month_access": {
-                    "average_access_time": 129,
+                    "average_access_time": 576,
                     "downtime_days": 0,
-                    "uptime_days": 14
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.bioinf.uni-leipzig.de/Software/mea/"
+                    },
+                    {
+                        "status": 308,
+                        "url": "http://legacy.bioinf.uni-leipzig.de/Software/mea/"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
@@ -51,8 +61,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mea:1.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:14.322081Z",
+        "@timestamp": "2024-12-07T05:18:01.923133Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -61,14 +72,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -87,23 +98,19 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 7,
+                            "cit_count": 6,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1186/s12864-018-4835-2",
@@ -113,55 +120,55 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 }
                             ],
                             "title": "Development and application of an integrated allele-specific pipeline for methylomic and epigenomic analysis (MEA).",
@@ -170,50 +177,50 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 403,
+                "access_time": 645,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 182,
                         "serie": [
-                            21,
-                            46,
-                            114
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-04T05:30:25.338784Z",
+                "last_check": "2024-12-07T05:18:01.82104Z",
                 "last_month_access": {
-                    "average_access_time": 426,
+                    "average_access_time": 574,
                     "downtime_days": 0,
-                    "uptime_days": 23
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.bioinf.uni-leipzig.de/Software/mea/"
+                    },
+                    {
+                        "status": 308,
+                        "url": "http://legacy.bioinf.uni-leipzig.de/Software/mea/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT724385S"
             }
         }
     },
@@ -221,7 +228,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mea",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:34:11.886799Z",
+        "@timestamp": "2024-12-07T05:18:01.807229Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -251,27 +258,37 @@
                 "description": true
             },
             "website": {
-                "access_time": 403,
+                "access_time": 608,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T05:34:11.802626Z",
+                "last_check": "2024-12-07T05:18:01.656264Z",
                 "last_month_access": {
-                    "average_access_time": 231,
+                    "average_access_time": 466,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.bioinf.uni-leipzig.de/Software/mea/"
+                    },
+                    {
+                        "status": 308,
+                        "url": "http://legacy.bioinf.uni-leipzig.de/Software/mea/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }

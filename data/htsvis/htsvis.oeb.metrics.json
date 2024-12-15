@@ -3,24 +3,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:htsvis/web/htsvis.dkfz.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:43.912606Z",
+        "@timestamp": "2024-12-07T05:10:38.910113Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -35,15 +36,11 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
+                            "cit_count": 2,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btx319",
@@ -53,31 +50,31 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2016
+                                    "year": "2016"
                                 }
                             ],
                             "title": "HTSvis: a web app for exploratory data analysis and visualization of arrayed high-throughput screens.",
@@ -86,41 +83,78 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 2753,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 59,
                         "serie": [
-                            183
+                            32,
+                            19,
+                            8
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 23,
+                        "serie": [
+                            23
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 98,
+                        "serie": [
+                            82,
+                            16
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:43:43.623676Z",
+                "https": true,
+                "last_check": "2024-12-07T05:10:35.229924Z",
                 "last_month_access": {
-                    "average_access_time": 1860,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2000,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://htsvis.dkfz.de/HTSvis/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "email": true,
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1175935S"
             }
         }
     },
@@ -128,7 +162,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/htsvis",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:48:18.261589Z",
+        "@timestamp": "2024-12-07T05:10:35.379561Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -138,28 +172,65 @@
                 "description": true
             },
             "website": {
-                "access_time": 2753,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 59,
                         "serie": [
-                            183
+                            32,
+                            19,
+                            8
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 23,
+                        "serie": [
+                            23
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 98,
+                        "serie": [
+                            82,
+                            16
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:06:54.2614Z",
+                "https": true,
+                "last_check": "2024-12-07T05:10:35.216591Z",
                 "last_month_access": {
-                    "average_access_time": 1860,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 1897,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://htsvis.dkfz.de/HTSvis/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:decombinator:v2.2/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:00:26.140383Z",
+        "@timestamp": "2024-12-06T06:27:53.902465Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -13,14 +14,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -34,104 +35,76 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 64,
+                            "cit_count": 52,
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2015
+                                    "count": 7,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2017
+                                    "count": 9,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2018
+                                    "count": 7,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2019
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2020
+                                    "count": 1,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btt004",
                             "pmid": "23303508",
-                            "ref_count": 24,
+                            "ref_count": 6,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1975
+                                    "year": "1975"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1977
+                                    "year": "1977"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1993
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2003
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "Decombinator: a tool for fast, efficient gene assignment in T-cell receptor sequences using a finite state machine.",
@@ -140,55 +113,29 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 763,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 170,
+                        "days": 182,
                         "serie": [
-                            7,
-                            3,
-                            2,
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            16,
-                            7,
-                            127
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 13,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2021-10-11T02:08:49.140244Z",
+                "last_check": "2024-12-06T06:27:53.232998Z",
                 "last_month_access": {
-                    "average_access_time": 474,
+                    "average_access_time": 585,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -199,8 +146,8 @@
         "support": {
             "email": true,
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT30S"
             }
         }
     },
@@ -208,7 +155,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/decombinator",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:42:01.090690Z",
+        "@timestamp": "2024-12-06T06:27:53.954279Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -218,14 +165,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -233,55 +180,29 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 763,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 170,
+                        "days": 182,
                         "serie": [
-                            7,
-                            3,
-                            2,
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            16,
-                            7,
-                            127
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 13,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:16:37.45512Z",
+                "last_check": "2024-12-06T06:27:53.232998Z",
                 "last_month_access": {
-                    "average_access_time": 474,
+                    "average_access_time": 596,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -291,8 +212,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT30S"
             }
         }
     }

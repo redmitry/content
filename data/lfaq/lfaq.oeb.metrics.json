@@ -3,24 +3,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:lfaq/app/lfaq.github.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:42.388170Z",
+        "@timestamp": "2024-12-07T05:05:53.769628Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -38,46 +39,54 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 2,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": 2020
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1021/acs.analchem.8b03267",
                             "pmid": "30525483",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                }
+                            ],
                             "title": "LFAQ: Toward Unbiased Label-Free Absolute Protein Quantification by Predicting Peptide Quantitative Factors.",
                             "year": 2019
                         }
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 275,
+                "access_time": 158,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T05:08:29.056611Z",
+                "last_check": "2024-12-07T05:05:53.70479Z",
                 "last_month_access": {
-                    "average_access_time": 431,
+                    "average_access_time": 253,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -87,7 +96,7 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }
@@ -96,24 +105,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/lfaq",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:43:24.717611Z",
+        "@timestamp": "2024-12-07T05:05:53.797860Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -121,29 +130,29 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 275,
+                "access_time": 256,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T02:14:20.018465Z",
+                "last_check": "2024-12-07T05:05:53.704626Z",
                 "last_month_access": {
-                    "average_access_time": 431,
+                    "average_access_time": 237,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -153,7 +162,7 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }

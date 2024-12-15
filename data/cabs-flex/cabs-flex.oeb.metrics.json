@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cabs-flex/web/biocomp.chem.uw.edu.pl",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:47.393193Z",
+        "@timestamp": "2024-12-07T04:06:14.189772Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -15,89 +16,81 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 57,
+                            "cit_count": 42,
                             "citations": [
                                 {
                                     "count": 5,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2015
+                                    "count": 3,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 12,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2018
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2019
+                                    "count": 7,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2020
+                                    "count": 7,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2021
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 6,
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1093/nar/gkt332",
                             "pmcid": "PMC3692091",
                             "pmid": "23658222",
-                            "ref_count": 22,
+                            "ref_count": 25,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1983
+                                    "year": "1983"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2007
+                                    "count": 4,
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2010
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2013
+                                    "year": "2013"
                                 }
                             ],
                             "title": "CABS-flex: Server for fast simulation of protein structure fluctuations.",
@@ -110,34 +103,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 182,
+                "access_time": 583,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 179,
                         "serie": [
-                            183
+                            70,
+                            109
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:38:47.849918Z",
+                "https": true,
+                "last_check": "2024-12-07T04:06:14.034506Z",
                 "last_month_access": {
-                    "average_access_time": 274,
+                    "average_access_time": 526,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
+                        "status": 302,
+                        "url": "https://biocomp.chem.uw.edu.pl/CABSflex"
+                    },
+                    {
                         "status": 301,
-                        "url": "http://biocomp.chem.uw.edu.pl/CABSflex/"
+                        "url": "https://biocomp.chem.uw.edu.pl/CABSflex/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -149,7 +154,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/cabs-flex",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:39:55.176678Z",
+        "@timestamp": "2024-12-07T04:06:14.495380Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -159,42 +164,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 181,
+                "access_time": 153,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 179,
                         "serie": [
-                            136,
-                            46
+                            70,
+                            109
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 3,
                         "serie": [
-                            1
+                            3
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:39:55.113984Z",
+                "https": true,
+                "last_check": "2024-12-07T04:06:14.346349Z",
                 "last_month_access": {
-                    "average_access_time": 264,
+                    "average_access_time": 517,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
+                        "status": 302,
+                        "url": "https://biocomp.chem.uw.edu.pl/CABSflex"
+                    },
+                    {
                         "status": 301,
-                        "url": "http://biocomp.chem.uw.edu.pl/CABSflex/"
+                        "url": "https://biocomp.chem.uw.edu.pl/CABSflex/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

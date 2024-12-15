@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pharmomics",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:23:26.974703Z",
+        "@timestamp": "2024-12-06T06:40:09.117804Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,28 +13,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 844,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 154,
                         "serie": [
-                            183
+                            21,
+                            101,
+                            18,
+                            14
                         ],
-                        "status": 200
+                        "status": 404
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            10,
+                            17,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:23:26.905298Z",
+                "https": true,
+                "last_check": "2024-12-06T06:40:09.008247Z",
                 "last_month_access": {
-                    "average_access_time": 1087,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 659,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mergeomics.research.idre.ucla.edu/PharmOmics/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -43,8 +61,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pharmomics/undefined/mergeomics.research.idre.ucla.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:50.280759Z",
+        "@timestamp": "2024-12-06T06:40:09.049255Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -67,25 +86,198 @@
                 "description": true
             },
             "website": {
-                "access_time": 844,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 154,
                         "serie": [
-                            100
+                            21,
+                            101,
+                            18,
+                            14
                         ],
-                        "status": 200
+                        "status": 404
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            10,
+                            17,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
+                "https": true,
+                "last_check": "2024-12-06T06:40:08.980839Z",
                 "last_month_access": {
-                    "average_access_time": 1087
+                    "average_access_time": 659,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mergeomics.research.idre.ucla.edu/PharmOmics/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pharmomics/web/mergeomics.research.idre.ucla.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-06T06:40:09.489199Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/837773",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "PharmOmics: A Species- and Tissue-specific Drug Signature Database and Online Tool for Drug Repurposing",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 154,
+                        "serie": [
+                            21,
+                            101,
+                            18,
+                            14
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            10,
+                            17,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T06:40:09.429121Z",
+                "last_month_access": {
+                    "average_access_time": 659,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mergeomics.research.idre.ucla.edu/PharmOmics/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pharmomics/db/mergeomics.research.idre.ucla.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-06T06:40:09.247777Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/837773",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "PharmOmics: A Species- and Tissue-specific Drug Signature Database and Online Tool for Drug Repurposing",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 154,
+                        "serie": [
+                            21,
+                            101,
+                            18,
+                            14
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 28,
+                        "serie": [
+                            10,
+                            17,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T06:40:09.19235Z",
+                "last_month_access": {
+                    "average_access_time": 659,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mergeomics.research.idre.ucla.edu/PharmOmics/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

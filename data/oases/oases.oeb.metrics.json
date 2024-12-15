@@ -3,24 +3,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:oases:0.2.09/cmd/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:44:14.688776Z",
+        "@timestamp": "2024-12-07T05:36:41.735394Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -32,52 +32,40 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 762,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 7,
+                        "days": 181,
                         "serie": [
-                            3,
-                            1,
-                            3
+                            73,
+                            108
                         ],
-                        "status": 500
+                        "status": 404
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 404
-                    },
-                    {
-                        "days": 175,
-                        "serie": [
-                            21,
-                            91,
-                            35,
-                            25,
-                            3
-                        ],
-                        "status": 200
+                        "status": 500
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:28:52.387074Z",
+                "last_check": "2024-12-07T05:36:41.634734Z",
                 "last_month_access": {
-                    "average_access_time": 178,
-                    "downtime_days": 3,
-                    "uptime_days": 27
+                    "average_access_time": 133,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
@@ -90,8 +78,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT21167428S"
             }
         }
     },
@@ -99,24 +87,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oases/workflow/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:55.658825Z",
+        "@timestamp": "2024-12-07T05:36:40.989942Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -134,51 +123,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 814,
+                            "cit_count": 693,
                             "citations": [
                                 {
                                     "count": 26,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 116,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 121,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 143,
-                                    "year": 2015
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 97,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 105,
-                                    "year": 2017
+                                    "count": 111,
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 68,
-                                    "year": 2018
+                                    "count": 131,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 62,
-                                    "year": 2019
+                                    "count": 93,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 29,
-                                    "year": 2020
+                                    "count": 100,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 44,
-                                    "year": 2021
+                                    "count": 59,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2022
+                                    "count": 54,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts094",
@@ -188,35 +181,35 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "Oases: robust de novo RNA-seq assembly across the dynamic range of expression levels.",
@@ -225,75 +218,29 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 360,
+                "access_time": 339,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 148,
+                        "days": 182,
                         "serie": [
-                            87,
-                            4,
-                            2,
-                            4,
-                            1,
-                            7,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            2,
-                            1,
-                            1,
-                            6,
-                            6,
-                            4,
-                            4,
-                            2,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 35,
-                        "serie": [
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T02:46:10.565742Z",
+                "last_check": "2024-12-07T05:36:40.671913Z",
                 "last_month_access": {
-                    "average_access_time": 527,
+                    "average_access_time": 582,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -303,8 +250,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT21167428S"
             }
         }
     },
@@ -312,8 +259,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oases/workflow/www.ebi.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:55.620575Z",
+        "@timestamp": "2024-12-07T05:36:45.741456Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -328,51 +276,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 814,
+                            "cit_count": 693,
                             "citations": [
                                 {
                                     "count": 26,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 116,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 121,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 143,
-                                    "year": 2015
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 97,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 105,
-                                    "year": 2017
+                                    "count": 111,
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 68,
-                                    "year": 2018
+                                    "count": 131,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 62,
-                                    "year": 2019
+                                    "count": 93,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 29,
-                                    "year": 2020
+                                    "count": 100,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 44,
-                                    "year": 2021
+                                    "count": 59,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2022
+                                    "count": 54,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts094",
@@ -382,35 +334,35 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "Oases: robust de novo RNA-seq assembly across the dynamic range of expression levels.",
@@ -423,47 +375,35 @@
                 "description": true
             },
             "website": {
-                "access_time": 599,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 7,
+                        "days": 181,
                         "serie": [
-                            3,
-                            1,
-                            3
+                            73,
+                            108
                         ],
-                        "status": 500
+                        "status": 404
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 404
-                    },
-                    {
-                        "days": 175,
-                        "serie": [
-                            21,
-                            91,
-                            35,
-                            25,
-                            3
-                        ],
-                        "status": 200
+                        "status": 500
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:29:28.983357Z",
+                "last_check": "2024-12-07T05:36:45.608338Z",
                 "last_month_access": {
-                    "average_access_time": 375,
-                    "downtime_days": 3,
-                    "uptime_days": 27
+                    "average_access_time": 350,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 301,
@@ -482,7 +422,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/oases",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:44:14.683660Z",
+        "@timestamp": "2024-12-07T05:36:40.988767Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -490,16 +430,16 @@
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -507,75 +447,29 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 360,
+                "access_time": 616,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 148,
+                        "days": 182,
                         "serie": [
-                            87,
-                            4,
-                            2,
-                            4,
-                            1,
-                            7,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            2,
-                            1,
-                            1,
-                            6,
-                            6,
-                            4,
-                            4,
-                            2,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 35,
-                        "serie": [
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:27:53.044106Z",
+                "last_check": "2024-12-07T05:36:40.657209Z",
                 "last_month_access": {
-                    "average_access_time": 527,
-                    "downtime_days": 7,
-                    "uptime_days": 23
+                    "average_access_time": 566,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -585,8 +479,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT21167428S"
             }
         }
     }

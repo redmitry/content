@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nppred/cmd/www.imtech.res.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:48.159644Z",
+        "@timestamp": "2024-12-07T05:44:20.389050Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -17,51 +18,51 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 23,
+                            "cit_count": 19,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2011
+                                    "count": 2,
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2012
+                                    "count": 4,
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2016
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2018
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2020
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1186/1471-2105-10-22",
@@ -71,39 +72,39 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1975
+                                    "year": "1975"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1986
+                                    "year": "1986"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 }
                             ],
                             "title": "Prediction of nuclear proteins using SVM and HMM models.",
@@ -116,55 +117,49 @@
                 "description": true
             },
             "website": {
-                "access_time": 2661,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 155,
+                        "days": 94,
                         "serie": [
-                            27,
-                            51,
-                            37,
-                            7,
                             1,
-                            32
+                            93
                         ],
                         "status": 200
                     },
                     {
-                        "days": 28,
+                        "days": 86,
                         "serie": [
-                            5,
-                            6,
-                            8,
-                            1,
-                            6,
+                            86
+                        ],
+                        "status": 301
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
                             2
                         ],
                         "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:27:06.863978Z",
+                "https": true,
+                "last_check": "2024-12-07T05:44:20.130492Z",
                 "last_month_access": {
-                    "average_access_time": 2951,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2323,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 301,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://www.imtech.res.in/raghava/nppred/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "http://crdd.osdd.net/raghava/nppred/"
+                        "url": "https://172.16.1.235raghava/nppred/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -176,7 +171,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/nppred",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:29:10.424262Z",
+        "@timestamp": "2024-12-07T03:03:22.538967Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -186,53 +181,230 @@
                 "description": true
             },
             "website": {
-                "access_time": 2080,
+                "access_time": 1024,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 155,
+                        "days": 169,
                         "serie": [
-                            27,
-                            52,
-                            37,
-                            7,
-                            32
+                            42,
+                            30,
+                            28,
+                            19,
+                            23,
+                            10,
+                            17
                         ],
                         "status": 200
                     },
                     {
-                        "days": 28,
+                        "days": 13,
                         "serie": [
-                            5,
-                            6,
-                            7,
+                            2,
                             1,
-                            9
+                            3,
+                            1,
+                            4,
+                            1,
+                            1
                         ],
-                        "status": 302
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:29:10.272982Z",
+                "https": true,
+                "last_check": "2024-12-07T03:03:21.774358Z",
                 "last_month_access": {
-                    "average_access_time": 2316,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1051,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://www.imtech.res.in/raghava/nppred/"
-                    },
-                    {
-                        "status": 302,
-                        "url": "http://crdd.osdd.net/raghava/nppred/"
+                        "url": "https://webs.iiitd.edu.in/raghava/nppred/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nppred/cmd/webs.iiitd.edu.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T03:03:22.371480Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 19,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-10-22",
+                            "pmcid": "PMC2632991",
+                            "pmid": "19152693",
+                            "ref_count": 19,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1975"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1986"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                }
+                            ],
+                            "title": "Prediction of nuclear proteins using SVM and HMM models.",
+                            "year": 2009
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1015,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 168,
+                        "serie": [
+                            42,
+                            30,
+                            28,
+                            17,
+                            1,
+                            23,
+                            10,
+                            17
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 13,
+                        "serie": [
+                            2,
+                            1,
+                            3,
+                            1,
+                            4,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:03:22.123937Z",
+                "last_month_access": {
+                    "average_access_time": 1061,
+                    "downtime_days": 2,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://webs.iiitd.edu.in/raghava/nppred/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

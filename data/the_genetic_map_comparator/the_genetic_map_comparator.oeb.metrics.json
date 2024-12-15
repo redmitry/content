@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:the_genetic_map_comparator/soap/bioweb.supagro.inra.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:10:01.014012Z",
+        "@timestamp": "2024-12-06T05:36:44.557708Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -24,15 +25,15 @@
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btw816",
@@ -49,15 +50,15 @@
                 "description": true
             },
             "website": {
-                "access_time": 221,
+                "access_time": 625,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 181,
                         "serie": [
-                            169,
-                            13
+                            174,
+                            7
                         ],
                         "status": 200
                     },
@@ -66,19 +67,33 @@
                         "serie": [
                             1
                         ],
-                        "status": 408
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T04:00:58.665534Z",
+                "https": true,
+                "last_check": "2024-12-06T05:36:44.451323Z",
                 "last_month_access": {
-                    "average_access_time": 341,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 735,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioweb.supagro.inrae.fr/geneticMapComparator/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.agap-ge2pop.org/genetic-map-comparator//"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.agap-ge2pop.org/genetic-map-comparator/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -90,7 +105,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/the_genetic_map_comparator",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T08:29:22.518218Z",
+        "@timestamp": "2024-12-06T05:36:15.239419Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -100,15 +115,23 @@
                 "description": true
             },
             "website": {
-                "access_time": 221,
+                "access_time": 1058,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 1,
                         "serie": [
-                            169,
-                            13
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            75,
+                            98,
+                            7
                         ],
                         "status": 200
                     },
@@ -117,19 +140,33 @@
                         "serie": [
                             1
                         ],
-                        "status": 408
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T08:29:22.456091Z",
+                "https": true,
+                "last_check": "2024-12-06T05:36:15.14768Z",
                 "last_month_access": {
-                    "average_access_time": 341,
+                    "average_access_time": 976,
                     "downtime_days": 1,
-                    "uptime_days": 29
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioweb.supagro.inrae.fr/geneticMapComparator/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.agap-ge2pop.org/genetic-map-comparator//"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.agap-ge2pop.org/genetic-map-comparator/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

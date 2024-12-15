@@ -3,24 +3,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:palmsiever/app/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:06.106772Z",
+        "@timestamp": "2024-12-07T05:45:07.635323Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -34,31 +35,23 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 15,
+                            "cit_count": 11,
                             "citations": [
                                 {
-                                    "count": 3,
-                                    "year": 2016
+                                    "count": 2,
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2017
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btu720",
@@ -68,31 +61,31 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1996
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 }
                             ],
                             "title": "PALMsiever: a tool to turn raw data into results for single-molecule localization microscopy.",
@@ -101,57 +94,29 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 542,
+                "access_time": 428,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 169,
+                        "days": 182,
                         "serie": [
-                            96,
-                            12,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            9,
-                            3,
-                            2,
-                            33,
-                            8
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 14,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T02:53:30.148836Z",
+                "last_check": "2024-12-07T05:45:07.359983Z",
                 "last_month_access": {
-                    "average_access_time": 428,
+                    "average_access_time": 385,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -162,8 +127,8 @@
         "support": {
             "email": true,
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT88986S"
             }
         }
     },
@@ -171,7 +136,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/palmsiever",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:44:18.977471Z",
+        "@timestamp": "2024-12-07T05:45:07.905260Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -179,16 +144,16 @@
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -196,62 +161,28 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 542,
+                "access_time": 428,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 73,
+                        "days": 182,
                         "serie": [
-                            12,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            9,
-                            3,
-                            2,
-                            33,
-                            8
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 96,
-                        "serie": [
-                            96
-                        ],
-                        "status": 408
-                    },
-                    {
-                        "days": 14,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:41:32.482298Z",
+                "last_check": "2024-12-07T05:45:07.359983Z",
                 "last_month_access": {
-                    "average_access_time": 428,
-                    "downtime_days": 1,
+                    "average_access_time": 356,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
@@ -262,8 +193,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT88986S"
             }
         }
     }

@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:coannealing:0.1.0/cmd/www.daimi.au.dk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T02:52:06.046383Z",
+        "@timestamp": "2024-12-07T04:10:07.479694Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -28,31 +29,23 @@
                     {
                         "days": 182,
                         "serie": [
-                            92,
-                            90
+                            182
                         ],
                         "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:52:05.968523Z",
+                "last_check": "2024-12-07T04:10:07.345628Z",
                 "last_month_access": {
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
                 "redirects": [
                     {
-                        "status": 301,
-                        "url": "https://users-cs.au.dk/~mailund/CoAnnealing/"
+                        "status": 302,
+                        "url": "https://cs.au.dk/~mailund/CoAnnealing/"
                     }
                 ],
                 "ssl": true,
@@ -67,7 +60,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/coannealing",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T03:00:10.020647Z",
+        "@timestamp": "2024-12-07T04:12:41.397245Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -84,33 +77,85 @@
                     {
                         "days": 182,
                         "serie": [
-                            92,
-                            90
+                            182
                         ],
                         "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:00:09.945472Z",
+                "last_check": "2024-12-07T04:12:41.313023Z",
                 "last_month_access": {
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
                 "redirects": [
                     {
-                        "status": 301,
-                        "url": "https://users-cs.au.dk/~mailund/CoAnnealing/"
+                        "status": 302,
+                        "url": "https://cs.au.dk/~mailund/CoAnnealing/"
                     }
                 ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:coannealing:1.1.12/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T09:28:22.646320Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.31628",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 667,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 32,
+                        "serie": [
+                            32
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T09:28:21.380069Z",
+                "last_month_access": {
+                    "average_access_time": 458,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }

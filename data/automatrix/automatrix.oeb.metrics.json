@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/automatrix",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:05:14.661806Z",
+        "@timestamp": "2024-12-07T03:42:26.969241Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,32 +13,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 450,
+                "access_time": 938,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            63,
+                            68,
+                            47
+                        ],
+                        "status": 200
+                    },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 403
-                    },
-                    {
-                        "days": 182,
-                        "serie": [
-                            95,
-                            87
-                        ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:05:14.59925Z",
+                "https": true,
+                "last_check": "2024-12-07T03:42:26.82401Z",
                 "last_month_access": {
-                    "average_access_time": 476,
+                    "average_access_time": 902,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -46,9 +54,21 @@
                     {
                         "status": 301,
                         "url": "http://wwwlabs.uhnresearch.ca/tillier/software.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://wwwlabs.uhnresearch.ca/tillier/software.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://wwwlabs.uhnresearch.ca/labs/tillier/software.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://wwwlabs.uhnresearch.ca/labs/tillier/software.htm"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -57,8 +77,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:automatrix/cmd/www.uhnresearch.ca",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:51.465657Z",
+        "@timestamp": "2024-12-07T03:42:26.530758Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -74,120 +95,100 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 86,
+                            "cit_count": 69,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
-                                    "count": 12,
-                                    "year": 2005
+                                    "count": 9,
+                                    "year": "2005"
                                 },
                                 {
-                                    "count": 14,
-                                    "year": 2006
+                                    "count": 9,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2008
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 10,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2020
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1089/106652703322756195",
                             "pmid": "14980022",
-                            "ref_count": 20,
+                            "ref_count": 8,
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1978
+                                    "year": "1978"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1988
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1991
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 1992
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1997
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1998
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 1999
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2001
+                                    "year": "2000"
                                 }
                             ],
                             "title": "A transition probability model for amino acid substitutions from blocks.",
@@ -200,32 +201,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 728,
+                "access_time": 1198,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            63,
+                            68,
+                            47
+                        ],
+                        "status": 200
+                    },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 403
-                    },
-                    {
-                        "days": 182,
-                        "serie": [
-                            95,
-                            87
-                        ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:04:18.463235Z",
+                "https": true,
+                "last_check": "2024-12-07T03:42:26.404294Z",
                 "last_month_access": {
-                    "average_access_time": 776,
+                    "average_access_time": 1263,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -233,9 +242,21 @@
                     {
                         "status": 301,
                         "url": "http://wwwlabs.uhnresearch.ca/tillier/software.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://wwwlabs.uhnresearch.ca/tillier/software.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://wwwlabs.uhnresearch.ca/labs/tillier/software.htm"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://wwwlabs.uhnresearch.ca/labs/tillier/software.htm"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },

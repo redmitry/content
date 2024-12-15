@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:kaspspoon/app/www.ageri.sci.eg",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:29.699779Z",
+        "@timestamp": "2024-12-07T05:11:43.516364Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -13,14 +14,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -38,69 +39,44 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1093/bioinformatics/btz004",
                             "pmcid": "PMC6735863",
                             "pmid": "30624621",
-                            "ref_count": 17,
+                            "ref_count": 10,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1980
+                                    "year": "1980"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1992
+                                    "year": "1992"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2018
+                                    "year": "2015"
                                 }
                             ],
                             "title": "KASPspoon: an in\u00a0vitro and in silico PCR analysis tool for high-throughput SNP genotyping.",
@@ -109,7 +85,7 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
@@ -119,35 +95,34 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 114,
+                        "days": 152,
                         "serie": [
-                            13,
+                            78,
                             22,
-                            79
+                            52
                         ],
                         "status": 404
                     },
                     {
-                        "days": 57,
+                        "days": 1,
                         "serie": [
-                            57
+                            1
                         ],
                         "status": 500
                     },
                     {
-                        "days": 12,
+                        "days": 29,
                         "serie": [
-                            11,
-                            1
+                            29
                         ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T05:06:14.988232Z",
+                "last_check": "2024-12-07T05:11:43.413155Z",
                 "last_month_access": {
                     "average_access_time": 706,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -155,7 +130,7 @@
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "http://ageri.sci.eg/index.php/facilities-services/ageri-softwares/kaspspoon"
+                        "url": "http://www.ageri.sci.eg/facilities-services/ageri-softwares/kaspspoon/"
                     }
                 ],
                 "ssl": null,
@@ -164,7 +139,7 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
             }
         }
@@ -173,7 +148,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/kaspspoon",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:07:32.230194Z",
+        "@timestamp": "2024-12-07T05:11:43.919320Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -188,35 +163,34 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 114,
+                        "days": 152,
                         "serie": [
-                            13,
+                            78,
                             22,
-                            79
+                            52
                         ],
                         "status": 404
                     },
                     {
-                        "days": 57,
+                        "days": 1,
                         "serie": [
-                            57
+                            1
                         ],
                         "status": 500
                     },
                     {
-                        "days": 12,
+                        "days": 29,
                         "serie": [
-                            11,
-                            1
+                            29
                         ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T05:07:32.171956Z",
+                "last_check": "2024-12-07T05:11:43.820134Z",
                 "last_month_access": {
                     "average_access_time": 590,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -224,7 +198,7 @@
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "http://ageri.sci.eg/index.php/facilities-services/ageri-softwares/kaspspoon"
+                        "url": "http://www.ageri.sci.eg/facilities-services/ageri-softwares/kaspspoon/"
                     }
                 ],
                 "ssl": null,

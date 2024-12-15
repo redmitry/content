@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:metaphlan:none/web/huttenhower.sph.harvard.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:59.535629Z",
+        "@timestamp": "2024-12-07T05:33:30.809878Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -38,51 +39,59 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 752,
+                            "cit_count": 579,
                             "citations": [
                                 {
                                     "count": 8,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 31,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 57,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 76,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 94,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 91,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 87,
-                                    "year": 2018
+                                    "count": 75,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 89,
-                                    "year": 2019
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 95,
-                                    "year": 2020
+                                    "count": 86,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 114,
-                                    "year": 2021
+                                    "count": 81,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2022
+                                    "count": 78,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 52,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/nmeth.2066",
@@ -92,39 +101,39 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 17,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "Metagenomic microbial community profiling using unique clade-specific marker genes.",
@@ -138,28 +147,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 1179,
+                "access_time": 993,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-06-16T02:21:15.459425Z",
+                "https": true,
+                "last_check": "2024-12-07T05:33:30.608483Z",
                 "last_month_access": {
-                    "average_access_time": 747,
-                    "downtime_days": 1,
-                    "uptime_days": 0
+                    "average_access_time": 788,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -175,8 +190,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:metaphlan:none/cmd/huttenhower.sph.harvard.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:59.492742Z",
+        "@timestamp": "2024-12-07T05:33:30.864098Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -186,7 +202,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -210,51 +226,59 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 752,
+                            "cit_count": 579,
                             "citations": [
                                 {
                                     "count": 8,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 31,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 57,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 76,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 94,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 91,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 87,
-                                    "year": 2018
+                                    "count": 75,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 89,
-                                    "year": 2019
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 95,
-                                    "year": 2020
+                                    "count": 86,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 114,
-                                    "year": 2021
+                                    "count": 81,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2022
+                                    "count": 78,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 52,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/nmeth.2066",
@@ -264,39 +288,39 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 17,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "Metagenomic microbial community profiling using unique clade-specific marker genes.",
@@ -310,28 +334,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 1179,
+                "access_time": 1010,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:01:21.035077Z",
+                "https": true,
+                "last_check": "2024-12-07T05:33:30.709884Z",
                 "last_month_access": {
-                    "average_access_time": 747,
+                    "average_access_time": 778,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -347,8 +377,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:metaphlan/cmd/huttenhower.sph.harvard.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:59.604846Z",
+        "@timestamp": "2024-12-07T05:33:30.882170Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -358,7 +389,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -382,51 +413,59 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 752,
+                            "cit_count": 579,
                             "citations": [
                                 {
                                     "count": 8,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 31,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 57,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 76,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 94,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 91,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 87,
-                                    "year": 2018
+                                    "count": 75,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 89,
-                                    "year": 2019
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 95,
-                                    "year": 2020
+                                    "count": 86,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 114,
-                                    "year": 2021
+                                    "count": 81,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2022
+                                    "count": 78,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 52,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/nmeth.2066",
@@ -436,39 +475,39 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 17,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "Metagenomic microbial community profiling using unique clade-specific marker genes.",
@@ -482,32 +521,39 @@
                 "description": true
             },
             "website": {
-                "access_time": 1179,
+                "access_time": 945,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:38:19.729843Z",
+                "https": true,
+                "last_check": "2024-12-07T05:33:30.764588Z",
                 "last_month_access": {
-                    "average_access_time": 747,
+                    "average_access_time": 778,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
+            "email": false,
             "issue_tracking": {
                 "public_tracker": null,
                 "resolve_time": null
@@ -518,8 +564,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:metaphlan/web/huttenhower.sph.harvard.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:59.573566Z",
+        "@timestamp": "2024-12-07T05:33:31.466100Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -529,7 +576,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -553,51 +600,59 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 752,
+                            "cit_count": 579,
                             "citations": [
                                 {
                                     "count": 8,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 31,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 57,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 76,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 94,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 91,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 87,
-                                    "year": 2018
+                                    "count": 75,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 89,
-                                    "year": 2019
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 95,
-                                    "year": 2020
+                                    "count": 86,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 114,
-                                    "year": 2021
+                                    "count": 81,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2022
+                                    "count": 78,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 52,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/nmeth.2066",
@@ -607,39 +662,39 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 17,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "Metagenomic microbial community profiling using unique clade-specific marker genes.",
@@ -653,32 +708,39 @@
                 "description": true
             },
             "website": {
-                "access_time": 1179,
+                "access_time": 393,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:37:35.124761Z",
+                "https": true,
+                "last_check": "2024-12-07T05:33:31.325235Z",
                 "last_month_access": {
-                    "average_access_time": 747,
+                    "average_access_time": 795,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 30
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
+            "email": false,
             "issue_tracking": {
                 "public_tracker": null,
                 "resolve_time": null
@@ -689,7 +751,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/metaphlan",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:43:50.601259Z",
+        "@timestamp": "2024-12-06T07:34:50.039696Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -697,16 +759,16 @@
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -714,80 +776,54 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 559,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 155,
+                        "days": 5,
                         "serie": [
-                            11,
-                            38,
-                            54,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            14
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 28,
+                        "days": 177,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:08:45.892122Z",
+                "last_check": "2024-12-06T07:34:49.722961Z",
                 "last_month_access": {
-                    "average_access_time": 549,
-                    "downtime_days": 11,
-                    "uptime_days": 19
+                    "average_access_time": 484,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -795,24 +831,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.631233Z",
+        "@timestamp": "2024-12-06T07:34:50.165920Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -824,112 +860,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 94,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 89,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            1,
-                            7,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-01T10:01:46.643736Z",
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507,
-                    "downtime_days": 2,
-                    "uptime_days": 2
+                    "average_access_time": 441,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -937,24 +915,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:2.8.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.667200Z",
+        "@timestamp": "2024-12-06T07:34:50.359887Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -966,107 +944,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 390,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -1074,24 +999,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.9/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.681303Z",
+        "@timestamp": "2024-12-06T07:34:50.610639Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1103,107 +1028,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 387,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -1211,24 +1083,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.8/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.688612Z",
+        "@timestamp": "2024-12-06T07:34:50.166813Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1240,107 +1112,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 402,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -1348,24 +1167,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.7/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.695628Z",
+        "@timestamp": "2024-12-06T07:34:50.610079Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1377,107 +1196,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 419,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -1485,24 +1251,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.6/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.720022Z",
+        "@timestamp": "2024-12-06T07:34:50.760673Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1514,107 +1280,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 411,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -1622,24 +1335,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.726314Z",
+        "@timestamp": "2024-12-06T07:34:51.042487Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1651,107 +1364,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 429,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -1759,24 +1419,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.4/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.749044Z",
+        "@timestamp": "2024-12-06T07:34:50.998362Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1788,107 +1448,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 438,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -1896,24 +1503,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.5/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.742537Z",
+        "@timestamp": "2024-12-06T07:34:51.124780Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1925,107 +1532,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 438,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -2033,24 +1587,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.756503Z",
+        "@timestamp": "2024-12-06T07:34:51.358430Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2062,107 +1616,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 438,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -2170,24 +1671,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.764124Z",
+        "@timestamp": "2024-12-06T07:34:51.510205Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2199,107 +1700,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 438,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -2307,24 +1755,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.0.alpha/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.771845Z",
+        "@timestamp": "2024-12-06T07:34:51.391754Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2336,107 +1784,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 429,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -2444,24 +1839,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.10/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.779064Z",
+        "@timestamp": "2024-12-06T07:34:51.960970Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2473,107 +1868,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -2581,24 +1923,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.11/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.795626Z",
+        "@timestamp": "2024-12-06T07:34:52.006505Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2610,107 +1952,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -2718,24 +2007,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.12/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.832858Z",
+        "@timestamp": "2024-12-06T07:34:52.248192Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2747,107 +2036,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -2855,24 +2091,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.13/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.839081Z",
+        "@timestamp": "2024-12-06T07:34:52.328091Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2884,107 +2120,54 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 93,
+                        "days": 5,
                         "serie": [
-                            2,
-                            7,
-                            2,
-                            1,
-                            2,
-                            3,
-                            1,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            4,
-                            4,
-                            1,
-                            3,
-                            1,
-                            2,
-                            8,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1,
-                            4,
-                            1,
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 90,
+                        "days": 177,
                         "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            2,
-                            1,
-                            8,
-                            5,
-                            1,
-                            3,
-                            1,
-                            9,
-                            3,
-                            1,
-                            16,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            10,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 507
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
             }
         }
     },
@@ -2992,24 +2175,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.0.14/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:43:50.864145Z",
+        "@timestamp": "2024-12-06T07:34:52.347119Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -3021,45 +2204,638 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 303,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 12,
+                        "days": 5,
                         "serie": [
-                            2,
-                            10
+                            5
                         ],
-                        "status": 200
+                        "status": 404
                     },
                     {
-                        "days": 2,
+                        "days": 177,
                         "serie": [
-                            2
+                            32,
+                            145
                         ],
-                        "status": 429
+                        "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
                 "last_month_access": {
-                    "average_access_time": 505
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:3.1.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T07:34:52.429400Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 303,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            32,
+                            145
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
+                "last_month_access": {
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:4.0.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T07:34:52.463518Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 303,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            32,
+                            145
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
+                "last_month_access": {
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:4.0.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T07:34:52.486334Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 303,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            32,
+                            145
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
+                "last_month_access": {
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:4.0.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T07:34:52.523272Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 303,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            32,
+                            145
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
+                "last_month_access": {
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT3372689S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:4.0.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T07:34:52.575063Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 303,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            32,
+                            145
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
+                "last_month_access": {
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:4.0.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T07:34:52.544316Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 303,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            32,
+                            145
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
+                "last_month_access": {
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:4.0.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T07:34:52.629493Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 303,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            32,
+                            145
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
+                "last_month_access": {
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaphlan:4.0.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T07:34:52.585516Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 303,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            32,
+                            145
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:34:49.737217Z",
+                "last_month_access": {
+                    "average_access_time": 425,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://huttenhower.sph.harvard.edu/metaphlan"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
             }
         }
     }

@@ -3,24 +3,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dsk:2.2.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:00:21.809152Z",
+        "@timestamp": "2024-12-06T06:32:58.833714Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -35,43 +35,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 94,
+                            "cit_count": 79,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 12,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 13,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 10,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2020
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2021
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btt020",
@@ -80,7 +92,7 @@
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "DSK: k-mer counting with very low memory usage.",
@@ -89,68 +101,46 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 553,
+                "access_time": 596,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 165,
+                        "days": 182,
                         "serie": [
-                            3,
-                            8,
-                            2,
-                            2,
-                            2,
-                            1,
-                            4,
-                            2,
-                            4,
-                            7,
-                            60,
-                            70
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 18,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            6,
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:42:42.440733Z",
+                "last_check": "2024-12-06T06:32:58.352311Z",
                 "last_month_access": {
-                    "average_access_time": 548,
+                    "average_access_time": 496,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://minia.genouest.org/dsk/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3399083S"
             }
         }
     },
@@ -158,8 +148,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dsk:1.6906/cmd/minia.genouest.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:00:21.851333Z",
+        "@timestamp": "2024-12-06T06:39:41.521756Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -174,43 +165,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 94,
+                            "cit_count": 79,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 12,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 13,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 10,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2020
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2021
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btt020",
@@ -219,7 +222,7 @@
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "DSK: k-mer counting with very low memory usage.",
@@ -232,42 +235,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 154,
+                "access_time": 278,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 179,
+                        "days": 182,
                         "serie": [
-                            42,
-                            14,
-                            84,
-                            30,
-                            9
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 4,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T03:47:40.507898Z",
+                "https": true,
+                "last_check": "2024-12-06T06:39:41.259268Z",
                 "last_month_access": {
-                    "average_access_time": 925,
-                    "downtime_days": 1,
+                    "average_access_time": 1048,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://minia.genouest.org/dsk/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -279,24 +274,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/dsk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:41:59.072990Z",
+        "@timestamp": "2024-12-06T06:32:59.014571Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -304,68 +299,46 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 553,
+                "access_time": 596,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 165,
+                        "days": 182,
                         "serie": [
-                            3,
-                            8,
-                            2,
-                            2,
-                            2,
-                            1,
-                            4,
-                            2,
-                            4,
-                            7,
-                            60,
-                            70
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 18,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            6,
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2021-10-27T02:41:19.580015Z",
+                "last_check": "2024-12-06T06:32:58.352311Z",
                 "last_month_access": {
-                    "average_access_time": 548,
+                    "average_access_time": 507,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://minia.genouest.org/dsk/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3399083S"
             }
         }
     },
@@ -373,24 +346,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dsk:2.3.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:00:21.907616Z",
+        "@timestamp": "2024-12-06T06:32:58.693682Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -405,43 +378,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 94,
+                            "cit_count": 79,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 12,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 13,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 10,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2020
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2021
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btt020",
@@ -450,7 +435,7 @@
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "DSK: k-mer counting with very low memory usage.",
@@ -459,68 +444,46 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 553,
+                "access_time": 596,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 165,
+                        "days": 182,
                         "serie": [
-                            3,
-                            8,
-                            2,
-                            2,
-                            2,
-                            1,
-                            4,
-                            2,
-                            4,
-                            7,
-                            60,
-                            70
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 18,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            6,
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T04:24:54.557597Z",
+                "last_check": "2024-12-06T06:32:58.352311Z",
                 "last_month_access": {
-                    "average_access_time": 548,
-                    "downtime_days": 1,
-                    "uptime_days": 0
+                    "average_access_time": 467,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://minia.genouest.org/dsk/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3399083S"
             }
         }
     },
@@ -528,24 +491,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:dsk:2.3.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:00:21.943516Z",
+        "@timestamp": "2024-12-06T06:32:59.190076Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -560,43 +523,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 94,
+                            "cit_count": 79,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 12,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 13,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 10,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2020
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2021
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btt020",
@@ -605,7 +580,7 @@
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "DSK: k-mer counting with very low memory usage.",
@@ -614,68 +589,46 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 553,
+                "access_time": 596,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 165,
+                        "days": 182,
                         "serie": [
-                            3,
-                            8,
-                            2,
-                            2,
-                            2,
-                            1,
-                            4,
-                            2,
-                            4,
-                            7,
-                            60,
-                            70
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 18,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            6,
-                            2,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T04:25:29.569536Z",
+                "last_check": "2024-12-06T06:32:58.352311Z",
                 "last_month_access": {
-                    "average_access_time": 548,
-                    "downtime_days": 1,
-                    "uptime_days": 0
+                    "average_access_time": 432,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://minia.genouest.org/dsk/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3399083S"
             }
         }
     }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/3dbionotes",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:10:56.582786Z",
+        "@timestamp": "2024-12-07T05:15:43.352324Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,36 +13,64 @@
                 "description": true
             },
             "website": {
-                "access_time": 61,
+                "access_time": 272,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 54,
                         "serie": [
-                            82,
-                            100
+                            5,
+                            3,
+                            40,
+                            6
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 9,
+                        "serie": [
+                            3,
+                            5,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 109,
+                        "serie": [
+                            3,
+                            13,
+                            7,
+                            86
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 10,
                         "serie": [
-                            1
+                            7,
+                            3
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:10:56.49063Z",
+                "https": true,
+                "last_check": "2024-12-07T05:15:43.186118Z",
                 "last_month_access": {
-                    "average_access_time": 491,
+                    "average_access_time": 278,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://3dbionotes.cnb.csic.es/ws"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -51,8 +79,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:3dbionotes/db/3dbionotes.cnb.csic.es",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:06.850318Z",
+        "@timestamp": "2024-12-07T05:15:43.435469Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -63,48 +92,40 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 5,
+                            "cit_count": 4,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1016/j.jsb.2016.02.007",
                             "pmid": "26873783",
-                            "ref_count": 16,
+                            "ref_count": 8,
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2013
+                                    "count": 1,
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2015
+                                    "year": "2015"
                                 }
                             ],
                             "title": "3DBIONOTES: A unified, enriched and interactive view of macromolecular information.",
@@ -117,36 +138,64 @@
                 "description": true
             },
             "website": {
-                "access_time": 61,
+                "access_time": 228,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 54,
                         "serie": [
-                            82,
-                            100
+                            5,
+                            3,
+                            40,
+                            6
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 9,
+                        "serie": [
+                            3,
+                            5,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 109,
+                        "serie": [
+                            3,
+                            13,
+                            7,
+                            86
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 10,
                         "serie": [
-                            1
+                            7,
+                            3
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T01:07:40.24359Z",
+                "https": true,
+                "last_check": "2024-12-07T05:15:43.221516Z",
                 "last_month_access": {
-                    "average_access_time": 491,
+                    "average_access_time": 286,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://3dbionotes.cnb.csic.es/ws"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -158,8 +207,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:3dbionotes:v3/db/3dbionotes.cnb.csic.es",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:06.931360Z",
+        "@timestamp": "2024-12-07T05:15:43.683848Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -171,52 +221,48 @@
             "documentation": {
                 "general": true
             },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
             "publications": [
                 {
                     "entries": [
                         {
-                            "cit_count": 5,
+                            "cit_count": 4,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1016/j.jsb.2016.02.007",
                             "pmid": "26873783",
-                            "ref_count": 16,
+                            "ref_count": 8,
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2013
+                                    "count": 1,
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2015
+                                    "year": "2015"
                                 }
                             ],
                             "title": "3DBIONOTES: A unified, enriched and interactive view of macromolecular information.",
@@ -227,27 +273,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 9,
+                            "cit_count": 8,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2020
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2021
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btx483",
@@ -257,39 +303,39 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1981
+                                    "year": "1981"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 }
                             ],
                             "title": "3DBIONOTES v2.0: a web server for the automatic annotation of macromolecular structures.",
@@ -300,19 +346,11 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 4,
+                            "cit_count": 1,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2020
-                                },
-                                {
                                     "count": 1,
-                                    "year": 2021
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btz118",
@@ -322,31 +360,46 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "3DBIONOTES v3.0: crossing molecular and structural biology data with genomic variations.",
                             "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/bioinformatics/btab397",
+                            "pmcid": "PMC8241415",
+                            "pmid": "34014278",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "3DBionotes COVID-19 edition.",
+                            "year": 2021
                         }
                     ]
                 }
@@ -355,36 +408,64 @@
                 "description": true
             },
             "website": {
-                "access_time": 61,
+                "access_time": 91,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 54,
                         "serie": [
-                            82,
-                            100
+                            5,
+                            3,
+                            40,
+                            6
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 9,
+                        "serie": [
+                            3,
+                            5,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 109,
+                        "serie": [
+                            3,
+                            13,
+                            7,
+                            86
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 10,
                         "serie": [
-                            1
+                            7,
+                            3
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T01:11:35.410468Z",
+                "https": true,
+                "last_check": "2024-12-07T05:15:43.564141Z",
                 "last_month_access": {
-                    "average_access_time": 491,
+                    "average_access_time": 311,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://3dbionotes.cnb.csic.es/ws"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

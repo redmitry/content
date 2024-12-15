@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gomapman/db/www.gomapman.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:27.327010Z",
+        "@timestamp": "2024-12-07T04:58:40.661573Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -25,109 +26,101 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 49,
+                            "cit_count": 29,
                             "citations": [
                                 {
+                                    "count": 6,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
                                     "count": 7,
-                                    "year": 2014
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2021
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/nar/gkt1056",
                             "pmcid": "PMC3965006",
                             "pmid": "24194592",
-                            "ref_count": 51,
+                            "ref_count": 49,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1993
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 11,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2012
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2013
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2013"
                                 }
                             ],
                             "title": "GoMapMan: integration, consolidation and visualization of plant gene annotations within the MapMan ontology.",
@@ -140,28 +133,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 1800,
+                "access_time": 1468,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-10-11T03:21:13.415658Z",
+                "https": true,
+                "last_check": "2024-12-07T04:58:40.587746Z",
                 "last_month_access": {
-                    "average_access_time": 1250,
+                    "average_access_time": 2068,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://gomapman.nib.si/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -173,7 +172,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/gomapman",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:30:14.501314Z",
+        "@timestamp": "2024-12-07T04:58:40.959778Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -183,28 +182,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 1800,
+                "access_time": 1486,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:30:14.432893Z",
+                "https": true,
+                "last_check": "2024-12-07T04:58:40.587746Z",
                 "last_month_access": {
-                    "average_access_time": 1250,
+                    "average_access_time": 2049,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://gomapman.nib.si/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

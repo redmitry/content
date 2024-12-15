@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:quantproreloaded:1.0/cmd/code.google.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:31.808509Z",
+        "@timestamp": "2024-12-06T05:04:31.945156Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -20,26 +21,12 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2012
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1093/bioinformatics/btq443",
                             "pmid": "20709689",
-                            "ref_count": 2,
-                            "refs": [
-                                {
-                                    "count": 1,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2008
-                                }
-                            ],
+                            "ref_count": 0,
+                            "refs": [],
                             "title": "QuantProReloaded: quantitative analysis of microspot immunoassays.",
                             "year": 2010
                         }
@@ -50,81 +37,45 @@
                 "description": true
             },
             "website": {
-                "access_time": 348,
+                "access_time": 426,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 23,
+                        "days": 13,
                         "serie": [
                             1,
                             1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
                             2,
                             1,
-                            1,
+                            4,
+                            2,
                             1,
                             1
                         ],
                         "status": 500
                     },
                     {
-                        "days": 1,
+                        "days": 169,
                         "serie": [
-                            1
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 158,
-                        "serie": [
-                            5,
-                            4,
-                            19,
-                            22,
-                            9,
-                            1,
-                            2,
-                            5,
-                            3,
-                            5,
-                            2,
-                            11,
-                            3,
-                            34,
-                            7,
-                            5,
-                            4,
-                            8,
-                            1,
-                            5,
-                            3
+                            40,
+                            35,
+                            17,
+                            10,
+                            20,
+                            24,
+                            13,
+                            6,
+                            4
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T07:27:44.601894Z",
+                "last_check": "2024-12-06T05:04:31.493838Z",
                 "last_month_access": {
-                    "average_access_time": 462,
-                    "downtime_days": 5,
+                    "average_access_time": 607,
+                    "downtime_days": 4,
                     "uptime_days": 25
                 },
                 "license": false,
@@ -147,7 +98,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/quantproreloaded",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:28:59.173930Z",
+        "@timestamp": "2024-12-06T05:04:32.366253Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -157,100 +108,54 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 336,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 34,
+                        "days": 10,
                         "serie": [
                             1,
+                            1,
+                            1,
+                            1,
                             2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
                             3,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
                             1
                         ],
                         "status": 500
                     },
                     {
-                        "days": 1,
+                        "days": 172,
                         "serie": [
-                            1
-                        ],
-                        "status": 502
-                    },
-                    {
-                        "days": 148,
-                        "serie": [
-                            2,
-                            1,
-                            4,
-                            2,
-                            9,
-                            6,
-                            22,
-                            7,
-                            1,
-                            1,
-                            2,
-                            4,
-                            1,
-                            1,
-                            2,
-                            2,
-                            2,
-                            11,
-                            3,
-                            1,
-                            31,
-                            7,
-                            5,
-                            4,
-                            2,
-                            5,
-                            7,
-                            3
+                            10,
+                            10,
+                            18,
+                            35,
+                            17,
+                            58,
+                            20,
+                            4
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:28:59.057106Z",
+                "https": true,
+                "last_check": "2024-12-06T05:04:31.528674Z",
                 "last_month_access": {
-                    "average_access_time": 318,
-                    "downtime_days": 1,
-                    "uptime_days": 29
+                    "average_access_time": 494,
+                    "downtime_days": 4,
+                    "uptime_days": 25
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://code.google.com/archive/p/quantproreloaded"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

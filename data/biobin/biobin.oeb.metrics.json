@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biobin",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:24:58.936893Z",
+        "@timestamp": "2024-12-07T03:55:36.469926Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,24 +13,31 @@
                 "description": true
             },
             "website": {
-                "access_time": 889,
-                "bioschemas": true,
+                "access_time": 1605,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 168,
                         "serie": [
-                            183
+                            168
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 14,
+                        "serie": [
+                            14
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:24:58.859734Z",
+                "last_check": "2024-12-07T03:55:36.021935Z",
                 "last_month_access": {
-                    "average_access_time": 911,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1573,
+                    "downtime_days": 15,
+                    "uptime_days": 14
                 },
                 "license": false,
                 "operational": 200,
@@ -38,6 +45,10 @@
                     {
                         "status": 301,
                         "url": "https://ritchielab.org/software/biobin-download"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://ritchielab.org/404-error-page"
                     }
                 ],
                 "ssl": true,
@@ -49,13 +60,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:biobin/cmd/ritchielab.psu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:28.792023Z",
+        "@timestamp": "2024-12-07T03:56:08.443616Z",
         "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
         "project": {
             "build": {},
             "deployment": {},
             "documentation": {
-                "general": true
+                "general": true,
+                "manual": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
             },
             "publications": [
                 {
@@ -65,27 +87,27 @@
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "pmcid": "PMC3638724",
@@ -94,35 +116,84 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 12,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "Using BioBin to explore rare variant population stratification.",
                             "year": 2013
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 4,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx559",
+                            "pmcid": "PMC5860358",
+                            "pmid": "28968757",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "Novel features and enhancements in BioBin, a tool for the biologically inspired binning and association analysis of rare variants.",
+                            "year": 2018
                         }
                     ]
                 }
@@ -131,24 +202,31 @@
                 "description": true
             },
             "website": {
-                "access_time": 909,
-                "bioschemas": true,
+                "access_time": 1603,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 168,
                         "serie": [
-                            183
+                            168
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 14,
+                        "serie": [
+                            14
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:24:52.254708Z",
+                "last_check": "2024-12-07T03:56:08.32285Z",
                 "last_month_access": {
-                    "average_access_time": 900,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2330,
+                    "downtime_days": 15,
+                    "uptime_days": 15
                 },
                 "license": false,
                 "operational": 200,
@@ -156,6 +234,10 @@
                     {
                         "status": 301,
                         "url": "https://ritchielab.org/software/biobin-download"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://ritchielab.org/404-error-page"
                     }
                 ],
                 "ssl": true,
@@ -170,8 +252,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:biobin:2.3.0/cmd/ritchielab.psu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:28.752947Z",
+        "@timestamp": "2024-12-07T03:55:38.346508Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -195,27 +278,27 @@
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "pmcid": "PMC3638724",
@@ -224,31 +307,31 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 12,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "Using BioBin to explore rare variant population stratification.",
@@ -259,19 +342,15 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 6,
+                            "cit_count": 4,
                             "citations": [
                                 {
-                                    "count": 4,
-                                    "year": 2019
+                                    "count": 3,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2021
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btx559",
@@ -281,27 +360,27 @@
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2016
+                                    "year": "2016"
                                 }
                             ],
                             "title": "Novel features and enhancements in BioBin, a tool for the biologically inspired binning and association analysis of rare variants.",
@@ -314,24 +393,31 @@
                 "description": true
             },
             "website": {
-                "access_time": 921,
-                "bioschemas": true,
+                "access_time": 1404,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 168,
                         "serie": [
-                            183
+                            168
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 14,
+                        "serie": [
+                            14
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:24:43.380278Z",
+                "last_check": "2024-12-07T03:55:38.216462Z",
                 "last_month_access": {
-                    "average_access_time": 899,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1497,
+                    "downtime_days": 15,
+                    "uptime_days": 14
                 },
                 "license": false,
                 "operational": 200,
@@ -339,6 +425,10 @@
                     {
                         "status": 301,
                         "url": "https://ritchielab.org/software/biobin-download"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://ritchielab.org/404-error-page"
                     }
                 ],
                 "ssl": true,
@@ -350,8 +440,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:biobin:2.0.0_-_2.2.1/cmd/ritchielab.psu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:28.723694Z",
+        "@timestamp": "2024-12-07T03:53:06.076979Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -375,27 +466,27 @@
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "pmcid": "PMC3638724",
@@ -404,31 +495,31 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 12,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "Using BioBin to explore rare variant population stratification.",
@@ -439,19 +530,15 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 6,
+                            "cit_count": 4,
                             "citations": [
                                 {
-                                    "count": 4,
-                                    "year": 2019
+                                    "count": 3,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2021
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btx559",
@@ -461,27 +548,27 @@
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2016
+                                    "year": "2016"
                                 }
                             ],
                             "title": "Novel features and enhancements in BioBin, a tool for the biologically inspired binning and association analysis of rare variants.",
@@ -494,24 +581,31 @@
                 "description": true
             },
             "website": {
-                "access_time": 1065,
-                "bioschemas": true,
+                "access_time": 1697,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 168,
                         "serie": [
-                            183
+                            168
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 14,
+                        "serie": [
+                            14
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:17:47.991458Z",
+                "last_check": "2024-12-07T03:53:05.860578Z",
                 "last_month_access": {
-                    "average_access_time": 1165,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2379,
+                    "downtime_days": 15,
+                    "uptime_days": 14
                 },
                 "license": false,
                 "operational": 200,
@@ -519,6 +613,10 @@
                     {
                         "status": 301,
                         "url": "https://ritchielab.org/software/biobin-download"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://ritchielab.org/404-error-page"
                     }
                 ],
                 "ssl": true,

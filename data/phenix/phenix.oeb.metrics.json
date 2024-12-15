@@ -3,24 +3,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:phenix:1.4.1a/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:44:22.252070Z",
+        "@timestamp": "2024-12-07T05:55:55.673552Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -32,58 +32,46 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 590,
+                "access_time": 813,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 166,
+                        "days": 182,
                         "serie": [
-                            105,
-                            2,
-                            1,
-                            2,
-                            10,
-                            2,
-                            44
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 17,
-                        "serie": [
-                            3,
-                            3,
-                            1,
-                            5,
-                            1,
-                            4
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2021-11-14T06:57:58.803491Z",
+                "last_check": "2024-12-07T05:55:55.545904Z",
                 "last_month_access": {
-                    "average_access_time": 566,
+                    "average_access_time": 815,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/ukhsa-collaboration/PHEnix"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT8666863S"
             }
         }
     },
@@ -91,8 +79,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:phenix:1.13/workbench/www.phenix-online.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:18.558889Z",
+        "@timestamp": "2024-12-07T06:04:14.517743Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -108,59 +97,67 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 12606,
+                            "cit_count": 10176,
                             "citations": [
                                 {
-                                    "count": 102,
-                                    "year": 2010
+                                    "count": 97,
+                                    "year": "2010"
                                 },
                                 {
-                                    "count": 446,
-                                    "year": 2011
+                                    "count": 423,
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 738,
-                                    "year": 2012
+                                    "count": 698,
+                                    "year": "2012"
                                 },
                                 {
-                                    "count": 984,
-                                    "year": 2013
+                                    "count": 937,
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 1129,
-                                    "year": 2014
+                                    "count": 1063,
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 1226,
-                                    "year": 2015
+                                    "count": 1162,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 1397,
-                                    "year": 2016
+                                    "count": 1316,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 1453,
-                                    "year": 2017
+                                    "count": 1358,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1389,
-                                    "year": 2018
+                                    "count": 1261,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 1347,
-                                    "year": 2019
+                                    "count": 1059,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 1282,
-                                    "year": 2020
+                                    "count": 701,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 1070,
-                                    "year": 2021
+                                    "count": 50,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 43,
-                                    "year": 2022
+                                    "count": 23,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1107/s0907444909052925",
@@ -170,83 +167,355 @@
                             "refs": [
                                 {
                                     "count": 78,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1972
+                                    "year": "1972"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1985
+                                    "year": "1985"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1986
+                                    "year": "1986"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1987
+                                    "year": "1987"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1996
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 }
                             ],
                             "title": "PHENIX: a comprehensive Python-based system for macromolecular structure solution.",
                             "year": 2010
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3211,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 33,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 141,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 294,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 450,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 326,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 297,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 250,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 206,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 214,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 209,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 183,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 168,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 201,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 174,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1107/s0907444902016657",
+                            "pmid": "12393927",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "PHENIX: building new software for automated crystallographic structure determination.",
+                            "year": 2002
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 161,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 100,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1107/s2059798319011471",
+                            "pmcid": "PMC6778852",
+                            "pmid": "31588918",
+                            "ref_count": 281,
+                            "refs": [
+                                {
+                                    "count": 160,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1958"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1960"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1967"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1977"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Macromolecular structure determination using X-rays, neutrons and electrons: recent developments in Phenix.",
+                            "year": 2019
                         }
                     ]
                 }
@@ -255,34 +524,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 375,
+                "access_time": 1131,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 177,
                         "serie": [
-                            183
+                            19,
+                            128,
+                            30
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            4
+                        ],
+                        "status": 521
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 523
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:51:28.085332Z",
+                "https": true,
+                "last_check": "2024-12-07T06:04:14.299996Z",
                 "last_month_access": {
-                    "average_access_time": 498,
+                    "average_access_time": 1290,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
-                        "url": "https://phenix-online.org/"
+                        "url": "https://www.phenix-online.org/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -294,7 +579,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/phenix",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:44:22.247755Z",
+        "@timestamp": "2024-12-07T05:54:59.584139Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -302,16 +587,16 @@
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -319,58 +604,46 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 590,
+                "access_time": 904,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 166,
+                        "days": 182,
                         "serie": [
-                            105,
-                            2,
-                            1,
-                            2,
-                            10,
-                            2,
-                            44
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 17,
-                        "serie": [
-                            3,
-                            3,
-                            1,
-                            5,
-                            1,
-                            4
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:49:16.731655Z",
+                "last_check": "2024-12-07T05:54:59.410019Z",
                 "last_month_access": {
-                    "average_access_time": 566,
+                    "average_access_time": 911,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/ukhsa-collaboration/PHEnix"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT8666863S"
             }
         }
     }

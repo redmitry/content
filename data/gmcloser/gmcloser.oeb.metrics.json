@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gmcloser/cmd/sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:01:51.725385Z",
+        "@timestamp": "2024-12-07T04:49:03.965007Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -15,35 +16,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 38,
+                            "cit_count": 26,
                             "citations": [
                                 {
                                     "count": 4,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2020
+                                    "count": 7,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2021
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2022
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btv465",
@@ -52,55 +45,55 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 }
                             ],
                             "title": "GMcloser: closing gaps in assemblies accurately with a likelihood-based selection of contig or long-read alignments.",
@@ -113,42 +106,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 1287,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 65,
                         "serie": [
-                            54,
-                            128
+                            65
                         ],
-                        "status": 200
+                        "status": 403
                     },
                     {
-                        "days": 1,
+                        "days": 117,
                         "serie": [
-                            1
+                            117
                         ],
-                        "status": 504
+                        "status": 200
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T04:31:05.503377Z",
+                "https": false,
+                "last_check": "2024-12-07T04:49:02.532934Z",
                 "last_month_access": {
-                    "average_access_time": 1362,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 464,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 403,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://sourceforge.net/projects/gmcloser/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -160,7 +152,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/gmcloser",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:27:27.485410Z",
+        "@timestamp": "2024-12-07T04:49:02.695653Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -170,34 +162,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 1333,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 65,
                         "serie": [
-                            183
+                            65
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 117,
+                        "serie": [
+                            117
                         ],
                         "status": 200
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T04:27:27.399442Z",
+                "https": false,
+                "last_check": "2024-12-07T04:49:02.532934Z",
                 "last_month_access": {
-                    "average_access_time": 1313,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 531,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 403,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://sourceforge.net/projects/gmcloser/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
@@ -206,7 +205,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gmcloser:1.6.2/cmd/sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T10:02:37.060318Z",
+        "@timestamp": "2024-12-07T04:49:02.336639Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -224,35 +223,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 1287,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 65,
                         "serie": [
-                            54,
-                            128
+                            65
                         ],
-                        "status": 200
+                        "status": 403
                     },
                     {
-                        "days": 1,
+                        "days": 117,
                         "serie": [
-                            1
+                            117
                         ],
-                        "status": 504
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-07-21T04:24:29.896443Z",
+                "last_check": "2024-12-07T04:49:02.238286Z",
                 "last_month_access": {
-                    "average_access_time": 1362,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 275,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 403,
                 "redirects": [
                     {
                         "status": 301,

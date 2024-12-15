@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:magnolia/web/bioinfo.lifl.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:05.194215Z",
+        "@timestamp": "2024-12-07T05:06:04.105554Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -19,11 +20,11 @@
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 }
                             ],
                             "doi": "10.1093/nar/gkn321",
@@ -33,51 +34,51 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1988
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 }
                             ],
                             "title": "MAGNOLIA: multiple alignment of protein-coding and structural RNA sequences.",
@@ -90,42 +91,27 @@
                 "description": true
             },
             "website": {
-                "access_time": 318,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 172,
+                        "days": 182,
                         "serie": [
-                            26,
-                            52,
-                            5,
-                            57,
-                            32
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 11,
-                        "serie": [
-                            4,
-                            2,
-                            2,
-                            1,
-                            2
+                            182
                         ],
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T05:11:27.156808Z",
+                "https": false,
+                "last_check": "2024-12-07T05:06:03.924265Z",
                 "last_month_access": {
-                    "average_access_time": 353,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 3743,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
@@ -133,10 +119,18 @@
                     },
                     {
                         "status": 301,
-                        "url": "https://bioinfo.lifl.fr/magnolia/"
+                        "url": "https://proxy-isc.lifl.fr"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://indispo.cristal.univ-lille.fr/?PROXY=isc"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://indispo.cristal.univ-lille.fr/?PROXY=isc"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -148,7 +142,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/magnolia",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:03:04.525974Z",
+        "@timestamp": "2024-12-07T05:06:04.125955Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -158,42 +152,27 @@
                 "description": true
             },
             "website": {
-                "access_time": 311,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 172,
+                        "days": 182,
                         "serie": [
-                            26,
-                            52,
-                            5,
-                            57,
-                            32
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 11,
-                        "serie": [
-                            4,
-                            2,
-                            2,
-                            1,
-                            2
+                            182
                         ],
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T05:03:04.363255Z",
+                "https": false,
+                "last_check": "2024-12-07T05:06:03.924265Z",
                 "last_month_access": {
-                    "average_access_time": 327,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 3774,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 302,
@@ -201,10 +180,18 @@
                     },
                     {
                         "status": 301,
-                        "url": "https://bioinfo.lifl.fr/magnolia/"
+                        "url": "https://proxy-isc.lifl.fr"
+                    },
+                    {
+                        "status": 301,
+                        "url": "http://indispo.cristal.univ-lille.fr/?PROXY=isc"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://indispo.cristal.univ-lille.fr/?PROXY=isc"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

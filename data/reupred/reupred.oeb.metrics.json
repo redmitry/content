@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:reupred/lib/protein.bio.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:08:05.931380Z",
+        "@timestamp": "2024-12-06T05:16:57.957107Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -20,96 +21,88 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 7,
+                            "cit_count": 5,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1007/s00726-016-2187-2",
                             "pmid": "26898549",
-                            "ref_count": 41,
+                            "ref_count": 40,
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2015
+                                    "count": 7,
+                                    "year": "2015"
                                 }
                             ],
                             "title": "Identification of repetitive units in protein structures with ReUPred.",
@@ -122,42 +115,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 317,
+                "access_time": 330,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 26,
+                        "serie": [
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            55,
+                            45,
+                            55
+                        ],
+                        "status": 200
+                    },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 503
-                    },
-                    {
-                        "days": 182,
-                        "serie": [
-                            171,
-                            11
-                        ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T07:50:26.721683Z",
+                "last_check": "2024-12-06T05:16:57.869973Z",
                 "last_month_access": {
-                    "average_access_time": 362,
-                    "downtime_days": 1,
+                    "average_access_time": 313,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/reupred/"
                     },
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "http://old.protein.bio.unipd.it/reupred/"
                     }
                 ],
@@ -173,7 +174,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/reupred",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T08:00:50.008554Z",
+        "@timestamp": "2024-12-06T05:16:58.079434Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -183,34 +184,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 157,
+                "access_time": 360,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 26,
                         "serie": [
-                            183
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            55,
+                            45,
+                            55
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T08:00:49.942225Z",
+                "last_check": "2024-12-06T05:16:57.937705Z",
                 "last_month_access": {
-                    "average_access_time": 181,
+                    "average_access_time": 291,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/reupred/"
                     },
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "http://old.protein.bio.unipd.it/reupred/"
                     }
                 ],

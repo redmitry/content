@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mouse_atlas/db/www.mouseatlas.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:18.665274Z",
+        "@timestamp": "2024-12-07T05:23:45.158704Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -15,59 +16,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 83,
+                            "cit_count": 70,
                             "citations": [
                                 {
+                                    "count": 7,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
                                     "count": 8,
-                                    "year": 2006
+                                    "year": "2010"
                                 },
                                 {
-                                    "count": 21,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 17,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2011
+                                    "count": 2,
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2015
+                                    "count": 5,
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2016
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
+                                    "year": "2017"
                                 }
                             ],
                             "doi": "10.1073/pnas.0509455102",
@@ -77,43 +74,43 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1990
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2005
+                                    "year": "2005"
                                 }
                             ],
                             "title": "A mouse atlas of gene expression: large-scale digital gene-expression profiles from precisely defined developing C57BL/6J mouse tissues and cells.",
@@ -126,42 +123,48 @@
                 "description": true
             },
             "website": {
-                "access_time": 1528,
+                "access_time": 264,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
-                            1,
-                            1
+                            3
                         ],
                         "status": 500
                     },
                     {
-                        "days": 180,
+                        "days": 2,
                         "serie": [
-                            82,
-                            30,
-                            3,
-                            65
+                            2
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 144,
+                        "serie": [
+                            58,
+                            45,
+                            31,
+                            10
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 33,
                         "serie": [
-                            1
+                            33
                         ],
                         "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T05:39:20.159242Z",
+                "last_check": "2024-12-07T05:23:44.617627Z",
                 "last_month_access": {
-                    "average_access_time": 1376,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 221,
+                    "downtime_days": 19,
+                    "uptime_days": 10
                 },
                 "license": false,
                 "operational": 200,
@@ -169,6 +172,10 @@
                     {
                         "status": 301,
                         "url": "http://www.mouseatlas.org"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.mouseatlas.org/"
                     }
                 ],
                 "ssl": null,
@@ -180,7 +187,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mouse_atlas",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:56:26.628093Z",
+        "@timestamp": "2024-12-07T05:23:44.932323Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -190,42 +197,48 @@
                 "description": true
             },
             "website": {
-                "access_time": 1144,
+                "access_time": 264,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
-                            1,
-                            1
+                            3
                         ],
                         "status": 500
-                    },
-                    {
-                        "days": 180,
-                        "serie": [
-                            82,
-                            30,
-                            3,
-                            65
-                        ],
-                        "status": 200
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
+                        "status": 502
+                    },
+                    {
+                        "days": 145,
+                        "serie": [
+                            58,
+                            45,
+                            32,
+                            10
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 33,
+                        "serie": [
+                            33
+                        ],
                         "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T05:56:26.546908Z",
+                "last_check": "2024-12-07T05:23:44.617627Z",
                 "last_month_access": {
-                    "average_access_time": 1315,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 241,
+                    "downtime_days": 19,
+                    "uptime_days": 10
                 },
                 "license": false,
                 "operational": 200,
@@ -233,6 +246,10 @@
                     {
                         "status": 301,
                         "url": "http://www.mouseatlas.org"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.mouseatlas.org/"
                     }
                 ],
                 "ssl": null,

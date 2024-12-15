@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dreimt/web/www.dreimt.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:00:20.389331Z",
+        "@timestamp": "2024-12-06T07:39:23.393098Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -27,36 +28,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 124,
+                "access_time": 281,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 179,
                         "serie": [
-                            62,
-                            120
+                            43,
+                            136
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 3,
                         "serie": [
-                            1
+                            3
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:46:23.554306Z",
+                "https": true,
+                "last_check": "2024-12-06T07:39:23.266181Z",
                 "last_month_access": {
-                    "average_access_time": 240,
+                    "average_access_time": 174,
                     "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.dreimt.org/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -65,7 +72,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/dreimt",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:46:23.581070Z",
+        "@timestamp": "2024-12-06T07:39:23.369796Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -75,36 +82,190 @@
                 "description": true
             },
             "website": {
-                "access_time": 160,
+                "access_time": 129,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 179,
                         "serie": [
-                            62,
-                            120
+                            43,
+                            136
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 3,
                         "serie": [
-                            1
+                            3
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T09:46:23.554307Z",
+                "https": true,
+                "last_check": "2024-12-06T07:39:23.243023Z",
                 "last_month_access": {
-                    "average_access_time": 271,
+                    "average_access_time": 292,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.dreimt.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dreimt:v20200914/web/www.dreimt.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-06T07:39:23.365556Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.06.24.168468",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DREIMT: a drug repositioning database and prioritization tool for immunomodulation",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 303,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 179,
+                        "serie": [
+                            43,
+                            136
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:39:23.23919Z",
+                "last_month_access": {
+                    "average_access_time": 367,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.dreimt.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dreimt:v20200914/rest/www.dreimt.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-06T07:39:23.377777Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.06.24.168468",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DREIMT: a drug repositioning database and prioritization tool for immunomodulation",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 129,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 178,
+                        "serie": [
+                            10,
+                            32,
+                            136
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            3
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T07:39:23.279648Z",
+                "last_month_access": {
+                    "average_access_time": 47,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.dreimt.org/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/dlite",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:41:57.108697Z",
+        "@timestamp": "2024-12-06T05:37:51.854234Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -13,14 +13,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -28,29 +28,29 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 734,
+                "access_time": 617,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:02:06.044649Z",
+                "last_check": "2024-12-06T05:37:51.335095Z",
                 "last_month_access": {
-                    "average_access_time": 714,
+                    "average_access_time": 609,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -70,8 +70,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3023S"
             }
         }
     },
@@ -79,8 +79,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:dlite/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:00:14.320261Z",
+        "@timestamp": "2024-12-06T05:37:51.479957Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -89,14 +90,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -110,109 +111,20 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 2,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1016/j.bpj.2019.09.034",
                             "pmcid": "PMC6838938",
                             "pmid": "31648791",
-                            "ref_count": 66,
+                            "ref_count": 2,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1992
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1996
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1998
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 1999
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2001
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2004
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2019
+                                    "year": "2018"
                                 }
                             ],
                             "title": "DLITE Uses Cell-Cell Interface Movement to Better Infer Cell-Cell Tensions.",
@@ -221,29 +133,29 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 734,
+                "access_time": 671,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T04:27:45.554423Z",
+                "last_check": "2024-12-06T05:37:51.261976Z",
                 "last_month_access": {
-                    "average_access_time": 714,
-                    "downtime_days": 1,
-                    "uptime_days": 0
+                    "average_access_time": 584,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -263,8 +175,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3023S"
             }
         }
     }

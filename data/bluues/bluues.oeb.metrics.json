@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bluues:2.0/web/protein.bio.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:39.775727Z",
+        "@timestamp": "2024-12-07T04:08:10.106040Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -16,104 +17,60 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 36,
+                            "cit_count": 20,
                             "citations": [
                                 {
-                                    "count": 3,
-                                    "year": 2013
+                                    "count": 2,
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2014
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2018
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2019
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2020
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts343",
                             "pmid": "22711791",
-                            "ref_count": 17,
+                            "ref_count": 4,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1972
+                                    "year": "1983"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1983
+                                    "year": "1990"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1985
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1990
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1995
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2001
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2002
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2012
+                                    "year": "2009"
                                 }
                             ],
                             "title": "Bluues server: electrostatic properties of wild-type and mutated protein structures.",
@@ -126,34 +83,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 115,
+                "access_time": 327,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 26,
                         "serie": [
-                            183
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            54,
+                            45,
+                            56
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T02:42:45.500354Z",
+                "last_check": "2024-12-07T04:08:09.969548Z",
                 "last_month_access": {
-                    "average_access_time": 179,
+                    "average_access_time": 334,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/bluues/"
                     },
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "http://old.protein.bio.unipd.it/bluues/"
                     }
                 ],
@@ -169,7 +142,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bluues",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:43:23.023953Z",
+        "@timestamp": "2024-12-07T04:08:10.367483Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -179,34 +152,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 328,
+                "access_time": 115,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 26,
                         "serie": [
-                            183
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            54,
+                            45,
+                            56
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T02:43:22.942814Z",
+                "last_check": "2024-12-07T04:08:10.224987Z",
                 "last_month_access": {
-                    "average_access_time": 372,
+                    "average_access_time": 304,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/bluues/"
                     },
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "http://old.protein.bio.unipd.it/bluues/"
                     }
                 ],

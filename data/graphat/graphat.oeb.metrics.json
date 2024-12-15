@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.50.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T04:37:49.393632Z",
+        "@timestamp": "2024-12-07T04:53:38.598822Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,28 +21,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 135,
+                "access_time": 281,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:02:24.211259Z",
+                "https": true,
+                "last_check": "2024-12-07T04:53:38.523436Z",
                 "last_month_access": {
-                    "average_access_time": 161,
+                    "average_access_time": 238,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.6/bioc/html/GraphAT.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -51,7 +57,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.52.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:02:28.645520Z",
+        "@timestamp": "2024-12-07T04:50:37.645376Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -68,445 +74,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 21,
+                            "cit_count": 16,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/bth405",
-                            "pmid": "15256415",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "A graph-theoretic approach to testing associations between disparate sources of functional genomics data.",
-                            "year": 2004
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 135,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2022-02-12T04:32:48.182922Z",
-                "last_month_access": {
-                    "average_access_time": 216,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:graphat:1.46.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:28.696447Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "manual": true
-            },
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 21,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2018
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/bth405",
-                            "pmid": "15256415",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "A graph-theoretic approach to testing associations between disparate sources of functional genomics data.",
-                            "year": 2004
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 135,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2021-04-25T02:01:54.053612Z",
-                "last_month_access": {
-                    "average_access_time": 156,
-                    "downtime_days": 0,
-                    "uptime_days": 1
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:graphat:1.46.0/lib/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:28.728578Z",
-        "@type": "metrics",
-        "distribution": {
-            "sourcecode": {
-                "interpreted": true
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "documentation": {
-                "manual": true
-            },
-            "license": {
-                "open_source": true,
-                "osi": true
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 21,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2018
-                                }
-                            ],
-                            "doi": "10.1093/bioinformatics/bth405",
-                            "pmid": "15256415",
-                            "ref_count": 0,
-                            "refs": [],
-                            "title": "A graph-theoretic approach to testing associations between disparate sources of functional genomics data.",
-                            "year": 2004
-                        }
-                    ]
-                }
-            ],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 135,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2021-04-25T02:02:38.140369Z",
-                "last_month_access": {
-                    "average_access_time": 156,
-                    "downtime_days": 0,
-                    "uptime_days": 1
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "email": true
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/graphat",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": null,
-        "@timestamp": "2022-02-12T04:32:48.814785Z",
-        "@type": "metrics",
-        "project": {
-            "build": {},
-            "deployment": {},
-            "publications": [],
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 135,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": false,
-                "last_check": "2022-02-12T04:32:48.7199Z",
-                "last_month_access": {
-                    "average_access_time": 156,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "ssl": null,
-                "ssl_err": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.62.0/cmd/bioconductor.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:02:28.755146Z",
-        "@type": "metrics",
-        "distribution": {
-            "packages": true,
-            "sourcecode": {}
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [
-                {
-                    "entries": [
-                        {
-                            "cit_count": 21,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2005
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bth405",
@@ -528,19 +144,435 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:03:03.048809Z",
+                "last_check": "2024-12-07T04:50:37.557701Z",
                 "last_month_access": {
-                    "average_access_time": 212,
+                    "average_access_time": 163,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.7/bioc/html/GraphAT.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:graphat:1.46.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T04:52:54.062346Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 16,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bth405",
+                            "pmid": "15256415",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A graph-theoretic approach to testing associations between disparate sources of functional genomics data.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 22,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T04:52:53.872729Z",
+                "last_month_access": {
+                    "average_access_time": 32,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/GraphAT.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:graphat:1.46.0/lib/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T04:53:09.375181Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 16,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bth405",
+                            "pmid": "15256415",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A graph-theoretic approach to testing associations between disparate sources of functional genomics data.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 23,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T04:53:09.285038Z",
+                "last_month_access": {
+                    "average_access_time": 47,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/GraphAT.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/graphat",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2024-12-07T04:50:41.144932Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 139,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T04:50:41.080561Z",
+                "last_month_access": {
+                    "average_access_time": 167,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/GraphAT.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.62.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T10:19:07.222180Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 16,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bth405",
+                            "pmid": "15256415",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A graph-theoretic approach to testing associations between disparate sources of functional genomics data.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 124,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T10:19:07.15798Z",
+                "last_month_access": {
+                    "average_access_time": 140,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -553,7 +585,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.64.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:02:28.786615Z",
+        "@timestamp": "2024-12-06T10:19:19.185940Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -570,55 +602,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 21,
+                            "cit_count": 16,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bth405",
@@ -635,24 +667,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 214,
+                "access_time": 121,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:03:13.819364Z",
+                "last_check": "2024-12-06T10:19:19.13957Z",
                 "last_month_access": {
-                    "average_access_time": 167,
+                    "average_access_time": 139,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -665,7 +697,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.60.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:02:28.805797Z",
+        "@timestamp": "2024-12-06T10:20:18.530055Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -682,55 +714,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 21,
+                            "cit_count": 16,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bth405",
@@ -747,24 +779,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 123,
+                "access_time": 140,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:04:13.910536Z",
+                "last_check": "2024-12-06T10:20:18.479355Z",
                 "last_month_access": {
-                    "average_access_time": 140,
+                    "average_access_time": 198,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -777,7 +809,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.58.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:02:28.833409Z",
+        "@timestamp": "2024-12-06T10:21:01.202141Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -794,55 +826,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 21,
+                            "cit_count": 16,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bth405",
@@ -859,24 +891,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 130,
+                "access_time": 122,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:05:15.48785Z",
+                "last_check": "2024-12-06T10:21:01.157989Z",
                 "last_month_access": {
-                    "average_access_time": 155,
+                    "average_access_time": 363,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -889,7 +921,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.54.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:02:28.847633Z",
+        "@timestamp": "2024-12-06T10:21:53.223526Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -906,55 +938,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 21,
+                            "cit_count": 16,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bth405",
@@ -971,24 +1003,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 120,
+                "access_time": 125,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:06:04.033142Z",
+                "last_check": "2024-12-06T10:21:53.113752Z",
                 "last_month_access": {
-                    "average_access_time": 155,
+                    "average_access_time": 146,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -1001,7 +1033,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.56.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:02:28.879773Z",
+        "@timestamp": "2024-12-06T10:21:59.945136Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1018,55 +1050,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 21,
+                            "cit_count": 16,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bth405",
@@ -1083,24 +1115,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 123,
+                "access_time": 133,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:06:11.551807Z",
+                "last_check": "2024-12-06T10:21:59.865643Z",
                 "last_month_access": {
-                    "average_access_time": 160,
+                    "average_access_time": 518,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -1113,7 +1145,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.66.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:02:28.905729Z",
+        "@timestamp": "2024-12-07T02:52:58.769069Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -1130,55 +1162,55 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 21,
+                            "cit_count": 16,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2009
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bth405",
@@ -1195,24 +1227,360 @@
                 "description": true
             },
             "website": {
-                "access_time": 204,
+                "access_time": 171,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 90,
+                        "days": 182,
                         "serie": [
-                            90
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:16:18.681547Z",
+                "last_check": "2024-12-07T02:52:58.69224Z",
                 "last_month_access": {
-                    "average_access_time": 149,
+                    "average_access_time": 152,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.70.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T03:04:50.422008Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 16,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bth405",
+                            "pmid": "15256415",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A graph-theoretic approach to testing associations between disparate sources of functional genomics data.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 121,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:04:50.013323Z",
+                "last_month_access": {
+                    "average_access_time": 147,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.72.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T03:32:36.701837Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 16,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bth405",
+                            "pmid": "15256415",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A graph-theoretic approach to testing associations between disparate sources of functional genomics data.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 121,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:32:35.856175Z",
+                "last_month_access": {
+                    "average_access_time": 141,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:graphat:1.74.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T03:36:03.585232Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 16,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bth405",
+                            "pmid": "15256415",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A graph-theoretic approach to testing associations between disparate sources of functional genomics data.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 184,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:36:03.551307Z",
+                "last_month_access": {
+                    "average_access_time": 152,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,

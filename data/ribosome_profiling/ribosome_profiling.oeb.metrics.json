@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ribosome_profiling",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:21:48.749326Z",
+        "@timestamp": "2024-12-06T05:56:22.201614Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,28 +13,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 150,
+                "access_time": 202,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T04:22:18.459544Z",
+                "https": true,
+                "last_check": "2024-12-06T05:56:22.11568Z",
                 "last_month_access": {
-                    "average_access_time": 190,
+                    "average_access_time": 298,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/RiboProfiling.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -43,8 +49,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ribosome_profiling/undefined/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:14:21.730213Z",
+        "@timestamp": "2024-12-07T02:51:14.967360Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -61,21 +68,26 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 8,
+                            "cit_count": 2,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2021
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1002/wrna.1577",
                             "pmid": "31760685",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 2,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "Computational methods for ribosome profiling data analysis.",
                             "year": 2020
                         }
@@ -86,25 +98,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 150,
+                "access_time": 137,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 182,
                         "serie": [
-                            100
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
+                "https": true,
+                "last_check": "2024-12-07T02:51:14.8841Z",
                 "last_month_access": {
-                    "average_access_time": 190
+                    "average_access_time": 403,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/RiboProfiling.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

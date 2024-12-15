@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:maexplorer:0.96.34.01/app/maexplorer.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:02.997064Z",
+        "@timestamp": "2024-12-07T05:06:15.060913Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -22,13 +23,8 @@
                         {
                             "cit_count": 0,
                             "citations": [],
-                            "doi": null,
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -37,36 +33,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 428,
+                "access_time": 493,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
                         "days": 182,
                         "serie": [
-                            121,
-                            61
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T05:07:37.990192Z",
+                "https": true,
+                "last_check": "2024-12-07T05:06:14.896772Z",
                 "last_month_access": {
-                    "average_access_time": 666,
+                    "average_access_time": 797,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://maexplorer.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -78,7 +72,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/maexplorer",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:24:45.971900Z",
+        "@timestamp": "2024-12-07T05:06:14.800889Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -88,36 +82,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 428,
+                "access_time": 372,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 503
-                    },
-                    {
                         "days": 182,
                         "serie": [
-                            121,
-                            61
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:20:52.0781Z",
+                "https": true,
+                "last_check": "2024-12-07T05:06:14.644693Z",
                 "last_month_access": {
-                    "average_access_time": 666,
+                    "average_access_time": 748,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://maexplorer.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

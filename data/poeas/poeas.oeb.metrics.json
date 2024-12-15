@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:poeas/web/caps.ncbs.res.in",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:25.654389Z",
+        "@timestamp": "2024-12-06T05:05:04.169191Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -15,73 +16,64 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.4137/bbi.s19057",
                             "pmcid": "PMC4274039",
                             "pmid": "25574136",
-                            "ref_count": 42,
+                            "ref_count": 40,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1982
+                                    "year": "1982"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2007
+                                    "count": 3,
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2010
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2013
+                                    "year": "2013"
                                 }
                             ],
                             "title": "POEAS: Automated Plant Phenomic Analysis Using Plant Ontology.",
@@ -94,36 +86,49 @@
                 "description": true
             },
             "website": {
-                "access_time": 1009,
+                "access_time": 1186,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 171,
+                        "days": 4,
                         "serie": [
-                            26,
-                            145
+                            4
                         ],
-                        "status": 200
+                        "status": 500
                     },
                     {
-                        "days": 12,
+                        "days": 5,
                         "serie": [
-                            12
+                            5
                         ],
-                        "status": 408
+                        "status": 503
+                    },
+                    {
+                        "days": 173,
+                        "serie": [
+                            131,
+                            42
+                        ],
+                        "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-10-11T06:00:03.494808Z",
+                "https": true,
+                "last_check": "2024-12-06T05:05:04.061225Z",
                 "last_month_access": {
-                    "average_access_time": 1192,
+                    "average_access_time": 1298,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://caps.ncbs.res.in/poeas/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -135,7 +140,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/poeas",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:20:19.516132Z",
+        "@timestamp": "2024-12-06T05:05:04.062001Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -145,36 +150,49 @@
                 "description": true
             },
             "website": {
-                "access_time": 1009,
+                "access_time": 1157,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 171,
+                        "days": 4,
                         "serie": [
-                            26,
-                            145
+                            4
                         ],
-                        "status": 200
+                        "status": 500
                     },
                     {
-                        "days": 12,
+                        "days": 5,
                         "serie": [
-                            12
+                            5
                         ],
-                        "status": 408
+                        "status": 503
+                    },
+                    {
+                        "days": 173,
+                        "serie": [
+                            131,
+                            42
+                        ],
+                        "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:20:19.40077Z",
+                "https": true,
+                "last_check": "2024-12-06T05:05:03.969305Z",
                 "last_month_access": {
-                    "average_access_time": 1192,
+                    "average_access_time": 1352,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://caps.ncbs.res.in/poeas/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

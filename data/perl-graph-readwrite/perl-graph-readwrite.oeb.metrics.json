@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-graph-readwrite:2.09/cmd/metacpan.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T06:31:21.552219Z",
+        "@timestamp": "2024-12-07T05:38:09.777534Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,24 +21,38 @@
                 "description": true
             },
             "website": {
-                "access_time": 982,
+                "access_time": 32,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 6,
                         "serie": [
-                            183
+                            3,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 176,
+                        "serie": [
+                            67,
+                            5,
+                            8,
+                            29,
+                            67
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:31:21.480932Z",
+                "last_check": "2024-12-07T05:38:09.656627Z",
                 "last_month_access": {
-                    "average_access_time": 1297,
+                    "average_access_time": 252,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -57,14 +71,14 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-graph-readwrite:2.09/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:49:14.082422Z",
+        "@timestamp": "2024-12-07T05:42:50.965863Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
+            "packages": true,
             "source_packages": false,
             "sourcecode": {
                 "free": null,
@@ -91,48 +105,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 465,
+                "access_time": 600,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 174,
+                        "days": 182,
                         "serie": [
-                            93,
-                            11,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            21,
-                            11,
-                            31
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 9,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:36:38.315316Z",
+                "last_check": "2024-12-07T05:42:50.684878Z",
                 "last_month_access": {
-                    "average_access_time": 472,
+                    "average_access_time": 503,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -151,7 +141,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/perl-graph-readwrite",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:49:14.146383Z",
+        "@timestamp": "2024-12-07T05:42:51.056670Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -181,48 +171,94 @@
                 "description": true
             },
             "website": {
-                "access_time": 465,
+                "access_time": 363,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 174,
+                        "days": 182,
                         "serie": [
-                            93,
-                            11,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            21,
-                            11,
-                            31
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 9,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T02:49:44.070203Z",
+                "last_check": "2024-12-07T05:42:50.873176Z",
                 "last_month_access": {
-                    "average_access_time": 472,
+                    "average_access_time": 530,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:perl-graph-readwrite:2.10/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T05:42:51.134914Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 363,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T05:42:50.873176Z",
+                "last_month_access": {
+                    "average_access_time": 456,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,

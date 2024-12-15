@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/hymenopteramine",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:47:21.046050Z",
+        "@timestamp": "2024-12-07T05:05:45.003836Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,31 +13,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 1419,
+                "access_time": 1437,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 128,
+                        "days": 178,
                         "serie": [
-                            128
+                            82,
+                            3,
+                            3,
+                            90
                         ],
                         "status": 200
                     },
                     {
-                        "days": 55,
+                        "days": 3,
                         "serie": [
-                            55
+                            1,
+                            2
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
                         ],
                         "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:47:20.111553Z",
+                "https": true,
+                "last_check": "2024-12-07T05:05:44.897215Z",
                 "last_month_access": {
-                    "average_access_time": 1492,
+                    "average_access_time": 1269,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -48,18 +59,18 @@
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine"
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine/"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine/"
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine/begin.do"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine/begin.do"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -68,8 +79,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hymenopteramine:1.4/db/hymenopteragenome.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:57.070961Z",
+        "@timestamp": "2024-12-07T05:06:01.017183Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -90,47 +102,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 132,
+                            "cit_count": 137,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2019
+                                    "count": 15,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2020
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 21,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts577",
@@ -140,27 +152,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
@@ -173,31 +185,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 1276,
+                "access_time": 1320,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 128,
+                        "days": 182,
                         "serie": [
-                            128
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 55,
-                        "serie": [
-                            55
-                        ],
-                        "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:57:23.661447Z",
+                "https": true,
+                "last_check": "2024-12-07T05:06:00.907536Z",
                 "last_month_access": {
-                    "average_access_time": 1304,
+                    "average_access_time": 1332,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -208,18 +213,18 @@
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine"
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine/"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine/"
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine/begin.do"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine/begin.do"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -228,8 +233,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hymenopteramine:1.4/web/hymenopteragenome.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:57.055381Z",
+        "@timestamp": "2024-12-07T05:05:49.357944Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -250,47 +256,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 132,
+                            "cit_count": 137,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2019
+                                    "count": 15,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2020
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 21,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts577",
@@ -300,27 +306,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
@@ -333,31 +339,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 1730,
+                "access_time": 1450,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 128,
+                        "days": 1,
                         "serie": [
-                            128
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            82,
+                            51,
+                            47
                         ],
                         "status": 200
                     },
                     {
-                        "days": 55,
+                        "days": 1,
                         "serie": [
-                            55
+                            1
                         ],
                         "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:53:39.095379Z",
+                "https": true,
+                "last_check": "2024-12-07T05:05:44.802676Z",
                 "last_month_access": {
-                    "average_access_time": 1561,
+                    "average_access_time": 1529,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -368,18 +383,18 @@
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine"
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine/"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine/"
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine/begin.do"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine/begin.do"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -388,8 +403,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:hymenopteramine:1.4/soap/hymenopteragenome.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:57.026387Z",
+        "@timestamp": "2024-12-07T05:05:49.495832Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -410,47 +426,47 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 132,
+                            "cit_count": 137,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 15,
-                                    "year": 2014
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 14,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 11,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2019
+                                    "count": 15,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2020
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 21,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2022
+                                    "count": 24,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts577",
@@ -460,27 +476,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "InterMine: a flexible data warehouse system for the integration and analysis of heterogeneous biological data.",
@@ -493,33 +509,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 2184,
+                "access_time": 1013,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 119,
+                        "days": 178,
                         "serie": [
-                            67,
-                            52
+                            82,
+                            7,
+                            3,
+                            86
                         ],
                         "status": 200
                     },
                     {
-                        "days": 64,
+                        "days": 3,
                         "serie": [
-                            55,
-                            9
+                            2,
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
                         ],
                         "status": 302
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:41:22.25939Z",
+                "https": true,
+                "last_check": "2024-12-07T05:05:45.108216Z",
                 "last_month_access": {
-                    "average_access_time": 2662,
+                    "average_access_time": 1116,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -530,18 +555,18 @@
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine"
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine/"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine/"
                     },
                     {
                         "status": 302,
-                        "url": "http://hymenopteramine-v15.rnet.missouri.edu/hymenopteramine/begin.do"
+                        "url": "https://hymenopteramine.rnet.missouri.edu/hymenopteramine/begin.do"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

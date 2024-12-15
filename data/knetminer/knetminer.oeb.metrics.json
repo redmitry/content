@@ -3,24 +3,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:knetminer/soap/knetminer.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:37.531751Z",
+        "@timestamp": "2024-12-06T07:25:39.528203Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -41,47 +42,72 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1101/2020.04.02.017004",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "KnetMiner: a comprehensive approach for supporting evidence-based gene discovery and complex trait analysis across species",
                             "year": 2020
                         }
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1229,
+                "access_time": 2146,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 2,
                         "serie": [
-                            183
+                            2
+                        ],
+                        "status": 308
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            29,
+                            126,
+                            23
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:39:54.117009Z",
+                "last_check": "2024-12-06T07:25:39.392373Z",
                 "last_month_access": {
-                    "average_access_time": 1354,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 705,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "https://knetminer.org/"
-                    },
-                    {
-                        "status": 301,
+                        "status": 308,
                         "url": "https://knetminer.com/"
                     }
                 ],
@@ -91,8 +117,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1034091S"
             }
         }
     },
@@ -100,7 +126,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/knetminer",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:39:54.185496Z",
+        "@timestamp": "2024-12-06T07:25:39.485825Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -110,34 +136,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 1328,
+                "access_time": 2134,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 4,
                         "serie": [
-                            183
+                            2,
+                            2
+                        ],
+                        "status": 308
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            29,
+                            126,
+                            23
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:39:54.114583Z",
+                "last_check": "2024-12-06T07:25:39.41344Z",
                 "last_month_access": {
-                    "average_access_time": 1488,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 853,
+                    "downtime_days": 2,
+                    "uptime_days": 27
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "https://knetminer.org/"
-                    },
-                    {
-                        "status": 301,
+                        "status": 308,
                         "url": "https://knetminer.com/"
                     }
                 ],

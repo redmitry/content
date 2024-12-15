@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:contiguity:1.0.4/cmd/mjsull.github.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:59:54.361422Z",
+        "@timestamp": "2024-12-07T04:21:45.345529Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": true,
@@ -34,13 +35,8 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2019
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.7287/peerj.preprints.1037v1",
                             "ref_count": 0,
                             "refs": [],
@@ -55,24 +51,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 185,
+                "access_time": 155,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T03:08:35.384799Z",
+                "last_check": "2024-12-07T04:21:45.226307Z",
                 "last_month_access": {
-                    "average_access_time": 231,
+                    "average_access_time": 154,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -92,7 +88,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/contiguity",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:41:49.126139Z",
+        "@timestamp": "2024-12-07T04:21:45.296912Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -122,24 +118,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 185,
+                "access_time": 88,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2021-04-25T01:33:23.515114Z",
+                "last_check": "2024-12-07T04:21:45.226153Z",
                 "last_month_access": {
-                    "average_access_time": 231,
+                    "average_access_time": 114,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -158,7 +154,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:contiguity:4.1.1/cmd/rnaseq-mats.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:49.133616Z",
+        "@timestamp": "2023-04-29T05:27:30.671666Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -192,38 +188,49 @@
                 "description": true
             },
             "website": {
-                "access_time": 401,
+                "access_time": 820,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 180,
                         "serie": [
-                            183
+                            115,
+                            65
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
+                "https": true,
+                "last_check": "2023-04-29T05:27:30.605013Z",
                 "last_month_access": {
-                    "average_access_time": 438
+                    "average_access_time": 451,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "https://sourceforge.net/projects/rnaseq-mats/"
+                        "status": 301,
+                        "url": "https://rnaseq-mats.sourceforge.net/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT1370296S"
+                "resolve_time": "PT564948S"
             }
         }
     }

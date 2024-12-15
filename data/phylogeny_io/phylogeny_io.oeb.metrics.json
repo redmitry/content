@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:phylogeny_io/web/phylogeny.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:14:07.409022Z",
+        "@timestamp": "2024-12-07T06:04:42.488676Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -13,14 +14,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -41,54 +42,62 @@
                             "cit_count": 2,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1093/nar/gkz356",
                             "pmcid": "PMC6602505",
                             "pmid": "31114886",
-                            "ref_count": 11,
+                            "ref_count": 12,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
                                 }
                             ],
                             "title": "Interactive web-based visualization and sharing of phylogenetic trees using phylogeny.IO.",
@@ -97,50 +106,66 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1448,
+                "access_time": 1488,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 1,
                         "serie": [
-                            98,
-                            6,
-                            77
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 101,
+                        "serie": [
+                            3,
+                            34,
+                            5,
+                            56,
+                            3
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 80,
                         "serie": [
                             1,
-                            1
+                            1,
+                            78
                         ],
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T07:06:35.910218Z",
+                "https": false,
+                "last_check": "2024-12-07T06:04:42.356918Z",
                 "last_month_access": {
-                    "average_access_time": 1674,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1569,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": true,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://ww25.phylogeny.io/?subid1=20241207-1704-41e6-8a4b-7441d81a6af6"
+                    }
+                ],
+                "ssl": null,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT822246S"
             }
         }
     },
@@ -148,7 +173,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/phylogeny_io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:08:04.524613Z",
+        "@timestamp": "2024-12-07T06:04:42.531326Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -158,38 +183,54 @@
                 "description": true
             },
             "website": {
-                "access_time": 1448,
+                "access_time": 1541,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 1,
                         "serie": [
-                            98,
-                            6,
-                            77
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 101,
+                        "serie": [
+                            3,
+                            34,
+                            5,
+                            56,
+                            3
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 80,
                         "serie": [
                             1,
-                            1
+                            1,
+                            78
                         ],
                         "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2021-04-25T03:08:39.076935Z",
+                "https": false,
+                "last_check": "2024-12-07T06:04:42.350341Z",
                 "last_month_access": {
-                    "average_access_time": 1674,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 1569,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": true,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://ww25.phylogeny.io/?subid1=20241207-1704-41a0-94b3-33f8416d4798"
+                    }
+                ],
+                "ssl": null,
                 "ssl_err": null
             }
         }

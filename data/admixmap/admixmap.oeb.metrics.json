@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/admixmap",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:27:06.418961Z",
+        "@timestamp": "2024-12-06T10:12:12.064319Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,10 +13,21 @@
                 "description": true
             },
             "website": {
-                "access_time": 173,
+                "access_time": 459,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 178,
+                        "serie": [
+                            22,
+                            25,
+                            58,
+                            58,
+                            15
+                        ],
+                        "status": 200
+                    },
                     {
                         "days": 1,
                         "serie": [
@@ -25,23 +36,39 @@
                         "status": 408
                     },
                     {
-                        "days": 182,
+                        "days": 3,
                         "serie": [
-                            182
+                            1,
+                            1,
+                            1
                         ],
-                        "status": 200
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:27:06.363747Z",
+                "https": true,
+                "last_check": "2024-12-06T10:12:11.967544Z",
                 "last_month_access": {
-                    "average_access_time": 247,
+                    "average_access_time": 1391,
                     "downtime_days": 1,
-                    "uptime_days": 29
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://homepages.ed.ac.uk/pmckeigu/software/admixmap/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.homepages.ed.ac.uk/pmckeigu/software/admixmap/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://precmed.cphs.mvm.ed.ac.uk/pmckeigue/software/admixmap/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -50,8 +77,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:admixmap/cmd/www.homepages.ed.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:14.009383Z",
+        "@timestamp": "2024-12-07T04:08:04.572719Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -62,79 +90,75 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 223,
+                            "cit_count": 203,
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2004
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2005
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 15,
-                                    "year": 2006
+                                    "year": "2005"
                                 },
                                 {
-                                    "count": 16,
-                                    "year": 2007
+                                    "count": 12,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 24,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2009
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 18,
-                                    "year": 2010
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 17,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2012
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 16,
-                                    "year": 2013
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2017
+                                    "count": 12,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2019
+                                    "count": 5,
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2020
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2021
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1086/420855",
@@ -144,51 +168,51 @@
                             "refs": [
                                 {
                                     "count": 6,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1984
+                                    "year": "1984"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1988
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1992
+                                    "year": "1992"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2003
+                                    "year": "2003"
                                 }
                             ],
                             "title": "Design and analysis of admixture mapping studies.",
@@ -206,30 +230,44 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 179,
                         "serie": [
-                            48,
-                            134
+                            21,
+                            25,
+                            117,
+                            16
                         ],
                         "status": 404
                     },
                     {
-                        "days": 1,
+                        "days": 3,
                         "serie": [
+                            1,
+                            1,
                             1
                         ],
-                        "status": 408
+                        "status": 301
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:18:04.831091Z",
+                "https": true,
+                "last_check": "2024-12-07T04:08:04.459004Z",
                 "last_month_access": {
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.homepages.ed.ac.uk/pmckeigu/admixmap/index.html"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://precmed.cphs.mvm.ed.ac.uk/pmckeigue/admixmap/index.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -241,8 +279,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:admixmap/cmd/homepages.ed.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:14.038796Z",
+        "@timestamp": "2024-12-06T10:12:12.077731Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -253,79 +292,75 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 223,
+                            "cit_count": 203,
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2004
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2005
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 15,
-                                    "year": 2006
+                                    "year": "2005"
                                 },
                                 {
-                                    "count": 16,
-                                    "year": 2007
+                                    "count": 12,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 24,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 20,
-                                    "year": 2009
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 18,
-                                    "year": 2010
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 17,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 18,
-                                    "year": 2012
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 16,
-                                    "year": 2013
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2017
+                                    "count": 12,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 4,
-                                    "year": 2019
+                                    "count": 5,
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2020
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2021
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1086/420855",
@@ -335,51 +370,51 @@
                             "refs": [
                                 {
                                     "count": 6,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1984
+                                    "year": "1984"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1988
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1992
+                                    "year": "1992"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2003
+                                    "year": "2003"
                                 }
                             ],
                             "title": "Design and analysis of admixture mapping studies.",
@@ -392,10 +427,21 @@
                 "description": true
             },
             "website": {
-                "access_time": 173,
+                "access_time": 960,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 178,
+                        "serie": [
+                            22,
+                            25,
+                            58,
+                            58,
+                            15
+                        ],
+                        "status": 200
+                    },
                     {
                         "days": 1,
                         "serie": [
@@ -404,20 +450,39 @@
                         "status": 408
                     },
                     {
-                        "days": 182,
+                        "days": 3,
                         "serie": [
-                            182
+                            1,
+                            1,
+                            1
                         ],
-                        "status": 200
+                        "status": 301
                     }
                 ],
-                "https": false,
+                "https": true,
+                "last_check": "2024-12-06T10:12:11.967732Z",
                 "last_month_access": {
-                    "average_access_time": 247
+                    "average_access_time": 1434,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://homepages.ed.ac.uk/pmckeigu/software/admixmap/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.homepages.ed.ac.uk/pmckeigu/software/admixmap/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://precmed.cphs.mvm.ed.ac.uk/pmckeigue/software/admixmap/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

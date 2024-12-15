@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:exms2/suite/hx2.med.upenn.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:01:11.108610Z",
+        "@timestamp": "2024-12-07T04:48:29.610738Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -24,15 +25,23 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 7,
+                            "cit_count": 5,
                             "citations": [
                                 {
-                                    "count": 4,
-                                    "year": 2020
+                                    "count": 1,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1021/acs.analchem.9b01682",
@@ -49,38 +58,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 288,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 182,
                         "serie": [
-                            74,
-                            4,
-                            102
+                            182
                         ],
-                        "status": 200
-                    },
-                    {
-                        "days": 3,
-                        "serie": [
-                            1,
-                            2
-                        ],
-                        "status": 408
+                        "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:22:36.217776Z",
+                "https": true,
+                "last_check": "2024-12-07T04:48:29.520964Z",
                 "last_month_access": {
-                    "average_access_time": 590,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 261,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://hx2.med.upenn.edu/EXms/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -89,7 +94,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/exms2",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:25:23.991041Z",
+        "@timestamp": "2024-12-07T04:48:48.171997Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -99,38 +104,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 288,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 182,
                         "serie": [
-                            74,
-                            4,
-                            102
+                            182
                         ],
-                        "status": 200
-                    },
-                    {
-                        "days": 3,
-                        "serie": [
-                            1,
-                            2
-                        ],
-                        "status": 408
+                        "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T01:54:36.770478Z",
+                "https": true,
+                "last_check": "2024-12-07T04:48:48.116288Z",
                 "last_month_access": {
-                    "average_access_time": 590,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 261,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://hx2.med.upenn.edu/EXms/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biomarker",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:32:56.930739Z",
+        "@timestamp": "2024-12-07T03:37:16.163326Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,27 +13,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 842,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 14,
                         "serie": [
-                            183
+                            14
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 168,
+                        "serie": [
+                            168
                         ],
                         "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T02:32:56.828055Z",
+                "last_check": "2024-12-07T03:37:15.658413Z",
                 "last_month_access": {
-                    "average_access_time": 928,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 937,
+                    "downtime_days": 14,
+                    "uptime_days": 15
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 500,
                 "redirects": [
                     {
                         "status": 301,
@@ -49,8 +56,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:biomarker/cmd/www.liuzlab.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:37.353372Z",
+        "@timestamp": "2024-12-07T03:37:15.939224Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -59,14 +67,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -80,43 +88,35 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 27,
+                            "cit_count": 21,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2016
+                                    "count": 2,
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2021
+                                    "count": 8,
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1186/1471-2164-14-s8-s7",
@@ -126,51 +126,51 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2013
+                                    "year": "2013"
                                 }
                             ],
                             "title": "Molecular pathway identification using biological network-regularized logistic models.",
@@ -179,32 +179,39 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 2594,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 14,
                         "serie": [
-                            183
+                            14
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 168,
+                        "serie": [
+                            168
                         ],
                         "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T02:32:46.076106Z",
+                "last_check": "2024-12-07T03:37:15.706236Z",
                 "last_month_access": {
-                    "average_access_time": 1829,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1239,
+                    "downtime_days": 14,
+                    "uptime_days": 15
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 500,
                 "redirects": [
                     {
                         "status": 301,
@@ -218,8 +225,62 @@
         "support": {
             "email": false,
             "issue_tracking": {
-                "public_tracker": null,
+                "public_tracker": true,
                 "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:biomarker:0.20.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T10:21:07.147516Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 51,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T10:21:06.871833Z",
+                "last_month_access": {
+                    "average_access_time": 505,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.7/data/experiment/html/ppiData.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
             }
         }
     }

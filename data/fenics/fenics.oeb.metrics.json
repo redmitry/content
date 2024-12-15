@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/fenics",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:16:16.117256Z",
+        "@timestamp": "2024-12-06T05:42:15.430017Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,24 +13,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 1035,
+                "access_time": 294,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            126,
+                            55
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T09:16:16.045063Z",
+                "https": false,
+                "last_check": "2024-12-06T05:42:15.311608Z",
                 "last_month_access": {
-                    "average_access_time": 1018,
+                    "average_access_time": 519,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -40,7 +48,7 @@
                         "url": "https://fenicsproject.org/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
@@ -49,8 +57,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:fenics/lib/fenicsproject.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:01:16.977825Z",
+        "@timestamp": "2024-12-06T05:42:16.143710Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -66,17 +75,17 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
-                                {
-                                    "count": 1,
-                                    "year": 2020
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1016/j.jmr.2019.106611",
                             "pmid": "31574354",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1965"
+                                }
+                            ],
                             "title": "Portable simulation framework for diffusion MRI.",
                             "year": 2019
                         }
@@ -88,12 +97,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.11588/ans.2015.100.20553",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -102,24 +107,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 966,
+                "access_time": 294,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            126,
+                            55
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T09:28:49.304704Z",
+                "https": false,
+                "last_check": "2024-12-06T05:42:15.311608Z",
                 "last_month_access": {
-                    "average_access_time": 991,
+                    "average_access_time": 546,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -129,7 +142,7 @@
                         "url": "https://fenicsproject.org/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

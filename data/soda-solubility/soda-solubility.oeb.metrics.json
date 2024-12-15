@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:soda-solubility:1.0/rest/protein.bio.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:08:46.502643Z",
+        "@timestamp": "2024-12-06T05:25:45.734854Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -24,101 +25,97 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 15,
+                            "cit_count": 8,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2019
+                                    "count": 4,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2021
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1093/nar/gkx412",
                             "pmcid": "PMC7059794",
                             "pmid": "28505312",
-                            "ref_count": 35,
+                            "ref_count": 33,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1978
+                                    "year": "1978"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1982
+                                    "year": "1982"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2013
+                                    "count": 7,
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2017
+                                    "count": 2,
+                                    "year": "2017"
                                 }
                             ],
                             "title": "SODA: prediction of protein solubility from disorder and aggregation propensity.",
@@ -131,42 +128,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 327,
+                "access_time": 294,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 26,
+                        "serie": [
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            55,
+                            45,
+                            55
+                        ],
+                        "status": 200
+                    },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 503
-                    },
-                    {
-                        "days": 182,
-                        "serie": [
-                            171,
-                            11
-                        ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T08:17:57.644598Z",
+                "last_check": "2024-12-06T05:25:45.623581Z",
                 "last_month_access": {
-                    "average_access_time": 342,
-                    "downtime_days": 1,
+                    "average_access_time": 237,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/soda/"
                     },
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "http://old.protein.bio.unipd.it/soda/"
                     }
                 ],
@@ -179,8 +184,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:soda-solubility:1.0/web/protein.bio.unipd.it",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:08:46.464089Z",
+        "@timestamp": "2024-12-06T05:25:57.896741Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -200,101 +206,97 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 15,
+                            "cit_count": 8,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2019
+                                    "count": 4,
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2021
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1093/nar/gkx412",
                             "pmcid": "PMC7059794",
                             "pmid": "28505312",
-                            "ref_count": 35,
+                            "ref_count": 33,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1978
+                                    "year": "1978"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1982
+                                    "year": "1982"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2013
+                                    "count": 7,
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2017
+                                    "count": 2,
+                                    "year": "2017"
                                 }
                             ],
                             "title": "SODA: prediction of protein solubility from disorder and aggregation propensity.",
@@ -307,34 +309,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 310,
+                "access_time": 121,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 26,
                         "serie": [
-                            183
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            55,
+                            45,
+                            55
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T08:08:38.23593Z",
+                "last_check": "2024-12-06T05:25:57.826233Z",
                 "last_month_access": {
-                    "average_access_time": 359,
+                    "average_access_time": 210,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/soda/"
                     },
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "http://old.protein.bio.unipd.it/soda/"
                     }
                 ],
@@ -347,7 +365,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/soda-solubility",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T08:18:32.715533Z",
+        "@timestamp": "2024-12-06T05:25:58.702960Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -357,42 +375,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 1320,
+                "access_time": 122,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 26,
+                        "serie": [
+                            26
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            55,
+                            45,
+                            55
+                        ],
+                        "status": 200
+                    },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 503
-                    },
-                    {
-                        "days": 182,
-                        "serie": [
-                            171,
-                            11
-                        ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T08:18:32.654915Z",
+                "last_check": "2024-12-06T05:25:58.631824Z",
                 "last_month_access": {
-                    "average_access_time": 330,
-                    "downtime_days": 1,
+                    "average_access_time": 152,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "https://protein.bio.unipd.it/soda/"
                     },
                     {
-                        "status": 301,
+                        "status": 307,
                         "url": "http://old.protein.bio.unipd.it/soda/"
                     }
                 ],

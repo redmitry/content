@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:kalign_sbc/web/msa.sbc.su.se",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:35.155481Z",
+        "@timestamp": "2024-12-07T05:06:34.398396Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -17,13 +18,8 @@
                         {
                             "cit_count": 0,
                             "citations": [],
-                            "doi": null,
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -32,24 +28,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 377,
+                "access_time": 320,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T05:12:10.172157Z",
+                "last_check": "2024-12-07T05:06:34.112928Z",
                 "last_month_access": {
-                    "average_access_time": 419,
+                    "average_access_time": 282,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -71,7 +67,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/kalign_sbc",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:04:22.998060Z",
+        "@timestamp": "2024-12-07T05:05:54.959036Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -81,24 +77,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 511,
+                "access_time": 520,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T05:04:22.911219Z",
+                "last_check": "2024-12-07T05:05:54.754388Z",
                 "last_month_access": {
-                    "average_access_time": 699,
+                    "average_access_time": 586,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -117,24 +113,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:kalign_sbc:3.2.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:03:35.175332Z",
+        "@timestamp": "2024-12-07T02:11:58.018053Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -149,61 +145,49 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 16,
+                            "cit_count": 9,
                             "citations": [
                                 {
-                                    "count": 6,
-                                    "year": 2020
+                                    "count": 1,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2021
+                                    "count": 2,
+                                    "year": "2021"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btz795",
                             "pmcid": "PMC7703769",
                             "pmid": "31665271",
-                            "ref_count": 9,
+                            "ref_count": 4,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2009
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
+                                    "year": "2018"
                                 }
                             ],
                             "title": "Kalign 3: multiple sequence alignment of large data sets.",
@@ -212,114 +196,368 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 97,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 48,
+                        "days": 182,
                         "serie": [
-                            1,
-                            2,
-                            2,
-                            1,
-                            3,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 135,
-                        "serie": [
-                            1,
-                            6,
-                            2,
-                            3,
-                            5,
-                            2,
-                            1,
-                            10,
-                            3,
-                            5,
-                            3,
-                            1,
-                            6,
-                            1,
-                            2,
-                            2,
-                            1,
-                            2,
-                            4,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            6,
-                            6,
-                            30,
-                            3,
-                            3,
-                            2,
-                            3,
-                            5,
-                            6,
-                            2,
-                            3
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:25:47.422797Z",
+                "last_check": "2024-12-07T02:11:57.029653Z",
                 "last_month_access": {
                     "average_access_time": 488,
-                    "downtime_days": 24,
-                    "uptime_days": 6
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT1513299S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:kalign_sbc:3.3.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T02:11:57.834111Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 9,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btz795",
+                            "pmcid": "PMC7703769",
+                            "pmid": "31665271",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "Kalign 3: multiple sequence alignment of large data sets.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 97,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T02:11:57.029653Z",
+                "last_month_access": {
+                    "average_access_time": 460,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1513299S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:kalign_sbc:3.3.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T02:11:57.993706Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 9,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btz795",
+                            "pmcid": "PMC7703769",
+                            "pmid": "31665271",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "Kalign 3: multiple sequence alignment of large data sets.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 97,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T02:11:57.029653Z",
+                "last_month_access": {
+                    "average_access_time": 462,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:kalign_sbc:3.4.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T02:11:57.985370Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 9,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btz795",
+                            "pmcid": "PMC7703769",
+                            "pmid": "31665271",
+                            "ref_count": 4,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "Kalign 3: multiple sequence alignment of large data sets.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 97,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T02:11:57.029653Z",
+                "last_month_access": {
+                    "average_access_time": 530,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
             }
         }
     }

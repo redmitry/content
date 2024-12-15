@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bio2midi",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:23:41.538223Z",
+        "@timestamp": "2024-12-07T03:46:58.944854Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,54 +13,33 @@
                 "description": true
             },
             "website": {
-                "access_time": 582,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 11,
+                        "days": 182,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 408
-                    },
-                    {
-                        "days": 172,
-                        "serie": [
-                            22,
-                            30,
-                            14,
-                            12,
-                            2,
-                            48,
-                            7,
-                            19,
-                            9,
-                            6,
-                            3
-                        ],
-                        "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T02:23:41.455533Z",
+                "last_check": "2024-12-07T03:46:58.659106Z",
                 "last_month_access": {
-                    "average_access_time": 895,
-                    "downtime_days": 4,
-                    "uptime_days": 26
+                    "average_access_time": 753,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://algoart.com/bio2midi.htm"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
@@ -70,8 +49,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bio2midi:2.1/app/algoart.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:28.404250Z",
+        "@timestamp": "2024-12-07T03:46:59.169980Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -84,13 +64,8 @@
                         {
                             "cit_count": 0,
                             "citations": [],
-                            "doi": null,
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -99,54 +74,33 @@
                 "description": true
             },
             "website": {
-                "access_time": 582,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 11,
+                        "days": 182,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 408
-                    },
-                    {
-                        "days": 172,
-                        "serie": [
-                            22,
-                            30,
-                            14,
-                            12,
-                            2,
-                            48,
-                            7,
-                            19,
-                            9,
-                            6,
-                            3
-                        ],
-                        "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2021-04-25T01:11:59.186468Z",
+                "last_check": "2024-12-07T03:46:58.659106Z",
                 "last_month_access": {
-                    "average_access_time": 895,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 665,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://algoart.com/bio2midi.htm"
+                    }
+                ],
                 "ssl": null,
                 "ssl_err": null
             }
@@ -159,24 +113,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:bio2midi:1.0.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:18.488357Z",
+        "@timestamp": "2024-12-07T03:42:22.898439Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -188,40 +142,46 @@
                 "osi": true
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 357,
+                "access_time": 313,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T04:25:31.499501Z",
+                "last_check": "2024-12-07T03:42:22.277096Z",
                 "last_month_access": {
-                    "average_access_time": 569,
-                    "downtime_days": 1,
-                    "uptime_days": 0
+                    "average_access_time": 488,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://hanlab.tamhsc.edu/HeRA/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT272030S"
             }
         }
     }

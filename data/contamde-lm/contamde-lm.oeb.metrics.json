@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/contamde-lm",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:41:49.052438Z",
+        "@timestamp": "2024-12-07T02:05:28.557203Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,84 +33,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 567,
+                "access_time": 553,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 135,
+                        "days": 180,
                         "serie": [
-                            4,
-                            1,
-                            2,
-                            4,
-                            11,
-                            28,
-                            3,
-                            1,
-                            4,
-                            4,
-                            1,
-                            5,
-                            2,
-                            7,
-                            2,
-                            6,
-                            4,
-                            17,
-                            3,
-                            3,
-                            4,
-                            7,
-                            3,
-                            3,
-                            1,
-                            1,
-                            2,
-                            2
+                            93,
+                            87
                         ],
                         "status": 200
                     },
                     {
-                        "days": 48,
+                        "days": 2,
                         "serie": [
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            6,
-                            1,
-                            4,
-                            2,
-                            3,
-                            1,
-                            2,
-                            2,
-                            3,
-                            1,
                             2
                         ],
-                        "status": 429
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:40:55.835357Z",
+                "last_check": "2024-12-07T02:05:23.852612Z",
                 "last_month_access": {
-                    "average_access_time": 479,
-                    "downtime_days": 11,
-                    "uptime_days": 19
+                    "average_access_time": 602,
+                    "downtime_days": 0,
+                    "uptime_days": 23
                 },
                 "license": false,
                 "operational": 200,
@@ -129,8 +77,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:contamde-lm/script/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:59:54.237998Z",
+        "@timestamp": "2024-12-07T02:06:28.679827Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -177,86 +126,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 403,
+                "access_time": 51,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 133,
+                        "days": 182,
                         "serie": [
-                            4,
-                            1,
-                            2,
-                            4,
-                            11,
-                            23,
-                            2,
-                            4,
-                            1,
-                            4,
-                            4,
-                            1,
-                            5,
-                            2,
-                            7,
-                            2,
-                            6,
-                            4,
-                            17,
-                            3,
-                            3,
-                            4,
-                            7,
-                            3,
-                            3,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 50,
-                        "serie": [
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            6,
-                            1,
-                            4,
-                            2,
-                            3,
-                            1,
-                            2,
-                            2,
-                            3,
-                            1,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:40:55.691167Z",
+                "last_check": "2024-12-07T02:05:43.158167Z",
                 "last_month_access": {
-                    "average_access_time": 589,
-                    "downtime_days": 11,
-                    "uptime_days": 19
+                    "average_access_time": 591,
+                    "downtime_days": 0,
+                    "uptime_days": 24
                 },
                 "license": false,
                 "operational": 200,
@@ -275,8 +162,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:contamde-lm/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:59:54.242622Z",
+        "@timestamp": "2024-12-07T02:06:28.691939Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -307,8 +195,13 @@
                             "citations": [],
                             "doi": "10.1093/bioinformatics/btaa006",
                             "pmid": "31917401",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                }
+                            ],
                             "title": "contamDE-lm: linear model-based differential gene expression analysis using next-generation RNA-seq data from contaminated tumor samples.",
                             "year": 2020
                         }
@@ -320,84 +213,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 567,
+                "access_time": 539,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 135,
+                        "days": 180,
                         "serie": [
-                            4,
-                            1,
-                            2,
-                            4,
-                            11,
-                            28,
-                            3,
-                            1,
-                            4,
-                            4,
-                            1,
-                            5,
-                            2,
-                            7,
-                            2,
-                            6,
-                            4,
-                            17,
-                            3,
-                            3,
-                            4,
-                            7,
-                            3,
-                            3,
-                            1,
-                            1,
-                            2,
-                            2
+                            93,
+                            87
                         ],
                         "status": 200
                     },
                     {
-                        "days": 48,
+                        "days": 2,
                         "serie": [
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            6,
-                            1,
-                            4,
-                            2,
-                            3,
-                            1,
-                            2,
-                            2,
-                            3,
-                            1,
                             2
                         ],
-                        "status": 429
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T04:41:33.584028Z",
+                "last_check": "2024-12-07T02:05:23.874868Z",
                 "last_month_access": {
-                    "average_access_time": 479,
+                    "average_access_time": 557,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 24
                 },
                 "license": false,
                 "operational": 200,
@@ -409,6 +250,176 @@
             "issue_tracking": {
                 "public_tracker": true,
                 "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:contamde-lm:2.1.1/cmd/www.bcgsc.ca",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T03:59:38.675771Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 103,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1101/gr.214346.116",
+                            "pmcid": "PMC5411771",
+                            "pmid": "28232478",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 3,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "ABySS 2.0: resource-efficient assembly of large genomes using a Bloom filter.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1070,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:59:38.460996Z",
+                "last_month_access": {
+                    "average_access_time": 921,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.bcgsc.ca/platform/bioinfo/software/abyss"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.bcgsc.ca/resources/software/abyss"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2002829S"
             }
         }
     }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rgcop",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:45:02.151202Z",
+        "@timestamp": "2024-12-06T08:29:05.111042Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -33,106 +33,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 676,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 88,
+                        "days": 182,
                         "serie": [
-                            1,
-                            2,
-                            1,
-                            2,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            6,
-                            2,
-                            1,
-                            7,
-                            2,
-                            6,
-                            3,
-                            1,
-                            2,
-                            2,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            3,
-                            10,
-                            1,
-                            1,
-                            2,
-                            1,
-                            7,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 95,
-                        "serie": [
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            4,
-                            6,
-                            2,
-                            1,
-                            2,
-                            1,
-                            5,
-                            4,
-                            2,
-                            1,
-                            3,
-                            4,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            7,
-                            3,
-                            5,
-                            2,
-                            1,
-                            1,
-                            8,
-                            1,
-                            3,
-                            6,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:38:13.301374Z",
+                "last_check": "2024-12-06T08:29:04.806913Z",
                 "last_month_access": {
-                    "average_access_time": 464,
-                    "downtime_days": 21,
-                    "uptime_days": 9
+                    "average_access_time": 567,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -151,8 +69,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rgcop/undefined/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:08:11.226992Z",
+        "@timestamp": "2024-12-06T08:29:04.923455Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -195,72 +114,28 @@
                 "description": true
             },
             "website": {
-                "access_time": 423,
+                "access_time": 676,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 43,
+                        "days": 182,
                         "serie": [
-                            2,
-                            2,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            3,
-                            10,
-                            1,
-                            1,
-                            2,
-                            1,
-                            7,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 57,
-                        "serie": [
-                            1,
-                            3,
-                            4,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            7,
-                            3,
-                            5,
-                            2,
-                            1,
-                            1,
-                            8,
-                            1,
-                            3,
-                            6,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-06T08:29:04.806913Z",
                 "last_month_access": {
-                    "average_access_time": 464
+                    "average_access_time": 537,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -268,6 +143,156 @@
             "issue_tracking": {
                 "public_tracker": null,
                 "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rgcop:2.1.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T10:16:18.192743Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 155,
+                            "citations": [
+                                {
+                                    "count": 13,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 36,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1038/nmeth.3255",
+                            "pmcid": "PMC4399776",
+                            "pmid": "25599550",
+                            "ref_count": 50,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "DIA-Umpire: comprehensive computational framework for data-independent acquisition proteomics.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 766,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T10:16:17.901037Z",
+                "last_month_access": {
+                    "average_access_time": 359,
+                    "downtime_days": 0,
+                    "uptime_days": 26
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
             }
         }
     }

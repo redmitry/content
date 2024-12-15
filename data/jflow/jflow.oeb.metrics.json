@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:jflow/cmd/jflow.toulouse.inra.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:28.586041Z",
+        "@timestamp": "2024-12-07T05:06:19.854441Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -20,13 +21,8 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 2,
-                            "citations": [
-                                {
-                                    "count": 2,
-                                    "year": 2020
-                                }
-                            ],
+                            "cit_count": 0,
+                            "citations": [],
                             "doi": "10.1093/bioinformatics/btv589",
                             "pmcid": "PMC5859998",
                             "pmid": "26454273",
@@ -34,31 +30,31 @@
                             "refs": [
                                 {
                                     "count": 3,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2014"
                                 }
                             ],
                             "title": "Jflow: a workflow management system for web applications.",
@@ -71,36 +67,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 137,
+                "access_time": 99,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 182,
                         "serie": [
-                            101,
-                            80
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T05:07:17.088466Z",
+                "https": true,
+                "last_check": "2024-12-07T05:06:19.75613Z",
                 "last_month_access": {
-                    "average_access_time": 171,
+                    "average_access_time": 695,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://jflow.toulouse.inrae.fr/app/index.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -112,7 +106,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/jflow",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:09:00.049328Z",
+        "@timestamp": "2024-12-07T05:06:16.427707Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -122,36 +116,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 137,
+                "access_time": 478,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 182,
                         "serie": [
-                            101,
-                            80
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 2,
-                        "serie": [
-                            2
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-11-23T05:08:37.218762Z",
+                "https": true,
+                "last_check": "2024-12-07T05:06:16.324268Z",
                 "last_month_access": {
-                    "average_access_time": 171,
-                    "downtime_days": 1,
-                    "uptime_days": 0
+                    "average_access_time": 418,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://jflow.toulouse.inrae.fr/app/index.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:crux:3.2/cmd/crux.ms",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T03:11:30.798239Z",
+        "@timestamp": "2024-12-07T02:57:26.977251Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,28 +21,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 60,
+                "access_time": 249,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            54,
+                            127
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T01:33:36.378002Z",
+                "https": true,
+                "last_check": "2024-12-07T02:57:26.5357Z",
                 "last_month_access": {
-                    "average_access_time": 75,
+                    "average_access_time": 777,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://crux.ms/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -51,8 +65,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:crux/suite/crux.ms",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:59:59.785693Z",
+        "@timestamp": "2024-12-07T04:12:25.977507Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -65,85 +80,89 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 45,
+                            "cit_count": 34,
                             "citations": [
                                 {
                                     "count": 4,
-                                    "year": 2015
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2016
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2017
+                                    "count": 3,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2018
+                                    "count": 4,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2021
+                                    "count": 2,
+                                    "year": "2021"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1021/pr500741y",
                             "pmcid": "PMC4184452",
                             "pmid": "25182276",
-                            "ref_count": 22,
+                            "ref_count": 21,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2012
+                                    "count": 4,
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 }
                             ],
                             "title": "Crux: rapid open source protein tandem mass spectrometry analysis.",
@@ -154,67 +173,75 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 99,
+                            "cit_count": 84,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2009
+                                    "count": 2,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2011
-                                },
-                                {
-                                    "count": 13,
-                                    "year": 2012
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 12,
-                                    "year": 2013
+                                    "year": "2012"
                                 },
                                 {
-                                    "count": 15,
-                                    "year": 2014
+                                    "count": 10,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2015
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2016
+                                    "count": 3,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2021
+                                    "count": 3,
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1021/pr800127y",
@@ -224,51 +251,51 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1992
+                                    "year": "1992"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 }
                             ],
                             "title": "Rapid and accurate peptide identification from tandem mass spectra.",
@@ -281,28 +308,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 61,
+                "access_time": 2354,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T01:30:17.555907Z",
+                "https": true,
+                "last_check": "2024-12-07T04:12:25.859534Z",
                 "last_month_access": {
-                    "average_access_time": 78,
+                    "average_access_time": 428,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://crux.ms/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -314,7 +347,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/crux",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:54:46.377638Z",
+        "@timestamp": "2024-12-07T04:12:26.003416Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -324,28 +357,95 @@
                 "description": true
             },
             "website": {
-                "access_time": 61,
+                "access_time": 1632,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:54:46.319225Z",
+                "https": true,
+                "last_check": "2024-12-07T04:12:25.859464Z",
                 "last_month_access": {
-                    "average_access_time": 78,
+                    "average_access_time": 368,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://crux.ms/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:crux:4.1/cmd/crux.ms",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T02:57:26.594190Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 557,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 181,
+                        "serie": [
+                            54,
+                            127
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T02:57:26.536734Z",
+                "last_month_access": {
+                    "average_access_time": 847,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://crux.ms/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

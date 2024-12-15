@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pug-view",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:12:07.229888Z",
+        "@timestamp": "2024-12-07T06:05:50.001554Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,27 +13,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 655,
+                "access_time": 974,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            40,
+                            141
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T07:12:07.188041Z",
+                "last_check": "2024-12-07T06:05:49.92358Z",
                 "last_month_access": {
-                    "average_access_time": 755,
+                    "average_access_time": 1203,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-view"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -43,8 +57,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pug-view/undefined/pubchemdocs.ncbi.nlm.nih.gov",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:36.808353Z",
+        "@timestamp": "2024-12-07T02:53:53.613274Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -52,69 +67,81 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 8,
+                            "cit_count": 9,
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2020
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2021
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1186/s13321-019-0375-2",
                             "pmcid": "PMC6688265",
                             "pmid": "31399858",
-                            "ref_count": 35,
+                            "ref_count": 37,
                             "refs": [
                                 {
                                     "count": 12,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1988
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1989
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1990
+                                    "year": "1989"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2000
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
                                 }
                             ],
                             "title": "PUG-View: programmatic access to chemical annotations integrated in PubChem.",
@@ -127,25 +154,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 655,
+                "access_time": 3805,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 182,
                         "serie": [
-                            100
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-07T02:53:53.216506Z",
                 "last_month_access": {
-                    "average_access_time": 755
+                    "average_access_time": 1498,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-view"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

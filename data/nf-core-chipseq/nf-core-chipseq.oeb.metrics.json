@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/nf-core-chipseq",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:29:25.236345Z",
+        "@timestamp": "2024-12-06T06:35:19.471591Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,43 +13,33 @@
                 "description": true
             },
             "website": {
-                "access_time": 1925,
+                "access_time": 700,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 182,
                         "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 181,
-                        "serie": [
-                            26,
-                            42,
-                            113
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:29:25.175934Z",
+                "last_check": "2024-12-06T06:35:19.404824Z",
                 "last_month_access": {
-                    "average_access_time": 1704,
+                    "average_access_time": 658,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nf-co.re/chipseq/2.1.0/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -59,8 +49,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nf-core-chipseq:1.0.0/workflow/nf-co.re",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:57.820897Z",
+        "@timestamp": "2024-12-06T06:35:30.645813Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -70,7 +61,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -96,19 +87,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 119,
+                            "cit_count": 63,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 90,
-                                    "year": 2021
+                                    "count": 11,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2022
+                                    "count": 10,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/s41587-020-0439-x",
@@ -117,27 +116,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "The nf-core framework for community-curated bioinformatics pipelines.",
@@ -151,43 +150,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 2059,
+                "access_time": 377,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
                         "days": 181,
                         "serie": [
-                            26,
-                            42,
-                            113
+                            18,
+                            163
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:29:33.846025Z",
+                "last_check": "2024-12-06T06:35:30.578517Z",
                 "last_month_access": {
-                    "average_access_time": 1905,
+                    "average_access_time": 197,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nf-co.re/chipseq/2.1.0/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -203,8 +200,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nf-core-chipseq:1.0.0/cmd/nf-co.re",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:57.790599Z",
+        "@timestamp": "2024-12-06T06:35:30.929753Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -214,7 +212,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -240,19 +238,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 119,
+                            "cit_count": 63,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 90,
-                                    "year": 2021
+                                    "count": 11,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2022
+                                    "count": 10,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/s41587-020-0439-x",
@@ -261,27 +267,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "The nf-core framework for community-curated bioinformatics pipelines.",
@@ -295,43 +301,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 2972,
+                "access_time": 460,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
                         "days": 181,
                         "serie": [
-                            26,
-                            42,
-                            113
+                            18,
+                            163
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:29:28.36873Z",
+                "last_check": "2024-12-06T06:35:30.842359Z",
                 "last_month_access": {
-                    "average_access_time": 1732,
+                    "average_access_time": 189,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nf-co.re/chipseq/2.1.0/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -347,8 +351,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nf-core-chipseq:1.2.0/workflow/nf-co.re",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:57.903994Z",
+        "@timestamp": "2024-12-06T06:35:30.499671Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -358,7 +363,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -384,19 +389,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 119,
+                            "cit_count": 63,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 90,
-                                    "year": 2021
+                                    "count": 11,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2022
+                                    "count": 10,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/s41587-020-0439-x",
@@ -405,27 +418,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "The nf-core framework for community-curated bioinformatics pipelines.",
@@ -439,47 +452,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 2114,
+                "access_time": 100,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 3,
+                        "days": 181,
                         "serie": [
-                            1,
-                            1,
-                            1
+                            18,
+                            163
                         ],
-                        "status": 404
+                        "status": 200
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 500
-                    },
-                    {
-                        "days": 179,
-                        "serie": [
-                            26,
-                            42,
-                            9,
-                            79,
-                            23
-                        ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:29:41.191401Z",
+                "last_check": "2024-12-06T06:35:30.400721Z",
                 "last_month_access": {
-                    "average_access_time": 1618,
+                    "average_access_time": 280,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nf-co.re/chipseq/2.1.0/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -495,8 +502,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nf-core-chipseq:1.2.0/cmd/nf-co.re",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:57.890974Z",
+        "@timestamp": "2024-12-06T06:35:38.274355Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -506,7 +514,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -532,19 +540,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 119,
+                            "cit_count": 63,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 90,
-                                    "year": 2021
+                                    "count": 11,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2022
+                                    "count": 10,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/s41587-020-0439-x",
@@ -553,27 +569,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "The nf-core framework for community-curated bioinformatics pipelines.",
@@ -587,43 +603,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 784,
+                "access_time": 94,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
                         "days": 181,
                         "serie": [
-                            26,
-                            42,
-                            113
+                            18,
+                            163
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:29:32.690605Z",
+                "last_check": "2024-12-06T06:35:38.195228Z",
                 "last_month_access": {
-                    "average_access_time": 1446,
+                    "average_access_time": 224,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nf-co.re/chipseq/2.1.0/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -639,8 +653,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nf-core-chipseq:1.1.0/cmd/nf-co.re",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:57.835159Z",
+        "@timestamp": "2024-12-06T06:35:30.544437Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -650,7 +665,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -676,19 +691,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 119,
+                            "cit_count": 63,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 90,
-                                    "year": 2021
+                                    "count": 11,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2022
+                                    "count": 10,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/s41587-020-0439-x",
@@ -697,27 +720,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "The nf-core framework for community-curated bioinformatics pipelines.",
@@ -731,43 +754,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 1550,
+                "access_time": 83,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
                         "days": 181,
                         "serie": [
-                            26,
-                            42,
-                            113
+                            18,
+                            163
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:29:32.069517Z",
+                "last_check": "2024-12-06T06:35:30.445248Z",
                 "last_month_access": {
-                    "average_access_time": 1962,
+                    "average_access_time": 141,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nf-co.re/chipseq/2.1.0/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -783,8 +804,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nf-core-chipseq:1.1.0/workflow/nf-co.re",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:57.878230Z",
+        "@timestamp": "2024-12-06T06:35:19.775972Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -794,7 +816,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -820,19 +842,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 119,
+                            "cit_count": 63,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 90,
-                                    "year": 2021
+                                    "count": 11,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2022
+                                    "count": 10,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/s41587-020-0439-x",
@@ -841,27 +871,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "The nf-core framework for community-curated bioinformatics pipelines.",
@@ -875,47 +905,33 @@
                 "description": true
             },
             "website": {
-                "access_time": 1472,
+                "access_time": 633,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 3,
+                        "days": 182,
                         "serie": [
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 500
-                    },
-                    {
-                        "days": 179,
-                        "serie": [
-                            26,
-                            42,
-                            9,
-                            79,
-                            23
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:29:41.952598Z",
+                "last_check": "2024-12-06T06:35:19.707643Z",
                 "last_month_access": {
-                    "average_access_time": 1605,
-                    "downtime_days": 1,
+                    "average_access_time": 590,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nf-co.re/chipseq/2.1.0/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -931,8 +947,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nf-core-chipseq:1.2.1/cmd/nf-co.re",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:57.915281Z",
+        "@timestamp": "2024-12-06T06:35:30.651197Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -942,7 +959,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -968,19 +985,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 119,
+                            "cit_count": 63,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 90,
-                                    "year": 2021
+                                    "count": 11,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2022
+                                    "count": 10,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/s41587-020-0439-x",
@@ -989,27 +1014,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "The nf-core framework for community-curated bioinformatics pipelines.",
@@ -1023,47 +1048,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 1353,
+                "access_time": 93,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 3,
+                        "days": 181,
                         "serie": [
-                            1,
-                            1,
-                            1
+                            18,
+                            163
                         ],
-                        "status": 404
+                        "status": 200
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 500
-                    },
-                    {
-                        "days": 179,
-                        "serie": [
-                            26,
-                            42,
-                            9,
-                            79,
-                            23
-                        ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:29:37.672149Z",
+                "last_check": "2024-12-06T06:35:30.522077Z",
                 "last_month_access": {
-                    "average_access_time": 1472,
+                    "average_access_time": 247,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nf-co.re/chipseq/2.1.0/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -1079,8 +1098,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:nf-core-chipseq:1.2.1/workflow/nf-co.re",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:57.941765Z",
+        "@timestamp": "2024-12-06T06:35:31.050233Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -1090,7 +1110,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": true,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -1116,19 +1136,27 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 119,
+                            "cit_count": 63,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 90,
-                                    "year": 2021
+                                    "count": 11,
+                                    "year": "2021"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2022
+                                    "count": 10,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1038/s41587-020-0439-x",
@@ -1137,27 +1165,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "The nf-core framework for community-curated bioinformatics pipelines.",
@@ -1171,47 +1199,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 2046,
+                "access_time": 631,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 3,
+                        "days": 181,
                         "serie": [
-                            1,
-                            1,
-                            1
+                            18,
+                            163
                         ],
-                        "status": 404
+                        "status": 200
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 500
-                    },
-                    {
-                        "days": 179,
-                        "serie": [
-                            26,
-                            42,
-                            9,
-                            79,
-                            23
-                        ],
-                        "status": 200
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:29:36.96891Z",
+                "last_check": "2024-12-06T06:35:30.969654Z",
                 "last_month_access": {
-                    "average_access_time": 1330,
+                    "average_access_time": 189,
                     "downtime_days": 0,
-                    "uptime_days": 28
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nf-co.re/chipseq/2.1.0/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:express:1.5.1/cmd/bio.math.berkeley.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T04:12:28.902270Z",
+        "@timestamp": "2024-12-07T04:36:11.408150Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,32 +21,36 @@
                 "description": true
             },
             "website": {
-                "access_time": 1726,
+                "access_time": 187,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            30,
+                            151
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T04:12:28.813454Z",
+                "last_check": "2024-12-07T04:36:11.138169Z",
                 "last_month_access": {
-                    "average_access_time": 1080,
+                    "average_access_time": 260,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
-                    {
-                        "status": 302,
-                        "url": "http://pachterlab.github.io/eXpress/"
-                    },
                     {
                         "status": 301,
                         "url": "https://pachterlab.github.io/eXpress/"
@@ -61,8 +65,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:express:1.5.1/cmd/bio.math.berkeley.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:04.938058Z",
+        "@timestamp": "2024-12-07T04:36:10.158273Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -72,7 +77,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": false,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -92,89 +97,93 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 606,
+                            "cit_count": 490,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2011
+                                    "count": 18,
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 42,
-                                    "year": 2012
+                                    "count": 40,
+                                    "year": "2012"
                                 },
                                 {
-                                    "count": 66,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 73,
-                                    "year": 2014
+                                    "count": 62,
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 71,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 59,
-                                    "year": 2016
+                                    "count": 68,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 54,
-                                    "year": 2017
+                                    "count": 60,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 52,
-                                    "year": 2018
+                                    "count": 49,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 54,
-                                    "year": 2019
+                                    "count": 50,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2020
+                                    "count": 45,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 79,
-                                    "year": 2021
+                                    "count": 18,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2022
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1186/gb-2011-12-3-r22",
                             "pmcid": "PMC3129672",
                             "pmid": "21410973",
-                            "ref_count": 34,
+                            "ref_count": 33,
                             "refs": [
                                 {
                                     "count": 3,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
-                                    "count": 18,
-                                    "year": 2010
+                                    "count": 17,
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "Improving RNA-Seq expression estimates by correcting for fragment bias.",
@@ -188,12 +197,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.7490/f1000research.1114334.1",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -203,32 +208,36 @@
                 "description": true
             },
             "website": {
-                "access_time": 727,
+                "access_time": 180,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            30,
+                            151
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T04:00:53.071696Z",
+                "last_check": "2024-12-07T04:36:09.927515Z",
                 "last_month_access": {
-                    "average_access_time": 816,
+                    "average_access_time": 354,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
-                    {
-                        "status": 302,
-                        "url": "http://pachterlab.github.io/eXpress/index.html"
-                    },
                     {
                         "status": 301,
                         "url": "https://pachterlab.github.io/eXpress/index.html"
@@ -249,8 +258,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:express:1.5.1/cmd/pachterlab.github.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:04.955920Z",
+        "@timestamp": "2024-12-07T04:34:40.856115Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -260,7 +270,7 @@
             "source_packages": false,
             "sourcecode": {
                 "free": null,
-                "interpreted": null,
+                "interpreted": false,
                 "license": null,
                 "public": true,
                 "readme": false,
@@ -285,89 +295,93 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 606,
+                            "cit_count": 490,
                             "citations": [
                                 {
-                                    "count": 21,
-                                    "year": 2011
+                                    "count": 18,
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 42,
-                                    "year": 2012
+                                    "count": 40,
+                                    "year": "2012"
                                 },
                                 {
-                                    "count": 66,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 73,
-                                    "year": 2014
+                                    "count": 62,
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 71,
-                                    "year": 2015
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 59,
-                                    "year": 2016
+                                    "count": 68,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 54,
-                                    "year": 2017
+                                    "count": 60,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 52,
-                                    "year": 2018
+                                    "count": 49,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 54,
-                                    "year": 2019
+                                    "count": 50,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2020
+                                    "count": 45,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 79,
-                                    "year": 2021
+                                    "count": 18,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2022
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1186/gb-2011-12-3-r22",
                             "pmcid": "PMC3129672",
                             "pmid": "21410973",
-                            "ref_count": 34,
+                            "ref_count": 33,
                             "refs": [
                                 {
                                     "count": 3,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
-                                    "count": 18,
-                                    "year": 2010
+                                    "count": 17,
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "Improving RNA-Seq expression estimates by correcting for fragment bias.",
@@ -381,12 +395,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.7490/f1000research.1114334.1",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -396,35 +406,31 @@
                 "description": true
             },
             "website": {
-                "access_time": 727,
+                "access_time": 201,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T01:46:28.278929Z",
+                "last_check": "2024-12-07T04:34:40.66509Z",
                 "last_month_access": {
-                    "average_access_time": 816,
+                    "average_access_time": 227,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://pachterlab.github.io/eXpress/index.html"
-                    },
-                    {
                         "status": 301,
-                        "url": "https://pachterlab.github.io/eXpress/index.html"
+                        "url": "https://pachterlab.github.io/eXpress/"
                     }
                 ],
                 "ssl": true,
@@ -442,7 +448,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:express:1.1.1/workflow/toolshed.g2.bx.psu.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "galaxy",
-        "@timestamp": "2022-02-12T04:25:30.241553Z",
+        "@timestamp": "2024-12-07T04:44:39.252008Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -457,18 +463,18 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T04:25:30.097465Z",
+                "last_check": "2024-12-07T04:44:39.163084Z",
                 "last_month_access": {
                     "average_access_time": 880,
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
@@ -482,7 +488,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/express",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:21:08.510442Z",
+        "@timestamp": "2024-12-07T04:34:41.608217Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -512,35 +518,39 @@
                 "description": true
             },
             "website": {
-                "access_time": 851,
+                "access_time": 646,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            30,
+                            151
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-04T04:17:59.503549Z",
+                "last_check": "2024-12-07T04:34:41.506465Z",
                 "last_month_access": {
-                    "average_access_time": 661,
+                    "average_access_time": 363,
                     "downtime_days": 0,
-                    "uptime_days": 23
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://pachterlab.github.io/eXpress/index.html"
-                    },
-                    {
                         "status": 301,
-                        "url": "https://pachterlab.github.io/eXpress/index.html"
+                        "url": "https://pachterlab.github.io/eXpress/"
                     }
                 ],
                 "ssl": true,

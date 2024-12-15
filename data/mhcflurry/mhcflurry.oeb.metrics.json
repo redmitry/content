@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mhcflurry:1.2.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:20.395678Z",
+        "@timestamp": "2024-12-06T08:10:41.898242Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": true,
@@ -38,33 +39,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -76,69 +86,33 @@
                 "description": true
             },
             "website": {
-                "access_time": 379,
+                "access_time": 493,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 162,
+                        "days": 182,
                         "serie": [
-                            12,
-                            5,
-                            7,
-                            33,
-                            10,
-                            3,
-                            10,
-                            1,
-                            1,
-                            2,
-                            3,
-                            4,
-                            41,
-                            1,
-                            4,
-                            3,
-                            10,
-                            7,
-                            5
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 21,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T05:56:27.954686Z",
+                "last_check": "2024-12-06T08:10:41.584784Z",
                 "last_month_access": {
-                    "average_access_time": 465,
-                    "downtime_days": 4,
-                    "uptime_days": 26
+                    "average_access_time": 526,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/openvax/mhcflurry"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -147,7 +121,7 @@
             "email": true,
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -155,7 +129,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mhcflurry",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:43:35.578787Z",
+        "@timestamp": "2024-12-06T08:10:41.919916Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -185,68 +159,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 379,
+                "access_time": 461,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 159,
+                        "days": 182,
                         "serie": [
-                            4,
-                            23,
-                            29,
-                            10,
-                            3,
-                            10,
-                            1,
-                            1,
-                            3,
-                            8,
-                            8,
-                            2,
-                            1,
-                            13,
-                            3,
-                            5,
-                            3,
-                            22,
-                            5,
-                            5
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 24,
-                        "serie": [
-                            1,
-                            3,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-04T05:59:45.67529Z",
+                "last_check": "2024-12-06T08:10:41.591163Z",
                 "last_month_access": {
-                    "average_access_time": 842,
-                    "downtime_days": 2,
-                    "uptime_days": 21
+                    "average_access_time": 518,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -263,7 +193,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -271,7 +201,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:1.6.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.409919Z",
+        "@timestamp": "2024-12-06T08:10:42.568547Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -303,33 +233,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -341,86 +280,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 583,
+                "access_time": 92,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 46,
+                        "days": 182,
                         "serie": [
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            2,
-                            4,
-                            1,
-                            2,
-                            2,
-                            2,
-                            2,
-                            4,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 137,
-                        "serie": [
-                            17,
-                            3,
-                            2,
-                            24,
-                            2,
-                            1,
-                            3,
-                            1,
-                            10,
-                            3,
-                            1,
-                            1,
-                            7,
-                            2,
-                            1,
-                            4,
-                            21,
-                            5,
-                            2,
-                            7,
-                            4,
-                            4,
-                            2,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:05:20.0338Z",
+                "last_check": "2024-12-06T08:10:42.452195Z",
                 "last_month_access": {
-                    "average_access_time": 747,
-                    "downtime_days": 20,
-                    "uptime_days": 10
+                    "average_access_time": 151,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -437,7 +314,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -445,7 +322,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:1.6.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.471306Z",
+        "@timestamp": "2024-12-06T08:10:42.747227Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -477,33 +354,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -515,86 +401,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 545,
+                "access_time": 94,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 46,
+                        "days": 182,
                         "serie": [
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            2,
-                            4,
-                            1,
-                            2,
-                            2,
-                            2,
-                            2,
-                            4,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 137,
-                        "serie": [
-                            17,
-                            3,
-                            2,
-                            24,
-                            2,
-                            1,
-                            3,
-                            1,
-                            10,
-                            3,
-                            1,
-                            1,
-                            7,
-                            2,
-                            1,
-                            4,
-                            21,
-                            5,
-                            2,
-                            7,
-                            4,
-                            4,
-                            2,
-                            6,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:05:20.02078Z",
+                "last_check": "2024-12-06T08:10:42.647872Z",
                 "last_month_access": {
-                    "average_access_time": 713,
-                    "downtime_days": 16,
-                    "uptime_days": 12
+                    "average_access_time": 105,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -611,7 +435,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -619,7 +443,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:2.0.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.486426Z",
+        "@timestamp": "2024-12-06T08:10:42.716672Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -651,33 +475,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -689,83 +522,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 94,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 39,
+                        "days": 182,
                         "serie": [
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            4,
-                            1,
-                            2,
-                            2,
-                            2,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 144,
-                        "serie": [
-                            17,
-                            3,
-                            2,
-                            24,
-                            5,
-                            3,
-                            1,
-                            10,
-                            3,
-                            1,
-                            1,
-                            7,
-                            1,
-                            4,
-                            4,
-                            21,
-                            5,
-                            10,
-                            4,
-                            5,
-                            9,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:05:20.993808Z",
+                "last_check": "2024-12-06T08:10:42.609016Z",
                 "last_month_access": {
-                    "average_access_time": 231,
-                    "downtime_days": 12,
-                    "uptime_days": 14
+                    "average_access_time": 102,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -779,7 +556,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -787,7 +564,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:2.0.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.497820Z",
+        "@timestamp": "2024-12-06T08:10:42.505115Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -819,33 +596,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -857,85 +643,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 90,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 41,
+                        "days": 182,
                         "serie": [
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            2,
-                            4,
-                            1,
-                            2,
-                            2,
-                            2,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 142,
-                        "serie": [
-                            17,
-                            3,
-                            2,
-                            24,
-                            2,
-                            1,
-                            3,
-                            1,
-                            10,
-                            3,
-                            1,
-                            1,
-                            7,
-                            1,
-                            4,
-                            4,
-                            21,
-                            5,
-                            10,
-                            4,
-                            5,
-                            9,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:05:21.009669Z",
+                "last_check": "2024-12-06T08:10:42.364311Z",
                 "last_month_access": {
-                    "average_access_time": 95,
-                    "downtime_days": 12,
-                    "uptime_days": 14
+                    "average_access_time": 101,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -949,7 +677,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -957,7 +685,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:1.3.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.509014Z",
+        "@timestamp": "2024-12-06T08:10:42.306230Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -989,33 +717,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -1027,80 +764,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 192,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 34,
+                        "days": 182,
                         "serie": [
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            4,
-                            1,
-                            2,
-                            2,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 149,
-                        "serie": [
-                            17,
-                            3,
-                            2,
-                            24,
-                            5,
-                            3,
-                            1,
-                            10,
-                            3,
-                            1,
-                            2,
-                            7,
-                            1,
-                            4,
-                            4,
-                            21,
-                            17,
-                            4,
-                            5,
-                            9,
-                            1,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-11T10:00:53.033937Z",
+                "last_check": "2024-12-06T08:10:42.173075Z",
                 "last_month_access": {
-                    "average_access_time": 93,
-                    "downtime_days": 3,
-                    "uptime_days": 23
+                    "average_access_time": 177,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -1114,7 +798,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -1122,7 +806,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:1.3.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.535441Z",
+        "@timestamp": "2024-12-06T08:10:42.298238Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1154,33 +838,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -1192,78 +885,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 190,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 33,
+                        "days": 182,
                         "serie": [
-                            2,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            4,
-                            1,
-                            2,
-                            2,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 150,
-                        "serie": [
-                            17,
-                            3,
-                            2,
-                            24,
-                            5,
-                            3,
-                            1,
-                            10,
-                            3,
-                            1,
-                            2,
-                            7,
-                            1,
-                            4,
-                            4,
-                            21,
-                            22,
-                            5,
-                            9,
-                            1,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-11T10:00:53.041233Z",
+                "last_check": "2024-12-06T08:10:42.206891Z",
                 "last_month_access": {
-                    "average_access_time": 112,
-                    "downtime_days": 3,
-                    "uptime_days": 23
+                    "average_access_time": 123,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -1277,7 +919,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -1285,7 +927,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:1.4.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.553640Z",
+        "@timestamp": "2024-12-06T08:10:42.511059Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1317,33 +959,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -1355,61 +1006,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 94,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 18,
+                        "days": 182,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            2,
-                            4,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 165,
-                        "serie": [
-                            1,
-                            17,
-                            3,
-                            27,
-                            10,
-                            13,
-                            3,
-                            15,
-                            1,
-                            4,
-                            26,
-                            38,
-                            3,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-09T10:05:49.927462Z",
+                "last_check": "2024-12-06T08:10:42.409084Z",
                 "last_month_access": {
-                    "average_access_time": 89,
-                    "downtime_days": 18,
-                    "uptime_days": 6
+                    "average_access_time": 133,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -1423,7 +1040,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -1431,7 +1048,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:1.4.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.574089Z",
+        "@timestamp": "2024-12-06T08:10:42.276587Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1463,33 +1080,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -1501,61 +1127,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 230,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 19,
+                        "days": 182,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            4,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 164,
-                        "serie": [
-                            1,
-                            17,
-                            3,
-                            27,
-                            5,
-                            3,
-                            13,
-                            3,
-                            15,
-                            1,
-                            4,
-                            26,
-                            42,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-09T10:05:50.004168Z",
+                "last_check": "2024-12-06T08:10:42.201316Z",
                 "last_month_access": {
-                    "average_access_time": 91,
-                    "downtime_days": 20,
-                    "uptime_days": 4
+                    "average_access_time": 186,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -1569,7 +1161,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -1577,7 +1169,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:1.4.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.563141Z",
+        "@timestamp": "2024-12-06T08:10:42.697472Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1609,33 +1201,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -1647,61 +1248,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 88,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 19,
+                        "days": 182,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            4,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 164,
-                        "serie": [
-                            1,
-                            17,
-                            3,
-                            27,
-                            5,
-                            3,
-                            13,
-                            3,
-                            15,
-                            1,
-                            4,
-                            26,
-                            42,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-09T10:05:49.971609Z",
+                "last_check": "2024-12-06T08:10:42.623025Z",
                 "last_month_access": {
-                    "average_access_time": 88,
-                    "downtime_days": 20,
-                    "uptime_days": 4
+                    "average_access_time": 106,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -1715,7 +1282,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -1723,7 +1290,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:1.2.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.595012Z",
+        "@timestamp": "2024-12-06T08:10:42.756550Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1755,33 +1322,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -1793,35 +1369,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 88,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 182,
                         "serie": [
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 181,
-                        "serie": [
-                            51,
-                            130
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-09T10:05:58.8716Z",
+                "last_check": "2024-12-06T08:10:42.67869Z",
                 "last_month_access": {
-                    "average_access_time": 90,
-                    "downtime_days": 8,
-                    "uptime_days": 0
+                    "average_access_time": 100,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -1835,7 +1403,7 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
             }
         }
     },
@@ -1843,7 +1411,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:1.2.4/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:04:20.645842Z",
+        "@timestamp": "2024-12-06T08:10:42.495167Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -1875,33 +1443,42 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 113,
+                            "cit_count": 66,
                             "citations": [
                                 {
                                     "count": 6,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2019
+                                    "count": 22,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2020
+                                    "count": 26,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 33,
-                                    "year": 2021
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1016/j.cels.2018.05.014",
                             "pmid": "29960884",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
                             "year": 2018
                         }
@@ -1913,35 +1490,27 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
-                "bioschemas": false,
+                "access_time": 90,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 182,
                         "serie": [
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 181,
-                        "serie": [
-                            51,
-                            130
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-09T10:05:58.88609Z",
+                "last_check": "2024-12-06T08:10:42.417173Z",
                 "last_month_access": {
-                    "average_access_time": 88,
-                    "downtime_days": 8,
-                    "uptime_days": 0
+                    "average_access_time": 114,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 429,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -1955,7 +1524,304 @@
         "support": {
             "issue_tracking": {
                 "public_tracker": true,
-                "resolve_time": "PT985486S"
+                "resolve_time": "PT2051152S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:2.0.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T08:10:41.682511Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 66,
+                            "citations": [
+                                {
+                                    "count": 6,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 26,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1016/j.cels.2018.05.014",
+                            "pmid": "29960884",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 461,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T08:10:41.591163Z",
+                "last_month_access": {
+                    "average_access_time": 514,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/openvax/mhcflurry"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:2.1.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T08:10:41.933794Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 66,
+                            "citations": [
+                                {
+                                    "count": 6,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 26,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1016/j.cels.2018.05.014",
+                            "pmid": "29960884",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 461,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T08:10:41.591163Z",
+                "last_month_access": {
+                    "average_access_time": 508,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/openvax/mhcflurry"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mhcflurry:2.1.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T08:10:41.614990Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 66,
+                            "citations": [
+                                {
+                                    "count": 6,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 26,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.1016/j.cels.2018.05.014",
+                            "pmid": "29960884",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 461,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 88,
+                        "serie": [
+                            88
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T08:10:41.591163Z",
+                "last_month_access": {
+                    "average_access_time": 505,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/openvax/mhcflurry"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
             }
         }
     }

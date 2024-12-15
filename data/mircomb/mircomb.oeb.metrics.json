@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mircomb/lib/mircomb.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:06.466771Z",
+        "@timestamp": "2024-12-07T05:28:32.685505Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -20,27 +21,35 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 24,
+                            "cit_count": 18,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2020
+                                    "count": 3,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2021
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1371/journal.pone.0151127",
@@ -50,59 +59,59 @@
                             "refs": [
                                 {
                                     "count": 3,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2015
+                                    "year": "2015"
                                 }
                             ],
                             "title": "MiRComb: An R Package to Analyse miRNA-mRNA Interactions. Examples across Five Digestive Cancers.",
@@ -115,28 +124,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 397,
+                "access_time": 390,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:11:01.288831Z",
+                "https": true,
+                "last_check": "2024-12-07T05:28:32.531558Z",
                 "last_month_access": {
-                    "average_access_time": 546,
+                    "average_access_time": 526,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mircomb.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -148,7 +163,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mircomb",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:13:05.530559Z",
+        "@timestamp": "2024-12-07T05:30:10.180693Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -158,28 +173,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 397,
+                "access_time": 4826,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 1,
                         "serie": [
-                            183
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            119,
+                            62
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:40:28.143669Z",
+                "https": true,
+                "last_check": "2024-12-07T05:30:10.100302Z",
                 "last_month_access": {
-                    "average_access_time": 546,
+                    "average_access_time": 339,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://mircomb.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

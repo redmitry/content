@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ta-si_prediction/app/srna-workbench.cmp.uea.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:09:56.154257Z",
+        "@timestamp": "2024-12-06T05:51:45.480253Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -20,51 +21,51 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 168,
+                            "cit_count": 144,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2014
+                                    "count": 10,
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 21,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 33,
-                                    "year": 2016
+                                    "count": 20,
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 31,
-                                    "year": 2017
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 18,
-                                    "year": 2018
+                                    "count": 29,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 21,
-                                    "year": 2019
+                                    "count": 16,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 12,
-                                    "year": 2020
+                                    "count": 17,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2021
+                                    "count": 8,
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/bts311",
@@ -74,27 +75,27 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
+                                    "year": "2012"
                                 }
                             ],
                             "title": "The UEA sRNA workbench: a suite of tools for analysing and visualizing next generation sequencing microRNA and small RNA datasets.",
@@ -107,34 +108,75 @@
                 "description": true
             },
             "website": {
-                "access_time": 627,
-                "bioschemas": true,
+                "access_time": 130,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 15,
                         "serie": [
-                            183
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 117,
+                        "serie": [
+                            111,
+                            6
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 50,
+                        "serie": [
+                            5,
+                            7,
+                            4,
+                            4,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            7,
+                            4,
+                            1,
+                            9
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T08:39:58.828373Z",
+                "https": false,
+                "last_check": "2024-12-06T05:51:41.686406Z",
                 "last_month_access": {
-                    "average_access_time": 624,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 117,
+                    "downtime_days": 9,
+                    "uptime_days": 20
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
-                        "url": "https://github.com/sRNAworkbenchuea/UEA_sRNA_Workbench"
+                        "status": 302,
+                        "url": "http://srna-workbench.cmp.uea.ac.uk/cgi-sys/suspendedpage.cgi"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -146,7 +188,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ta-si_prediction",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T08:45:45.533197Z",
+        "@timestamp": "2024-12-06T05:51:47.476166Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -156,34 +198,75 @@
                 "description": true
             },
             "website": {
-                "access_time": 451,
-                "bioschemas": true,
+                "access_time": 130,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 15,
                         "serie": [
-                            183
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 117,
+                        "serie": [
+                            111,
+                            6
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 50,
+                        "serie": [
+                            5,
+                            7,
+                            4,
+                            4,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            7,
+                            4,
+                            1,
+                            9
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T08:45:45.455472Z",
+                "https": false,
+                "last_check": "2024-12-06T05:51:41.686406Z",
                 "last_month_access": {
-                    "average_access_time": 497,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 117,
+                    "downtime_days": 9,
+                    "uptime_days": 20
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
-                        "url": "https://github.com/sRNAworkbenchuea/UEA_sRNA_Workbench"
+                        "status": 302,
+                        "url": "http://srna-workbench.cmp.uea.ac.uk/cgi-sys/suspendedpage.cgi"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

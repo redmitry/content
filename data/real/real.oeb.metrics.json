@@ -3,14 +3,14 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:real:1.0/cmd/nms.kcl.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T20:07:41.217374Z",
+        "@timestamp": "2024-12-06T05:17:27.403960Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
+            "packages": true,
             "source_packages": false,
             "sourcecode": {
                 "free": null,
@@ -38,12 +38,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1145/1854776.1854801",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -53,43 +49,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 382,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 165,
                         "serie": [
-                            1
+                            136,
+                            29
                         ],
                         "status": 404
                     },
                     {
-                        "days": 181,
-                        "serie": [
-                            58,
-                            103,
-                            20
-                        ],
-                        "status": 200
-                    },
-                    {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 504
+                        "status": 408
+                    },
+                    {
+                        "days": 16,
+                        "serie": [
+                            16
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T03:36:05.890103Z",
+                "last_check": "2024-12-06T05:17:27.340868Z",
                 "last_month_access": {
-                    "average_access_time": 354,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 241,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -105,8 +100,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:real/cmd/nms.kcl.ac.uk",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:41.189098Z",
+        "@timestamp": "2024-12-06T05:17:27.390045Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -129,12 +125,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1145/1854776.1854801",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -143,43 +135,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 382,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 165,
                         "serie": [
-                            1
+                            136,
+                            29
                         ],
                         "status": 404
                     },
                     {
-                        "days": 181,
-                        "serie": [
-                            58,
-                            103,
-                            20
-                        ],
-                        "status": 200
-                    },
-                    {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 504
+                        "status": 408
+                    },
+                    {
+                        "days": 16,
+                        "serie": [
+                            16
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-09-06T03:11:02.324913Z",
+                "last_check": "2024-12-06T05:17:27.317095Z",
                 "last_month_access": {
-                    "average_access_time": 354,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 228,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -192,7 +183,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/real",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:47:36.552852Z",
+        "@timestamp": "2024-12-06T05:17:27.337536Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -202,43 +193,50 @@
                 "description": true
             },
             "website": {
-                "access_time": 382,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 164,
                         "serie": [
-                            1
+                            15,
+                            120,
+                            29
                         ],
                         "status": 404
                     },
                     {
-                        "days": 181,
+                        "days": 1,
                         "serie": [
-                            58,
-                            103,
-                            20
+                            1
                         ],
-                        "status": 200
+                        "status": 500
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 504
+                        "status": 408
+                    },
+                    {
+                        "days": 16,
+                        "serie": [
+                            16
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T07:47:36.444836Z",
+                "last_check": "2024-12-06T05:17:27.262078Z",
                 "last_month_access": {
-                    "average_access_time": 354,
-                    "downtime_days": 1,
-                    "uptime_days": 29
+                    "average_access_time": 330,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "ssl": true,
                 "ssl_err": null
             }

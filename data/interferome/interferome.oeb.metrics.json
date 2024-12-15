@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:interferome/db/www.interferome.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:03:08.831573Z",
+        "@timestamp": "2024-12-07T05:14:58.628849Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -20,113 +21,109 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 140,
+                            "cit_count": 113,
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2010
+                                    "count": 5,
+                                    "year": "2010"
                                 },
                                 {
-                                    "count": 14,
-                                    "year": 2011
+                                    "count": 13,
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 18,
-                                    "year": 2012
+                                    "count": 15,
+                                    "year": "2012"
                                 },
                                 {
-                                    "count": 27,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 8,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 10,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 12,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 9,
-                                    "year": 2018
+                                    "count": 23,
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2019
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 6,
-                                    "year": 2020
+                                    "count": 8,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2021
+                                    "count": 7,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1093/nar/gkn732",
                             "pmcid": "PMC2686605",
                             "pmid": "18996892",
-                            "ref_count": 58,
+                            "ref_count": 57,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1987
+                                    "year": "1987"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2001
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2002
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2003
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2008
+                                    "year": "2008"
                                 }
                             ],
                             "title": "INTERFEROME: the database of interferon regulated genes.",
@@ -139,38 +136,44 @@
                 "description": true
             },
             "website": {
-                "access_time": 584,
+                "access_time": 1781,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 179,
                         "serie": [
-                            9,
-                            21,
-                            151
+                            165,
+                            4,
+                            10
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
                             1,
-                            1
+                            2
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T05:07:25.132053Z",
+                "https": true,
+                "last_check": "2024-12-07T05:14:58.238246Z",
                 "last_month_access": {
-                    "average_access_time": 650,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2031,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://interferome.org/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -182,7 +185,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/interferome",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:15:11.347068Z",
+        "@timestamp": "2024-12-07T05:14:58.444795Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -192,38 +195,92 @@
                 "description": true
             },
             "website": {
-                "access_time": 584,
+                "access_time": 1756,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 179,
                         "serie": [
-                            9,
-                            21,
-                            151
+                            165,
+                            4,
+                            10
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
                             1,
-                            1
+                            2
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:14:49.616086Z",
+                "https": true,
+                "last_check": "2024-12-07T05:14:58.318947Z",
                 "last_month_access": {
-                    "average_access_time": 650,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 1990,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://interferome.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:interferome:1.2.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T10:07:03.299926Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 153,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T10:07:03.242994Z",
+                "last_month_access": {
+                    "average_access_time": 104,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
                 "ssl_err": null
             }
         }

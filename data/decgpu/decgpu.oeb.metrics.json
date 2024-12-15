@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:decgpu/cmd/decgpu.sourceforge.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:00:26.042607Z",
+        "@timestamp": "2024-12-07T03:29:39.302618Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -24,89 +25,89 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 17,
+                            "cit_count": 14,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2012
+                                    "count": 1,
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2018
+                                    "count": 4,
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1186/1471-2105-12-85",
                             "pmcid": "PMC3072957",
                             "pmid": "21447171",
-                            "ref_count": 33,
+                            "ref_count": 35,
                             "refs": [
                                 {
                                     "count": 5,
-                                    "year": 0
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 1970
+                                    "year": "0"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2000
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2001
+                                    "year": "1970"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2002
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2008
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2009
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2010
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2010"
                                 }
                             ],
                             "title": "DecGPU: distributed error correction on massively parallel graphics processing units using CUDA and MPI.",
@@ -119,28 +120,42 @@
                 "description": true
             },
             "website": {
-                "access_time": 398,
+                "access_time": 415,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 1,
                         "serie": [
-                            183
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            165,
+                            16
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T01:35:50.15876Z",
+                "https": true,
+                "last_check": "2024-12-07T03:29:39.123177Z",
                 "last_month_access": {
-                    "average_access_time": 590,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 851,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://decgpu.sourceforge.net/homepage.htm"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -152,7 +167,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/decgpu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T03:14:09.893818Z",
+        "@timestamp": "2024-12-07T04:25:25.183092Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -162,28 +177,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 398,
+                "access_time": 333,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T03:14:09.767742Z",
+                "https": true,
+                "last_check": "2024-12-07T04:25:24.906943Z",
                 "last_month_access": {
-                    "average_access_time": 590,
+                    "average_access_time": 1182,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://decgpu.sourceforge.net/homepage.htm"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

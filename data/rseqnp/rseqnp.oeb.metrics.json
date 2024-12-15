@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rseqnp/lib/www-personal.umich.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:14:18.881311Z",
+        "@timestamp": "2024-12-06T05:09:01.514765Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -20,53 +21,45 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 5,
+                            "cit_count": 2,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
+                                    "year": "2018"
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btv119",
                             "pmcid": "PMC4481847",
                             "pmid": "25717189",
-                            "ref_count": 12,
+                            "ref_count": 11,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2015
+                                    "count": 1,
+                                    "year": "2015"
                                 }
                             ],
                             "title": "rSeqNP: a non-parametric approach for detecting differential expression and splicing from RNA-Seq data.",
@@ -79,28 +72,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 578,
+                "access_time": 1222,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:36:19.031212Z",
+                "https": true,
+                "last_check": "2024-12-06T05:09:01.414801Z",
                 "last_month_access": {
-                    "average_access_time": 613,
+                    "average_access_time": 1202,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://public.websites.umich.edu/~jianghui/rseqnp/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -112,7 +111,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rseqnp",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:43:25.279024Z",
+        "@timestamp": "2024-12-06T05:09:01.458895Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -122,28 +121,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 578,
+                "access_time": 1120,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T03:27:27.010252Z",
+                "https": true,
+                "last_check": "2024-12-06T05:09:01.39331Z",
                 "last_month_access": {
-                    "average_access_time": 613,
+                    "average_access_time": 1089,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://public.websites.umich.edu/~jianghui/rseqnp/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:orthoscope/app/www.orthoscope.jp",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:53.799251Z",
+        "@timestamp": "2024-12-07T05:58:05.455358Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -13,14 +14,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -38,23 +39,19 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 9,
+                            "cit_count": 6,
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2021
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1093/molbev/msy226",
@@ -64,87 +61,87 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1970
+                                    "year": "1970"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1987
+                                    "year": "1987"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1993
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1996
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 }
                             ],
                             "title": "ORTHOSCOPE: An Automatic Web Tool for Phylogenetically Inferring Bilaterian Orthogroups with User-Selected Taxa.",
@@ -153,29 +150,43 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1419,
+                "access_time": 1323,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 177,
                         "serie": [
-                            183
+                            25,
+                            86,
+                            6,
+                            44,
+                            16
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T02:51:19.543461Z",
+                "last_check": "2024-12-07T05:58:05.312481Z",
                 "last_month_access": {
-                    "average_access_time": 1567,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 2715,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -185,8 +196,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT513S"
             }
         }
     },
@@ -194,8 +205,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:orthoscope/soap/www.orthoscope.jp",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:53.743087Z",
+        "@timestamp": "2024-12-07T05:58:05.454454Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
@@ -204,14 +216,14 @@
             "packages": null,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -229,23 +241,19 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 9,
+                            "cit_count": 6,
                             "citations": [
                                 {
                                     "count": 3,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2021
+                                    "year": "2020"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2022
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1093/molbev/msy226",
@@ -255,87 +263,87 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1970
+                                    "year": "1970"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1987
+                                    "year": "1987"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1993
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1996
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 }
                             ],
                             "title": "ORTHOSCOPE: An Automatic Web Tool for Phylogenetically Inferring Bilaterian Orthogroups with User-Selected Taxa.",
@@ -344,29 +352,43 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1419,
+                "access_time": 1502,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 177,
                         "serie": [
-                            183
+                            25,
+                            86,
+                            6,
+                            44,
+                            16
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:41:38.252309Z",
+                "last_check": "2024-12-07T05:58:05.327286Z",
                 "last_month_access": {
-                    "average_access_time": 1567,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2631,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -376,8 +398,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT513S"
             }
         }
     },
@@ -385,7 +407,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/orthoscope",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:41:49.620963Z",
+        "@timestamp": "2024-12-07T05:58:05.583366Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -395,24 +417,38 @@
                 "description": true
             },
             "website": {
-                "access_time": 1419,
+                "access_time": 1502,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 177,
                         "serie": [
-                            183
+                            25,
+                            86,
+                            6,
+                            44,
+                            16
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T02:51:36.888574Z",
+                "last_check": "2024-12-07T05:58:05.327286Z",
                 "last_month_access": {
-                    "average_access_time": 1567,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 2485,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,

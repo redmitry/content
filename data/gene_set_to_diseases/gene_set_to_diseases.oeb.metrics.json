@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gene_set_to_diseases/web/cbdm.uni-mainz.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:10.959811Z",
+        "@timestamp": "2024-12-07T04:49:14.681929Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -18,12 +19,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.18547/gcb.2016.vol2.iss1.e33",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -37,26 +34,26 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 180,
                         "serie": [
-                            165,
-                            17
+                            88,
+                            92
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
-                            1
+                            2
                         ],
-                        "status": 302
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:21:08.657071Z",
+                "https": true,
+                "last_check": "2024-12-07T04:49:14.580631Z",
                 "last_month_access": {
-                    "average_access_time": 921,
-                    "downtime_days": 1,
+                    "average_access_time": 795,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
@@ -71,15 +68,19 @@
                         "url": "https://cbdm.uni-mainz.de/geneset2diseases/"
                     },
                     {
-                        "status": 302,
+                        "status": 301,
                         "url": "http://cbdm-01.zdv.uni-mainz.de/~jfontain"
                     },
                     {
                         "status": 301,
-                        "url": "http://cbdm-01.zdv.uni-mainz.de/~jfontain/"
+                        "url": "https://cbdm-01.zdv.uni-mainz.de/~jfontain"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cbdm-01.zdv.uni-mainz.de/~jfontain/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -91,8 +92,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gene_set_to_diseases/rest/cbdm.uni-mainz.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:10.927239Z",
+        "@timestamp": "2024-12-07T04:49:07.609100Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -106,12 +108,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.18547/gcb.2016.vol2.iss1.e33",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -120,31 +118,31 @@
                 "description": true
             },
             "website": {
-                "access_time": 994,
+                "access_time": 968,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 180,
                         "serie": [
-                            165,
-                            17
+                            88,
+                            92
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
-                            1
+                            2
                         ],
-                        "status": 302
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:17:42.297741Z",
+                "https": true,
+                "last_check": "2024-12-07T04:49:07.487062Z",
                 "last_month_access": {
-                    "average_access_time": 2426,
-                    "downtime_days": 1,
+                    "average_access_time": 983,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
@@ -159,15 +157,19 @@
                         "url": "https://cbdm.uni-mainz.de/geneset2diseases/"
                     },
                     {
-                        "status": 302,
+                        "status": 301,
                         "url": "http://cbdm-01.zdv.uni-mainz.de/~jfontain"
                     },
                     {
                         "status": 301,
-                        "url": "http://cbdm-01.zdv.uni-mainz.de/~jfontain/"
+                        "url": "https://cbdm-01.zdv.uni-mainz.de/~jfontain"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cbdm-01.zdv.uni-mainz.de/~jfontain/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -179,7 +181,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/gene_set_to_diseases",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:25:09.657027Z",
+        "@timestamp": "2024-12-07T04:49:07.574170Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -189,31 +191,31 @@
                 "description": true
             },
             "website": {
-                "access_time": 884,
+                "access_time": 977,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 182,
+                        "days": 180,
                         "serie": [
-                            165,
-                            17
+                            88,
+                            92
                         ],
                         "status": 200
                     },
                     {
-                        "days": 1,
+                        "days": 2,
                         "serie": [
-                            1
+                            2
                         ],
-                        "status": 302
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:25:09.599247Z",
+                "https": true,
+                "last_check": "2024-12-07T04:49:07.468433Z",
                 "last_month_access": {
-                    "average_access_time": 876,
-                    "downtime_days": 1,
+                    "average_access_time": 847,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
@@ -228,15 +230,19 @@
                         "url": "https://cbdm.uni-mainz.de/geneset2diseases/"
                     },
                     {
-                        "status": 302,
+                        "status": 301,
                         "url": "http://cbdm-01.zdv.uni-mainz.de/~jfontain"
                     },
                     {
                         "status": 301,
-                        "url": "http://cbdm-01.zdv.uni-mainz.de/~jfontain/"
+                        "url": "https://cbdm-01.zdv.uni-mainz.de/~jfontain"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cbdm-01.zdv.uni-mainz.de/~jfontain/"
                     }
                 ],
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

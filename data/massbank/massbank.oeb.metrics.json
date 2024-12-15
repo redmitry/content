@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/massbank",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:27:24.594657Z",
+        "@timestamp": "2024-12-06T06:35:27.185046Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,27 +13,33 @@
                 "description": true
             },
             "website": {
-                "access_time": 499,
+                "access_time": 427,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:27:24.037829Z",
+                "last_check": "2024-12-06T06:35:27.104174Z",
                 "last_month_access": {
-                    "average_access_time": 1532,
+                    "average_access_time": 1115,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://massbank.eu/MassBank/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -43,24 +49,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:massbank/db/massbank.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:47.405605Z",
+        "@timestamp": "2024-12-06T06:35:27.387855Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": false,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -71,104 +78,112 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 664,
+                            "cit_count": 1114,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2010
+                                    "count": 4,
+                                    "year": "2010"
                                 },
                                 {
-                                    "count": 23,
-                                    "year": 2011
+                                    "count": 33,
+                                    "year": "2011"
                                 },
                                 {
-                                    "count": 43,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 54,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 62,
-                                    "year": 2014
+                                    "count": 57,
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 71,
-                                    "year": 2015
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 76,
-                                    "year": 2016
+                                    "count": 80,
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 79,
-                                    "year": 2017
+                                    "count": 93,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 59,
-                                    "year": 2018
+                                    "count": 110,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 64,
-                                    "year": 2019
+                                    "count": 112,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 53,
-                                    "year": 2020
+                                    "count": 100,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 75,
-                                    "year": 2021
+                                    "count": 126,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 3,
-                                    "year": 2022
+                                    "count": 122,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 99,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 70,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1002/jms.1777",
                             "pmid": "20623627",
-                            "ref_count": 36,
+                            "ref_count": 37,
                             "refs": [
                                 {
                                     "count": 14,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1988
+                                    "year": "1988"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
-                                    "count": 1,
-                                    "year": 2006
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2007
+                                    "count": 2,
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 }
                             ],
                             "title": "MassBank: a public repository for sharing mass spectral data for life sciences.",
@@ -177,40 +192,46 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 309,
+                "access_time": 499,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:27:24.037829Z",
+                "last_check": "2024-12-06T06:35:27.076829Z",
                 "last_month_access": {
-                    "average_access_time": 1338,
+                    "average_access_time": 1099,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://massbank.eu/MassBank/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT341942S"
             }
         }
     }

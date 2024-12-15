@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/animal_tfdb",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:23:42.648305Z",
+        "@timestamp": "2024-12-06T05:05:07.435962Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,36 +13,67 @@
                 "description": true
             },
             "website": {
-                "access_time": 502,
+                "access_time": 1889,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 6,
+                        "days": 153,
                         "serie": [
-                            6
+                            13,
+                            4,
+                            7,
+                            2,
+                            1,
+                            2,
+                            1,
+                            23,
+                            63,
+                            37
                         ],
-                        "status": 500
+                        "status": 404
                     },
                     {
-                        "days": 177,
+                        "days": 8,
                         "serie": [
-                            32,
-                            145
+                            7,
+                            1
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 21,
+                        "serie": [
+                            1,
+                            1,
+                            3,
+                            3,
+                            1,
+                            5,
+                            1,
+                            3,
+                            2,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-10-11T01:21:41.271013Z",
+                "https": true,
+                "last_check": "2024-12-06T05:05:07.182723Z",
                 "last_month_access": {
-                    "average_access_time": 580,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 1711,
+                    "downtime_days": 21,
+                    "uptime_days": 8
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://guolab.wchscu.cn/AnimalTFDB/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -51,8 +82,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:animal_tfdb/db/bioinfo.life.hust.edu.cn",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:57:42.371906Z",
+        "@timestamp": "2024-12-07T06:03:19.781645Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -63,43 +95,43 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 182,
+                            "cit_count": 148,
                             "citations": [
                                 {
                                     "count": 9,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 16,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
-                                    "count": 31,
-                                    "year": 2015
+                                    "count": 27,
+                                    "year": "2015"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2016
+                                    "count": 24,
+                                    "year": "2016"
                                 },
                                 {
-                                    "count": 36,
-                                    "year": 2017
+                                    "count": 34,
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 25,
-                                    "year": 2018
+                                    "count": 23,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2019
+                                    "count": 6,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2020
+                                    "count": 8,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 17,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2021"
                                 }
                             ],
                             "doi": "10.1093/nar/gkr965",
@@ -109,39 +141,39 @@
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "title": "AnimalTFDB: a comprehensive animal transcription factor database.",
@@ -154,41 +186,136 @@
                 "description": true
             },
             "website": {
-                "access_time": 502,
+                "access_time": 2603,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 6,
+                        "days": 146,
                         "serie": [
-                            6
+                            10,
+                            1,
+                            8,
+                            5,
+                            4,
+                            8,
+                            3,
+                            1,
+                            5,
+                            2,
+                            2,
+                            60,
+                            37
                         ],
-                        "status": 500
+                        "status": 404
                     },
                     {
-                        "days": 177,
+                        "days": 10,
                         "serie": [
-                            32,
-                            145
+                            10
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 26,
+                        "serie": [
+                            6,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            1,
+                            2,
+                            2,
+                            3,
+                            1,
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T02:21:46.163482Z",
+                "https": true,
+                "last_check": "2024-12-07T06:03:18.958426Z",
                 "last_month_access": {
-                    "average_access_time": 580,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1668,
+                    "downtime_days": 19,
+                    "uptime_days": 10
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://guolab.wchscu.cn/AnimalTFDB/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:animal_tfdb:2.1.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-06T08:16:11.739515Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.6976425",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 225,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T08:16:11.374238Z",
+                "last_month_access": {
+                    "average_access_time": 478,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
         }
     }
 ]

@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rodeo/cmd/www.ripprodeo.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:53.773304Z",
+        "@timestamp": "2024-12-06T05:18:06.861815Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -21,93 +22,101 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 122,
+                            "cit_count": 65,
                             "citations": [
                                 {
                                     "count": 10,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 19,
-                                    "year": 2018
+                                    "count": 13,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 26,
-                                    "year": 2019
+                                    "count": 18,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 30,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 37,
-                                    "year": 2021
+                                    "count": 8,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nchembio.2319",
                             "pmcid": "PMC5391289",
                             "pmid": "28244986",
-                            "ref_count": 66,
+                            "ref_count": 65,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1991
+                                    "year": "1991"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 17,
-                                    "year": 2015
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2016
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 }
                             ],
                             "title": "A new genome-mining tool redefines the lasso peptide biosynthetic landscape.",
@@ -120,39 +129,35 @@
                 "description": true
             },
             "website": {
-                "access_time": 11661,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
                         "days": 182,
                         "serie": [
-                            181,
-                            1
+                            182
                         ],
-                        "status": 200
-                    },
-                    {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 302
+                        "status": 404
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T07:58:19.326797Z",
+                "last_check": "2024-12-06T05:18:06.77443Z",
                 "last_month_access": {
-                    "average_access_time": 5234,
-                    "downtime_days": 1,
-                    "uptime_days": 29
+                    "average_access_time": 5180,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
                 "redirects": [
                     {
                         "status": 302,
                         "url": "http://ripp.rodeo/advanced.html"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://ripp.rodeo/advanced.html"
                     }
                 ],
                 "ssl": null,
@@ -167,7 +172,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rodeo",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:45:56.675182Z",
+        "@timestamp": "2024-12-06T10:23:18.074922Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -177,31 +182,38 @@
                 "description": true
             },
             "website": {
-                "access_time": 5279,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 30,
                         "serie": [
-                            183
+                            30
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 152,
+                        "serie": [
+                            152
                         ],
                         "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T07:45:56.609763Z",
+                "last_check": "2024-12-06T10:23:17.721362Z",
                 "last_month_access": {
-                    "average_access_time": 3984,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 944,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://ripp.rodeo/advanced.html"
+                        "status": 301,
+                        "url": "https://ripp.rodeo/index.html"
                     }
                 ],
                 "ssl": null,
@@ -213,8 +225,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rodeo/cmd/www.ripp.rodeo",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:53.824263Z",
+        "@timestamp": "2024-12-06T10:23:17.773014Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -231,93 +244,101 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 122,
+                            "cit_count": 65,
                             "citations": [
                                 {
                                     "count": 10,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
-                                    "count": 19,
-                                    "year": 2018
+                                    "count": 13,
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 26,
-                                    "year": 2019
+                                    "count": 18,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 30,
-                                    "year": 2020
+                                    "count": 12,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 37,
-                                    "year": 2021
+                                    "count": 8,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/nchembio.2319",
                             "pmcid": "PMC5391289",
                             "pmid": "28244986",
-                            "ref_count": 66,
+                            "ref_count": 65,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1991
+                                    "year": "1991"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 17,
-                                    "year": 2015
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2016
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 }
                             ],
                             "title": "A new genome-mining tool redefines the lasso peptide biosynthetic landscape.",
@@ -330,31 +351,38 @@
                 "description": true
             },
             "website": {
-                "access_time": 5279,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 30,
                         "serie": [
-                            183
+                            30
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 152,
+                        "serie": [
+                            152
                         ],
                         "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-04T09:53:13.145067Z",
+                "last_check": "2024-12-06T10:23:17.682438Z",
                 "last_month_access": {
-                    "average_access_time": 4249,
-                    "downtime_days": 0,
-                    "uptime_days": 23
+                    "average_access_time": 963,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://ripp.rodeo/advanced.html"
+                        "status": 301,
+                        "url": "https://ripp.rodeo/index.html"
                     }
                 ],
                 "ssl": null,
@@ -366,14 +394,14 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rodeo:2.3.3/cmd/ripp.rodeo",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:44:56.453510Z",
+        "@timestamp": "2024-12-06T10:23:17.779758Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
+            "packages": true,
             "source_packages": false,
             "sourcecode": {
                 "free": null,
@@ -400,31 +428,38 @@
                 "description": true
             },
             "website": {
-                "access_time": 5275,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 30,
                         "serie": [
-                            183
+                            30
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 152,
+                        "serie": [
+                            152
                         ],
                         "status": 200
                     }
                 ],
                 "https": false,
-                "last_check": "2022-02-12T10:05:43.661997Z",
+                "last_check": "2024-12-06T10:23:17.721296Z",
                 "last_month_access": {
-                    "average_access_time": 3815,
-                    "downtime_days": 0,
-                    "uptime_days": 14
+                    "average_access_time": 2615,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
-                        "status": 302,
-                        "url": "http://ripp.rodeo/advanced.html"
+                        "status": 301,
+                        "url": "https://ripp.rodeo/index.html"
                     }
                 ],
                 "ssl": null,

@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pangenehome",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:41:47.143748Z",
+        "@timestamp": "2024-12-07T03:30:52.075886Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,24 +13,39 @@
                 "description": true
             },
             "website": {
-                "access_time": 250,
+                "access_time": 271,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 54,
                         "serie": [
-                            183
+                            30,
+                            24
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 127,
+                        "serie": [
+                            127
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:41:47.028467Z",
+                "last_check": "2024-12-07T03:30:51.082001Z",
                 "last_month_access": {
-                    "average_access_time": 271,
+                    "average_access_time": 204,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -49,34 +64,136 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pangenehome/undefined/pangenehome.lmge.uca.fr",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T10:15:23.147676Z",
+        "@timestamp": "2024-12-07T03:30:51.396015Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
-            "publications": [],
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.48550/arXiv.1805.05597",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1940,
+                "access_time": 82,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 54,
                         "serie": [
-                            100
+                            30,
+                            24
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 127,
+                        "serie": [
+                            127
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:15:23.12617Z",
+                "last_check": "2024-12-07T03:30:51.243034Z",
                 "last_month_access": {
-                    "average_access_time": 1047,
+                    "average_access_time": 384,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pangenehome.lmge.uca.fr/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pangenehome/web/pangenehome.lmge.uca.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-07T03:30:51.155030Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.48550/arXiv.1805.05597",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 388,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 54,
+                        "serie": [
+                            30,
+                            24
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 127,
+                        "serie": [
+                            127
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T03:30:51.067466Z",
+                "last_month_access": {
+                    "average_access_time": 219,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,

@@ -3,24 +3,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:goldenmutagenesis:1.1.1/lib/msbi.ipb-halle.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:27.536677Z",
+        "@timestamp": "2024-12-07T05:08:22.855694Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -35,101 +36,109 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 9,
+                            "cit_count": 10,
                             "citations": [
                                 {
-                                    "count": 4,
-                                    "year": 2020
+                                    "count": 7,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2021
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/s41598-019-47376-1",
                             "pmcid": "PMC6662682",
                             "pmid": "31358887",
-                            "ref_count": 39,
+                            "ref_count": 40,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1986
+                                    "year": "1986"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1989
+                                    "year": "1989"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1991
+                                    "year": "1991"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1993
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2019
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
                                 }
                             ],
                             "title": "Golden Mutagenesis: An efficient multi-site-saturation mutagenesis approach by Golden Gate cloning with automated primer design.",
@@ -151,48 +160,59 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 5202,
+                "access_time": 6712,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 177,
+                        "days": 49,
                         "serie": [
                             6,
-                            80,
-                            4,
-                            65,
-                            22
+                            40,
+                            2,
+                            1
                         ],
-                        "status": 200
+                        "status": 500
                     },
                     {
-                        "days": 5,
+                        "days": 6,
                         "serie": [
                             1,
-                            1,
-                            3
+                            5
                         ],
-                        "status": 408
+                        "status": 503
+                    },
+                    {
+                        "days": 126,
+                        "serie": [
+                            12,
+                            3,
+                            19,
+                            39,
+                            1,
+                            9,
+                            43
+                        ],
+                        "status": 200
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 301
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T04:29:34.437451Z",
+                "last_check": "2024-12-07T05:08:22.781537Z",
                 "last_month_access": {
-                    "average_access_time": 4846,
-                    "downtime_days": 1,
+                    "average_access_time": 4675,
+                    "downtime_days": 0,
                     "uptime_days": 29
                 },
                 "license": false,
@@ -209,8 +229,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT4785451S"
             }
         }
     },
@@ -218,24 +238,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:goldenmutagenesis:1.1.1/web/msbi.ipb-halle.de",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:02:27.571170Z",
+        "@timestamp": "2024-12-07T05:08:22.693083Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -250,101 +271,109 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 9,
+                            "cit_count": 10,
                             "citations": [
                                 {
-                                    "count": 4,
-                                    "year": 2020
+                                    "count": 7,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2021
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
                                 }
                             ],
                             "doi": "10.1038/s41598-019-47376-1",
                             "pmcid": "PMC6662682",
                             "pmid": "31358887",
-                            "ref_count": 39,
+                            "ref_count": 40,
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1986
+                                    "year": "1986"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1989
+                                    "year": "1989"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1991
+                                    "year": "1991"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1993
+                                    "year": "1993"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2019
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
                                 }
                             ],
                             "title": "Golden Mutagenesis: An efficient multi-site-saturation mutagenesis approach by Golden Gate cloning with automated primer design.",
@@ -366,41 +395,60 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 4676,
+                "access_time": 6610,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 178,
+                        "days": 49,
                         "serie": [
                             6,
-                            80,
-                            4,
-                            88
+                            40,
+                            2,
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 6,
+                        "serie": [
+                            1,
+                            5
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 126,
+                        "serie": [
+                            12,
+                            3,
+                            19,
+                            39,
+                            1,
+                            9,
+                            43
                         ],
                         "status": 200
                     },
                     {
-                        "days": 5,
+                        "days": 1,
                         "serie": [
-                            1,
-                            1,
-                            3
+                            1
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T04:31:20.041192Z",
+                "last_check": "2024-12-07T05:08:22.603004Z",
                 "last_month_access": {
-                    "average_access_time": 4854,
+                    "average_access_time": 5048,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -416,8 +464,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT4785451S"
             }
         }
     },
@@ -425,7 +473,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/goldenmutagenesis",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:27:12.624530Z",
+        "@timestamp": "2024-12-07T05:11:41.884580Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -435,36 +483,55 @@
                 "description": true
             },
             "website": {
-                "access_time": 6273,
+                "access_time": 5312,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 178,
+                        "days": 49,
                         "serie": [
                             6,
-                            80,
-                            4,
-                            88
+                            40,
+                            2,
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 6,
+                        "serie": [
+                            1,
+                            5
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 126,
+                        "serie": [
+                            12,
+                            3,
+                            19,
+                            39,
+                            1,
+                            9,
+                            43
                         ],
                         "status": 200
                     },
                     {
-                        "days": 5,
+                        "days": 1,
                         "serie": [
-                            1,
-                            1,
-                            3
+                            1
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T04:27:12.441898Z",
+                "last_check": "2024-12-07T05:11:41.731156Z",
                 "last_month_access": {
-                    "average_access_time": 10822,
+                    "average_access_time": 4596,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,

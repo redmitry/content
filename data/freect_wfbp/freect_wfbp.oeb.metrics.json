@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:freect_wfbp/cmd/cvib.ucla.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:01:35.224590Z",
+        "@timestamp": "2024-12-07T05:26:22.776305Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -24,27 +25,19 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 12,
+                            "cit_count": 5,
                             "citations": [
                                 {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
                                     "count": 1,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2021
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1118/1.4941953",
@@ -54,59 +47,59 @@
                             "refs": [
                                 {
                                     "count": 4,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1986
+                                    "year": "1986"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2016"
                                 }
                             ],
                             "title": "Technical Note: FreeCT_wFBP: A robust, efficient, open-source implementation of weighted filtered backprojection for helical, fan-beam CT.",
@@ -119,38 +112,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 1026,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
-                        "serie": [
-                            56,
-                            60,
-                            65
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 2,
+                        "days": 166,
                         "serie": [
                             1,
+                            39,
+                            117,
+                            9
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 16,
+                        "serie": [
+                            2,
+                            13,
                             1
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T01:52:11.723317Z",
+                "https": true,
+                "last_check": "2024-12-07T05:26:22.640243Z",
                 "last_month_access": {
-                    "average_access_time": 1459,
-                    "downtime_days": 0,
-                    "uptime_days": 1
+                    "average_access_time": 1013,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cvib.ucla.edu/freect/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -162,7 +163,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/freect_wfbp",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:17:27.505261Z",
+        "@timestamp": "2024-12-07T05:26:23.304274Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -172,38 +173,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 1026,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
-                        "serie": [
-                            56,
-                            60,
-                            65
-                        ],
-                        "status": 200
-                    },
-                    {
-                        "days": 2,
+                        "days": 166,
                         "serie": [
                             1,
+                            39,
+                            117,
+                            9
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 16,
+                        "serie": [
+                            2,
+                            13,
                             1
                         ],
                         "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T04:17:27.410288Z",
+                "https": true,
+                "last_check": "2024-12-07T05:26:22.65267Z",
                 "last_month_access": {
-                    "average_access_time": 1459,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1631,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cvib.ucla.edu/freect/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

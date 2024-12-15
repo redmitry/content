@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rnaloss/web/bioinformatics.bc.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:07:48.339170Z",
+        "@timestamp": "2024-12-06T05:18:10.805436Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -20,31 +21,31 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 11,
+                            "cit_count": 9,
                             "citations": [
                                 {
-                                    "count": 2,
-                                    "year": 2006
+                                    "count": 1,
+                                    "year": "2006"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2007
+                                    "count": 1,
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2016"
                                 }
                             ],
                             "doi": "10.1093/nar/gki382",
@@ -54,51 +55,51 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1980
+                                    "year": "1980"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1991
+                                    "year": "1991"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1994
+                                    "year": "1994"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1996
+                                    "year": "1996"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1997
+                                    "year": "1997"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1998
+                                    "year": "1998"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2005
+                                    "year": "2005"
                                 }
                             ],
                             "title": "RNALOSS: a web server for RNA locally optimal secondary structures.",
@@ -111,36 +112,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 233,
+                "access_time": 580,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 182,
                         "serie": [
-                            50,
-                            130
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 3,
-                        "serie": [
-                            3
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:58:51.012787Z",
+                "https": true,
+                "last_check": "2024-12-06T05:18:10.721793Z",
                 "last_month_access": {
-                    "average_access_time": 231,
+                    "average_access_time": 586,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.bc.edu/clotelab/RNALOSS/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -152,7 +151,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/rnaloss",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:59:24.040081Z",
+        "@timestamp": "2024-12-06T05:18:31.167456Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -162,36 +161,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 233,
+                "access_time": 528,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 182,
                         "serie": [
-                            50,
-                            130
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 3,
-                        "serie": [
-                            3
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": false,
-                "last_check": "2021-10-11T06:48:12.283996Z",
+                "https": true,
+                "last_check": "2024-12-06T05:18:31.074241Z",
                 "last_month_access": {
-                    "average_access_time": 231,
+                    "average_access_time": 581,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinformatics.bc.edu/clotelab/RNALOSS/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

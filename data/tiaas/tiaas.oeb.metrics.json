@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/tiaas",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:45:25.967291Z",
+        "@timestamp": "2024-12-06T08:09:26.211316Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,27 +13,41 @@
                 "description": true
             },
             "website": {
-                "access_time": 397,
-                "bioschemas": false,
+                "access_time": 544,
+                "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 181,
                         "serie": [
-                            183
+                            50,
+                            131
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:45:25.934541Z",
+                "last_check": "2024-12-06T08:09:26.127106Z",
                 "last_month_access": {
-                    "average_access_time": 666,
+                    "average_access_time": 624,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://usegalaxy-eu.github.io/tiaas"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -43,8 +57,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tiaas/undefined/galaxyproject.eu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:09:50.591823Z",
+        "@timestamp": "2024-12-07T02:51:42.933723Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -76,25 +91,149 @@
                 "description": true
             },
             "website": {
-                "access_time": 397,
+                "access_time": 1509,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 182,
                         "serie": [
-                            100
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-07T02:51:42.744501Z",
                 "last_month_access": {
-                    "average_access_time": 666
+                    "average_access_time": 617,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://usegalaxy-eu.github.io/tiaas"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tiaas:2.1.0/undefined/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@timestamp": "2024-12-06T08:09:26.168544Z",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true,
+                "training_material": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.08.23.263509",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Training Infrastructure as a Service",
+                            "year": 2020
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/gigascience/giad048",
+                            "pmcid": "PMC10316688",
+                            "pmid": "37395629",
+                            "ref_count": 3,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "Training Infrastructure as a Service.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 534,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 181,
+                        "serie": [
+                            50,
+                            131
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-06T08:09:26.128789Z",
+                "last_month_access": {
+                    "average_access_time": 556,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://usegalaxy-eu.github.io/tiaas"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }

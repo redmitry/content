@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mirsponge:1.8.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T06:07:57.035680Z",
+        "@timestamp": "2024-12-07T03:58:50.011507Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -21,24 +21,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 57,
+                "access_time": 203,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T02:37:17.160749Z",
+                "last_check": "2024-12-07T03:58:49.898958Z",
                 "last_month_access": {
-                    "average_access_time": 77,
+                    "average_access_time": 117,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -51,8 +51,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mirsponge:1.6.0/lib/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:11:59.200393Z",
+        "@timestamp": "2024-12-07T05:26:38.111715Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "source_packages": true,
             "sourcecode": {
@@ -73,93 +74,97 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 9,
+                            "cit_count": 8,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2019
+                                    "count": 3,
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 2,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1186/s12859-017-1467-5",
                             "pmcid": "PMC5374547",
                             "pmid": "28361682",
-                            "ref_count": 46,
+                            "ref_count": 45,
                             "refs": [
                                 {
                                     "count": 3,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2002
+                                    "year": "2002"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2014
+                                    "count": 3,
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 8,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 }
                             ],
                             "title": "Identifying miRNA sponge modules using biclustering and regulatory scores.",
@@ -177,22 +182,28 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T06:08:59.792555Z",
+                "https": true,
+                "last_check": "2024-12-07T05:26:38.013223Z",
                 "last_month_access": {
-                    "downtime_days": 30,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/miRsponge.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -204,7 +215,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mirsponge",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:13:02.409286Z",
+        "@timestamp": "2024-12-07T05:29:07.540510Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -219,22 +230,28 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2021-04-25T02:40:00.091745Z",
+                "https": true,
+                "last_check": "2024-12-07T05:29:07.448266Z",
                 "last_month_access": {
-                    "downtime_days": 1,
+                    "downtime_days": 29,
                     "uptime_days": 0
                 },
                 "license": false,
                 "operational": 404,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/miRsponge.html"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         }
@@ -243,7 +260,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mirsponge:1.10.0/cmd/bioconductor.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T09:24:26.100187Z",
+        "@timestamp": "2024-12-07T03:59:41.152357Z",
         "@type": "metrics",
         "distribution": {
             "packages": true,
@@ -261,24 +278,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 25,
+                "access_time": 125,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-04-25T04:23:48.304079Z",
+                "last_check": "2024-12-07T03:59:41.068889Z",
                 "last_month_access": {
-                    "average_access_time": 73,
+                    "average_access_time": 114,
                     "downtime_days": 0,
-                    "uptime_days": 1
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,

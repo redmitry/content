@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/emap2sec",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T03:38:34.138986Z",
+        "@timestamp": "2024-12-07T04:41:15.827227Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,24 +13,32 @@
                 "description": true
             },
             "website": {
-                "access_time": 932,
+                "access_time": 987,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 180,
                         "serie": [
-                            183
+                            90,
+                            90
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:38:34.094421Z",
+                "last_check": "2024-12-07T04:41:15.751084Z",
                 "last_month_access": {
                     "average_access_time": 1201,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -38,6 +46,10 @@
                     {
                         "status": 302,
                         "url": "https://kiharalab.org/emap2sec/index.html"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://kiharalab.org/emsuites/emap2sec.php"
                     }
                 ],
                 "ssl": true,
@@ -49,8 +61,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:emap2sec/cmd/www.kiharalab.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:01:03.737652Z",
+        "@timestamp": "2024-12-07T04:42:09.550340Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -67,19 +80,23 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 14,
+                            "cit_count": 6,
                             "citations": [
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 4,
-                                    "year": 2020
+                                    "count": 2,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2021
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
                                 }
                             ],
                             "doi": "10.1038/s41592-019-0500-1",
@@ -89,67 +106,67 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1999
+                                    "year": "1999"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2001
+                                    "year": "2001"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "Protein secondary structure detection in intermediate-resolution cryo-EM maps using deep learning.",
@@ -162,24 +179,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 494,
+                "access_time": 729,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 179,
                         "serie": [
-                            183
+                            90,
+                            50,
+                            39
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:28:28.60379Z",
+                "last_check": "2024-12-07T04:42:09.185225Z",
                 "last_month_access": {
-                    "average_access_time": 718,
+                    "average_access_time": 769,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -187,6 +220,10 @@
                     {
                         "status": 302,
                         "url": "https://kiharalab.org/emap2sec/index.html"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://kiharalab.org/emsuites/emap2sec.php"
                     }
                 ],
                 "ssl": true,

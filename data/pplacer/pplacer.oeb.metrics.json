@@ -3,100 +3,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:pplacer:1.1.alpha17/cmd/matsen.fredhutch.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:49:30.772437Z",
+        "@timestamp": "2024-12-07T05:58:54.675543Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
-                "freeness": null,
-                "registration": null
+                "freeness": true,
+                "registration": false
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
-                }
-            }
-        },
-        "project": {
-            "build": {},
-            "deployment": {},
-            "license": {
-                "open_source": false,
-                "osi": false
-            },
-            "publications": [],
-            "readme": false,
-            "summary": {
-                "description": true
-            },
-            "website": {
-                "access_time": 362,
-                "bioschemas": false,
-                "copyright": false,
-                "half_year_stat": [
-                    {
-                        "days": 183,
-                        "serie": [
-                            183
-                        ],
-                        "status": 200
-                    }
-                ],
-                "https": true,
-                "last_check": "2022-02-12T06:51:32.343866Z",
-                "last_month_access": {
-                    "average_access_time": 415,
-                    "downtime_days": 0,
-                    "uptime_days": 30
-                },
-                "license": false,
-                "operational": 200,
-                "redirects": [
-                    {
-                        "status": 301,
-                        "url": "https://matsen.fredhutch.org/pplacer/"
-                    }
-                ],
-                "ssl": true,
-                "ssl_err": null
-            }
-        },
-        "support": {
-            "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
-            }
-        }
-    },
-    {
-        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:pplacer:1.1.alpha19/cmd/matsen.fredhutch.org",
-        "@license": "https://creativecommons.org/licenses/by/4.0/",
-        "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:49:30.754904Z",
-        "@type": "metrics",
-        "distribution": {
-            "binaries": {
-                "freeness": null,
-                "registration": null
-            },
-            "packages": null,
-            "source_packages": false,
-            "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
-                "public": true,
-                "readme": false,
-                "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -108,29 +32,39 @@
                 "osi": true
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 1191,
+                "access_time": 344,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 180,
                         "serie": [
-                            183
+                            141,
+                            27,
+                            12
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:51:31.251655Z",
+                "last_check": "2024-12-07T05:58:54.602465Z",
                 "last_month_access": {
-                    "average_access_time": 1361,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1364,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -146,8 +80,100 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT873413S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:pplacer:1.1.alpha19/cmd/matsen.fredhutch.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-07T05:58:53.711516Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1614,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            141,
+                            27,
+                            12
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-07T05:58:53.631181Z",
+                "last_month_access": {
+                    "average_access_time": 1539,
+                    "downtime_days": 1,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://matsen.fredhutch.org/pplacer/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT873413S"
             }
         }
     },
@@ -155,7 +181,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pplacer",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:51:40.963303Z",
+        "@timestamp": "2024-12-07T05:58:54.254768Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -165,24 +191,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 1118,
+                "access_time": 339,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 1,
                         "serie": [
-                            183
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            141,
+                            27,
+                            12
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:51:40.85501Z",
+                "last_check": "2024-12-07T05:58:54.052772Z",
                 "last_month_access": {
-                    "average_access_time": 1194,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1482,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
