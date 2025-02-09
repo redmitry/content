@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pdbexplore:1/web/pdbe.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T06:44:35.500371Z",
+        "@timestamp": "2024-12-14T10:28:45.734673Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -17,27 +18,34 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 568,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 153,
                         "serie": [
-                            183
+                            153
                         ],
-                        "status": 500
+                        "status": 404
+                    },
+                    {
+                        "days": 29,
+                        "serie": [
+                            29
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:44:35.36568Z",
+                "last_check": "2024-12-14T10:28:45.636146Z",
                 "last_month_access": {
-                    "average_access_time": 733,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 575,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -50,6 +58,10 @@
                     {
                         "status": 301,
                         "url": "https://www.ebi.ac.uk/pdbe-srv/PDBeXplore/sequence/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/pdbe/deprecated-services"
                     }
                 ],
                 "ssl": true,
@@ -64,7 +76,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pdbexplore",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T06:41:51.490062Z",
+        "@timestamp": "2024-12-14T10:25:35.681689Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -74,27 +86,34 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 736,
                 "bioschemas": false,
                 "copyright": true,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 153,
                         "serie": [
-                            183
+                            153
                         ],
-                        "status": 500
+                        "status": 404
+                    },
+                    {
+                        "days": 29,
+                        "serie": [
+                            29
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T06:41:51.23947Z",
+                "last_check": "2024-12-14T10:25:35.605916Z",
                 "last_month_access": {
-                    "average_access_time": 654,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 902,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 500,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -107,6 +126,10 @@
                     {
                         "status": 301,
                         "url": "https://www.ebi.ac.uk/pdbe-srv/PDBeXplore/sequence/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ebi.ac.uk/pdbe/deprecated-services"
                     }
                 ],
                 "ssl": true,

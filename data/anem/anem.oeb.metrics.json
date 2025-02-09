@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/anem",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:31:12.500872Z",
+        "@timestamp": "2024-12-14T04:48:59.223766Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,35 +13,37 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 549,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 180,
                         "serie": [
-                            1
+                            39,
+                            4,
+                            137
                         ],
                         "status": 200
                     },
                     {
-                        "days": 182,
+                        "days": 2,
                         "serie": [
-                            39,
-                            143
+                            1,
+                            1
                         ],
                         "status": 202
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:31:12.330518Z",
+                "last_check": "2024-12-14T04:48:59.103863Z",
                 "last_month_access": {
-                    "average_access_time": 3036,
+                    "average_access_time": 2413,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 202,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -61,8 +63,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:anem/web/gopalpenny.shinyapps.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:10:53.450180Z",
+        "@timestamp": "2024-12-14T04:40:12.354530Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -91,32 +94,48 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 1574,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 22,
+                        "days": 16,
                         "serie": [
-                            22
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            4,
+                            2,
+                            1,
+                            4
                         ],
                         "status": 200
                     },
                     {
-                        "days": 161,
+                        "days": 166,
                         "serie": [
-                            38,
-                            123
+                            46,
+                            3,
+                            3,
+                            3,
+                            5,
+                            14,
+                            9,
+                            19,
+                            5,
+                            59
                         ],
                         "status": 202
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:31:12.352397Z",
+                "last_check": "2024-12-14T04:40:12.164642Z",
                 "last_month_access": {
-                    "average_access_time": 3944,
+                    "average_access_time": 1677,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 202,
@@ -139,8 +158,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:anem/lib/gopalpenny.shinyapps.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:10:53.456461Z",
+        "@timestamp": "2024-12-14T04:48:59.114769Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -169,35 +189,37 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 3368,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 22,
+                        "days": 180,
                         "serie": [
-                            22
+                            39,
+                            4,
+                            137
                         ],
                         "status": 200
                     },
                     {
-                        "days": 161,
+                        "days": 2,
                         "serie": [
-                            38,
-                            123
+                            1,
+                            1
                         ],
                         "status": 202
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:31:12.615024Z",
+                "last_check": "2024-12-14T04:48:58.893047Z",
                 "last_month_access": {
-                    "average_access_time": 960,
+                    "average_access_time": 2786,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 202,
+                "operational": 200,
                 "redirects": [
                     {
                         "status": 301,
@@ -208,6 +230,54 @@
                         "url": "https://gopalpenny.shinyapps.io/anem-app/"
                     }
                 ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:anem:1.8.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-14T03:47:20.802222Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 140,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-14T03:47:20.708653Z",
+                "last_month_access": {
+                    "average_access_time": 130,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }

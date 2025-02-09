@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/cat_bins",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:41:27.117035Z",
+        "@timestamp": "2024-12-14T02:04:47.576829Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -11,16 +11,16 @@
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -28,106 +28,46 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 450,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.688496Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 553,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -135,24 +75,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cat_bins/lib/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:50.755939Z",
+        "@timestamp": "2024-12-14T02:04:50.211137Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -170,73 +111,73 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 49,
+                            "cit_count": 17,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2020
+                                    "count": 4,
+                                    "year": "2020"
                                 },
                                 {
-                                    "count": 35,
-                                    "year": 2021
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2024"
                                 }
                             ],
                             "doi": "10.1186/s13059-019-1817-x",
                             "pmcid": "PMC6805573",
                             "pmid": "31640809",
-                            "ref_count": 49,
+                            "ref_count": 27,
                             "refs": [
                                 {
                                     "count": 2,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2007
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2011
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2012
-                                },
-                                {
-                                    "count": 5,
-                                    "year": 2014
-                                },
-                                {
-                                    "count": 7,
-                                    "year": 2015
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2016
-                                },
-                                {
-                                    "count": 10,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 10,
-                                    "year": 2018
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
                                 }
                             ],
                             "title": "Robust taxonomic classification of uncharted microbial sequences and bins with CAT and BAT.",
@@ -245,106 +186,46 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 317,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -352,24 +233,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:4.6/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.147080Z",
+        "@timestamp": "2024-12-14T02:04:47.996543Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -381,106 +262,46 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 288,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -488,24 +309,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:4.3.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.155174Z",
+        "@timestamp": "2024-12-14T02:04:48.139155Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -517,106 +338,46 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 290,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -624,24 +385,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:4.3.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.191499Z",
+        "@timestamp": "2024-12-14T02:04:48.069965Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -653,106 +414,46 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 224,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -760,24 +461,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.0.5/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.210780Z",
+        "@timestamp": "2024-12-14T02:04:47.859775Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -789,106 +490,46 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 608,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.671848Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 246,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -896,24 +537,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.0.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.242773Z",
+        "@timestamp": "2024-12-14T02:04:47.958689Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -925,106 +566,46 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 193,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -1032,24 +613,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.0.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.270820Z",
+        "@timestamp": "2024-12-14T02:04:48.012308Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1061,106 +642,46 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 482,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -1168,24 +689,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.0.4/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.279206Z",
+        "@timestamp": "2024-12-14T02:04:47.736045Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1197,106 +718,46 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 450,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.688496Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 184,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -1304,24 +765,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.0.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.290957Z",
+        "@timestamp": "2024-12-14T02:04:47.661963Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1333,106 +794,46 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 403,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.69969Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 185,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -1440,24 +841,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.1.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.308959Z",
+        "@timestamp": "2024-12-14T02:04:48.567903Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1469,106 +870,46 @@
                 "osi": true
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 187,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -1576,24 +917,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.1.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.317662Z",
+        "@timestamp": "2024-12-14T02:04:48.258376Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1605,106 +946,46 @@
                 "osi": true
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 186,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -1712,24 +993,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.2.3/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.366842Z",
+        "@timestamp": "2024-12-14T02:04:47.724355Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1741,106 +1022,46 @@
                 "osi": true
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 608,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.671848Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 170,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -1848,24 +1069,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.2.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.377260Z",
+        "@timestamp": "2024-12-14T02:04:48.390800Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -1877,106 +1098,46 @@
                 "osi": true
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 168,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -1984,24 +1145,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.2.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.408162Z",
+        "@timestamp": "2024-12-14T02:04:48.481827Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2013,106 +1174,46 @@
                 "osi": true
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 168,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -2120,24 +1221,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.2/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.415946Z",
+        "@timestamp": "2024-12-14T02:04:48.532812Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2149,106 +1250,46 @@
                 "osi": true
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 183,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -2256,24 +1297,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.427516Z",
+        "@timestamp": "2024-12-14T02:04:48.754884Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2285,106 +1326,46 @@
                 "osi": true
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 171,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
             }
         }
     },
@@ -2392,24 +1373,24 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.0/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:41:27.466223Z",
+        "@timestamp": "2024-12-14T02:04:48.812327Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
-            "source_packages": false,
+            "packages": true,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -2421,106 +1402,100 @@
                 "osi": false
             },
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 404,
-                "bioschemas": true,
+                "access_time": 473,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 127,
+                        "days": 182,
                         "serie": [
-                            6,
-                            10,
-                            10,
-                            1,
-                            22,
-                            6,
-                            6,
-                            2,
-                            1,
-                            4,
-                            6,
-                            1,
-                            1,
-                            1,
-                            3,
-                            3,
-                            4,
-                            1,
-                            2,
-                            12,
-                            1,
-                            1,
-                            4,
-                            3,
-                            1,
-                            2,
-                            2,
-                            5,
-                            1,
-                            1,
-                            2,
-                            2
+                            182
                         ],
                         "status": 200
-                    },
-                    {
-                        "days": 56,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            3,
-                            2,
-                            2,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            3,
-                            1,
-                            1,
-                            4,
-                            1,
-                            1,
-                            1,
-                            2,
-                            2,
-                            1,
-                            1,
-                            1,
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            2,
-                            2
-                        ],
-                        "status": 429
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
                 "last_month_access": {
-                    "average_access_time": 516
+                    "average_access_time": 161,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT2841120S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cat_bins:5.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-14T02:04:48.389895Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 473,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-13T02:00:59.704045Z",
+                "last_month_access": {
+                    "average_access_time": 180,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/MGXlab/CAT_pack"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
             }
         }
     }

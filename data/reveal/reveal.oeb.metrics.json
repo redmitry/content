@@ -3,14 +3,14 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:reveal:0.1/cmd/github.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "bioconda",
-        "@timestamp": "2022-02-12T13:45:02.131538Z",
+        "@timestamp": "2024-12-14T02:45:13.007017Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
+            "packages": true,
             "source_packages": false,
             "sourcecode": {
                 "free": null,
@@ -37,24 +37,24 @@
                 "description": true
             },
             "website": {
-                "access_time": 431,
+                "access_time": 458,
                 "bioschemas": true,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 182,
                         "serie": [
-                            183
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-01-28T07:52:44.55715Z",
+                "last_check": "2024-12-14T02:45:12.908146Z",
                 "last_month_access": {
-                    "average_access_time": 536,
+                    "average_access_time": 578,
                     "downtime_days": 0,
-                    "uptime_days": 16
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -73,8 +73,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:reveal/app/www.bioinformatics.cm-uj.krakow.pl",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:08:11.026331Z",
+        "@timestamp": "2024-12-14T02:45:20.364055Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -90,19 +91,19 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 7,
+                            "cit_count": 4,
                             "citations": [
                                 {
-                                    "count": 5,
-                                    "year": 2009
+                                    "count": 2,
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 }
                             ],
                             "pmid": "17518766",
@@ -118,35 +119,34 @@
                 "description": true
             },
             "website": {
-                "access_time": 249,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 176,
+                        "days": 182,
                         "serie": [
-                            176
+                            182
                         ],
-                        "status": 200
-                    },
-                    {
-                        "days": 7,
-                        "serie": [
-                            7
-                        ],
-                        "status": 408
+                        "status": 404
                     }
                 ],
-                "https": false,
-                "last_check": "2022-02-12T07:57:23.747152Z",
+                "https": true,
+                "last_check": "2024-12-14T02:45:20.29468Z",
                 "last_month_access": {
-                    "average_access_time": 760,
-                    "downtime_days": 0,
-                    "uptime_days": 14
+                    "average_access_time": 340,
+                    "downtime_days": 29,
+                    "uptime_days": 0
                 },
                 "license": false,
-                "operational": 200,
-                "ssl": null,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.bioinformatics.cm-uj.krakow.pl/reveal/"
+                    }
+                ],
+                "ssl": true,
                 "ssl_err": null
             }
         },
@@ -158,7 +158,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/reveal",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:56:55.071227Z",
+        "@timestamp": "2024-12-14T02:45:20.538469Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -188,27 +188,52 @@
                 "description": true
             },
             "website": {
-                "access_time": 431,
-                "bioschemas": true,
+                "access_time": null,
+                "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 13,
                         "serie": [
-                            183
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            5
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 169,
+                        "serie": [
+                            142,
+                            5,
+                            2,
+                            1,
+                            13,
+                            5,
+                            1
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T07:56:54.980639Z",
+                "last_check": "2024-12-14T02:45:20.357159Z",
                 "last_month_access": {
-                    "average_access_time": 605,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 584,
+                    "downtime_days": 9,
+                    "uptime_days": 20
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.bioinformatics.cm-uj.krakow.pl/reveal/"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }

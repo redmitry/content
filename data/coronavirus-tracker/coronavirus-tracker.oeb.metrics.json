@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/coronavirus-tracker",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:58:57.746379Z",
+        "@timestamp": "2024-12-14T05:27:21.497249Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,27 +13,44 @@
                 "description": true
             },
             "website": {
-                "access_time": 397,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 4,
                         "serie": [
-                            183
+                            1,
+                            3
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            95,
+                            60,
+                            22
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:58:57.724247Z",
+                "last_check": "2024-12-14T05:27:21.401857Z",
                 "last_month_access": {
-                    "average_access_time": 441,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 464,
+                    "downtime_days": 4,
+                    "uptime_days": 25
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 403,
                 "ssl": true,
                 "ssl_err": null
             }
@@ -43,8 +60,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:coronavirus-tracker:2.6.7/script/www.mathworks.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T09:58:57.983298Z",
+        "@timestamp": "2024-12-14T05:27:21.576747Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -58,27 +76,36 @@
                 "description": true
             },
             "website": {
-                "access_time": 417,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 4,
                         "serie": [
-                            183
+                            1,
+                            3
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            95,
+                            83
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:58:57.960777Z",
+                "last_check": "2024-12-14T05:27:21.401857Z",
                 "last_month_access": {
-                    "average_access_time": 384,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 2317,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 403,
                 "ssl": true,
                 "ssl_err": null
             }

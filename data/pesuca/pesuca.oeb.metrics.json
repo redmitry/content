@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/pesuca",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T09:31:33.221536Z",
+        "@timestamp": "2024-12-14T04:07:39.848475Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,32 +13,36 @@
                 "description": true
             },
             "website": {
-                "access_time": 362,
+                "access_time": 2076,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 180,
+                        "days": 177,
                         "serie": [
-                            7,
-                            173
+                            24,
+                            14,
+                            113,
+                            26
                         ],
                         "status": 200
                     },
                     {
-                        "days": 3,
+                        "days": 5,
                         "serie": [
-                            3
+                            3,
+                            1,
+                            1
                         ],
                         "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:31:33.182703Z",
+                "last_check": "2024-12-14T04:07:39.752813Z",
                 "last_month_access": {
-                    "average_access_time": 577,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 489,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
@@ -51,8 +55,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pesuca/undefined/pesuca.net",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:06:16.806160Z",
+        "@timestamp": "2024-12-14T04:07:39.816349Z",
         "@type": "metrics",
+        "deprecated": true,
         "project": {
             "build": {},
             "deployment": {},
@@ -60,8 +65,13 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 0,
-                            "citations": [],
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
                             "doi": "10.1515/pp-2019-0031",
                             "pmcid": "PMC7446256",
                             "pmid": "32885035",
@@ -69,43 +79,43 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1978
+                                    "year": "1978"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 1982
+                                    "year": "1982"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "The PEritoneal SUrface CAlculator (PESUCA): A new tool to quantify the resected peritoneal surface area after cytoreductive surgery.",
@@ -118,25 +128,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 362,
+                "access_time": 2045,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 100,
+                        "days": 177,
                         "serie": [
-                            100
+                            24,
+                            14,
+                            113,
+                            26
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            3,
+                            1,
+                            1
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
+                "last_check": "2024-12-14T04:07:39.740019Z",
                 "last_month_access": {
-                    "average_access_time": 577
+                    "average_access_time": 433,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
                 "operational": 200,
-                "ssl": null,
+                "ssl": true,
                 "ssl_err": null
             }
         }

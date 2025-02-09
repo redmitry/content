@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:seamote/cmd/s.tartaglialab.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:09:08.174451Z",
+        "@timestamp": "2024-12-14T08:29:29.434182Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -20,31 +21,23 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 13,
+                            "cit_count": 8,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 2,
-                                    "year": 2018
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 3,
-                                    "year": 2020
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.1186/1471-2164-15-925",
@@ -54,47 +47,47 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 1995
+                                    "year": "1995"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2014
+                                    "year": "2014"
                                 }
                             ],
                             "title": "SeAMotE: a method for high-throughput motif discovery in nucleic acid sequences.",
@@ -107,58 +100,53 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 3034,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 2,
+                        "days": 3,
                         "serie": [
                             1,
+                            1,
                             1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            24,
+                            45,
+                            99,
+                            10
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 1,
                         "serie": [
-                            1,
                             1
                         ],
                         "status": 504
-                    },
-                    {
-                        "days": 179,
-                        "serie": [
-                            179
-                        ],
-                        "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T07:59:05.899404Z",
+                "https": false,
+                "last_check": "2024-12-14T08:29:29.238321Z",
                 "last_month_access": {
-                    "average_access_time": 2646,
-                    "downtime_days": 28,
-                    "uptime_days": 2
+                    "average_access_time": 1837,
+                    "downtime_days": 1,
+                    "uptime_days": 28
                 },
                 "license": false,
-                "operational": 504,
+                "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
-                        "url": "https://s.tartaglialab.com:443/new_submission/seamote"
-                    },
-                    {
                         "status": 303,
-                        "url": "http://s.tartaglialab.com/update_submission/432459/2a58ed11ab"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://s.tartaglialab.com:443/update_submission/432459/2a58ed11ab"
+                        "url": "http://s.tartaglialab.com/update_submission/914100/8d63257961"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         },
@@ -170,7 +158,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/seamote",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T07:58:31.019163Z",
+        "@timestamp": "2024-12-14T08:29:29.013953Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -180,52 +168,54 @@
                 "description": true
             },
             "website": {
-                "access_time": 18341,
+                "access_time": 2791,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 181,
+                        "days": 3,
                         "serie": [
-                            179,
+                            1,
                             1,
                             1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 178,
+                        "serie": [
+                            2,
+                            8,
+                            16,
+                            42,
+                            110
                         ],
                         "status": 200
                     },
                     {
-                        "days": 2,
+                        "days": 1,
                         "serie": [
-                            1,
                             1
                         ],
                         "status": 504
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T07:58:30.955724Z",
+                "https": false,
+                "last_check": "2024-12-14T08:29:28.8158Z",
                 "last_month_access": {
-                    "average_access_time": 2541,
-                    "downtime_days": 2,
-                    "uptime_days": 28
+                    "average_access_time": 1884,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
                 "redirects": [
                     {
-                        "status": 301,
-                        "url": "https://s.tartaglialab.com:443/new_submission/seamote"
-                    },
-                    {
                         "status": 303,
-                        "url": "http://s.tartaglialab.com/update_submission/432460/b3ade9a017"
-                    },
-                    {
-                        "status": 301,
-                        "url": "https://s.tartaglialab.com:443/update_submission/432460/b3ade9a017"
+                        "url": "http://s.tartaglialab.com/update_submission/914099/31725ba602"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }

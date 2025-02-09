@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gatk_variant_recalibrator:2.4-9/web/software.broadinstitute.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:13:14.755889Z",
+        "@timestamp": "2024-12-14T08:23:28.492688Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": false
@@ -23,12 +24,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.1038/npre.2011.6107",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 },
@@ -38,12 +35,8 @@
                             "cit_count": 0,
                             "citations": [],
                             "doi": "10.7490/f1000research.1114334.1",
-                            "pmcid": null,
-                            "pmid": null,
                             "ref_count": 0,
-                            "refs": [],
-                            "title": null,
-                            "year": null
+                            "refs": []
                         }
                     ]
                 }
@@ -57,57 +50,67 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 128,
+                        "days": 131,
                         "serie": [
-                            39,
-                            6,
-                            1,
-                            6,
-                            6,
-                            4,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1,
-                            11,
-                            1,
                             25,
+                            2,
                             1,
-                            20,
+                            1,
+                            6,
+                            9,
+                            7,
+                            28,
+                            2,
+                            3,
+                            3,
+                            2,
+                            17,
+                            1,
+                            9,
+                            4,
+                            10,
                             1
                         ],
                         "status": 403
                     },
                     {
-                        "days": 55,
+                        "days": 1,
                         "serie": [
-                            1,
-                            1,
-                            1,
-                            5,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            34,
-                            1,
-                            1,
-                            1,
                             1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 50,
+                        "serie": [
+                            3,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            4,
+                            2,
+                            2,
+                            2,
+                            3,
+                            2,
+                            9,
+                            1,
+                            1,
+                            4,
+                            8
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:54:28.803663Z",
+                "last_check": "2024-12-14T08:23:28.01845Z",
                 "last_month_access": {
-                    "average_access_time": 1704,
-                    "downtime_days": 27,
-                    "uptime_days": 3
+                    "average_access_time": 746,
+                    "downtime_days": 15,
+                    "uptime_days": 14
                 },
                 "license": false,
                 "operational": 403,
@@ -117,7 +120,7 @@
                         "url": "https://gatk.broadinstitute.org"
                     },
                     {
-                        "status": 301,
+                        "status": 302,
                         "url": "https://gatk.broadinstitute.org/hc"
                     },
                     {
@@ -134,7 +137,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/gatk_variant_recalibrator",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T04:15:37.785184Z",
+        "@timestamp": "2024-12-14T08:23:31.971574Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -149,67 +152,75 @@
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 128,
+                        "days": 138,
                         "serie": [
-                            46,
+                            23,
+                            1,
+                            2,
+                            1,
                             1,
                             6,
+                            9,
+                            7,
+                            9,
+                            18,
                             2,
-                            1,
-                            4,
-                            4,
-                            1,
-                            1,
                             2,
+                            3,
+                            3,
+                            17,
                             1,
-                            1,
-                            1,
-                            2,
-                            8,
-                            1,
-                            25,
-                            20,
-                            1
-                        ],
-                        "status": 403
-                    },
-                    {
-                        "days": 54,
-                        "serie": [
-                            1,
-                            1,
-                            1,
-                            2,
-                            1,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            1,
-                            34,
                             1,
                             3,
-                            1
+                            14,
+                            10,
+                            2,
+                            3
                         ],
-                        "status": 200
+                        "status": 403
                     },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 408
+                        "status": 503
+                    },
+                    {
+                        "days": 43,
+                        "serie": [
+                            1,
+                            3,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            4,
+                            3,
+                            2,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            6
+                        ],
+                        "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T04:15:37.697356Z",
+                "last_check": "2024-12-14T08:23:31.774195Z",
                 "last_month_access": {
-                    "average_access_time": 1668,
-                    "downtime_days": 26,
-                    "uptime_days": 4
+                    "average_access_time": 577,
+                    "downtime_days": 20,
+                    "uptime_days": 9
                 },
                 "license": false,
                 "operational": 403,
@@ -219,7 +230,7 @@
                         "url": "https://gatk.broadinstitute.org"
                     },
                     {
-                        "status": 301,
+                        "status": 302,
                         "url": "https://gatk.broadinstitute.org/hc"
                     },
                     {

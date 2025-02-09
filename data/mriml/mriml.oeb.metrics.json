@@ -3,8 +3,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mriml/lib/doi.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:19.304414Z",
+        "@timestamp": "2024-12-14T05:15:07.697302Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -32,32 +33,54 @@
                 "description": true
             },
             "website": {
-                "access_time": 1402,
+                "access_time": 1403,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
+                    {
+                        "days": 133,
+                        "serie": [
+                            38,
+                            3,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            85
+                        ],
+                        "status": 403
+                    },
                     {
                         "days": 1,
                         "serie": [
                             1
                         ],
-                        "status": 404
+                        "status": 502
                     },
                     {
-                        "days": 182,
+                        "days": 48,
                         "serie": [
-                            149,
-                            33
+                            13,
+                            6,
+                            5,
+                            4,
+                            3,
+                            1,
+                            6,
+                            2,
+                            2,
+                            6
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:45:54.915035Z",
+                "last_check": "2024-12-14T05:15:07.625981Z",
                 "last_month_access": {
-                    "average_access_time": 1604,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 1628,
+                    "downtime_days": 23,
+                    "uptime_days": 6
                 },
                 "license": false,
                 "operational": 200,
@@ -76,7 +99,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mriml",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T13:43:59.420395Z",
+        "@timestamp": "2024-12-14T05:09:03.320287Z",
         "@type": "metrics",
         "distribution": {
             "binaries": {
@@ -84,16 +107,16 @@
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -101,37 +124,29 @@
             "build": {},
             "deployment": {},
             "publications": [],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 411,
+                "access_time": 109,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
-                        "serie": [
-                            1
-                        ],
-                        "status": 404
-                    },
-                    {
                         "days": 182,
                         "serie": [
-                            149,
-                            33
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:45:53.425718Z",
+                "last_check": "2024-12-14T05:09:03.271002Z",
                 "last_month_access": {
-                    "average_access_time": 1274,
+                    "average_access_time": 360,
                     "downtime_days": 0,
-                    "uptime_days": 30
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -147,8 +162,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT10597020S"
             }
         }
     },
@@ -156,24 +171,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mriml/lib/nfj1380.github.io",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:05:19.311056Z",
+        "@timestamp": "2024-12-14T08:11:21.625359Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": true,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -192,37 +208,46 @@
                             "citations": [],
                             "doi": "10.1111/1755-0998.13495",
                             "pmid": "34448358",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 2,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                }
+                            ],
                             "title": "MrIML: Multi-response interpretable machine learning to model genomic landscapes.",
                             "year": 2021
                         }
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 323,
+                "access_time": 379,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 14,
+                        "days": 182,
                         "serie": [
-                            14
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T10:18:28.580668Z",
+                "last_check": "2024-12-14T08:11:21.560685Z",
                 "last_month_access": {
-                    "average_access_time": 491,
+                    "average_access_time": 515,
                     "downtime_days": 0,
-                    "uptime_days": 14
+                    "uptime_days": 29
                 },
                 "license": false,
                 "operational": 200,
@@ -238,8 +263,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT10597020S"
             }
         }
     }

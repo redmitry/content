@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biorepository_portal_toolkit",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T02:35:20.105680Z",
+        "@timestamp": "2024-12-14T08:49:43.839746Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,38 +13,37 @@
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 976,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 176,
+                        "days": 182,
                         "serie": [
-                            3,
-                            63,
-                            110
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 7,
-                        "serie": [
-                            4,
-                            1,
-                            2
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T02:35:20.040699Z",
+                "last_check": "2024-12-14T08:49:43.696386Z",
                 "last_month_access": {
-                    "average_access_time": 2275,
-                    "downtime_days": 30,
-                    "uptime_days": 0
+                    "average_access_time": 1136,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/o/oauth2/v2/auth?response_type=code&scope=openid%20email%20profile&client_id=239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com&state=IUz76yQC_BBdgl5M_-VZyKY3OgI&redirect_uri=https%3A%2F%2Feig.research.chop.edu%2Fredirect_uri&nonce=sf9BEGTcVHMbSMYNSqXJHxeftb4R9S9ii0hzP9PI2Yk"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-80359561%3A1734166183521457&client_id=239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com&ddm=1&nonce=sf9BEGTcVHMbSMYNSqXJHxeftb4R9S9ii0hzP9PI2Yk&o2v=2&redirect_uri=https%3A%2F%2Feig.research.chop.edu%2Fredirect_uri&response_type=code&scope=openid+email+profile&service=lso&state=IUz76yQC_BBdgl5M_-VZyKY3OgI&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANkcna271wqLL-bZw7XjQaAesEoN_Bgu2FjMom_qR-ZUKEtcmiFGCK410oifrlJQZtwqIiv5v-eFaFg1SFTMA5EuNybcVFSIVtK378LTR3U0c9L41H-8lecnFJaWehZCNporaUz_HUaTL1N87HREcyY3RwHW3i3NmArEM7M_GwQGvwCNl9pxOYzNUfKGv9U1AtkKJJTffFWYuyDOOvTEHVeia9_9n3nT69uoOs6IQ38c3R_AaZpeUYJ2cpsHEcLQEPXhZcOk_LrnOKpsis3XOGQmYs0bcry9vlpK0MCMlVpnNFs5ClluHQWuCvIRC4kAtB6ojFjQqKpQsGfq45m3GC32ZtgMVeE7uf19qhNY_T0QA3ubE9ZelJlnqQwspdmZNqnv-QJznVYKcVpjMxKMT48n3UefaNFD-UghLx2u2Cfw5BnjtdFo-Q2IQFw2bw8Gv9CQftMWFqgltXT2W_8jy8z7NoSvVfer0p5QIrQyk_pP5FxNTc%26flowName%3DGeneralOAuthFlow%26as%3DS-80359561%253A1734166183521457%26client_id%3D239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Feig.research.chop.edu&rart=ANgoxccbsMkFZXEAnx-gKuwcqZo1d_wb_hbQPtrP0SNRBV2JIFbSsiDY4TvhN_HjsnEg4VXyaJeHhdvLAFvPudnj2Poz_oQpyY8E59lIfn7E4DOb4Ri327w"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -54,24 +53,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:biorepository_portal_toolkit/app/eig.research.chop.edu",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T19:58:37.755608Z",
+        "@timestamp": "2024-12-14T08:49:44.109891Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
             "packages": null,
-            "source_packages": false,
+            "source_packages": true,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -89,23 +89,15 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 4,
+                            "cit_count": 2,
                             "citations": [
                                 {
                                     "count": 1,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2021
+                                    "year": "2019"
                                 }
                             ],
                             "doi": "10.1186/s12864-016-2797-9",
@@ -115,67 +107,67 @@
                             "refs": [
                                 {
                                     "count": 16,
-                                    "year": 0
+                                    "year": "0"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1976
+                                    "year": "1976"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 1979
+                                    "year": "1979"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2004
+                                    "year": "2004"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2005
+                                    "year": "2005"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2006
+                                    "year": "2006"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2007
+                                    "year": "2007"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2009
+                                    "year": "2009"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2010
+                                    "year": "2010"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2011
+                                    "year": "2011"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2012
+                                    "year": "2012"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 7,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2015
+                                    "year": "2015"
                                 }
                             ],
                             "title": "The biorepository portal toolkit: an honest brokered, modular service oriented software tool set for biospecimen-driven translational research.",
@@ -184,43 +176,42 @@
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": null,
+                "access_time": 762,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 176,
+                        "days": 182,
                         "serie": [
-                            3,
-                            63,
-                            110
-                        ],
-                        "status": 404
-                    },
-                    {
-                        "days": 7,
-                        "serie": [
-                            4,
-                            1,
-                            2
+                            182
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2021-11-16T02:38:18.174683Z",
+                "last_check": "2024-12-14T08:49:43.921127Z",
                 "last_month_access": {
-                    "average_access_time": 2275,
-                    "downtime_days": 1,
-                    "uptime_days": 0
+                    "average_access_time": 1035,
+                    "downtime_days": 0,
+                    "uptime_days": 29
                 },
                 "license": false,
-                "operational": 404,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/o/oauth2/v2/auth?response_type=code&scope=openid%20email%20profile&client_id=239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com&state=937MVeSyMM_-LQNjzhQCF_I2Zjo&redirect_uri=https%3A%2F%2Feig.research.chop.edu%2Fredirect_uri&nonce=oPPs0VwrqeCdyoVOZqJQRuWFo3IV87LHIR32t0riTbM"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S1292321444%3A1734166183725998&client_id=239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com&ddm=1&nonce=oPPs0VwrqeCdyoVOZqJQRuWFo3IV87LHIR32t0riTbM&o2v=2&redirect_uri=https%3A%2F%2Feig.research.chop.edu%2Fredirect_uri&response_type=code&scope=openid+email+profile&service=lso&state=937MVeSyMM_-LQNjzhQCF_I2Zjo&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOC5dJ4wVs8JDBozeLnE1YBVGzCqm_fUdNNPi_q1Y6oJr2Yh1IstlAQsWKH3mXu4NQWT2up9hEvDvQdyah6ZzKaYYcH21_2VidtkwQMe7uALvqm4EkQ-MhqEzIHBL_XycOg7v5fUC1RoEWW6-m0Bsq9QghfVWx3Zt6uyclvHr5m1rH6_-TkIt2KFk1VruDSQ9lXgSseL261p2drheiawnhsG3gUx4E7t2WsbgZcXqjXn6CNj13F0dkqHXVGohTKrmXbra_Tuhp2yTiBFLe4B0uaUX2mGAb3DspEtTCtw437vEl5GjxcMhU7ZEM-ZE__qCC-yNXqHl6PyaCsfPNqUoml22gBtAORL9MEVn7Oy6EkbFgkd09_UkbpHIkg6r3Qis9FfitRZZamKzNAIdQ69zpTfiYBzYtBJ_sp1LXnRujmbuBDCHfTd04LpenvRoKeAES34hkgmn4L02e6v9GDm5PQ4r4YFuv6R7JZhEc_WZC_KBoKNfU%26flowName%3DGeneralOAuthFlow%26as%3DS1292321444%253A1734166183725998%26client_id%3D239629350134-692b3i7ncrcjp13u98096ha85o9somnb.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Feig.research.chop.edu&rart=ANgoxcctUgUd-TT4aeTw5FNnbi8vTHDIZPOuNlRBuA_OLALUbXJkj7_FzwrqkQxsplJUmM-O7uf3hqWScgOZUu7RJYBK5Q4ZPy3Uz9d_GobIdEnsLy8rUqU"
+                    }
+                ],
                 "ssl": true,
                 "ssl_err": null
             }
@@ -228,8 +219,8 @@
         "support": {
             "email": true,
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT3851485S"
             }
         }
     }

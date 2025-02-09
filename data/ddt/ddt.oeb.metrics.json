@@ -3,24 +3,25 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ddt/app/sites.google.com",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:00:06.596713Z",
+        "@timestamp": "2024-12-14T09:10:02.773450Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "binaries": {
                 "freeness": null,
                 "registration": null
             },
-            "packages": null,
+            "packages": true,
             "source_packages": false,
             "sourcecode": {
-                "free": null,
-                "interpreted": null,
-                "license": null,
+                "free": true,
+                "interpreted": false,
+                "license": true,
                 "public": true,
-                "readme": false,
+                "readme": true,
                 "repository": {
-                    "anonymous": null,
-                    "online": null
+                    "anonymous": true,
+                    "online": true
                 }
             }
         },
@@ -38,54 +39,65 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1,
-                            "citations": [
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/bioinformatics/btz543",
+                            "pmcid": "PMC9887484",
+                            "pmid": "31304963",
+                            "ref_count": 1,
+                            "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2021
+                                    "year": "2009"
                                 }
                             ],
-                            "doi": "10.1093/bioinformatics/btz543",
-                            "pmid": "31304963",
-                            "ref_count": 0,
-                            "refs": [],
                             "title": "DDT - Drug Discovery Tool: a fast and intuitive graphics user interface for docking and molecular dynamics analysis.",
                             "year": 2019
                         }
                     ]
                 }
             ],
-            "readme": false,
+            "readme": true,
             "summary": {
                 "description": true
             },
             "website": {
-                "access_time": 682,
+                "access_time": 711,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 47,
                         "serie": [
+                            1,
+                            41,
+                            1,
+                            1,
+                            2,
                             1
                         ],
                         "status": 404
                     },
                     {
-                        "days": 182,
+                        "days": 135,
                         "serie": [
-                            13,
-                            169
+                            99,
+                            1,
+                            4,
+                            2,
+                            3,
+                            2,
+                            24
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:18:30.991803Z",
+                "last_check": "2024-12-14T09:10:02.691029Z",
                 "last_month_access": {
-                    "average_access_time": 677,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 904,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
                 "operational": 200,
@@ -96,7 +108,15 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads"
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads&osid=1&passive=1209600&ifkv=AeZLP9_J1dZSnZaPK-n0WBc424HfI4_sOORLgAPl_SN5E-scqa3Hpg6Go1xnWvFzjbveA6vtCPrp6g"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fvittoriolimongelli%2Fdownloads&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fvittoriolimongelli%2Fdownloads&ifkv=AeZLP9-FQQnlMTGu7MdrQ8AIJ3-s7IBdT9FtGMkARxZvHIv6v_6duJFS1Ok2WqvdYU8k1K-VsCwj_A&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-184043299%3A1734167402624848&ddm=1"
                     }
                 ],
                 "ssl": true,
@@ -105,8 +125,8 @@
         },
         "support": {
             "issue_tracking": {
-                "public_tracker": null,
-                "resolve_time": null
+                "public_tracker": true,
+                "resolve_time": "PT21S"
             }
         }
     },
@@ -114,7 +134,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/ddt",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T03:11:51.718702Z",
+        "@timestamp": "2024-12-14T09:08:44.286513Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -124,32 +144,40 @@
                 "description": true
             },
             "website": {
-                "access_time": 472,
+                "access_time": 750,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 1,
+                        "days": 53,
                         "serie": [
-                            1
+                            2,
+                            44,
+                            3,
+                            2,
+                            2
                         ],
                         "status": 404
                     },
                     {
-                        "days": 182,
+                        "days": 129,
                         "serie": [
-                            13,
-                            169
+                            98,
+                            1,
+                            1,
+                            4,
+                            1,
+                            24
                         ],
                         "status": 200
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T03:11:51.603262Z",
+                "last_check": "2024-12-14T09:08:44.134106Z",
                 "last_month_access": {
-                    "average_access_time": 607,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 936,
+                    "downtime_days": 4,
+                    "uptime_days": 25
                 },
                 "license": false,
                 "operational": 200,
@@ -160,7 +188,15 @@
                     },
                     {
                         "status": 302,
-                        "url": "https://accounts.google.com/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads"
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/vittoriolimongelli/downloads&osid=1&passive=1209600&ifkv=AeZLP9-4EIPmtlO6prPhh03F9Fp2Z3Em7Z8WUjkFJsCnIyoP4S_eKL5V2jKlrb9aDNiGw4k1862n"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fvittoriolimongelli%2Fdownloads&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Fvittoriolimongelli%2Fdownloads&ifkv=AeZLP9_vFTuC-DQ1ZrMemuQj8JodrpHhbytTaSn0mLzxi0RLUQUk46TglqjLL04JSJ40jrcywLjr&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S523373219%3A1734167324053163&ddm=1"
                     }
                 ],
                 "ssl": true,

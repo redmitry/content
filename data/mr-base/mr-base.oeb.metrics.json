@@ -3,7 +3,7 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/mr-base",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": null,
-        "@timestamp": "2022-02-12T05:58:25.734359Z",
+        "@timestamp": "2024-12-14T10:04:14.546484Z",
         "@type": "metrics",
         "project": {
             "build": {},
@@ -13,34 +13,62 @@
                 "description": true
             },
             "website": {
-                "access_time": 345,
+                "access_time": null,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 165,
                         "serie": [
-                            183
+                            65,
+                            9,
+                            2,
+                            2,
+                            12,
+                            18,
+                            22,
+                            3,
+                            4,
+                            2,
+                            22,
+                            4
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 17,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
-                "https": true,
-                "last_check": "2022-02-12T05:58:25.603478Z",
+                "https": false,
+                "last_check": "2024-12-14T10:04:14.467263Z",
                 "last_month_access": {
-                    "average_access_time": 434,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 405,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
-                "operational": 200,
+                "operational": 408,
                 "redirects": [
                     {
                         "status": 301,
                         "url": "https://www.mrbase.org/"
                     }
                 ],
-                "ssl": true,
+                "ssl": null,
                 "ssl_err": null
             }
         }
@@ -49,8 +77,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mr-base/cmd/www.mrbase.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:33.448791Z",
+        "@timestamp": "2024-12-14T10:04:14.801623Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -67,15 +96,11 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 19,
+                            "cit_count": 3,
                             "citations": [
                                 {
-                                    "count": 6,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 3,
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.12688/wellcomeopenres.15334.2",
@@ -85,47 +110,148 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "Using the MR-Base platform to investigate risk factors and drug targets for thousands of phenotypes.",
                             "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 243,
+                            "citations": [
+                                {
+                                    "count": 21,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 95,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.7554/elife.34408",
+                            "pmcid": "PMC5976434",
+                            "pmid": "29846171",
+                            "ref_count": 72,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "The MR-Base platform supports systematic causal inference across the human phenome.",
+                            "year": 2018
                         }
                     ]
                 }
@@ -134,24 +260,46 @@
                 "description": true
             },
             "website": {
-                "access_time": 548,
+                "access_time": 346,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 171,
                         "serie": [
-                            183
+                            76,
+                            2,
+                            10,
+                            15,
+                            10,
+                            28,
+                            5,
+                            5,
+                            20
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 11,
+                        "serie": [
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:28:36.751581Z",
+                "last_check": "2024-12-14T10:04:14.544723Z",
                 "last_month_access": {
-                    "average_access_time": 613,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 476,
+                    "downtime_days": 3,
+                    "uptime_days": 26
                 },
                 "license": false,
                 "operational": 200,
@@ -170,8 +318,9 @@
         "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mr-base/web/www.mrbase.org",
         "@license": "https://creativecommons.org/licenses/by/4.0/",
         "@nmsp": "biotools",
-        "@timestamp": "2022-02-12T20:04:33.479078Z",
+        "@timestamp": "2024-12-14T10:04:14.800021Z",
         "@type": "metrics",
+        "deprecated": true,
         "distribution": {
             "sourcecode": {
                 "interpreted": true
@@ -188,15 +337,11 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 19,
+                            "cit_count": 3,
                             "citations": [
                                 {
-                                    "count": 6,
-                                    "year": 2020
-                                },
-                                {
-                                    "count": 13,
-                                    "year": 2021
+                                    "count": 3,
+                                    "year": "2020"
                                 }
                             ],
                             "doi": "10.12688/wellcomeopenres.15334.2",
@@ -206,47 +351,148 @@
                             "refs": [
                                 {
                                     "count": 1,
-                                    "year": 2000
+                                    "year": "2000"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2003
+                                    "year": "2003"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2008
+                                    "year": "2008"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2013
+                                    "year": "2013"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2014
+                                    "year": "2014"
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2015
+                                    "year": "2015"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2016
+                                    "year": "2016"
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2017
+                                    "year": "2017"
                                 },
                                 {
                                     "count": 4,
-                                    "year": 2018
+                                    "year": "2018"
                                 },
                                 {
                                     "count": 1,
-                                    "year": 2019
+                                    "year": "2019"
                                 }
                             ],
                             "title": "Using the MR-Base platform to investigate risk factors and drug targets for thousands of phenotypes.",
                             "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 243,
+                            "citations": [
+                                {
+                                    "count": 21,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 86,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 95,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2023"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2024"
+                                }
+                            ],
+                            "doi": "10.7554/elife.34408",
+                            "pmcid": "PMC5976434",
+                            "pmid": "29846171",
+                            "ref_count": 72,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "The MR-Base platform supports systematic causal inference across the human phenome.",
+                            "year": 2018
                         }
                     ]
                 }
@@ -255,24 +501,54 @@
                 "description": true
             },
             "website": {
-                "access_time": 513,
+                "access_time": 404,
                 "bioschemas": false,
                 "copyright": false,
                 "half_year_stat": [
                     {
-                        "days": 183,
+                        "days": 165,
                         "serie": [
-                            183
+                            68,
+                            1,
+                            1,
+                            4,
+                            2,
+                            16,
+                            5,
+                            12,
+                            1,
+                            34,
+                            14,
+                            5,
+                            2
                         ],
                         "status": 200
+                    },
+                    {
+                        "days": 17,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            4,
+                            1,
+                            1,
+                            2
+                        ],
+                        "status": 408
                     }
                 ],
                 "https": true,
-                "last_check": "2022-02-12T09:28:36.757478Z",
+                "last_check": "2024-12-14T10:04:14.526584Z",
                 "last_month_access": {
-                    "average_access_time": 591,
-                    "downtime_days": 0,
-                    "uptime_days": 30
+                    "average_access_time": 388,
+                    "downtime_days": 4,
+                    "uptime_days": 25
                 },
                 "license": false,
                 "operational": 200,
@@ -282,6 +558,54 @@
                         "url": "https://www.mrbase.org/"
                     }
                 ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:mr-base:1.16.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2024-12-14T08:22:28.030416Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 122,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2024-12-14T08:22:27.937619Z",
+                "last_month_access": {
+                    "average_access_time": 85,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
                 "ssl": true,
                 "ssl_err": null
             }
